@@ -81,7 +81,46 @@ def process_chains():
 
 def process_ibc_files():
     ibc_assets = [IBC(**ibc_data) for ibc_data in load_ibc_files()]
-    logger.info(f'Found {len(ibc_assets)} IBC assets')
+
+    ibc_map = {}
+
+    for ibc_asset in tqdm(ibc_assets, desc="Processing IBC assets"):
+        chain_1 = ibc_asset.chain_1.chain_name
+        chain_2 = ibc_asset.chain_2.chain_name
+
+        for channel in ibc_asset.channels:
+            # Process Chain 1
+            chain_1_channel_id = channel.chain_1.channel_id
+            chain_1_port_id = channel.chain_1.port_id
+
+            if chain_1 not in ibc_map:
+                ibc_map[chain_1] = {}
+
+            if chain_1_port_id not in ibc_map[chain_1]:
+                ibc_map[chain_1][chain_1_port_id] = {}
+
+            if chain_1_channel_id not in ibc_map[chain_1][chain_1_port_id]:
+                ibc_map[chain_1][chain_1_port_id][chain_1_channel_id] = []
+
+            ibc_map[chain_1][chain_1_port_id][chain_1_channel_id].append(chain_2)
+
+            # Process Chain 2
+            chain_2_channel_id = channel.chain_2.channel_id
+            chain_2_port_id = channel.chain_2.port_id
+
+            if chain_2 not in ibc_map:
+                ibc_map[chain_2] = {}
+
+            if chain_2_port_id not in ibc_map[chain_2]:
+                ibc_map[chain_2][chain_2_port_id] = {}
+
+            if chain_2_channel_id not in ibc_map[chain_2][chain_2_port_id]:
+                ibc_map[chain_2][chain_2_port_id][chain_2_channel_id] = []
+
+            ibc_map[chain_2][chain_2_port_id][chain_2_channel_id].append(chain_1)
+
+    export_file('ibc_map', ibc_map, False)
+    export_file('ibc_map_min', ibc_map, True)
 
 
 def main(process_chain=True, process_ibc=True, force_update=False):
@@ -101,4 +140,4 @@ def main(process_chain=True, process_ibc=True, force_update=False):
 
 
 if __name__ == "__main__":
-    main(process_chain=False, process_ibc=True, force_update=True)
+    main(process_chain=True, process_ibc=True, force_update=True)
