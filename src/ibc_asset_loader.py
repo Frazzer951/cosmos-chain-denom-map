@@ -3,14 +3,15 @@ import os
 
 from tqdm_logging import setup_logger
 
-logger = setup_logger('load_asset_files')
+logger = setup_logger('ibc_asset_loader')
 
 
 def find_asset_files(root_dir, exclude_dirs=[]):
+    """Find asset files in the specified directory while excluding some."""
     asset_files = []
 
     for dirpath, dirnames, filenames in os.walk(root_dir):
-        # remove excluded directories
+        # Remove excluded directories
         dirnames[:] = [d for d in dirnames if d not in exclude_dirs]
 
         for filename in filenames:
@@ -21,6 +22,7 @@ def find_asset_files(root_dir, exclude_dirs=[]):
 
 
 def load_json_files(file_paths):
+    """Load JSON data from the specified file paths."""
     loaded_files = []
 
     for file_path in file_paths:
@@ -31,6 +33,7 @@ def load_json_files(file_paths):
 
 
 def load_assets():
+    """Load asset files from the chain registry."""
     root_directory = "./chain-registry"
     exclude_directories = [".git", ".github", "_template"]
 
@@ -42,6 +45,7 @@ def load_assets():
 
 
 def load_ibc_files():
+    """Load IBC files from the IBC directory in the chain registry."""
     ibc_directory = "./chain-registry/_IBC"
 
     # Get all file paths in the IBC directory

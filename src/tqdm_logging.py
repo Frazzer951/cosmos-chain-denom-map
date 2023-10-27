@@ -4,10 +4,13 @@ from tqdm import tqdm
 
 
 class TqdmToLogger(logging.Handler):
+    """Custom logging handler redirecting logs to tqdm.write()."""
+
     def __init__(self, level=logging.NOTSET):
         super().__init__(level)
 
     def emit(self, record):
+        """Handle the log record."""
         try:
             msg = self.format(record)
             tqdm.write(msg)
@@ -17,6 +20,7 @@ class TqdmToLogger(logging.Handler):
 
 
 def setup_logger(name=None, level=logging.INFO):
+    """Setup a logger with a custom logging handler."""
     logger = logging.getLogger(name)
 
     # Check if the logger already has handlers. If it does, it's already set up.

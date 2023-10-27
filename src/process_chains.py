@@ -12,25 +12,26 @@ logger = setup_logger('process_chains')
 
 
 def export_file(file_name, data, min_file=False):
+    """Export data to a JSON file."""
     with open(f"{file_name}.json", "w") as f:
         json.dump(data, f, indent=None if min_file else 4, sort_keys=True)
 
 
 def process_assets_for_chain(chain: Chain):
+    """Process assets for a given chain."""
     denoms_for_chain = {}
 
     for asset in tqdm(chain.assets, desc=f"Processing assets for {chain.chain_name}", leave=False):
         denoms = {denom_unit.denom.lower(): denom_unit for denom_unit in asset.denom_units}
         display_denom = denoms.get(asset.display.lower())
 
-        # If asset.display.lower() didn't match a denom, check aliases
+        # Check aliases if display_denom is not found directly
         if not display_denom:
             for denom_unit in asset.denom_units:
-                if denom_unit.aliases:
-                    if asset.display.lower() in [alias.lower() for alias in denom_unit.aliases]:
-                        logger.info(f'Found alias {asset.display} for {asset.name} on {chain.chain_name}')
-                        display_denom = denom_unit
-                        break
+                if denom_unit.aliases and asset.display.lower() in [alias.lower() for alias in denom_unit.aliases]:
+                    logger.info(f'Found alias {asset.display} for {asset.name} on {chain.chain_name}')
+                    display_denom = denom_unit
+                    break
 
         if not display_denom:
             logger.error(
@@ -67,6 +68,7 @@ def process_assets_for_chain(chain: Chain):
 
 
 def process_chains():
+    """Process chain data and export to a JSON file."""
     denom_map = DenomMap(denoms={})
     chains = [Chain(**chain_data) for chain_data in load_assets()]
 
@@ -80,12 +82,12 @@ def process_chains():
 
 
 def initialize_chain_map(chain_map, chain, port_id, channel_id, connected_chain):
-    """Initializes or updates the chain map with the given chain details."""
+    """Initialize the chain map with given details or update if already present."""
     chain_map.setdefault(chain, {}).setdefault(port_id, {}).setdefault(channel_id, set()).add(connected_chain)
 
 
 def process_channel(chain_map: dict, channel: Channel, chain: str, from_chain: str, to_chain: str):
-    """Processes the channel details for a given chain."""
+    """Process channel data for a given chain."""
     channel_info = getattr(channel, chain)
     channel_id = channel_info.channel_id
     port_id = channel_info.port_id
@@ -93,7 +95,7 @@ def process_channel(chain_map: dict, channel: Channel, chain: str, from_chain: s
 
 
 def convert_sets_to_lists(chain_map):
-    """Converts sets in the chain map to lists for JSON serialization."""
+    """Convert sets to lists for JSON serialization."""
     for chain, ports in chain_map.items():
         for port, channels in ports.items():
             for channel, connected_chains in channels.items():
@@ -101,6 +103,7 @@ def convert_sets_to_lists(chain_map):
 
 
 def process_ibc_files():
+    """Process IBC file data and export to a JSON file."""
     ibc_assets = [IBC(**ibc_data) for ibc_data in load_ibc_files()]
     ibc_map = {}
 
@@ -118,6 +121,7 @@ def process_ibc_files():
 
 
 def main(process_chain=True, process_ibc=True, force_update=False):
+    """Main function to orchestrate the processing of chain and IBC data."""
     if force_update and os.path.exists("commit_id.json"):
         os.remove("commit_id.json")
 
@@ -128,10 +132,11 @@ def main(process_chain=True, process_ibc=True, force_update=False):
     if process_chain:
         logger.info("Processing chains...")
         process_chains()
+
     if process_ibc:
         logger.info("Processing IBC files...")
         process_ibc_files()
 
 
 if __name__ == "__main__":
-    main(process_chain=False, process_ibc=True, force_update=True)
+    main(process_chain=True, process_ibc=True, force_update=True)

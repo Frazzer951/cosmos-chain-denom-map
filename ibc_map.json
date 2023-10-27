@@ -1518,8 +1518,8 @@
     "medasdigital": {
         "transfer": {
             "channel-0": [
-                "osmosis",
-                "sentinel"
+                "sentinel",
+                "osmosis"
             ]
         }
     },
