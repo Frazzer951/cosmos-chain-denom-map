@@ -99,10 +99,7 @@ def process_ibc_files():
             if chain_1_port_id not in ibc_map[chain_1]:
                 ibc_map[chain_1][chain_1_port_id] = {}
 
-            if chain_1_channel_id not in ibc_map[chain_1][chain_1_port_id]:
-                ibc_map[chain_1][chain_1_port_id][chain_1_channel_id] = []
-
-            ibc_map[chain_1][chain_1_port_id][chain_1_channel_id].append(chain_2)
+            ibc_map[chain_1][chain_1_port_id].setdefault(chain_1_channel_id, set()).add(chain_2)
 
             # Process Chain 2
             chain_2_channel_id = channel.chain_2.channel_id
@@ -114,10 +111,13 @@ def process_ibc_files():
             if chain_2_port_id not in ibc_map[chain_2]:
                 ibc_map[chain_2][chain_2_port_id] = {}
 
-            if chain_2_channel_id not in ibc_map[chain_2][chain_2_port_id]:
-                ibc_map[chain_2][chain_2_port_id][chain_2_channel_id] = []
+            ibc_map[chain_2][chain_2_port_id].setdefault(chain_2_channel_id, set()).add(chain_1)
 
-            ibc_map[chain_2][chain_2_port_id][chain_2_channel_id].append(chain_1)
+    # Convert sets to lists for JSON serialization
+    for chain, ports in ibc_map.items():
+        for port, channels in ports.items():
+            for channel, connected_chains in channels.items():
+                ibc_map[chain][port][channel] = list(connected_chains)
 
     export_file('ibc_map', ibc_map, False)
     export_file('ibc_map_min', ibc_map, True)
@@ -140,4 +140,4 @@ def main(process_chain=True, process_ibc=True, force_update=False):
 
 
 if __name__ == "__main__":
-    main(process_chain=True, process_ibc=True, force_update=True)
+    main(process_chain=False, process_ibc=True, force_update=True)
