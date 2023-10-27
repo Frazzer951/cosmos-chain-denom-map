@@ -3,7 +3,7 @@ import os
 
 from tqdm_logging import setup_logger
 
-logger = setup_logger('download_repo')
+logger = setup_logger('load_asset_files')
 
 
 def find_asset_files(root_dir, exclude_dirs=[]):

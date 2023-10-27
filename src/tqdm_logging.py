@@ -18,6 +18,17 @@ class TqdmToLogger(logging.Handler):
 
 def setup_logger(name=None, level=logging.INFO):
     logger = logging.getLogger(name)
-    logger.setLevel(level)
-    logger.addHandler(TqdmToLogger())
+
+    # Check if the logger already has handlers. If it does, it's already set up.
+    if not logger.handlers:
+        logger.setLevel(level)
+
+        # Create a custom formatter with the logger's name
+        formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+
+        # Create the TqdmToLogger handler and set its formatter
+        handler = TqdmToLogger()
+        handler.setFormatter(formatter)
+
+        logger.addHandler(handler)
     return logger
