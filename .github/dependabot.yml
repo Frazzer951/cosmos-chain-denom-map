@@ -10,8 +10,8 @@ updates:
       - dependency-type: "direct"
     groups:
       github-actions:
-        update-types:
-          - "minor"
+        patterns:
+          - "*"
 
   - package-ecosystem: "pip"
     directory: "/"
@@ -21,6 +21,6 @@ updates:
     allow:
       - dependency-type: "direct"
     groups:
-      cargo:
-        update-types:
-          - "minor"
+      pip:
+        patterns:
+          - "*"
