@@ -1,0 +1,43 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"
+
+name: Update Map Files
+
+jobs:
+  check_for_updates:
+    name: Update Denom Map and IBC Map
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout registry
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.10
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip wheel
+          python -m pip install -r ./requirements.txt
+
+      - name: Run Python script
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            python src/process_chains.py -f
+          else
+            python src/process_chains.py
+          fi
+
+      - name: Add Commit Push
+        uses: devops-infra/action-commit-push@master
+        with:
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          add_timestamp: false
+          commit_prefix: "[AUTO]"
+          commit_message: "Update `denom_map.json` and `ibc_map.json`"

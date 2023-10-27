@@ -2,7 +2,7 @@ import json
 import os
 
 from tqdm import tqdm
-
+import argparse
 from download_repo import download_chain_registry
 from ibc_asset_loader import load_assets, load_ibc_files
 from pydantic_types import IBC, Chain, Channel, Denom, DenomMap
@@ -99,7 +99,7 @@ def convert_sets_to_lists(chain_map):
     for chain, ports in chain_map.items():
         for port, channels in ports.items():
             for channel, connected_chains in channels.items():
-                chain_map[chain][port][channel] = list(connected_chains)
+                chain_map[chain][port][channel] = sorted(list(connected_chains))
 
 
 def process_ibc_files():
@@ -139,4 +139,8 @@ def main(process_chain=True, process_ibc=True, force_update=False):
 
 
 if __name__ == "__main__":
-    main(process_chain=True, process_ibc=True, force_update=True)
+    parser = argparse.ArgumentParser(description='Process chains.')
+    parser.add_argument('-f', '--force_update', action='store_true', help='Force update flag (default: False)')
+    args = parser.parse_args()
+
+    main(force_update=args.force_update)
