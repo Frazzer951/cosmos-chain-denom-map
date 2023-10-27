@@ -1372,8 +1372,8 @@
                 "cosmoshub"
             ],
             "channel-10": [
-                "terra2",
-                "secretnetwork"
+                "secretnetwork",
+                "terra2"
             ],
             "channel-115": [
                 "realio"
@@ -1518,8 +1518,8 @@
     "medasdigital": {
         "transfer": {
             "channel-0": [
-                "sentinel",
-                "osmosis"
+                "osmosis",
+                "sentinel"
             ]
         }
     },
