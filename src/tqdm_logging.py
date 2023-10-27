@@ -1,0 +1,23 @@
+import logging
+
+from tqdm import tqdm
+
+
+class TqdmToLogger(logging.Handler):
+    def __init__(self, level=logging.NOTSET):
+        super().__init__(level)
+
+    def emit(self, record):
+        try:
+            msg = self.format(record)
+            tqdm.write(msg)
+            self.flush()
+        except Exception:
+            self.handleError(record)
+
+
+def setup_logger(name=None, level=logging.INFO):
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
+    logger.addHandler(TqdmToLogger())
+    return logger

@@ -4,6 +4,10 @@ import subprocess
 
 import requests
 
+from tqdm_logging import setup_logger
+
+logger = setup_logger('download_repo')
+
 
 def get_latest_commit_id(repo_owner, repo_name):
     url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits/master"
@@ -46,10 +50,10 @@ def download_chain_registry():
     if saved_commit_id != latest_commit_id:
         clone_or_update_repo(repo_owner, repo_name, destination_folder)
         save_commit_id("commit_id.json", latest_commit_id)
-        print("Repository has been updated")
+        logger.info("Repository has been updated")
         return True
     else:
-        print("Repository has not been updated since the last check.")
+        logger.info("Repository has not been updated since the last check.")
         return False
 
 

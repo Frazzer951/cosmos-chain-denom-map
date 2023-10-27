@@ -1,6 +1,10 @@
 import json
 import os
 
+from tqdm_logging import setup_logger
+
+logger = setup_logger('download_repo')
+
 
 def find_asset_files(root_dir, exclude_dirs=[]):
     asset_files = []
@@ -33,7 +37,7 @@ def load_assets():
     asset_file_paths = find_asset_files(root_directory, exclude_directories)
     loaded_assets = load_json_files(asset_file_paths)
 
-    print(f'Loaded {len(loaded_assets)} assets')
+    logger.info(f'Found {len(asset_file_paths)} asset files')
     return loaded_assets
 
 
