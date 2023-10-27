@@ -4,8 +4,8 @@ import os
 from tqdm import tqdm
 
 from download_repo import download_chain_registry
-from load_asset_files import load_assets
-from pydantic_types import Chain, Denom, DenomMap
+from ibc_asset_loader import load_assets, load_ibc_files
+from pydantic_types import IBC, Chain, Denom, DenomMap
 from tqdm_logging import setup_logger
 
 logger = setup_logger('process_chains')
@@ -66,14 +66,7 @@ def process_assets_for_chain(chain: Chain):
     return denoms_for_chain
 
 
-def process_chains(force_update=False):
-    if force_update and os.path.exists("commit_id.json"):
-        os.remove("commit_id.json")
-
-    if not download_chain_registry():
-        logger.info("No new changes to process.")
-        return
-
+def process_chains():
     denom_map = DenomMap(denoms={})
     chains = [Chain(**chain_data) for chain_data in load_assets()]
 
@@ -86,5 +79,26 @@ def process_chains(force_update=False):
     export_file('denom_map_min', denom_map_dict['denoms'], True)
 
 
+def process_ibc_files():
+    ibc_assets = [IBC(**ibc_data) for ibc_data in load_ibc_files()]
+    logger.info(f'Found {len(ibc_assets)} IBC assets')
+
+
+def main(process_chain=True, process_ibc=True, force_update=False):
+    if force_update and os.path.exists("commit_id.json"):
+        os.remove("commit_id.json")
+
+    if not download_chain_registry():
+        logger.info("No new changes to process.")
+        return
+
+    if process_chain:
+        logger.info("Processing chains...")
+        process_chains()
+    if process_ibc:
+        logger.info("Processing IBC files...")
+        process_ibc_files()
+
+
 if __name__ == "__main__":
-    process_chains(True)
+    main(process_chain=False, process_ibc=True, force_update=True)

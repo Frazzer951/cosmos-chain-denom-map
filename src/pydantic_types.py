@@ -1,6 +1,6 @@
 from typing import Dict, List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 
 class DenomUnit(BaseModel):
@@ -29,7 +29,6 @@ class Asset(BaseModel):
 class Chain(BaseModel):
     chain_name: str
     assets: List[Asset]
-    schema_file: str = Field(alias="$schema")
 
 
 class Denom(BaseModel):
@@ -52,3 +51,31 @@ class Denom(BaseModel):
 
 class DenomMap(BaseModel):
     denoms: Dict[str, Denom]
+
+
+class ChainInfo(BaseModel):
+    chain_name: str
+    client_id: str
+    connection_id: str
+
+
+class ChannelInfo(BaseModel):
+    channel_id: str
+    port_id: str
+    client_id: Optional[str] = None
+    connection_id: Optional[str] = None
+
+
+class Channel(BaseModel):
+    chain_1: ChannelInfo
+    chain_2: ChannelInfo
+    ordering: str
+    version: str
+    description: Optional[str] = None
+    tags: Optional[Dict] = None
+
+
+class IBC(BaseModel):
+    chain_1: ChainInfo
+    chain_2: ChainInfo
+    channels: List[Channel]

@@ -41,5 +41,19 @@ def load_assets():
     return loaded_assets
 
 
+def load_ibc_files():
+    ibc_directory = "./chain-registry/_IBC"
+
+    # Get all file paths in the IBC directory
+    ibc_file_paths = [os.path.join(ibc_directory, filename) for filename in os.listdir(
+        ibc_directory) if os.path.isfile(os.path.join(ibc_directory, filename))]
+
+    # Load the files
+    loaded_ibc_files = load_json_files(ibc_file_paths)
+
+    logger.info(f'Found {len(ibc_file_paths)} IBC files')
+    return loaded_ibc_files
+
+
 if __name__ == "__main__":
     load_assets()
