@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 from download_repo import download_chain_registry
 from ibc_asset_loader import load_assets, load_ibc_files
-from pydantic_types import IBC, Chain, Denom, DenomMap
+from pydantic_types import IBC, Chain, Channel, Denom, DenomMap
 from tqdm_logging import setup_logger
 
 logger = setup_logger('process_chains')
@@ -79,45 +79,39 @@ def process_chains():
     export_file('denom_map_min', denom_map_dict['denoms'], True)
 
 
+def initialize_chain_map(chain_map, chain, port_id, channel_id, connected_chain):
+    """Initializes or updates the chain map with the given chain details."""
+    chain_map.setdefault(chain, {}).setdefault(port_id, {}).setdefault(channel_id, set()).add(connected_chain)
+
+
+def process_channel(chain_map: dict, channel: Channel, chain: str, from_chain: str, to_chain: str):
+    """Processes the channel details for a given chain."""
+    channel_info = getattr(channel, chain)
+    channel_id = channel_info.channel_id
+    port_id = channel_info.port_id
+    initialize_chain_map(chain_map, from_chain, port_id, channel_id, to_chain)
+
+
+def convert_sets_to_lists(chain_map):
+    """Converts sets in the chain map to lists for JSON serialization."""
+    for chain, ports in chain_map.items():
+        for port, channels in ports.items():
+            for channel, connected_chains in channels.items():
+                chain_map[chain][port][channel] = list(connected_chains)
+
+
 def process_ibc_files():
     ibc_assets = [IBC(**ibc_data) for ibc_data in load_ibc_files()]
-
     ibc_map = {}
 
     for ibc_asset in tqdm(ibc_assets, desc="Processing IBC assets"):
-        chain_1 = ibc_asset.chain_1.chain_name
-        chain_2 = ibc_asset.chain_2.chain_name
+        chain_1, chain_2 = ibc_asset.chain_1.chain_name, ibc_asset.chain_2.chain_name
 
         for channel in ibc_asset.channels:
-            # Process Chain 1
-            chain_1_channel_id = channel.chain_1.channel_id
-            chain_1_port_id = channel.chain_1.port_id
+            process_channel(ibc_map, channel, 'chain_1', chain_1, chain_2)
+            process_channel(ibc_map, channel, 'chain_2', chain_2, chain_1)
 
-            if chain_1 not in ibc_map:
-                ibc_map[chain_1] = {}
-
-            if chain_1_port_id not in ibc_map[chain_1]:
-                ibc_map[chain_1][chain_1_port_id] = {}
-
-            ibc_map[chain_1][chain_1_port_id].setdefault(chain_1_channel_id, set()).add(chain_2)
-
-            # Process Chain 2
-            chain_2_channel_id = channel.chain_2.channel_id
-            chain_2_port_id = channel.chain_2.port_id
-
-            if chain_2 not in ibc_map:
-                ibc_map[chain_2] = {}
-
-            if chain_2_port_id not in ibc_map[chain_2]:
-                ibc_map[chain_2][chain_2_port_id] = {}
-
-            ibc_map[chain_2][chain_2_port_id].setdefault(chain_2_channel_id, set()).add(chain_1)
-
-    # Convert sets to lists for JSON serialization
-    for chain, ports in ibc_map.items():
-        for port, channels in ports.items():
-            for channel, connected_chains in channels.items():
-                ibc_map[chain][port][channel] = list(connected_chains)
+    convert_sets_to_lists(ibc_map)
 
     export_file('ibc_map', ibc_map, False)
     export_file('ibc_map_min', ibc_map, True)
