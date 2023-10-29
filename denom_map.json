@@ -237,7 +237,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.svg"
+        },
         "name": "Wrapped Fantom",
         "symbol": "WFTM",
         "traces": [
@@ -630,7 +633,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+        },
         "name": "Frax Ether",
         "symbol": "frxETH",
         "traces": [
@@ -888,7 +894,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png"
+        },
         "name": "Wrapped Fantom",
         "symbol": "WFTM",
         "traces": [
@@ -2115,7 +2123,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/kusama/images/ksm.svg"
+        },
         "name": "Kusama",
         "symbol": "KSM",
         "traces": [
@@ -2149,7 +2159,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
+        },
         "name": "Polkadot",
         "symbol": "DOT",
         "traces": [
@@ -2183,7 +2195,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
+        },
         "name": "Polkadot",
         "symbol": "DOT",
         "traces": [
@@ -4081,7 +4095,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        },
         "name": "ATOM on Juno",
         "symbol": "ATOM",
         "traces": [
@@ -4160,7 +4177,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        },
         "name": "Atom",
         "symbol": "ATOM",
         "traces": [
@@ -4199,7 +4219,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        },
         "name": "Cosmos Hub Atom",
         "symbol": "ATOM",
         "traces": [
@@ -4238,7 +4261,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        },
         "name": "Atom",
         "symbol": "ATOM",
         "traces": [
@@ -4881,7 +4907,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
+        },
         "name": "Axelar AXL Token",
         "symbol": "AXL",
         "traces": [
@@ -6945,7 +6974,9 @@
         "keywords": [
             "dex"
         ],
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/cacao.svg"
+        },
         "name": "Cacao",
         "symbol": "CACAO",
         "traces": null,
@@ -7154,7 +7185,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/cbeth.png"
+        },
         "name": "Coinbase Wrapped Staked ETH",
         "symbol": "cbETH",
         "traces": [
@@ -7188,7 +7221,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/cbeth.png"
+        },
         "name": "Coinbase Wrapped Staked ETH",
         "symbol": "cbETH",
         "traces": [
@@ -15038,7 +15073,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
+        },
         "name": "DOT",
         "symbol": "DOT",
         "traces": [
@@ -15076,7 +15113,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
+        },
         "name": "Polkadot",
         "symbol": "DOT",
         "traces": [
@@ -15110,7 +15149,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
+        },
         "name": "Polkadot",
         "symbol": "DOT",
         "traces": [
@@ -15723,7 +15764,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USD",
         "symbol": "USDT",
         "traces": [
@@ -17535,7 +17578,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+        },
         "name": "Frax Ether",
         "symbol": "frxETH",
         "traces": [
@@ -19486,7 +19532,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        },
         "name": "Osmosis",
         "symbol": "OSMO",
         "traces": [
@@ -19524,7 +19573,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -19601,7 +19652,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        },
         "name": "Osmosis",
         "symbol": "OSMO",
         "traces": [
@@ -19642,7 +19696,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+        },
         "name": "USD Coin",
         "symbol": "USDC",
         "traces": [
@@ -19719,7 +19776,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -19760,7 +19819,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        },
         "name": "Cosmos Hub Atom",
         "symbol": "ATOM",
         "traces": [
@@ -19800,7 +19862,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+        },
         "name": "Noble USDC Token",
         "symbol": "USDC",
         "traces": [
@@ -19952,7 +20016,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
+        },
         "name": "DOT",
         "symbol": "DOT",
         "traces": [
@@ -20031,7 +20097,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fxcore/images/fx.svg"
+        },
         "name": "Function X",
         "symbol": "FX",
         "traces": [
@@ -20072,7 +20141,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+        },
         "name": "Noble USD Coin",
         "symbol": "USDC",
         "traces": [
@@ -20110,7 +20182,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -20148,7 +20222,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDT",
         "symbol": "USDT",
         "traces": [
@@ -20302,7 +20378,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        },
         "name": "Atom",
         "symbol": "ATOM",
         "traces": [
@@ -20381,7 +20460,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+        },
         "name": "axlUSDC",
         "symbol": "axlUSDC",
         "traces": [
@@ -20421,7 +20503,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+        },
         "name": "WBTC",
         "symbol": "WBTC",
         "traces": [
@@ -20459,7 +20543,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -20492,11 +20578,16 @@
                 "image_sync": {
                     "base_denom": "uusdc",
                     "chain_name": "noble"
-                }
+                },
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+        },
         "name": "Noble USDC",
         "symbol": "USDC",
         "traces": [
@@ -20534,7 +20625,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -20575,7 +20668,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        },
         "name": "Osmosis OSMO Token",
         "symbol": "OSMO",
         "traces": [
@@ -20649,7 +20745,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -20689,7 +20787,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+        },
         "name": "Wrapped Bitcoin",
         "symbol": "WBTC",
         "traces": [
@@ -20865,7 +20965,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+        },
         "name": "WETH",
         "symbol": "WETH",
         "traces": [
@@ -20945,7 +21047,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
+        },
         "name": "Osmosis",
         "symbol": "stOSMO",
         "traces": [
@@ -21024,7 +21129,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+        },
         "name": "stATOM",
         "symbol": "stATOM",
         "traces": [
@@ -21063,7 +21171,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        },
         "name": "ATOM on Juno",
         "symbol": "ATOM",
         "traces": [
@@ -21132,7 +21243,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+        },
         "name": "Wrapped Bitcoin",
         "symbol": "WBTC",
         "traces": [
@@ -21173,7 +21286,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
+        },
         "name": "stOSMO",
         "symbol": "stOSMO",
         "traces": [
@@ -21214,7 +21330,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+        },
         "name": "Axelar USD Coin",
         "symbol": "USDC.axl",
         "traces": [
@@ -21255,7 +21374,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
+        },
         "name": "Axelar AXL Token",
         "symbol": "AXL",
         "traces": [
@@ -21411,7 +21533,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+        },
         "name": "Wrapped Ether",
         "symbol": "ETH",
         "traces": [
@@ -21490,7 +21614,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        },
         "name": "Osmosis",
         "symbol": "OSMO",
         "traces": [
@@ -21530,7 +21657,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/kusama/images/ksm.svg"
+        },
         "name": "KSM",
         "symbol": "KSM",
         "traces": [
@@ -21606,7 +21735,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -21686,7 +21817,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        },
         "name": "Atom",
         "symbol": "ATOM",
         "traces": [
@@ -21727,7 +21861,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+        },
         "name": "USD Coin",
         "symbol": "USDC.axl",
         "traces": [
@@ -21765,7 +21902,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -21806,7 +21945,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+        },
         "name": "stATOM",
         "symbol": "stATOM",
         "traces": [
@@ -22767,7 +22909,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/kusama/images/ksm.svg"
+        },
         "name": "KSM",
         "symbol": "KSM",
         "traces": [
@@ -22828,7 +22972,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/kusama/images/ksm.svg"
+        },
         "name": "Kusama",
         "symbol": "KSM",
         "traces": [
@@ -24391,7 +24537,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/maya.svg"
+        },
         "name": "Maya",
         "symbol": "MAYA",
         "traces": null,
@@ -27854,7 +28002,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        },
         "name": "Osmosis",
         "symbol": "OSMO",
         "traces": [
@@ -27893,7 +28044,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        },
         "name": "Osmosis",
         "symbol": "OSMO",
         "traces": [
@@ -28016,7 +28170,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        },
         "name": "Osmosis",
         "symbol": "OSMO",
         "traces": [
@@ -28055,7 +28212,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        },
         "name": "Osmosis OSMO Token",
         "symbol": "OSMO",
         "traces": [
@@ -28214,7 +28374,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg"
+        },
         "name": "Pepe",
         "symbol": "PEPE",
         "traces": [
@@ -28249,7 +28412,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg"
+        },
         "name": "Pepe",
         "symbol": "PEPE",
         "traces": [
@@ -28406,7 +28572,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg"
+        },
         "name": "Pica",
         "symbol": "PICA",
         "traces": [
@@ -28748,7 +28916,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg"
+        },
         "name": "Pica",
         "symbol": "PICA",
         "traces": [
@@ -29646,7 +29816,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/reth.png"
+        },
         "name": "Rocket Pool Ether",
         "symbol": "rETH",
         "traces": [
@@ -29680,7 +29852,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/reth.png"
+        },
         "name": "Rocket Pool Ether",
         "symbol": "rETH",
         "traces": [
@@ -30478,7 +30652,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sfrxeth.svg"
+        },
         "name": "Staked Frax Ether",
         "symbol": "sfrxETH",
         "traces": [
@@ -30512,7 +30688,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sfrxeth.svg"
+        },
         "name": "Staked Frax Ether",
         "symbol": "sfrxETH",
         "traces": [
@@ -31518,7 +31696,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+        },
         "name": "stATOM",
         "symbol": "stATOM",
         "traces": [
@@ -31557,7 +31738,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+        },
         "name": "stATOM",
         "symbol": "stATOM",
         "traces": [
@@ -32348,7 +32532,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
+        },
         "name": "Osmosis",
         "symbol": "stOSMO",
         "traces": [
@@ -32387,7 +32574,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
+        },
         "name": "stOSMO",
         "symbol": "stOSMO",
         "traces": [
@@ -38520,11 +38710,16 @@
                 "image_sync": {
                     "base_denom": "uusdc",
                     "chain_name": "noble"
-                }
+                },
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+        },
         "name": "Noble USDC",
         "symbol": "USDC",
         "traces": [
@@ -38563,7 +38758,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+        },
         "name": "USD Coin",
         "symbol": "USDC",
         "traces": [
@@ -38700,7 +38898,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+        },
         "name": "axlUSDC",
         "symbol": "axlUSDC",
         "traces": [
@@ -38739,7 +38940,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+        },
         "name": "Axelar USD Coin",
         "symbol": "USDC.axl",
         "traces": [
@@ -38810,7 +39014,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+        },
         "name": "USD Coin",
         "symbol": "USDC.axl",
         "traces": [
@@ -38848,7 +39055,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+        },
         "name": "Noble USDC Token",
         "symbol": "USDC",
         "traces": [
@@ -39028,7 +39237,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -39100,7 +39311,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -39175,7 +39388,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -39213,7 +39428,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -39283,7 +39500,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -39321,7 +39540,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -39359,7 +39580,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USD",
         "symbol": "USDT",
         "traces": [
@@ -39393,7 +39616,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -39431,7 +39656,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDt",
         "symbol": "USDt",
         "traces": [
@@ -39469,7 +39696,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
         "name": "Tether USDT",
         "symbol": "USDT",
         "traces": [
@@ -41610,7 +41839,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+        },
         "name": "Wrapped Bitcoin",
         "symbol": "WBTC",
         "traces": [
@@ -41682,7 +41913,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+        },
         "name": "WBTC",
         "symbol": "WBTC",
         "traces": [
@@ -41720,7 +41953,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+        },
         "name": "Wrapped Bitcoin",
         "symbol": "WBTC",
         "traces": [
@@ -42386,7 +42621,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+        },
         "name": "WETH",
         "symbol": "WETH",
         "traces": [
@@ -42424,7 +42661,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+        },
         "name": "Wrapped Ether",
         "symbol": "ETH",
         "traces": [
@@ -42595,7 +42834,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.svg"
+        },
         "name": "Wrapped Fantom",
         "symbol": "WFTM",
         "traces": [
@@ -42632,7 +42874,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png"
+        },
         "name": "Wrapped Fantom",
         "symbol": "WFTM",
         "traces": [
@@ -43712,7 +43956,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
+        },
         "name": "Wrapped Lido Staked Ether",
         "symbol": "wstETH",
         "traces": [
@@ -43746,7 +43992,9 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
+        },
         "name": "Wrapped Lido Staked Ether",
         "symbol": "wstETH",
         "traces": [
@@ -44360,7 +44608,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.svg"
+        },
         "name": "Real Yield Eth",
         "symbol": "YieldETH",
         "traces": [
@@ -44395,7 +44646,10 @@
             }
         ],
         "keywords": null,
-        "logo_URIs": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.svg"
+        },
         "name": "Real Yield Eth",
         "symbol": "YieldETH",
         "traces": [

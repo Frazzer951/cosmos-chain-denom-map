@@ -1657,6 +1657,9 @@
             "channel-3": [
                 "juno"
             ],
+            "channel-30": [
+                "terra2"
+            ],
             "channel-33": [
                 "dydx"
             ],
@@ -1665,9 +1668,6 @@
             ],
             "channel-7": [
                 "evmos"
-            ],
-            "channel-9": [
-                "terra2"
             ]
         }
     },
@@ -2766,11 +2766,11 @@
             "channel-1": [
                 "osmosis"
             ],
-            "channel-151": [
-                "noble"
-            ],
             "channel-204": [
                 "stafihub"
+            ],
+            "channel-253": [
+                "noble"
             ],
             "channel-3": [
                 "secretnetwork"
