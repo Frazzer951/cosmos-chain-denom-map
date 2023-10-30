@@ -867,6 +867,9 @@
             ],
             "channel-1": [
                 "stride"
+            ],
+            "channel-3": [
+                "osmosis"
             ]
         }
     },
@@ -2038,6 +2041,9 @@
             ],
             "channel-648": [
                 "arkh"
+            ],
+            "channel-6787": [
+                "dydx"
             ],
             "channel-688": [
                 "quasar"
