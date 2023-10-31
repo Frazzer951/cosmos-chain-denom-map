@@ -4069,12 +4069,12 @@
             {
                 "chain": {
                     "channel_id": "channel-0",
-                    "path": "transfer/channel-0/transfer/channel-1497/uatom"
+                    "path": "transfer/channel-0/transfer/channel-4156/uatom"
                 },
                 "counterparty": {
                     "base_denom": "ibc/B28CFD38D84A480EF2A03AC575DCB05004D934A603A5A642888847BCDA6340C0",
                     "chain_name": "osmosis",
-                    "channel_id": "channel-1543"
+                    "channel_id": "channel-4156"
                 },
                 "type": "ibc"
             }
@@ -5911,6 +5911,29 @@
         },
         "name": "Bonded ETH",
         "symbol": "bETH",
+        "traces": null,
+        "type_asset": "cw20"
+    },
+    "bits_juno": {
+        "address": "juno14fz92ehqt37e096xr95kmy8nc0kz803uezxtg4fwx7agjjma86sqm8mg3h",
+        "aliases": null,
+        "chain": "juno",
+        "coingecko_id": null,
+        "decimals": 0,
+        "denom": "bits",
+        "description": "BITS - Native token of Bitswift Cash",
+        "ibc": null,
+        "images": [
+            {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bits.png"
+            }
+        ],
+        "keywords": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bits.png"
+        },
+        "name": "BITS",
+        "symbol": "BITS",
         "traces": null,
         "type_asset": "cw20"
     },
@@ -7977,7 +8000,7 @@
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg"
         },
         "name": "Coreum",
-        "symbol": "CORE",
+        "symbol": "COREUM",
         "traces": null,
         "type_asset": null
     },
@@ -8408,6 +8431,29 @@
         },
         "name": "Manna",
         "symbol": "MANNA",
+        "traces": null,
+        "type_asset": "cw20"
+    },
+    "cw20:juno14fz92ehqt37e096xr95kmy8nc0kz803uezxtg4fwx7agjjma86sqm8mg3h_juno": {
+        "address": "juno14fz92ehqt37e096xr95kmy8nc0kz803uezxtg4fwx7agjjma86sqm8mg3h",
+        "aliases": null,
+        "chain": "juno",
+        "coingecko_id": null,
+        "decimals": 8,
+        "denom": "cw20:juno14fz92ehqt37e096xr95kmy8nc0kz803uezxtg4fwx7agjjma86sqm8mg3h",
+        "description": "BITS - Native token of Bitswift Cash",
+        "ibc": null,
+        "images": [
+            {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bits.png"
+            }
+        ],
+        "keywords": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bits.png"
+        },
+        "name": "BITS",
+        "symbol": "BITS",
         "traces": null,
         "type_asset": "cw20"
     },
@@ -15387,6 +15433,45 @@
         "traces": null,
         "type_asset": null
     },
+    "dydx_osmosis": {
+        "address": null,
+        "aliases": null,
+        "chain": "osmosis",
+        "coingecko_id": null,
+        "decimals": 0,
+        "denom": "dydx",
+        "description": "DYDX on Osmosis",
+        "ibc": null,
+        "images": [
+            {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
+                "theme": {
+                    "circle": true
+                }
+            }
+        ],
+        "keywords": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg"
+        },
+        "name": "DYDX",
+        "symbol": "DYDX",
+        "traces": [
+            {
+                "chain": {
+                    "channel_id": "channel-6787",
+                    "path": "transfer/channel-6787"
+                },
+                "counterparty": {
+                    "base_denom": "adydx",
+                    "chain_name": "dydx",
+                    "channel_id": "channel-3"
+                },
+                "type": "ibc"
+            }
+        ],
+        "type_asset": "ics20"
+    },
     "dys_dyson": {
         "address": null,
         "aliases": null,
@@ -20493,6 +20578,47 @@
         ],
         "type_asset": "ics20"
     },
+    "ibc/831f0b1bbb1d08a2b75311892876d71565478c532967545476df4c2d7492e48c_osmosis": {
+        "address": null,
+        "aliases": [
+            "adydx"
+        ],
+        "chain": "osmosis",
+        "coingecko_id": null,
+        "decimals": 18,
+        "denom": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+        "description": "DYDX on Osmosis",
+        "ibc": null,
+        "images": [
+            {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
+                "theme": {
+                    "circle": true
+                }
+            }
+        ],
+        "keywords": null,
+        "logo_URIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg"
+        },
+        "name": "DYDX",
+        "symbol": "DYDX",
+        "traces": [
+            {
+                "chain": {
+                    "channel_id": "channel-6787",
+                    "path": "transfer/channel-6787"
+                },
+                "counterparty": {
+                    "base_denom": "adydx",
+                    "chain_name": "dydx",
+                    "channel_id": "channel-3"
+                },
+                "type": "ibc"
+            }
+        ],
+        "type_asset": "ics20"
+    },
     "ibc/84e70f4a34fb2de135fd3a04fddf53b7da4206080aa785c8bab7f8b26299a221_nolus": {
         "address": null,
         "aliases": [
@@ -20574,6 +20700,44 @@
             }
         ],
         "type_asset": "ics20"
+    },
+    "ibc/8a138bc76d0fb2665f8937ec2bf01b9f6a714f6127221a0e155106a45e09bcc5_entrypointtestnet": {
+        "address": null,
+        "aliases": null,
+        "chain": "entrypointtestnet",
+        "coingecko_id": null,
+        "decimals": 6,
+        "denom": "ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5",
+        "description": "The native staking and governance token of the Theta testnet version of the Cosmos Hub, via Osmosis.",
+        "ibc": null,
+        "images": [
+            {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            }
+        ],
+        "keywords": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        },
+        "name": "Cosmos",
+        "symbol": "ATOM",
+        "traces": [
+            {
+                "chain": {
+                    "channel_id": "channel-0",
+                    "path": "transfer/channel-0/transfer/channel-4156/uatom"
+                },
+                "counterparty": {
+                    "base_denom": "ibc/B28CFD38D84A480EF2A03AC575DCB05004D934A603A5A642888847BCDA6340C0",
+                    "chain_name": "osmosis",
+                    "channel_id": "channel-4156"
+                },
+                "type": "ibc"
+            }
+        ],
+        "type_asset": null
     },
     "ibc/8e27ba2d5493af5636760e354e46004562c46ab7ec0cc4c1ca14e9e20e2545b5_dydx": {
         "address": null,
@@ -21445,44 +21609,6 @@
             }
         ],
         "type_asset": "ics20"
-    },
-    "ibc/e774302ae43d5fa03522c42b14823288e7dd1b2f54f85dfd3d6fc3e5fcf54645_entrypointtestnet": {
-        "address": null,
-        "aliases": null,
-        "chain": "entrypointtestnet",
-        "coingecko_id": null,
-        "decimals": 6,
-        "denom": "ibc/E774302AE43D5FA03522C42B14823288E7DD1B2F54F85DFD3D6FC3E5FCF54645",
-        "description": "The native staking and governance token of the Theta testnet version of the Cosmos Hub, via Osmosis.",
-        "ibc": null,
-        "images": [
-            {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
-            }
-        ],
-        "keywords": null,
-        "logo_URIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
-        },
-        "name": "Cosmos",
-        "symbol": "ATOM",
-        "traces": [
-            {
-                "chain": {
-                    "channel_id": "channel-0",
-                    "path": "transfer/channel-0/transfer/channel-1497/uatom"
-                },
-                "counterparty": {
-                    "base_denom": "ibc/B28CFD38D84A480EF2A03AC575DCB05004D934A603A5A642888847BCDA6340C0",
-                    "chain_name": "osmosis",
-                    "channel_id": "channel-1543"
-                },
-                "type": "ibc"
-            }
-        ],
-        "type_asset": null
     },
     "ibc/ea00fff0335b07b5cd1530b7eb3d2c710620ae5b168c71aff7b50532d690e107_nolus": {
         "address": null,
@@ -31330,7 +31456,7 @@
         "address": null,
         "aliases": null,
         "chain": "source",
-        "coingecko_id": "source-protocol",
+        "coingecko_id": "source",
         "decimals": 0,
         "denom": "source",
         "description": "The native token of SOURCE Chain",
@@ -35134,7 +35260,7 @@
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.svg"
         },
         "name": "Coreum",
-        "symbol": "CORE",
+        "symbol": "COREUM",
         "traces": null,
         "type_asset": null
     },
@@ -40147,7 +40273,7 @@
         "address": null,
         "aliases": null,
         "chain": "source",
-        "coingecko_id": "source-protocol",
+        "coingecko_id": "source",
         "decimals": 6,
         "denom": "usource",
         "description": "The native token of SOURCE Chain",
