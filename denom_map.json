@@ -33836,6 +33836,31 @@
         "traces": null,
         "type_asset": null
     },
+    "tia_celestia": {
+        "address": null,
+        "aliases": null,
+        "chain": "celestia",
+        "coingecko_id": null,
+        "decimals": 0,
+        "denom": "tia",
+        "description": "",
+        "ibc": null,
+        "images": [
+            {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            }
+        ],
+        "keywords": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+        },
+        "name": "Celestia",
+        "symbol": "TIA",
+        "traces": null,
+        "type_asset": null
+    },
     "tia_celestiatestnet": {
         "address": null,
         "aliases": null,
@@ -33870,12 +33895,14 @@
         "ibc": null,
         "images": [
             {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet2/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet2/images/celestia.svg"
             }
         ],
         "keywords": null,
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet2/images/celestia.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet2/images/celestia.svg"
         },
         "name": "Celestia",
         "symbol": "TIA",
@@ -33893,12 +33920,14 @@
         "ibc": null,
         "images": [
             {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.svg"
             }
         ],
         "keywords": null,
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.svg"
         },
         "name": "Celestia",
         "symbol": "TIA",
@@ -40699,6 +40728,31 @@
         "traces": null,
         "type_asset": null
     },
+    "utia_celestia": {
+        "address": null,
+        "aliases": null,
+        "chain": "celestia",
+        "coingecko_id": null,
+        "decimals": 6,
+        "denom": "utia",
+        "description": "",
+        "ibc": null,
+        "images": [
+            {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            }
+        ],
+        "keywords": null,
+        "logo_URIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+        },
+        "name": "Celestia",
+        "symbol": "TIA",
+        "traces": null,
+        "type_asset": null
+    },
     "utia_celestiatestnet": {
         "address": null,
         "aliases": null,
@@ -40733,12 +40787,14 @@
         "ibc": null,
         "images": [
             {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet2/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet2/images/celestia.svg"
             }
         ],
         "keywords": null,
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet2/images/celestia.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet2/images/celestia.svg"
         },
         "name": "Celestia",
         "symbol": "TIA",
@@ -40756,12 +40812,14 @@
         "ibc": null,
         "images": [
             {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.svg"
             }
         ],
         "keywords": null,
         "logo_URIs": {
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet/images/celestia.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/celestiatestnet3/images/celestia.svg"
         },
         "name": "Celestia",
         "symbol": "TIA",
