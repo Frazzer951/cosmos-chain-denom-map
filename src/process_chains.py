@@ -1,14 +1,15 @@
+import argparse
 import json
 import os
 
 from tqdm import tqdm
-import argparse
+
 from download_repo import download_chain_registry
 from ibc_asset_loader import load_assets, load_ibc_files
 from pydantic_types import IBC, Chain, Channel, Denom, DenomMap
 from tqdm_logging import setup_logger
 
-logger = setup_logger('process_chains')
+logger = setup_logger("process_chains")
 
 
 def export_file(file_name, data, min_file=False):
@@ -17,9 +18,8 @@ def export_file(file_name, data, min_file=False):
         json.dump(data, f, indent=None if min_file else 4, sort_keys=True)
 
 
-def process_assets_for_chain(chain: Chain):
+def process_assets_for_chain(chain: Chain, denom_map: DenomMap):
     """Process assets for a given chain."""
-    denoms_for_chain = {}
 
     for asset in tqdm(chain.assets, desc=f"Processing assets for {chain.chain_name}", leave=False):
         denoms = {denom_unit.denom.lower(): denom_unit for denom_unit in asset.denom_units}
@@ -29,24 +29,27 @@ def process_assets_for_chain(chain: Chain):
         if not display_denom:
             for denom_unit in asset.denom_units:
                 if denom_unit.aliases and asset.display.lower() in [alias.lower() for alias in denom_unit.aliases]:
-                    logger.info(f'Found alias {asset.display} for {asset.name} on {chain.chain_name}')
+                    logger.info(f"Found alias {asset.display} for {asset.name} on {chain.chain_name}")
                     display_denom = denom_unit
                     break
 
         if not display_denom:
             logger.error(
-                f"Display denom {asset.display} not found in denom_units for {asset.name} on {chain.chain_name}")
+                f"Display denom {asset.display} not found in denom_units for {asset.name} on {chain.chain_name}"
+            )
             continue
 
         display_decimals = display_denom.exponent
         for denom in denoms:
-            denom_key = f'{denom}_{chain.chain_name}'
-            if denom_key in denoms_for_chain:
-                logger.warning(f"Denom {denom_key} already exists for the chain {chain.chain_name}")
+            if denom not in denom_map.denoms:
+                denom_map.denoms[denom] = {}
+
+            if chain.chain_name in denom_map.denoms[denom]:
+                logger.warning(f"Denom {denom} for the chain {chain.chain_name} already exists.")
                 continue
 
             decimals = display_decimals - denoms[denom].exponent
-            denoms_for_chain[denom_key] = Denom(
+            denom_map.denoms[denom][chain.chain_name] = Denom(
                 denom=denoms[denom].denom,
                 name=asset.name,
                 symbol=asset.symbol,
@@ -64,8 +67,6 @@ def process_assets_for_chain(chain: Chain):
                 keywords=asset.keywords,
             )
 
-    return denoms_for_chain
-
 
 def process_chains():
     """Process chain data and export to a JSON file."""
@@ -73,12 +74,12 @@ def process_chains():
     chains = [Chain(**chain_data) for chain_data in load_assets()]
 
     for chain in tqdm(chains, desc="Processing chains"):
-        denom_map.denoms.update(process_assets_for_chain(chain))
+        process_assets_for_chain(chain, denom_map)
 
-    logger.info(f'Found {len(denom_map.denoms)} denoms')
+    logger.info(f"Found {len(denom_map.denoms)} denoms")
     denom_map_dict = denom_map.model_dump()
-    export_file('denom_map', denom_map_dict['denoms'], False)
-    export_file('denom_map_min', denom_map_dict['denoms'], True)
+    export_file("denom_map", denom_map_dict["denoms"], False)
+    export_file("denom_map_min", denom_map_dict["denoms"], True)
 
 
 def initialize_chain_map(chain_map, chain, port_id, channel_id, connected_chain):
@@ -111,13 +112,13 @@ def process_ibc_files():
         chain_1, chain_2 = ibc_asset.chain_1.chain_name, ibc_asset.chain_2.chain_name
 
         for channel in ibc_asset.channels:
-            process_channel(ibc_map, channel, 'chain_1', chain_1, chain_2)
-            process_channel(ibc_map, channel, 'chain_2', chain_2, chain_1)
+            process_channel(ibc_map, channel, "chain_1", chain_1, chain_2)
+            process_channel(ibc_map, channel, "chain_2", chain_2, chain_1)
 
     convert_sets_to_lists(ibc_map)
 
-    export_file('ibc_map', ibc_map, False)
-    export_file('ibc_map_min', ibc_map, True)
+    export_file("ibc_map", ibc_map, False)
+    export_file("ibc_map_min", ibc_map, True)
 
 
 def main(process_chain=True, process_ibc=True, force_update=False):
@@ -139,8 +140,14 @@ def main(process_chain=True, process_ibc=True, force_update=False):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Process chains.')
-    parser.add_argument('-f', '--force_update', action='store_true', help='Force update flag (default: False)')
+    parser = argparse.ArgumentParser(description="Process chains.")
+    parser.add_argument(
+        "-f",
+        "--force_update",
+        action="store_true",
+        help="Force update flag (default: False)",
+    )
     args = parser.parse_args()
 
     main(force_update=args.force_update)
+    # main(process_chain=True, process_ibc=True, force_update=True)

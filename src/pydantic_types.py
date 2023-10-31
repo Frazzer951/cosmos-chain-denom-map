@@ -50,7 +50,7 @@ class Denom(BaseModel):
 
 
 class DenomMap(BaseModel):
-    denoms: Dict[str, Denom]
+    denoms: Dict[str, Dict[str, Denom]]
 
 
 class ChainInfo(BaseModel):

@@ -12,7 +12,7 @@ REPO_NAME = "chain-registry"
 DESTINATION_FOLDER = "./chain-registry"
 COMMIT_ID_FILE = "commit_id.json"
 
-logger = setup_logger('download_repo')
+logger = setup_logger("download_repo")
 
 
 def get_latest_commit_id(repo_owner=REPO_OWNER, repo_name=REPO_NAME):
@@ -21,7 +21,7 @@ def get_latest_commit_id(repo_owner=REPO_OWNER, repo_name=REPO_NAME):
         response = requests.get(url)
         response.raise_for_status()
         data = response.json()
-        return data['sha']
+        return data["sha"]
     except requests.RequestException as e:
         logger.error(f"Error fetching latest commit ID: {e}")
         return None

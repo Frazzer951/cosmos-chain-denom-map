@@ -422,6 +422,16 @@
             ]
         }
     },
+    "celestia": {
+        "transfer": {
+            "channel-2": [
+                "osmosis"
+            ],
+            "channel-4": [
+                "stride"
+            ]
+        }
+    },
     "cerberus": {
         "transfer": {
             "channel-1": [
@@ -2048,6 +2058,9 @@
             "channel-688": [
                 "quasar"
             ],
+            "channel-6994": [
+                "celestia"
+            ],
             "channel-72": [
                 "terra"
             ],
@@ -2693,6 +2706,9 @@
             ],
             "channel-160": [
                 "dydx"
+            ],
+            "channel-162": [
+                "celestia"
             ],
             "channel-19": [
                 "stargaze"
