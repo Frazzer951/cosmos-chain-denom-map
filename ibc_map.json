@@ -429,6 +429,9 @@
             ],
             "channel-4": [
                 "stride"
+            ],
+            "channel-8": [
+                "neutron"
             ]
         }
     },
@@ -1612,6 +1615,9 @@
             ],
             "channel-30": [
                 "noble"
+            ],
+            "channel-35": [
+                "celestia"
             ],
             "channel-5": [
                 "terra2"
