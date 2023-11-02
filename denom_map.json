@@ -10192,7 +10192,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "cw20:juno1ur4jx0sxchdevahep7fwq28yk4tqsrhshdtylz46yka3uf6kky5qllqp4k",
-            "description": "IBC HNS is HNS, coin of Handshake, decentralized root namesystem, but wrapped to cosmos for IBC support by Another.Software through Juno netowrk.",
+            "description": "IBC HNS is HNS, coin of Handshake, decentralized root namesystem, but wrapped to cosmos for IBC support by Another.Software through Juno network.",
             "ibc": null,
             "images": [
                 {
@@ -19499,6 +19499,31 @@
         }
     },
     "fury": {
+        "furya": {
+            "address": null,
+            "aliases": null,
+            "chain": "furya",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "fury",
+            "description": "The native token of Furya",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.svg"
+            },
+            "name": "Furya",
+            "symbol": "FURY",
+            "traces": null,
+            "type_asset": null
+        },
         "highbury": {
             "address": null,
             "aliases": null,
@@ -20843,7 +20868,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "hns",
-            "description": "IBC HNS is HNS, coin of Handshake, decentralized root namesystem, but wrapped to cosmos for IBC support by Another.Software through Juno netowrk.",
+            "description": "IBC HNS is HNS, coin of Handshake, decentralized root namesystem, but wrapped to cosmos for IBC support by Another.Software through Juno network.",
             "ibc": null,
             "images": [
                 {
@@ -25488,7 +25513,7 @@
             "coingecko_id": "odin-protocol",
             "decimals": 6,
             "denom": "loki",
-            "description": "Staking and goverance token for ODIN Protocol",
+            "description": "Staking and governance token for ODIN Protocol",
             "ibc": null,
             "images": [
                 {
@@ -29850,7 +29875,7 @@
             "coingecko_id": "odin-protocol",
             "decimals": 0,
             "denom": "odin",
-            "description": "Staking and goverance token for ODIN Protocol",
+            "description": "Staking and governance token for ODIN Protocol",
             "ibc": null,
             "images": [
                 {
@@ -38362,6 +38387,31 @@
         }
     },
     "ufury": {
+        "furya": {
+            "address": null,
+            "aliases": null,
+            "chain": "furya",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ufury",
+            "description": "The native token of Furya",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.svg"
+            },
+            "name": "Furya",
+            "symbol": "FURY",
+            "traces": null,
+            "type_asset": null
+        },
         "highbury": {
             "address": null,
             "aliases": null,
