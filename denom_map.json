@@ -4405,6 +4405,36 @@
             ],
             "type_asset": "ics20"
         },
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "atom",
+            "description": "IBC uatom through cosmoshub-4 transfer/channel-1",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "IBC atom",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1",
+                        "path": "transfer/channel-1/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub",
+                        "channel_id": "channel-569"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "noble": {
             "address": null,
             "aliases": [
@@ -22836,6 +22866,38 @@
                 }
             ],
             "type_asset": "ics20"
+        },
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "uatom"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+            "description": "IBC uatom through cosmoshub-4 transfer/channel-1",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "IBC atom",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1",
+                        "path": "transfer/channel-1/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub",
+                        "channel_id": "channel-569"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "ibc/c6438a7d613196373d939891c99ca7eef4f78f4a78dc8590e51e62f8ed16e72b": {
@@ -23414,6 +23476,40 @@
                         "base_denom": "erc20/tether/usdt",
                         "chain_name": "kava",
                         "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/f082b65c88e4b6d5ef1db243cda1d331d002759e938a0f5cd3ffdc5d53b3e349": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "uusdc"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+            "description": "IBC Axelar uusdc through axelar-dojo-1 transfer/channel-2",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "IBC usdc",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-2",
+                        "path": "transfer/channel-2/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-78"
                     },
                     "type": "ibc"
                 }
@@ -36087,7 +36183,7 @@
             "address": null,
             "aliases": null,
             "chain": "celestia",
-            "coingecko_id": null,
+            "coingecko_id": "celestia",
             "decimals": 0,
             "denom": "tia",
             "description": "",
@@ -41485,6 +41581,36 @@
             ],
             "type_asset": "erc20"
         },
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "usdc",
+            "description": "IBC Axelar uusdc through axelar-dojo-1 transfer/channel-2",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "IBC usdc",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-2",
+                        "path": "transfer/channel-2/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-78"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "noble": {
             "address": null,
             "aliases": null,
@@ -43383,7 +43509,7 @@
             "address": null,
             "aliases": null,
             "chain": "celestia",
-            "coingecko_id": null,
+            "coingecko_id": "celestia",
             "decimals": 6,
             "denom": "utia",
             "description": "",

@@ -430,6 +430,9 @@
             "channel-4": [
                 "stride"
             ],
+            "channel-7": [
+                "injective"
+            ],
             "channel-8": [
                 "neutron"
             ]
@@ -1126,6 +1129,9 @@
             ],
             "channel-146": [
                 "noble"
+            ],
+            "channel-152": [
+                "celestia"
             ],
             "channel-8": [
                 "osmosis"
