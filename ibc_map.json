@@ -1400,6 +1400,9 @@
             "channel-115": [
                 "realio"
             ],
+            "channel-116": [
+                "nomic"
+            ],
             "channel-19": [
                 "assetmantle"
             ],
@@ -1732,6 +1735,16 @@
     "nolus": {
         "transfer": {
             "channel-0": [
+                "osmosis"
+            ]
+        }
+    },
+    "nomic": {
+        "transfer": {
+            "channel-0": [
+                "kujira"
+            ],
+            "channel-1": [
                 "osmosis"
             ]
         }
@@ -2069,6 +2082,9 @@
             ],
             "channel-688": [
                 "quasar"
+            ],
+            "channel-6897": [
+                "nomic"
             ],
             "channel-6994": [
                 "celestia"
