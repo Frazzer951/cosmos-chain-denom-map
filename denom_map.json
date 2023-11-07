@@ -12705,6 +12705,31 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:terra1e0efrrrj8d55pflme3dmtyuj7klzcef5cfmz6r2jyqz77kk2jz3qa6drg3": {
+        "terra2": {
+            "address": "terra1e0efrrrj8d55pflme3dmtyuj7klzcef5cfmz6r2jyqz77kk2jz3qa6drg3",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "cw20:terra1e0efrrrj8d55pflme3dmtyuj7klzcef5cfmz6r2jyqz77kk2jz3qa6drg3",
+            "description": "Nico Dao Money",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/nicodao.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/nicodao.png"
+            },
+            "name": "nico",
+            "symbol": "NICO",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:terra1e6mq63y64zcxz8xyu5van4tgkhemj3r86yvgu4": {
         "terra": {
             "address": "terra1e6mq63y64zcxz8xyu5van4tgkhemj3r86yvgu4",
@@ -29357,6 +29382,31 @@
             "symbol": "HASH",
             "traces": null,
             "type_asset": null
+        }
+    },
+    "nico": {
+        "terra2": {
+            "address": "terra1e0efrrrj8d55pflme3dmtyuj7klzcef5cfmz6r2jyqz77kk2jz3qa6drg3",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "nico",
+            "description": "Nico Dao Money",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/nicodao.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/nicodao.png"
+            },
+            "name": "nico",
+            "symbol": "NICO",
+            "traces": null,
+            "type_asset": "cw20"
         }
     },
     "nimv": {
