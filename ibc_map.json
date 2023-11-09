@@ -191,6 +191,9 @@
             ],
             "channel-4": [
                 "umee"
+            ],
+            "channel-48": [
+                "terra2"
             ]
         },
         "wasm.archway10f3aasgsnpv84ymjyld50jayc4ecu267sdpjamauwm8nvxlzex9qj4dkwr": {
@@ -2833,6 +2836,9 @@
             ],
             "channel-253": [
                 "noble"
+            ],
+            "channel-263": [
+                "archway"
             ],
             "channel-3": [
                 "secretnetwork"
