@@ -10438,6 +10438,31 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v": {
+        "migaloo": {
+            "address": "migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v",
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "cw20:migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v",
+            "description": "Auto componded USDC despoited into Ginkou on Migaloo chain",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/mUSDC.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/mUSDC.svg"
+            },
+            "name": "mUSDC",
+            "symbol": "mUSDC",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej": {
         "secretnetwork": {
             "address": null,
@@ -28754,6 +28779,31 @@
             "symbol": "USTC",
             "traces": null,
             "type_asset": null
+        }
+    },
+    "musdc": {
+        "migaloo": {
+            "address": "migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v",
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "mUSDC",
+            "description": "Auto componded USDC despoited into Ginkou on Migaloo chain",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/mUSDC.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/mUSDC.svg"
+            },
+            "name": "mUSDC",
+            "symbol": "mUSDC",
+            "traces": null,
+            "type_asset": "cw20"
         }
     },
     "muse": {
