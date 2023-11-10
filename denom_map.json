@@ -17689,6 +17689,56 @@
             "type_asset": null
         }
     },
+    "factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk": {
+        "kujira": {
+            "address": "kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh",
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk",
+            "description": "NSTK on Kujiura",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nstk.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nstk.svg"
+            },
+            "name": "NSTK",
+            "symbol": "NSTK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/kujira1m96ucsfpt2yy72w09z2rxjdj38y5qd8lqx5jtggnejmdua2ynpnsxyvjex/urcpt": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/kujira1m96ucsfpt2yy72w09z2rxjdj38y5qd8lqx5jtggnejmdua2ynpnsxyvjex/urcpt",
+            "description": "Quark's auto-compounding KUJI derivative",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qckuji.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qckuji.svg"
+            },
+            "name": "qcKUJI",
+            "symbol": "qcKUJI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/kujira1n3fr5f56r2ce0s37wdvwrk98yhhq3unnxgcqus8nzsfxvllk0yxquurqty/ampkuji": {
         "kujira": {
             "address": null,
@@ -17739,6 +17789,58 @@
             },
             "name": "USK",
             "symbol": "USK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/ufuzn": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/ufuzn",
+            "description": "The staking and governance token of Fuzion",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzion.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzion.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzion.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzion.svg"
+            },
+            "name": "Fuzion",
+            "symbol": "FUZN",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/urfuzn": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/urfuzn",
+            "description": "The receipt token of Fuzion",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzionr.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzionr.png"
+            },
+            "name": "Fuzion Receipt",
+            "symbol": "rFUZN",
             "traces": null,
             "type_asset": null
         }
@@ -17943,6 +18045,31 @@
             },
             "name": "ERIS Amplified OSMO",
             "symbol": "ampOSMO",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/squosmo": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/squosmo",
+            "description": "Margined Power Token SQOSMO",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqosmo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqosmo.svg"
+            },
+            "name": "OSMO Squared",
+            "symbol": "sqOSMO",
             "traces": null,
             "type_asset": null
         }
@@ -19659,6 +19786,31 @@
         }
     },
     "fuzn": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "fuzn",
+            "description": "The staking and governance token of Fuzion",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzion.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzion.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzion.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzion.svg"
+            },
+            "name": "Fuzion",
+            "symbol": "FUZN",
+            "traces": null,
+            "type_asset": null
+        },
         "kujiratestnet": {
             "address": null,
             "aliases": null,
@@ -21950,6 +22102,40 @@
                         "base_denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
                         "chain_name": "osmosis",
                         "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/64ba6e31fe887d66c6f8f31c7b1a80c7ca179239677b4088bb55f5ea07dbe273": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "unois"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
+            "description": "NOIS on Osmosis",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Nois NOIS",
+            "symbol": "NOIS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-8277",
+                        "path": "transfer/channel-8277"
+                    },
+                    "counterparty": {
+                        "base_denom": "unois",
+                        "chain_name": "nois",
+                        "channel_id": "channel-37"
                     },
                     "type": "ibc"
                 }
@@ -29633,6 +29819,36 @@
             "symbol": "NOIS",
             "traces": null,
             "type_asset": null
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "nois",
+            "description": "NOIS on Osmosis",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Nois NOIS",
+            "symbol": "NOIS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-8277",
+                        "path": "transfer/channel-8277"
+                    },
+                    "counterparty": {
+                        "base_denom": "unois",
+                        "chain_name": "nois",
+                        "channel_id": "channel-37"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "nom": {
@@ -29768,6 +29984,31 @@
             },
             "name": "Shareledger",
             "symbol": "SHR",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "nstk": {
+        "kujira": {
+            "address": "kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh",
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "nstk",
+            "description": "NSTK on Kujiura",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nstk.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nstk.svg"
+            },
+            "name": "NSTK",
+            "symbol": "NSTK",
             "traces": null,
             "type_asset": null
         }
@@ -30853,6 +31094,28 @@
             "type_asset": "cw20"
         }
     },
+    "perm": {
+        "permtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "permtestnet",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "perm",
+            "description": "Perm A Permissioned Blockchain",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.svg"
+            },
+            "name": "Perm",
+            "symbol": "PERM",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "phmn": {
         "juno": {
             "address": "juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
@@ -31614,6 +31877,31 @@
             "type_asset": null
         }
     },
+    "qckuji": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "qcKUJI",
+            "description": "Quark's auto-compounding KUJI derivative",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qckuji.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qckuji.svg"
+            },
+            "name": "qcKUJI",
+            "symbol": "qcKUJI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "qosmo": {
         "quicksilver": {
             "address": null,
@@ -32348,6 +32636,31 @@
             "symbol": "RETRO",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "rfuzn": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "rfuzn",
+            "description": "The receipt token of Fuzion",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzionr.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuzionr.png"
+            },
+            "name": "Fuzion Receipt",
+            "symbol": "rFUZN",
+            "traces": null,
+            "type_asset": null
         }
     },
     "rhuahua": {
@@ -33927,6 +34240,31 @@
             "symbol": "SPEC",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "sqosmo": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sqosmo",
+            "description": "Margined Power Token SQOSMO",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqosmo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqosmo.svg"
+            },
+            "name": "OSMO Squared",
+            "symbol": "sqOSMO",
+            "traces": null,
+            "type_asset": null
         }
     },
     "srmso": {
@@ -40818,6 +41156,28 @@
             "type_asset": null
         }
     },
+    "uperm": {
+        "permtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "permtestnet",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "uperm",
+            "description": "Perm A Permissioned Blockchain",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.svg"
+            },
+            "name": "Perm",
+            "symbol": "PERM",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "uphp": {
         "terra": {
             "address": null,
@@ -44228,6 +44588,27 @@
             "type_asset": null
         }
     },
+    "uwahax": {
+        "wavehashtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "wavehashtestnet",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "uwahax",
+            "description": "WaveHash A Permissioned Blockchain",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/wavehashtestnet/images/WaveHash.png"
+            },
+            "name": "WaveHash",
+            "symbol": "WAHAX",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "uwhale": {
         "migaloo": {
             "address": null,
@@ -44605,6 +44986,27 @@
             "symbol": "vUST",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "wahax": {
+        "wavehashtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "wavehashtestnet",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "wahax",
+            "description": "WaveHash A Permissioned Blockchain",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/wavehashtestnet/images/WaveHash.png"
+            },
+            "name": "WaveHash",
+            "symbol": "WAHAX",
+            "traces": null,
+            "type_asset": null
         }
     },
     "wasavax": {

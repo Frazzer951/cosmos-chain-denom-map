@@ -192,7 +192,7 @@
             "channel-4": [
                 "umee"
             ],
-            "channel-48": [
+            "channel-50": [
                 "terra2"
             ]
         },
@@ -1727,6 +1727,9 @@
             ],
             "channel-21": [
                 "archway"
+            ],
+            "channel-37": [
+                "osmosis"
             ]
         },
         "wasm.nois1acyc05v6fgcdgj88nmz2t40aex9nlnptqpwp5hf8hwg7rhce9uuqgqz5wp": {
@@ -2139,6 +2142,9 @@
             ],
             "channel-82": [
                 "panacea"
+            ],
+            "channel-8277": [
+                "nois"
             ],
             "channel-87": [
                 "comdex"
@@ -2837,7 +2843,7 @@
             "channel-253": [
                 "noble"
             ],
-            "channel-263": [
+            "channel-265": [
                 "archway"
             ],
             "channel-3": [
