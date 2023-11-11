@@ -5142,12 +5142,12 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vincechain/images/vince.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/vincechaintestnet/images/vince.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vincechain/images/vince.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/vincechaintestnet/images/vince.png"
             },
             "name": "VinceChain",
             "symbol": "VCE",
@@ -24516,14 +24516,14 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubdevnet/images/ixo.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubdevnet/images/ixo.svg"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubdevnet/images/ixo.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubdevnet/images/ixo.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.svg"
             },
             "name": "IXO",
             "symbol": "IXO",
@@ -25389,7 +25389,7 @@
             "ibc": null,
             "images": [
                 {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-icon.svg"
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.svg"
                 }
             ],
             "keywords": [
@@ -25397,7 +25397,7 @@
                 "api"
             ],
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-icon.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.svg"
             },
             "name": "LAVA",
             "symbol": "LAVA",
@@ -25415,7 +25415,7 @@
             "ibc": null,
             "images": [
                 {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-icon.svg"
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.svg"
                 }
             ],
             "keywords": [
@@ -25423,7 +25423,7 @@
                 "api"
             ],
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-icon.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.svg"
             },
             "name": "LAVA",
             "symbol": "LAVA",
@@ -39448,14 +39448,14 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubdevnet/images/ixo.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubdevnet/images/ixo.svg"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubdevnet/images/ixo.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubdevnet/images/ixo.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/impacthubdevnet/images/ixo.svg"
             },
             "name": "IXO",
             "symbol": "IXO",
@@ -39872,7 +39872,7 @@
             "ibc": null,
             "images": [
                 {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-icon.svg"
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.svg"
                 }
             ],
             "keywords": [
@@ -39880,7 +39880,7 @@
                 "api"
             ],
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-icon.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.svg"
             },
             "name": "LAVA",
             "symbol": "LAVA",
@@ -39898,7 +39898,7 @@
             "ibc": null,
             "images": [
                 {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-icon.svg"
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.svg"
                 }
             ],
             "keywords": [
@@ -39906,7 +39906,7 @@
                 "api"
             ],
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava-icon.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.svg"
             },
             "name": "LAVA",
             "symbol": "LAVA",
@@ -44823,12 +44823,12 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vincechain/images/vince.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/vincechaintestnet/images/vince.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vincechain/images/vince.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/vincechaintestnet/images/vince.png"
             },
             "name": "VinceChain",
             "symbol": "VCE",
