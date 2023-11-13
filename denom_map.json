@@ -6328,6 +6328,31 @@
             "type_asset": "cw20"
         }
     },
+    "bitz": {
+        "terra2": {
+            "address": "terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "bitz",
+            "description": "A community DAO built on Enterprise",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/BITZ.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/BITZ.png"
+            },
+            "name": "BitzDAO",
+            "symbol": "BITZ",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "bjks": {
         "bitsong": {
             "address": null,
@@ -11888,6 +11913,31 @@
             },
             "name": "Advanced Micro Devices, Inc.",
             "symbol": "mAMD",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
+    "cw20:terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v": {
+        "terra2": {
+            "address": "terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v",
+            "description": "A community DAO built on Enterprise",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/BITZ.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/BITZ.png"
+            },
+            "name": "BitzDAO",
+            "symbol": "BITZ",
             "traces": null,
             "type_asset": "cw20"
         }
@@ -18070,6 +18120,56 @@
             "type_asset": null
         }
     },
+    "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqatom": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqatom",
+            "description": "Margined Power Token sqATOM",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqatom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqatom.svg"
+            },
+            "name": "ATOM Squared",
+            "symbol": "sqATOM",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqbtc": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqbtc",
+            "description": "Margined Power Token sqBTC",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqbtc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqbtc.svg"
+            },
+            "name": "BTC Squared",
+            "symbol": "sqBTC",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/squosmo": {
         "osmosis": {
             "address": null,
@@ -18078,7 +18178,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/squosmo",
-            "description": "Margined Power Token SQOSMO",
+            "description": "Margined Power Token sqOSMO",
             "ibc": null,
             "images": [
                 {
@@ -34284,6 +34384,56 @@
             "type_asset": "cw20"
         }
     },
+    "sqatom": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sqatom",
+            "description": "Margined Power Token sqATOM",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqatom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqatom.svg"
+            },
+            "name": "ATOM Squared",
+            "symbol": "sqATOM",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "sqbtc": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sqbtc",
+            "description": "Margined Power Token sqBTC",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqbtc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqbtc.svg"
+            },
+            "name": "BTC Squared",
+            "symbol": "sqBTC",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "sqosmo": {
         "osmosis": {
             "address": null,
@@ -34292,7 +34442,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "sqosmo",
-            "description": "Margined Power Token SQOSMO",
+            "description": "Margined Power Token sqOSMO",
             "ibc": null,
             "images": [
                 {
