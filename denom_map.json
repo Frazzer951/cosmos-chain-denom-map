@@ -4426,9 +4426,21 @@
             "denom": "atom",
             "description": "IBC uatom through cosmoshub-4 transfer/channel-1",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
             "name": "IBC atom",
             "symbol": "ATOM",
             "traces": [
@@ -4802,21 +4814,23 @@
             "address": null,
             "aliases": null,
             "chain": "axelartestnet",
-            "coingecko_id": "usd-coin",
+            "coingecko_id": null,
             "decimals": 0,
             "denom": "ausdc",
             "description": "Circle's stablecoin on Axelar",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                    "image_sync": {
+                        "base_denom": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+                        "chain_name": "ethereumtestnet"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
             },
             "name": "USD Coin",
             "symbol": "aUSDC",
@@ -5085,6 +5099,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
+                        "chain_name": "avalanchetestnet"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/wavax.svg"
                 }
             ],
@@ -14415,7 +14433,11 @@
             "denom": "cw20:terra1rc6ssp5rym7a0hg29xpj4cc9e67tl56kg5jyzgl9qrhfxxc2ugvsnrkala",
             "description": "Sailing the Seas DAO is a community DAO built on Enterprise on Terra",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/SEAS.png"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/SEAS.png"
@@ -17295,6 +17317,44 @@
             "type_asset": "cw20"
         }
     },
+    "eth-wei": {
+        "axelartestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "axelartestnet",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "eth-wei",
+            "description": "Wrapped Ether on Axelar",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+                        "chain_name": "ethereumtestnet"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg"
+            },
+            "name": "Wrapped Ether",
+            "symbol": "axlWETH",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+                        "chain_name": "ethereumtestnet"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "eth.1.19.c3b805": {
         "carbon": {
             "address": null,
@@ -18067,6 +18127,41 @@
             "name": "boneWHALE",
             "symbol": "bWHALE",
             "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wsteth": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+            "description": "wstETH on Neutron",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "chain_name": "ethereum"
+                    }
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "wstETH",
+            "symbol": "wstETH",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Lido",
+                    "type": "additional-mintage"
+                }
+            ],
             "type_asset": null
         }
     },
@@ -19711,6 +19806,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x812666209b90344Ec8e528375298ab9045c2Bd08",
+                        "chain_name": "fantomtestnet"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png"
                 }
             ],
@@ -22242,9 +22341,21 @@
             "denom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
             "description": "NOIS on Osmosis",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "unois",
+                        "chain_name": "nois"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
+                }
+            ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
+            },
             "name": "Nois NOIS",
             "symbol": "NOIS",
             "traces": [
@@ -22381,6 +22492,52 @@
                         "base_denom": "stuosmo",
                         "chain_name": "stride",
                         "channel_id": "channel-47"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/773b4d0a3cd667b2275d5a4a7a2f0909c0ba0f4059c0b9181e680ddf4965dcc7": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "utia"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7",
+            "description": "Tia on Neutron",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            },
+            "name": "Celestia TIA",
+            "symbol": "TIA",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-35",
+                        "path": "transfer/channel-35"
+                    },
+                    "counterparty": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia",
+                        "channel_id": "channel-8"
                     },
                     "type": "ibc"
                 }
@@ -23272,9 +23429,21 @@
             "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
             "description": "IBC uatom through cosmoshub-4 transfer/channel-1",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
             "name": "IBC atom",
             "symbol": "ATOM",
             "traces": [
@@ -23473,9 +23642,21 @@
             "denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
             "description": "TIA on Osmosis",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+                }
+            ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            },
             "name": "Celestia TIA",
             "symbol": "TIA",
             "traces": [
@@ -23889,9 +24070,21 @@
             "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
             "description": "IBC Axelar uusdc through axelar-dojo-1 transfer/channel-2",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "axelar"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                }
+            ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+            },
             "name": "IBC usdc",
             "symbol": "USDC",
             "traces": [
@@ -29447,7 +29640,12 @@
             "denom": "nbtc",
             "description": "Bitcoin. On Cosmos.",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
@@ -29950,9 +30148,21 @@
             "denom": "nois",
             "description": "NOIS on Osmosis",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "unois",
+                        "chain_name": "nois"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
+                }
+            ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
+            },
             "name": "Nois NOIS",
             "symbol": "NOIS",
             "traces": [
@@ -29982,7 +30192,12 @@
             "denom": "nom",
             "description": "Nomic's native token.",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.svg"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.png",
@@ -31225,7 +31440,12 @@
             "denom": "perm",
             "description": "Perm A Permissioned Blockchain",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.svg"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png",
@@ -33364,7 +33584,11 @@
             "denom": "seas",
             "description": "Sailing the Seas DAO is a community DAO built on Enterprise on Terra",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/SEAS.png"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/SEAS.png"
@@ -36970,6 +37194,48 @@
             "traces": null,
             "type_asset": null
         },
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "tia",
+            "description": "Tia on Neutron",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            },
+            "name": "Celestia TIA",
+            "symbol": "TIA",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-35",
+                        "path": "transfer/channel-35"
+                    },
+                    "counterparty": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia",
+                        "channel_id": "channel-8"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "osmosis": {
             "address": null,
             "aliases": null,
@@ -36979,9 +37245,21 @@
             "denom": "tia",
             "description": "TIA on Osmosis",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+                }
+            ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            },
             "name": "Celestia TIA",
             "symbol": "TIA",
             "traces": [
@@ -37655,21 +37933,23 @@
             "address": null,
             "aliases": null,
             "chain": "axelartestnet",
-            "coingecko_id": "usd-coin",
+            "coingecko_id": null,
             "decimals": 6,
             "denom": "uausdc",
             "description": "Circle's stablecoin on Axelar",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                    "image_sync": {
+                        "base_denom": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+                        "chain_name": "ethereumtestnet"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
             },
             "name": "USD Coin",
             "symbol": "aUSDC",
@@ -41029,7 +41309,12 @@
             "denom": "unom",
             "description": "Nomic's native token.",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.svg"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.png",
@@ -41358,7 +41643,12 @@
             "denom": "uperm",
             "description": "Perm A Permissioned Blockchain",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.svg"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png",
@@ -41940,7 +42230,12 @@
             "denom": "usat",
             "description": "Bitcoin. On Cosmos.",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
@@ -42356,9 +42651,21 @@
             "denom": "usdc",
             "description": "IBC Axelar uusdc through axelar-dojo-1 transfer/channel-2",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "axelar"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                }
+            ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+            },
             "name": "IBC usdc",
             "symbol": "USDC",
             "traces": [
@@ -44790,7 +45097,11 @@
             "denom": "uwahax",
             "description": "WaveHash A Permissioned Blockchain",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/wavehashtestnet/images/WaveHash.png"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/wavehashtestnet/images/WaveHash.png"
@@ -45190,7 +45501,11 @@
             "denom": "wahax",
             "description": "WaveHash A Permissioned Blockchain",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/wavehashtestnet/images/WaveHash.png"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/wavehashtestnet/images/WaveHash.png"
@@ -45361,6 +45676,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
+                        "chain_name": "avalanchetestnet"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/wavax.svg"
                 }
             ],
@@ -45422,13 +45741,17 @@
             "address": null,
             "aliases": null,
             "chain": "axelartestnet",
-            "coingecko_id": "wbnb",
+            "coingecko_id": null,
             "decimals": 0,
             "denom": "wbnb",
             "description": "Wrapped BNB on Axelar",
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+                        "chain_name": "binancesmartchaintestnet"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/wbnb.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/wbnb.svg"
                 }
@@ -45566,13 +45889,17 @@
             "address": null,
             "aliases": null,
             "chain": "axelartestnet",
-            "coingecko_id": "wbnb",
+            "coingecko_id": null,
             "decimals": 18,
             "denom": "wbnb-wei",
             "description": "Wrapped BNB on Axelar",
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+                        "chain_name": "binancesmartchaintestnet"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/wbnb.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/wbnb.svg"
                 }
@@ -46300,22 +46627,26 @@
             "address": null,
             "aliases": null,
             "chain": "axelartestnet",
-            "coingecko_id": "weth",
+            "coingecko_id": null,
             "decimals": 0,
             "denom": "weth",
             "description": "Wrapped Ether on Axelar",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+                    "image_sync": {
+                        "base_denom": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+                        "chain_name": "ethereumtestnet"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg"
             },
             "name": "Wrapped Ether",
-            "symbol": "WETH",
+            "symbol": "axlWETH",
             "traces": [
                 {
                     "counterparty": {
@@ -46499,38 +46830,6 @@
                     "counterparty": {
                         "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
                         "chain_name": "ethereum"
-                    },
-                    "provider": "Axelar",
-                    "type": "bridge"
-                }
-            ],
-            "type_asset": null
-        },
-        "axelartestnet": {
-            "address": null,
-            "aliases": null,
-            "chain": "axelartestnet",
-            "coingecko_id": "weth",
-            "decimals": 18,
-            "denom": "weth-wei",
-            "description": "Wrapped Ether on Axelar",
-            "ibc": null,
-            "images": [
-                {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
-                }
-            ],
-            "keywords": null,
-            "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
-            },
-            "name": "Wrapped Ether",
-            "symbol": "WETH",
-            "traces": [
-                {
-                    "counterparty": {
-                        "base_denom": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
-                        "chain_name": "ethereumtestnet"
                     },
                     "provider": "Axelar",
                     "type": "bridge"
@@ -46737,6 +47036,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x812666209b90344Ec8e528375298ab9045c2Bd08",
+                        "chain_name": "fantomtestnet"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png"
                 }
             ],
@@ -46825,24 +47128,26 @@
             "address": null,
             "aliases": null,
             "chain": "axelartestnet",
-            "coingecko_id": "wrapped-moonbeam",
+            "coingecko_id": null,
             "decimals": 0,
             "denom": "wglmr",
             "description": "Wrapped Moonbeam on Axelar",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png",
+                    "image_sync": {
+                        "base_denom": "0x1436aE0dF0A8663F18c0Ec51d7e2E46591730715",
+                        "chain_name": "moonbeamtestnet"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg"
             },
             "name": "Wrapped Moonbeam",
-            "symbol": "WGLMR",
+            "symbol": "WDEV",
             "traces": [
                 {
                     "counterparty": {
@@ -46959,24 +47264,26 @@
             "address": null,
             "aliases": null,
             "chain": "axelartestnet",
-            "coingecko_id": "wrapped-moonbeam",
+            "coingecko_id": null,
             "decimals": 18,
             "denom": "wglmr-wei",
             "description": "Wrapped Moonbeam on Axelar",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png",
+                    "image_sync": {
+                        "base_denom": "0x1436aE0dF0A8663F18c0Ec51d7e2E46591730715",
+                        "chain_name": "moonbeamtestnet"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg"
             },
             "name": "Wrapped Moonbeam",
-            "symbol": "WGLMR",
+            "symbol": "WDEV",
             "traces": [
                 {
                     "counterparty": {
@@ -47225,20 +47532,22 @@
             "address": null,
             "aliases": null,
             "chain": "axelartestnet",
-            "coingecko_id": "matic-network",
+            "coingecko_id": null,
             "decimals": 0,
             "denom": "wmatic",
             "description": "Wrapped Matic on Axelar",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
+                    "image_sync": {
+                        "base_denom": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+                        "chain_name": "polygontestnet"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
             },
             "name": "Wrapped Matic",
@@ -47363,20 +47672,22 @@
             "address": null,
             "aliases": null,
             "chain": "axelartestnet",
-            "coingecko_id": "matic-network",
+            "coingecko_id": null,
             "decimals": 18,
             "denom": "wmatic-wei",
             "description": "Wrapped Matic on Axelar",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
+                    "image_sync": {
+                        "base_denom": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+                        "chain_name": "polygontestnet"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
             },
             "name": "Wrapped Matic",
@@ -47918,6 +48229,39 @@
                 }
             ],
             "type_asset": "erc20"
+        },
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "wstETH",
+            "description": "wstETH on Neutron",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "chain_name": "ethereum"
+                    }
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "wstETH",
+            "symbol": "wstETH",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Lido",
+                    "type": "additional-mintage"
+                }
+            ],
+            "type_asset": null
         },
         "terra": {
             "address": "terra133chr09wu8sakfte5v7vd8qzq9vghtkv4tn0ur",

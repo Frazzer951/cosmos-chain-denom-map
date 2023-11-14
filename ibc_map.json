@@ -671,6 +671,9 @@
             "channel-405": [
                 "agoric"
             ],
+            "channel-431": [
+                "teritori"
+            ],
             "channel-446": [
                 "planq"
             ],
@@ -1472,6 +1475,9 @@
             "channel-75": [
                 "neutron"
             ],
+            "channel-89": [
+                "teritori"
+            ],
             "channel-9": [
                 "axelar"
             ],
@@ -2155,6 +2161,9 @@
             "channel-88": [
                 "secretnetwork"
             ],
+            "channel-880": [
+                "qwoyn"
+            ],
             "channel-95": [
                 "bostrom"
             ]
@@ -2313,6 +2322,13 @@
             ],
             "channel-94": [
                 "composable"
+            ]
+        }
+    },
+    "qwoyn": {
+        "transfer": {
+            "channel-0": [
+                "osmosis"
             ]
         }
     },
@@ -2810,6 +2826,12 @@
         "transfer": {
             "channel-0": [
                 "osmosis"
+            ],
+            "channel-10": [
+                "cosmoshub"
+            ],
+            "channel-30": [
+                "kujira"
             ]
         }
     },
