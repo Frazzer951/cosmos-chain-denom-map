@@ -5291,7 +5291,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-5",
-                        "path": "transfer/channel-5"
+                        "path": "transfer/channel-5/uaxl"
                     },
                     "counterparty": {
                         "base_denom": "uaxl",
@@ -16727,7 +16727,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-6787",
-                        "path": "transfer/channel-6787"
+                        "path": "transfer/channel-6787/adydx"
                     },
                     "counterparty": {
                         "base_denom": "adydx",
@@ -18143,19 +18143,22 @@
             "images": [
                 {
                     "image_sync": {
-                        "base_denom": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "base_denom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
                         "chain_name": "ethereum"
-                    }
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
+            },
             "name": "wstETH",
             "symbol": "wstETH",
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "base_denom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
                         "chain_name": "ethereum"
                     },
                     "provider": "Lido",
@@ -18694,7 +18697,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "base_denom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -21556,7 +21559,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-2",
-                        "path": "transfer/channel-2"
+                        "path": "transfer/channel-2/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -21769,7 +21772,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-95",
-                        "path": "transfer/channel-95"
+                        "path": "transfer/channel-95/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -21859,7 +21862,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-9",
-                        "path": "transfer/channel-9"
+                        "path": "transfer/channel-9/uusdc"
                     },
                     "counterparty": {
                         "base_denom": "uusdc",
@@ -22195,7 +22198,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-143",
-                        "path": "transfer/channel-143"
+                        "path": "transfer/channel-143/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -22235,7 +22238,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-143",
-                        "path": "transfer/channel-143"
+                        "path": "transfer/channel-143/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -22621,7 +22624,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-6787",
-                        "path": "transfer/channel-6787"
+                        "path": "transfer/channel-6787/adydx"
                     },
                     "counterparty": {
                         "base_denom": "adydx",
@@ -22707,7 +22710,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-48",
-                        "path": "transfer/channel-48"
+                        "path": "transfer/channel-48/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -22766,7 +22769,7 @@
             "aliases": null,
             "chain": "dydx",
             "coingecko_id": null,
-            "decimals": 18,
+            "decimals": 6,
             "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
             "description": "Noble USDC on dYdX Protocol.",
             "ibc": null,
@@ -22791,7 +22794,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-0",
-                        "path": "transfer/channel-0"
+                        "path": "transfer/channel-0/uusdc"
                     },
                     "counterparty": {
                         "base_denom": "uusdc",
@@ -22833,7 +22836,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-11",
-                        "path": "transfer/channel-11"
+                        "path": "transfer/channel-11/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -22879,7 +22882,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-8",
-                        "path": "transfer/channel-8"
+                        "path": "transfer/channel-8/uosmo"
                     },
                     "counterparty": {
                         "base_denom": "uosmo",
@@ -22959,7 +22962,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-83",
-                        "path": "transfer/channel-83"
+                        "path": "transfer/channel-83/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -23663,7 +23666,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-6994",
-                        "path": "transfer/channel-6994"
+                        "path": "transfer/channel-6994/utia"
                     },
                     "counterparty": {
                         "base_denom": "utia",
@@ -23709,7 +23712,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-5",
-                        "path": "transfer/channel-5"
+                        "path": "transfer/channel-5/uaxl"
                     },
                     "counterparty": {
                         "base_denom": "uaxl",
@@ -24266,7 +24269,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-13",
-                        "path": "transfer/channel-13"
+                        "path": "transfer/channel-13/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -31138,7 +31141,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-8",
-                        "path": "transfer/channel-8"
+                        "path": "transfer/channel-8/uosmo"
                     },
                     "counterparty": {
                         "base_denom": "uosmo",
@@ -37266,7 +37269,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-6994",
-                        "path": "transfer/channel-6994"
+                        "path": "transfer/channel-6994/utia"
                     },
                     "counterparty": {
                         "base_denom": "utia",
@@ -42556,7 +42559,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-0",
-                        "path": "transfer/channel-0"
+                        "path": "transfer/channel-0/uusdc"
                     },
                     "counterparty": {
                         "base_denom": "uusdc",
@@ -42936,7 +42939,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-9",
-                        "path": "transfer/channel-9"
+                        "path": "transfer/channel-9/uusdc"
                     },
                     "counterparty": {
                         "base_denom": "uusdc",
@@ -43208,7 +43211,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-2",
-                        "path": "transfer/channel-2"
+                        "path": "transfer/channel-2/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -43282,7 +43285,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-13",
-                        "path": "transfer/channel-13"
+                        "path": "transfer/channel-13/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -43399,7 +43402,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-11",
-                        "path": "transfer/channel-11"
+                        "path": "transfer/channel-11/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -43471,7 +43474,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-83",
-                        "path": "transfer/channel-83"
+                        "path": "transfer/channel-83/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -43511,7 +43514,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-143",
-                        "path": "transfer/channel-143"
+                        "path": "transfer/channel-143/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -43587,7 +43590,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-95",
-                        "path": "transfer/channel-95"
+                        "path": "transfer/channel-95/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -43627,7 +43630,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-48",
-                        "path": "transfer/channel-48"
+                        "path": "transfer/channel-48/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -43667,7 +43670,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-143",
-                        "path": "transfer/channel-143"
+                        "path": "transfer/channel-143/erc20/tether/usdt"
                     },
                     "counterparty": {
                         "base_denom": "erc20/tether/usdt",
@@ -47818,7 +47821,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "base_denom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -48242,19 +48245,22 @@
             "images": [
                 {
                     "image_sync": {
-                        "base_denom": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "base_denom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
                         "chain_name": "ethereum"
-                    }
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
+            },
             "name": "wstETH",
             "symbol": "wstETH",
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "base_denom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
                         "chain_name": "ethereum"
                     },
                     "provider": "Lido",
