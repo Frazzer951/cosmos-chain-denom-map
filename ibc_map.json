@@ -427,6 +427,9 @@
     },
     "celestia": {
         "transfer": {
+            "channel-14": [
+                "secretnetwork"
+            ],
             "channel-2": [
                 "osmosis"
             ],
@@ -1375,6 +1378,9 @@
             ],
             "channel-132": [
                 "sei"
+            ],
+            "channel-134": [
+                "persistence"
             ]
         }
     },
@@ -1700,9 +1706,6 @@
             "channel-21": [
                 "agoric"
             ],
-            "channel-22": [
-                "persistence"
-            ],
             "channel-29": [
                 "sei"
             ],
@@ -1714,6 +1717,9 @@
             ],
             "channel-33": [
                 "dydx"
+            ],
+            "channel-36": [
+                "persistence"
             ],
             "channel-4": [
                 "cosmoshub"
@@ -2194,7 +2200,10 @@
             "channel-11": [
                 "cryptoorgchain"
             ],
-            "channel-128": [
+            "channel-129": [
+                "kava"
+            ],
+            "channel-132": [
                 "noble"
             ],
             "channel-19": [
@@ -2481,6 +2490,9 @@
             ],
             "channel-88": [
                 "noble"
+            ],
+            "channel-91": [
+                "celestia"
             ]
         },
         "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4": {

@@ -2123,6 +2123,37 @@
             "type_asset": "erc20"
         }
     },
+    "0xfb5c6815ca3ac72ce9f5006869ae67f18bf77006": {
+        "ethereum": {
+            "address": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+            "aliases": [],
+            "chain": "ethereum",
+            "coingecko_id": "pstake-finance",
+            "decimals": 18,
+            "denom": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+            "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets. Stakers of PoS tokens can stake their assets while maintaining the liquidity of these assets. Users earn staking rewards + receive 1:1 pegged staked representative tokens which can be used to generate additional yield.",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
+            },
+            "name": "pSTAKE Finance",
+            "symbol": "PSTAKE",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "uxprt",
+                        "chain_name": "persistence"
+                    },
+                    "provider": "Persistence",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": "erc20"
+        }
+    },
     "0xffffffff1fcacbd218edc0eba20fc2308c778080": {
         "moonbeam": {
             "address": "0xffffffff1fcacbd218edc0eba20fc2308c778080",
@@ -4577,6 +4608,48 @@
                         "base_denom": "uatom",
                         "chain_name": "cosmoshub",
                         "channel_id": "channel-141"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "persistence": {
+            "address": null,
+            "aliases": null,
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "atom",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
+            "name": "Cosmos Hub Atom",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-24",
+                        "path": "transfer/channel-24/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub",
+                        "channel_id": "channel-190"
                     },
                     "type": "ibc"
                 }
@@ -16898,6 +16971,33 @@
             "type_asset": null
         }
     },
+    "ekil": {
+        "likecointestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "likecointestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ekil",
+            "description": "EKIL is the native token for LikeCoin Testnet",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg"
+            },
+            "name": "LikeCoin",
+            "symbol": "EKIL",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "el1": {
         "genesisl1": {
             "address": null,
@@ -17822,13 +17922,13 @@
     },
     "factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk": {
         "kujira": {
-            "address": "kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh",
+            "address": null,
             "aliases": null,
             "chain": "kujira",
             "coingecko_id": null,
             "decimals": 6,
             "denom": "factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk",
-            "description": "NSTK on Kujiura",
+            "description": "The Revenue & Governance token of Unstake.fi",
             "ibc": null,
             "images": [
                 {
@@ -17997,6 +18097,31 @@
             },
             "name": "BLEND",
             "symbol": "BLEND",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/kujira1swkuyt08z74n5jl7zr6hx0ru5sa2yev5v896p6/local": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/kujira1swkuyt08z74n5jl7zr6hx0ru5sa2yev5v896p6/local",
+            "description": "Local Money",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/local.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/local.png"
+            },
+            "name": "LOCAL",
+            "symbol": "LOCAL",
             "traces": null,
             "type_asset": null
         }
@@ -20715,6 +20840,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+                        "chain_name": "ethereum"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
                 }
@@ -23115,6 +23244,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+                        "chain_name": "ethereum"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
                 }
@@ -23285,6 +23418,52 @@
                         "base_denom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
                         "chain_name": "osmosis",
                         "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/b3792e4a62df4a934ef2df5968556db56f5776ed25bde11188a4f58a7dd406f0": {
+        "persistence": {
+            "address": null,
+            "aliases": [
+                "uusdc"
+            ],
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/B3792E4A62DF4A934EF2DF5968556DB56F5776ED25BDE11188A4F58A7DD406F0",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "noble"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+            },
+            "name": "Noble USD Coin",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-132",
+                        "path": "transfer/channel-132/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "noble",
+                        "channel_id": "channel-36"
                     },
                     "type": "ibc"
                 }
@@ -23466,6 +23645,48 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/c559977f5797bdc1d74c0836a10c379c991d664166cb60d776a83029852431b4": {
+        "persistence": {
+            "address": null,
+            "aliases": null,
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/C559977F5797BDC1D74C0836A10C379C991D664166CB60D776A83029852431B4",
+            "description": "Tether USDT on Persistence",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "erc20/tether/usdt",
+                        "chain_name": "kava"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+            },
+            "name": "Tether USDT",
+            "symbol": "USDT",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-129",
+                        "path": "transfer/channel-129/erc20/tether/usdt"
+                    },
+                    "counterparty": {
+                        "base_denom": "erc20/tether/usdt",
+                        "chain_name": "kava",
+                        "channel_id": "channel-134"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/c6438a7d613196373d939891c99ca7eef4f78f4a78dc8590e51e62f8ed16e72b": {
         "imversedtestnet": {
             "address": null,
@@ -23495,6 +23716,52 @@
             "symbol": "IMV",
             "traces": null,
             "type_asset": null
+        }
+    },
+    "ibc/c8a74abbe2af892e15680d916a7c22130585ce5704f9b17a10f184a90d53beca": {
+        "persistence": {
+            "address": null,
+            "aliases": [
+                "uatom"
+            ],
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/C8A74ABBE2AF892E15680D916A7C22130585CE5704F9B17A10F184A90D53BECA",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
+            "name": "Cosmos Hub Atom",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-24",
+                        "path": "transfer/channel-24/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub",
+                        "channel_id": "channel-190"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "ibc/d1542aa8762db13087d8364f3ea6509fd6f009a34f00426af9e4f9fa85cbbf1f": {
@@ -26046,6 +26313,29 @@
         }
     },
     "local": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "local",
+            "description": "Local Money",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/local.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/local.png"
+            },
+            "name": "LOCAL",
+            "symbol": "LOCAL",
+            "traces": null,
+            "type_asset": null
+        },
         "terra": {
             "address": "terra1vchw83qt25j89zqwdpmdzj722sqxthnckqzxxp",
             "aliases": null,
@@ -29529,6 +29819,33 @@
             "type_asset": null
         }
     },
+    "nanoekil": {
+        "likecointestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "likecointestnet",
+            "coingecko_id": null,
+            "decimals": 9,
+            "denom": "nanoekil",
+            "description": "EKIL is the native token for LikeCoin Testnet",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg"
+            },
+            "name": "LikeCoin",
+            "symbol": "EKIL",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "nanolike": {
         "likecoin": {
             "address": null,
@@ -30329,13 +30646,13 @@
     },
     "nstk": {
         "kujira": {
-            "address": "kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh",
+            "address": null,
             "aliases": null,
             "chain": "kujira",
             "coingecko_id": null,
             "decimals": 0,
             "denom": "nstk",
-            "description": "NSTK on Kujiura",
+            "description": "The Revenue & Governance token of Unstake.fi",
             "ibc": null,
             "images": [
                 {
@@ -32013,6 +32330,35 @@
         }
     },
     "pstake": {
+        "ethereum": {
+            "address": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+            "aliases": [],
+            "chain": "ethereum",
+            "coingecko_id": "pstake-finance",
+            "decimals": 0,
+            "denom": "pstake",
+            "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets. Stakers of PoS tokens can stake their assets while maintaining the liquidity of these assets. Users earn staking rewards + receive 1:1 pegged staked representative tokens which can be used to generate additional yield.",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
+            },
+            "name": "pSTAKE Finance",
+            "symbol": "PSTAKE",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "uxprt",
+                        "chain_name": "persistence"
+                    },
+                    "provider": "Persistence",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": "erc20"
+        },
         "gravitybridge": {
             "address": null,
             "aliases": null,
@@ -32024,6 +32370,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+                        "chain_name": "ethereum"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
                 }
@@ -32066,6 +32416,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+                        "chain_name": "ethereum"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
                 }
@@ -42837,6 +43191,48 @@
             ],
             "type_asset": "ics20"
         },
+        "persistence": {
+            "address": null,
+            "aliases": null,
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "usdc",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "noble"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+            },
+            "name": "Noble USD Coin",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-132",
+                        "path": "transfer/channel-132/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "noble",
+                        "channel_id": "channel-36"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "polygon": {
             "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
             "aliases": null,
@@ -43151,6 +43547,42 @@
             "symbol": "USDCso",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "usdlr": {
+        "nobletestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "nobletestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "usdlr",
+            "description": "USDLR is a fiat-backed stablecoin issued by Stable. Stable pays DeFi protocols who distribute USDLR.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.svg"
+            },
+            "name": "USDLR by Stable",
+            "symbol": "USDLR",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "uusdlr",
+                        "chain_name": "noble"
+                    },
+                    "provider": "Stable",
+                    "type": "test-mintage"
+                }
+            ],
+            "type_asset": null
         }
     },
     "usdr": {
@@ -43676,6 +44108,46 @@
                         "base_denom": "erc20/tether/usdt",
                         "chain_name": "kava",
                         "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "persistence": {
+            "address": null,
+            "aliases": null,
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "usdt",
+            "description": "Tether USDT on Persistence",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "erc20/tether/usdt",
+                        "chain_name": "kava"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+            },
+            "name": "Tether USDT",
+            "symbol": "USDT",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-129",
+                        "path": "transfer/channel-129/erc20/tether/usdt"
+                    },
+                    "counterparty": {
+                        "base_denom": "erc20/tether/usdt",
+                        "chain_name": "kava",
+                        "channel_id": "channel-134"
                     },
                     "type": "ibc"
                 }
@@ -45021,6 +45493,44 @@
                         "chain_name": "noble"
                     },
                     "provider": "Circle",
+                    "type": "test-mintage"
+                }
+            ],
+            "type_asset": null
+        }
+    },
+    "uusdlr": {
+        "nobletestnet": {
+            "address": null,
+            "aliases": [
+                "microusdlr"
+            ],
+            "chain": "nobletestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "uusdlr",
+            "description": "USDLR is a fiat-backed stablecoin issued by Stable. Stable pays DeFi protocols who distribute USDLR.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.svg"
+            },
+            "name": "USDLR by Stable",
+            "symbol": "USDLR",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "uusdlr",
+                        "chain_name": "noble"
+                    },
+                    "provider": "Stable",
                     "type": "test-mintage"
                 }
             ],
