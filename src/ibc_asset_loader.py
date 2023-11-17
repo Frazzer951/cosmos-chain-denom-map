@@ -6,8 +6,12 @@ from tqdm_logging import setup_logger
 logger = setup_logger("ibc_asset_loader")
 
 
-def find_asset_files(root_dir, exclude_dirs=[]):
+def find_asset_files(root_dir, exclude_dirs=None):
     """Find asset files in the specified directory while excluding some."""
+
+    if exclude_dirs is None:
+        exclude_dirs = []
+
     asset_files = []
 
     for dirpath, dirnames, filenames in os.walk(root_dir):

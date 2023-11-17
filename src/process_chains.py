@@ -1,6 +1,4 @@
-import argparse
 import json
-import os
 
 from tqdm import tqdm
 
@@ -121,10 +119,8 @@ def process_ibc_files():
     export_file("ibc_map_min", ibc_map, True)
 
 
-def main(process_chain=True, process_ibc=True, force_update=False):
+def main(process_chain=True, process_ibc=True):
     """Main function to orchestrate the processing of chain and IBC data."""
-    if force_update and os.path.exists("commit_id.json"):
-        os.remove("commit_id.json")
 
     if not download_chain_registry():
         logger.info("No new changes to process.")
@@ -140,14 +136,5 @@ def main(process_chain=True, process_ibc=True, force_update=False):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process chains.")
-    parser.add_argument(
-        "-f",
-        "--force_update",
-        action="store_true",
-        help="Force update flag (default: False)",
-    )
-    args = parser.parse_args()
-
-    main(force_update=args.force_update)
-    # main(process_chain=True, process_ibc=True, force_update=True)
+    main()
+    # main(process_chain=True, process_ibc=True)

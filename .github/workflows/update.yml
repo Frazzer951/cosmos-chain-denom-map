@@ -30,11 +30,7 @@ jobs:
 
       - name: Run Python script
         run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            python src/process_chains.py -f
-          else
-            python src/process_chains.py
-          fi
+          python src/process_chains.py
 
       - name: Check for changed files
         id: check_files

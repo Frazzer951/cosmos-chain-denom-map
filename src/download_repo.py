@@ -1,4 +1,3 @@
-import json
 import os
 import subprocess
 
@@ -10,7 +9,6 @@ from tqdm_logging import setup_logger
 REPO_OWNER = "cosmos"
 REPO_NAME = "chain-registry"
 DESTINATION_FOLDER = "./chain-registry"
-COMMIT_ID_FILE = "commit_id.json"
 
 logger = setup_logger("download_repo")
 
@@ -42,33 +40,16 @@ def clone_or_update_repo(repo_owner=REPO_OWNER, repo_name=REPO_NAME, destination
     return True
 
 
-def get_saved_commit_id(filename=COMMIT_ID_FILE):
-    if os.path.exists(filename):
-        with open(filename, "r") as f:
-            return json.load(f).get("last_commit_id")
-    return None
-
-
-def save_commit_id(filename=COMMIT_ID_FILE, commit_id=None):
-    with open(filename, "w") as f:
-        json.dump({"last_commit_id": commit_id}, f)
-
-
 def download_chain_registry():
     latest_commit_id = get_latest_commit_id()
     if not latest_commit_id:
         return False
 
-    saved_commit_id = get_saved_commit_id()
-    if saved_commit_id != latest_commit_id:
-        if not clone_or_update_repo():
-            return False
-        save_commit_id(commit_id=latest_commit_id)
-        logger.info("Repository has been updated")
-        return True
-    else:
-        logger.info("Repository has not been updated since the last check.")
+    if not clone_or_update_repo():
         return False
+
+    logger.info("Repository has been updated")
+    return True
 
 
 if __name__ == "__main__":
