@@ -879,7 +879,7 @@
                 "wsteth-wei"
             ],
             "chain": "ethereum",
-            "coingecko_id": null,
+            "coingecko_id": "wrapped-steth",
             "decimals": 18,
             "denom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
             "description": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",
@@ -18291,6 +18291,43 @@
                 }
             ],
             "type_asset": null
+        },
+        "terra2": {
+            "address": null,
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": -18,
+            "denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+                        "chain_name": "neutron"
+                    }
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Wrapped Lido Staked Ether",
+            "symbol": "wstETH",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-229",
+                        "path": "transfer/channel-229/factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+                        "chain_name": "neutron",
+                        "channel_id": "channel-25"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "factory/osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm/uibcx": {
@@ -23141,6 +23178,47 @@
                         "base_denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
                         "chain_name": "osmosis",
                         "channel_id": "channel-526"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/a356ec90dc3ae43d485514da7260edc7abb5cfaa0654ce2524c739392975ad3c": {
+        "terra2": {
+            "address": null,
+            "aliases": [
+                "wstETH"
+            ],
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+                        "chain_name": "neutron"
+                    }
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Wrapped Lido Staked Ether",
+            "symbol": "wstETH",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-229",
+                        "path": "transfer/channel-229/factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
+                        "chain_name": "neutron",
+                        "channel_id": "channel-25"
                     },
                     "type": "ibc"
                 }
@@ -48715,7 +48793,7 @@
             "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
             "aliases": null,
             "chain": "ethereum",
-            "coingecko_id": null,
+            "coingecko_id": "wrapped-steth",
             "decimals": 0,
             "denom": "wsteth",
             "description": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",

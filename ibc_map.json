@@ -1649,6 +1649,9 @@
             "channel-2": [
                 "axelar"
             ],
+            "channel-25": [
+                "terra2"
+            ],
             "channel-3": [
                 "kujira"
             ],
@@ -2879,6 +2882,9 @@
             ],
             "channel-204": [
                 "stafihub"
+            ],
+            "channel-229": [
+                "neutron"
             ],
             "channel-253": [
                 "noble"
