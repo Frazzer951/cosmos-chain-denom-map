@@ -12,10 +12,10 @@ jobs:
     outputs:
       should_skip: ${{ steps.check_files.outputs.should_skip }}
     steps:
-      - name: checkout registry
+      - name: Checkout Repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 2
 
       - name: Set up Python
         uses: actions/setup-python@v4
