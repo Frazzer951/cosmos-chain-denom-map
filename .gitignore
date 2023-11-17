@@ -163,3 +163,4 @@ cython_debug/
 chain-registry/
 .vscode/
 .python-version
+changed_files.txt

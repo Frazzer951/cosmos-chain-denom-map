@@ -9,6 +9,8 @@ jobs:
   check_for_updates:
     name: Update Denom Map and IBC Map
     runs-on: ubuntu-latest
+    outputs:
+      should_skip: ${{ steps.check_files.outputs.should_skip }}
     steps:
       - name: checkout registry
         uses: actions/checkout@v4
@@ -34,7 +36,19 @@ jobs:
             python src/process_chains.py
           fi
 
+      - name: Check for changed files
+        id: check_files
+        run: |
+          git diff --name-only HEAD^ HEAD > changed_files.txt
+          if grep -Fxq "commit_id.json" changed_files.txt && [ $(wc -l < changed_files.txt) -eq 1 ]; then
+            echo "Only commit_id.json changed. Skipping commit."
+            echo "::set-output name=should_skip::true"
+          else
+            echo "::set-output name=should_skip::false"
+          fi
+
       - name: Add Commit Push
+        if: steps.check_files.outputs.should_skip != 'true'
         uses: devops-infra/action-commit-push@master
         with:
           github_token: "${{ secrets.GITHUB_TOKEN }}"
