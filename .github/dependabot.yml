@@ -12,6 +12,10 @@ updates:
       github-actions:
         patterns:
           - "*"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-patch"
 
   - package-ecosystem: "pip"
     directory: "/"
@@ -24,3 +28,8 @@ updates:
       pip:
         patterns:
           - "*"
+    versioning-strategy: "increase-if-necessary"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-patch"
