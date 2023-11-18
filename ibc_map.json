@@ -194,6 +194,9 @@
             ],
             "channel-50": [
                 "terra2"
+            ],
+            "channel-61": [
+                "neutron"
             ]
         },
         "wasm.archway10f3aasgsnpv84ymjyld50jayc4ecu267sdpjamauwm8nvxlzex9qj4dkwr": {
@@ -260,6 +263,9 @@
             "channel-109": [
                 "empowerchain"
             ],
+            "channel-11": [
+                "terra2"
+            ],
             "channel-111": [
                 "archway"
             ],
@@ -272,8 +278,14 @@
             "channel-120": [
                 "coreum"
             ],
+            "channel-125": [
+                "celestia"
+            ],
             "channel-14": [
                 "kujira"
+            ],
+            "channel-2": [
+                "cosmoshub"
             ],
             "channel-22": [
                 "evmos"
@@ -427,6 +439,9 @@
     },
     "celestia": {
         "transfer": {
+            "channel-1": [
+                "axelar"
+            ],
             "channel-14": [
                 "secretnetwork"
             ],
@@ -649,6 +664,9 @@
             ],
             "channel-292": [
                 "evmos"
+            ],
+            "channel-293": [
+                "axelar"
             ],
             "channel-306": [
                 "omniflixhub"
@@ -1660,6 +1678,9 @@
             ],
             "channel-35": [
                 "celestia"
+            ],
+            "channel-41": [
+                "archway"
             ],
             "channel-5": [
                 "terra2"
@@ -2906,6 +2927,9 @@
             ],
             "channel-5": [
                 "kujira"
+            ],
+            "channel-6": [
+                "axelar"
             ],
             "channel-77": [
                 "acrechain"
