@@ -1030,6 +1030,22 @@
             ]
         }
     },
+    "furya": {
+        "transfer": {
+            "channel-0": [
+                "kujira"
+            ],
+            "channel-1": [
+                "terra2"
+            ],
+            "channel-2": [
+                "juno"
+            ],
+            "channel-3": [
+                "osmosis"
+            ]
+        }
+    },
     "fxcore": {
         "transfer": {
             "channel-10": [
@@ -1338,6 +1354,9 @@
             "channel-37": [
                 "dig"
             ],
+            "channel-417": [
+                "furya"
+            ],
             "channel-48": [
                 "secretnetwork"
             ],
@@ -1441,6 +1460,9 @@
             ],
             "channel-118": [
                 "dydx"
+            ],
+            "channel-119": [
+                "furya"
             ],
             "channel-19": [
                 "assetmantle"
@@ -1682,6 +1704,9 @@
             "channel-41": [
                 "archway"
             ],
+            "channel-42": [
+                "nomic"
+            ],
             "channel-5": [
                 "terra2"
             ],
@@ -1803,6 +1828,9 @@
             ],
             "channel-1": [
                 "osmosis"
+            ],
+            "channel-2": [
+                "neutron"
             ]
         }
     },
@@ -2187,6 +2215,9 @@
             ],
             "channel-8277": [
                 "nois"
+            ],
+            "channel-8690": [
+                "furya"
             ],
             "channel-87": [
                 "comdex"
@@ -2912,6 +2943,9 @@
             ],
             "channel-265": [
                 "archway"
+            ],
+            "channel-271": [
+                "furya"
             ],
             "channel-3": [
                 "secretnetwork"

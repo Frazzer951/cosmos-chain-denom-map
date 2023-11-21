@@ -3177,6 +3177,35 @@
             "type_asset": "cw20"
         }
     },
+    "ampere": {
+        "bostrom": {
+            "address": null,
+            "aliases": [
+                "ampere"
+            ],
+            "chain": "bostrom",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ampere",
+            "description": "The resource token of Bostrom",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/ampere.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/ampere.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/ampere.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/ampere.svg"
+            },
+            "name": "Bostrom Ampere",
+            "symbol": "A",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "ampinj": {
         "injective": {
             "address": null,
@@ -7058,7 +7087,9 @@
     "boot": {
         "bostrom": {
             "address": null,
-            "aliases": null,
+            "aliases": [
+                "boot"
+            ],
             "chain": "bostrom",
             "coingecko_id": "bostrom",
             "decimals": 0,
@@ -21625,7 +21656,7 @@
         "bostrom": {
             "address": null,
             "aliases": [
-                "HYDROGEN"
+                "hydrogen"
             ],
             "chain": "bostrom",
             "coingecko_id": null,
@@ -24104,6 +24135,40 @@
                         "base_denom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
                         "chain_name": "osmosis",
                         "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/ddc3c60ee82bf544f1a0c6a983ff500ef1c14de20071a5e1e7c0fb470e36e920": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "usat"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/DDC3C60EE82BF544F1A0C6A983FF500EF1C14DE20071A5E1E7C0FB470E36E920",
+            "description": "NBTC on Neutron",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Nomic NBTC",
+            "symbol": "SAT",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-42",
+                        "path": "transfer/channel-42/usat"
+                    },
+                    "counterparty": {
+                        "base_denom": "usat",
+                        "chain_name": "nomic",
+                        "channel_id": "channel-2"
                     },
                     "type": "ibc"
                 }
@@ -28295,6 +28360,64 @@
             "symbol": "MILE",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "milliampere": {
+        "bostrom": {
+            "address": null,
+            "aliases": [
+                "milliampere"
+            ],
+            "chain": "bostrom",
+            "coingecko_id": null,
+            "decimals": 3,
+            "denom": "milliampere",
+            "description": "The resource token of Bostrom",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/ampere.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/ampere.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/ampere.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/ampere.svg"
+            },
+            "name": "Bostrom Ampere",
+            "symbol": "A",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "millivolt": {
+        "bostrom": {
+            "address": null,
+            "aliases": [
+                "millivolt"
+            ],
+            "chain": "bostrom",
+            "coingecko_id": null,
+            "decimals": 3,
+            "denom": "millivolt",
+            "description": "The resource token of Bostrom",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/volt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/volt.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/volt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/volt.svg"
+            },
+            "name": "Bostrom Volt",
+            "symbol": "V",
+            "traces": null,
+            "type_asset": null
         }
     },
     "mimet": {
@@ -33722,6 +33845,38 @@
             "type_asset": null
         }
     },
+    "sat": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sat",
+            "description": "NBTC on Neutron",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Nomic NBTC",
+            "symbol": "SAT",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-42",
+                        "path": "transfer/channel-42/usat"
+                    },
+                    "counterparty": {
+                        "base_denom": "usat",
+                        "chain_name": "nomic",
+                        "channel_id": "channel-2"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "sayve": {
         "terra": {
             "address": "terra14v9wrjs55qsn9lkvylsqela3w2ytwxzkycqzcr",
@@ -37939,6 +38094,35 @@
             "symbol": "TOAD",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "tocyb": {
+        "bostrom": {
+            "address": null,
+            "aliases": [
+                "tocyb"
+            ],
+            "chain": "bostrom",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "tocyb",
+            "description": "The staking token of Cyber",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/tocyb.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/tocyb.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/tocyb.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/tocyb.svg"
+            },
+            "name": "Bostrom Tocyb",
+            "symbol": "TOCYB",
+            "traces": null,
+            "type_asset": null
         }
     },
     "tori": {
@@ -46055,6 +46239,35 @@
             "symbol": "VOID",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "volt": {
+        "bostrom": {
+            "address": null,
+            "aliases": [
+                "volt"
+            ],
+            "chain": "bostrom",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "volt",
+            "description": "The resource token of Bostrom",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/volt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/volt.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/volt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/volt.svg"
+            },
+            "name": "Bostrom Volt",
+            "symbol": "V",
+            "traces": null,
+            "type_asset": null
         }
     },
     "vust": {
