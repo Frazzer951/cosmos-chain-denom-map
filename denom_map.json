@@ -21681,6 +21681,29 @@
             "type_asset": null
         }
     },
+    "hz1jovnivvgrgniiyveozevgz58xau3rkwx8eacqbct3": {
+        "solana": {
+            "address": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+            "aliases": null,
+            "chain": "solana",
+            "coingecko_id": "pyth-network",
+            "decimals": 6,
+            "denom": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+            "description": "Pyth is a protocol that allows market participants to publish pricing information on-chain for others to use. The protocol is an interaction between three parties:\n-Publishers submit pricing information to Pyth's oracle program. Pyth has multiple data publishers for every product to improve the accuracy and robustness of the system.\n-Pyth's oracle program combines publishers' data to produce a single aggregate price and confidence interval.\nConsumers read the price information produced by the oracle program.\n\nPyth's oracle program runs simultaneously on both Solana mainnet and Pythnet. Each instance of the program is responsible for its own set of price feeds. Solana Price Feeds are available for use by Solana protocols. In this case, since the oracle program itself runs on Solana, the resulting prices are immediately available to consumers without requiring any additional work. Pythnet Price Feeds are available on 12+ blockchains. The prices constructed on Pythnet are transferred cross-chain to reach consumers on these blockchains.\n\nIn both cases, the critical component of the system is the oracle program that combines the data from each individual publisher. This program maintains a number of different Solana accounts that list the products on Pyth and their current price data. Publishers publish their price and confidence by interacting with the oracle program on every slot. The program stores this information in its accounts. The first price update in a slot additionally triggers price aggregation, which combines the price data from the previous slot into a single aggregate price and confidence interval. This aggregate price is written to the Solana account where it is readable by other on-chain programs and available for transmission to other blockchains.",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pyth.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Pyth Network",
+            "symbol": "PYTH",
+            "traces": null,
+            "type_asset": "erc20"
+        }
+    },
     "ibc/0471f1c4e7afd3f07702bef6dc365268d64570f7c1fdc98ea6098dd6de59817b": {
         "quasar": {
             "address": null,
@@ -32690,6 +32713,29 @@
             "symbol": "PUG",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "pyth": {
+        "solana": {
+            "address": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+            "aliases": null,
+            "chain": "solana",
+            "coingecko_id": "pyth-network",
+            "decimals": 0,
+            "denom": "pyth",
+            "description": "Pyth is a protocol that allows market participants to publish pricing information on-chain for others to use. The protocol is an interaction between three parties:\n-Publishers submit pricing information to Pyth's oracle program. Pyth has multiple data publishers for every product to improve the accuracy and robustness of the system.\n-Pyth's oracle program combines publishers' data to produce a single aggregate price and confidence interval.\nConsumers read the price information produced by the oracle program.\n\nPyth's oracle program runs simultaneously on both Solana mainnet and Pythnet. Each instance of the program is responsible for its own set of price feeds. Solana Price Feeds are available for use by Solana protocols. In this case, since the oracle program itself runs on Solana, the resulting prices are immediately available to consumers without requiring any additional work. Pythnet Price Feeds are available on 12+ blockchains. The prices constructed on Pythnet are transferred cross-chain to reach consumers on these blockchains.\n\nIn both cases, the critical component of the system is the oracle program that combines the data from each individual publisher. This program maintains a number of different Solana accounts that list the products on Pyth and their current price data. Publishers publish their price and confidence by interacting with the oracle program on every slot. The program stores this information in its accounts. The first price update in a slot additionally triggers price aggregation, which combines the price data from the previous slot into a single aggregate price and confidence interval. This aggregate price is written to the Solana account where it is readable by other on-chain programs and available for transmission to other blockchains.",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pyth.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Pyth Network",
+            "symbol": "PYTH",
+            "traces": null,
+            "type_asset": "erc20"
         }
     },
     "qatom": {
