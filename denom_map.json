@@ -4790,7 +4790,7 @@
             "coingecko_id": "filecoin",
             "decimals": 18,
             "denom": "attoFIL",
-            "description": "Native token of Filecoin",
+            "description": "Filecoin is a decentralized storage network designed to turn cloud storage into an algorithmic market. The network facilitates open markets for storing and retrieving data, where users pay to store their files on storage miners. Filecoin is built on top of the InterPlanetary File System (IPFS), a peer-to-peer storage network. Filecoin aims to store data in a decentralized manner, unlike traditional cloud storage providers.\n\nParticipants in the Filecoin network are incentivized to act honestly and store as much data as possible because they earn the Filecoin cryptocurrency (FIL) in exchange for their storage services. This setup ensures the integrity and accessibility of data stored. Filecoin's model allows for a variety of storage options, including long-term archival storage and more rapid retrieval services, making it a versatile solution for decentralized data storage. The project, developed by Protocol Labs, also focuses on ensuring that data is stored reliably and efficiently.",
             "ibc": null,
             "images": [
                 {
@@ -17381,7 +17381,7 @@
             "coingecko_id": "ethereum",
             "decimals": 0,
             "denom": "eth",
-            "description": "Ether is the native fee token of the Ethereum network.",
+            "description": "Ethereum (ETH) is a decentralized, open-source blockchain system featuring smart contract functionality. It's the native cryptocurrency of the Ethereum platform, often regarded as the second most popular digital currency after Bitcoin. Ethereum was proposed in late 2013 and development was crowdfunded in 2014, leading to its network going live on 30 July 2015.\n\nETH, as a digital currency, is used for a variety of purposes within the Ethereum ecosystem, including the execution of decentralized smart contracts and as a mode of payment. Unlike Bitcoin, Ethereum was designed to be a platform for applications that can operate without the need for intermediaries, using blockchain technology. This has made Ethereum a leading platform for various applications, including decentralized finance (DeFi), non-fungible tokens (NFTs), and more. Ethereum is constantly evolving, with a significant upgrade termed Ethereum 2.0, which aims to improve its scalability, security, and sustainability.",
             "ibc": null,
             "images": [
                 {
@@ -18051,6 +18051,31 @@
             },
             "name": "USK",
             "symbol": "USK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/kujira1qzu3up50auxhqyzfq56znuj8n38q2ra7daaf9ef7vg8gu66jh4fqd2wd2y/urcpt": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/kujira1qzu3up50auxhqyzfq56znuj8n38q2ra7daaf9ef7vg8gu66jh4fqd2wd2y/urcpt",
+            "description": "Quark's auto-compounding MNTA derivative",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qcmnta.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qcmnta.svg"
+            },
+            "name": "qcMNTA",
+            "symbol": "qcMNTA",
             "traces": null,
             "type_asset": null
         }
@@ -19295,7 +19320,7 @@
             "coingecko_id": "filecoin",
             "decimals": 0,
             "denom": "fil",
-            "description": "Native token of Filecoin",
+            "description": "Filecoin is a decentralized storage network designed to turn cloud storage into an algorithmic market. The network facilitates open markets for storing and retrieving data, where users pay to store their files on storage miners. Filecoin is built on top of the InterPlanetary File System (IPFS), a peer-to-peer storage network. Filecoin aims to store data in a decentralized manner, unlike traditional cloud storage providers.\n\nParticipants in the Filecoin network are incentivized to act honestly and store as much data as possible because they earn the Filecoin cryptocurrency (FIL) in exchange for their storage services. This setup ensures the integrity and accessibility of data stored. Filecoin's model allows for a variety of storage options, including long-term archival storage and more rapid retrieval services, making it a versatile solution for decentralized data storage. The project, developed by Protocol Labs, also focuses on ensuring that data is stored reliably and efficiently.",
             "ibc": null,
             "images": [
                 {
@@ -21175,7 +21200,7 @@
             "coingecko_id": "ethereum",
             "decimals": 9,
             "denom": "gwei",
-            "description": "Ether is the native fee token of the Ethereum network.",
+            "description": "Ethereum (ETH) is a decentralized, open-source blockchain system featuring smart contract functionality. It's the native cryptocurrency of the Ethereum platform, often regarded as the second most popular digital currency after Bitcoin. Ethereum was proposed in late 2013 and development was crowdfunded in 2014, leading to its network going live on 30 July 2015.\n\nETH, as a digital currency, is used for a variety of purposes within the Ethereum ecosystem, including the execution of decentralized smart contracts and as a mode of payment. Unlike Bitcoin, Ethereum was designed to be a platform for applications that can operate without the need for intermediaries, using blockchain technology. This has made Ethereum a leading platform for various applications, including decentralized finance (DeFi), non-fungible tokens (NFTs), and more. Ethereum is constantly evolving, with a significant upgrade termed Ethereum 2.0, which aims to improve its scalability, security, and sustainability.",
             "ibc": null,
             "images": [
                 {
@@ -32843,6 +32868,31 @@
             },
             "name": "qcKUJI",
             "symbol": "qcKUJI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "qcmnta": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "qcMNTA",
+            "description": "Quark's auto-compounding MNTA derivative",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qcmnta.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qcmnta.svg"
+            },
+            "name": "qcMNTA",
+            "symbol": "qcMNTA",
             "traces": null,
             "type_asset": null
         }
@@ -47202,7 +47252,7 @@
             "coingecko_id": "ethereum",
             "decimals": 18,
             "denom": "wei",
-            "description": "Ether is the native fee token of the Ethereum network.",
+            "description": "Ethereum (ETH) is a decentralized, open-source blockchain system featuring smart contract functionality. It's the native cryptocurrency of the Ethereum platform, often regarded as the second most popular digital currency after Bitcoin. Ethereum was proposed in late 2013 and development was crowdfunded in 2014, leading to its network going live on 30 July 2015.\n\nETH, as a digital currency, is used for a variety of purposes within the Ethereum ecosystem, including the execution of decentralized smart contracts and as a mode of payment. Unlike Bitcoin, Ethereum was designed to be a platform for applications that can operate without the need for intermediaries, using blockchain technology. This has made Ethereum a leading platform for various applications, including decentralized finance (DeFi), non-fungible tokens (NFTs), and more. Ethereum is constantly evolving, with a significant upgrade termed Ethereum 2.0, which aims to improve its scalability, security, and sustainability.",
             "ibc": null,
             "images": [
                 {

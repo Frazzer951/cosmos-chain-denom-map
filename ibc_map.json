@@ -2231,6 +2231,9 @@
             "channel-880": [
                 "qwoyn"
             ],
+            "channel-8945": [
+                "source"
+            ],
             "channel-95": [
                 "bostrom"
             ]
@@ -2703,6 +2706,13 @@
             ],
             "channel-71": [
                 "stride"
+            ]
+        }
+    },
+    "source": {
+        "transfer": {
+            "channel-0": [
+                "osmosis"
             ]
         }
     },
