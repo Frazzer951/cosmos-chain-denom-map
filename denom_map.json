@@ -794,7 +794,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg"
             },
-            "name": "PEPE - Pepe",
+            "name": "Pepe",
             "symbol": "PEPE",
             "traces": null,
             "type_asset": "erc20"
@@ -8006,7 +8006,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CDT.svg"
             },
-            "name": "CDT",
+            "name": "CDT Stablecoin",
             "symbol": "CDT",
             "traces": null,
             "type_asset": null
@@ -16067,6 +16067,31 @@
             "type_asset": null
         }
     },
+    "dear": {
+        "deardogetestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "deardogetestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "dear",
+            "description": "The native staking and governance token of the Theta testnet version of the Dear Doge Testnet.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/deardogetestnet/images/deardoge.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/deardogetestnet/images/deardoge.png"
+            },
+            "name": "Dear Doge Testnet",
+            "symbol": "DEAR",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "dec": {
         "decentr": {
             "address": null,
@@ -17895,7 +17920,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/mnta.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/mnta.svg"
             },
-            "name": "MNTA",
+            "name": "MantaDAO",
             "symbol": "MNTA",
             "traces": null,
             "type_asset": null
@@ -17970,7 +17995,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nstk.svg"
             },
-            "name": "NSTK",
+            "name": "Unstake Fi",
             "symbol": "NSTK",
             "traces": null,
             "type_asset": null
@@ -18405,7 +18430,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ibcx.svg"
             },
-            "name": "IBCX Core <Product of ION DAO>",
+            "name": "IBC Index",
             "symbol": "IBCX",
             "traces": null,
             "type_asset": null
@@ -18530,7 +18555,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CDT.svg"
             },
-            "name": "CDT",
+            "name": "CDT Stablecoin",
             "symbol": "CDT",
             "traces": null,
             "type_asset": null
@@ -18555,7 +18580,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MBRN.svg"
             },
-            "name": "MBRN",
+            "name": "Membrane",
             "symbol": "MBRN",
             "traces": null,
             "type_asset": null
@@ -18582,7 +18607,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stibcx.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stibcx.svg"
             },
-            "name": "stIBCX Core <Product of ION DAO>",
+            "name": "Staked IBCX",
             "symbol": "stIBCX",
             "traces": null,
             "type_asset": null
@@ -21382,7 +21407,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg"
             },
-            "name": "Hard",
+            "name": "Kava Hard",
             "symbol": "HARD",
             "traces": null,
             "type_asset": null
@@ -22011,7 +22036,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
             },
-            "name": "Tether USDt",
+            "name": "Tether USD",
             "symbol": "USDt",
             "traces": [
                 {
@@ -24805,7 +24830,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ibcx.svg"
             },
-            "name": "IBCX Core <Product of ION DAO>",
+            "name": "IBC Index",
             "symbol": "IBCX",
             "traces": null,
             "type_asset": null
@@ -25046,7 +25071,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg"
             },
-            "name": "Ion",
+            "name": "Ion DAO",
             "symbol": "ION",
             "traces": null,
             "type_asset": null
@@ -25923,7 +25948,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
             },
-            "name": "Kuji",
+            "name": "Kujira",
             "symbol": "KUJI",
             "traces": null,
             "type_asset": null
@@ -27581,7 +27606,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MBRN.svg"
             },
-            "name": "MBRN",
+            "name": "Membrane",
             "symbol": "MBRN",
             "traces": null,
             "type_asset": null
@@ -29166,7 +29191,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/mnta.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/mnta.svg"
             },
-            "name": "MNTA",
+            "name": "MantaDAO",
             "symbol": "MNTA",
             "traces": null,
             "type_asset": null
@@ -29615,7 +29640,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg"
             },
-            "name": "Somm",
+            "name": "Sommelier",
             "symbol": "SOMM",
             "traces": null,
             "type_asset": null
@@ -30912,7 +30937,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nstk.svg"
             },
-            "name": "NSTK",
+            "name": "Unstake Fi",
             "symbol": "NSTK",
             "traces": null,
             "type_asset": null
@@ -31903,7 +31928,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg"
             },
-            "name": "PEPE - Pepe",
+            "name": "Pepe",
             "symbol": "PEPE",
             "traces": null,
             "type_asset": "erc20"
@@ -35186,7 +35211,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg"
             },
-            "name": "Somm",
+            "name": "Sommelier",
             "symbol": "SOMM",
             "traces": null,
             "type_asset": null
@@ -35440,7 +35465,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg"
             },
-            "name": "stEVMOS",
+            "name": "Stride Staked EVMOS",
             "symbol": "stEVMOS",
             "traces": [
                 {
@@ -35751,7 +35776,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
             },
-            "name": "stATOM",
+            "name": "Stride Staked ATOM",
             "symbol": "stATOM",
             "traces": [
                 {
@@ -35787,7 +35812,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.svg"
             },
-            "name": "stCMDX",
+            "name": "Stride Staked CMDX",
             "symbol": "stCMDX",
             "traces": [
                 {
@@ -35971,7 +35996,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg"
             },
-            "name": "stEVMOS",
+            "name": "Stride Staked EVMOS",
             "symbol": "stEVMOS",
             "traces": [
                 {
@@ -36007,7 +36032,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stibcx.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stibcx.svg"
             },
-            "name": "stIBCX Core <Product of ION DAO>",
+            "name": "Staked IBCX",
             "symbol": "stIBCX",
             "traces": null,
             "type_asset": null
@@ -36034,7 +36059,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg"
             },
-            "name": "stINJ",
+            "name": "Stride Staked INJ",
             "symbol": "stINJ",
             "traces": [
                 {
@@ -36070,7 +36095,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg"
             },
-            "name": "stJUNO",
+            "name": "Stride Staked JUNO",
             "symbol": "stJUNO",
             "traces": [
                 {
@@ -36388,7 +36413,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg"
             },
-            "name": "stLUNA",
+            "name": "Stride Staked LUNA",
             "symbol": "stLUNA",
             "traces": [
                 {
@@ -36623,7 +36648,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
             },
-            "name": "stOSMO",
+            "name": "Stride Staked OSMO",
             "symbol": "stOSMO",
             "traces": [
                 {
@@ -36778,7 +36803,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg"
             },
-            "name": "stSOMM",
+            "name": "Stride Staked SOMM",
             "symbol": "stSOMM",
             "traces": [
                 {
@@ -36814,7 +36839,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg"
             },
-            "name": "stSTARS",
+            "name": "Stride Staked STARS",
             "symbol": "stSTARS",
             "traces": [
                 {
@@ -36875,7 +36900,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
             },
-            "name": "stATOM",
+            "name": "Stride Staked ATOM",
             "symbol": "stATOM",
             "traces": [
                 {
@@ -36911,7 +36936,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.svg"
             },
-            "name": "stCMDX",
+            "name": "Stride Staked CMDX",
             "symbol": "stCMDX",
             "traces": [
                 {
@@ -36947,7 +36972,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg"
             },
-            "name": "stJUNO",
+            "name": "Stride Staked JUNO",
             "symbol": "stJUNO",
             "traces": [
                 {
@@ -36983,7 +37008,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg"
             },
-            "name": "stLUNA",
+            "name": "Stride Staked LUNA",
             "symbol": "stLUNA",
             "traces": [
                 {
@@ -37019,7 +37044,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.svg"
             },
-            "name": "stUMEE",
+            "name": "Stride Staked UMEE",
             "symbol": "stUMEE",
             "traces": [
                 {
@@ -37055,7 +37080,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
             },
-            "name": "stOSMO",
+            "name": "Stride Staked OSMO",
             "symbol": "stOSMO",
             "traces": [
                 {
@@ -37091,7 +37116,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg"
             },
-            "name": "stSOMM",
+            "name": "Stride Staked SOMM",
             "symbol": "stSOMM",
             "traces": [
                 {
@@ -37127,7 +37152,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg"
             },
-            "name": "stSTARS",
+            "name": "Stride Staked STARS",
             "symbol": "stSTARS",
             "traces": [
                 {
@@ -37163,7 +37188,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.svg"
             },
-            "name": "stUMEE",
+            "name": "Stride Staked UMEE",
             "symbol": "stUMEE",
             "traces": [
                 {
@@ -37299,7 +37324,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg"
             },
-            "name": "Swap",
+            "name": "Kava Swap",
             "symbol": "SWP",
             "traces": null,
             "type_asset": null
@@ -39582,6 +39607,31 @@
             "type_asset": null
         }
     },
+    "udear": {
+        "deardogetestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "deardogetestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "udear",
+            "description": "The native staking and governance token of the Theta testnet version of the Dear Doge Testnet.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/deardogetestnet/images/deardoge.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/deardogetestnet/images/deardoge.png"
+            },
+            "name": "Dear Doge Testnet",
+            "symbol": "DEAR",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "udec": {
         "decentr": {
             "address": null,
@@ -40457,7 +40507,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg"
             },
-            "name": "Ion",
+            "name": "Ion DAO",
             "symbol": "ION",
             "traces": null,
             "type_asset": null
@@ -40939,7 +40989,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
             },
-            "name": "Kuji",
+            "name": "Kujira",
             "symbol": "KUJI",
             "traces": null,
             "type_asset": null
@@ -44374,7 +44424,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
             },
-            "name": "Tether USDt",
+            "name": "Tether USD",
             "symbol": "USDt",
             "traces": [
                 {
@@ -44684,7 +44734,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg"
             },
-            "name": "USDX",
+            "name": "Kava USDX",
             "symbol": "USDX",
             "traces": null,
             "type_asset": null
@@ -44946,7 +44996,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg"
             },
-            "name": "Somm",
+            "name": "Sommelier",
             "symbol": "SOMM",
             "traces": null,
             "type_asset": null
