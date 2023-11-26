@@ -281,6 +281,9 @@
             "channel-125": [
                 "celestia"
             ],
+            "channel-127": [
+                "composable"
+            ],
             "channel-14": [
                 "kujira"
             ],
@@ -556,6 +559,9 @@
             ],
             "channel-3": [
                 "osmosis"
+            ],
+            "channel-46": [
+                "axelar"
             ],
             "channel-5": [
                 "stride"

@@ -2133,7 +2133,12 @@
             "denom": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
             "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets. Stakers of PoS tokens can stake their assets while maintaining the liquidity of these assets. Users earn staking rewards + receive 1:1 pegged staked representative tokens which can be used to generate additional yield.",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
@@ -6147,25 +6152,36 @@
             "address": null,
             "aliases": null,
             "chain": "cronos",
-            "coingecko_id": "crypto-com-chain",
+            "coingecko_id": null,
             "decimals": 18,
             "denom": "basecro",
             "description": "Cronos Chain - Get Instant DApp Portability with EVM Support",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
+                    "image_sync": {
+                        "base_denom": "basecro",
+                        "chain_name": "cryptoorgchain"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
             },
             "name": "Cronos",
             "symbol": "CRO",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "basecro",
+                        "chain_name": "cryptoorgchain"
+                    },
+                    "provider": "Cronos",
+                    "type": "additional-mintage"
+                }
+            ],
             "type_asset": null
         },
         "cryptoorgchain": {
@@ -6179,13 +6195,14 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
             },
             "name": "Cronos",
@@ -8725,25 +8742,36 @@
             "address": null,
             "aliases": null,
             "chain": "cronos",
-            "coingecko_id": "crypto-com-chain",
+            "coingecko_id": null,
             "decimals": 0,
             "denom": "cro",
             "description": "Cronos Chain - Get Instant DApp Portability with EVM Support",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
+                    "image_sync": {
+                        "base_denom": "basecro",
+                        "chain_name": "cryptoorgchain"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
             },
             "name": "Cronos",
             "symbol": "CRO",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "basecro",
+                        "chain_name": "cryptoorgchain"
+                    },
+                    "provider": "Cronos",
+                    "type": "additional-mintage"
+                }
+            ],
             "type_asset": null
         },
         "cryptoorgchain": {
@@ -8757,19 +8785,100 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
             },
             "name": "Cronos",
             "symbol": "CRO",
             "traces": null,
             "type_asset": null
+        },
+        "nolus": {
+            "address": null,
+            "aliases": [],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "cro",
+            "description": "CRO transferred from the Osmosis mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+                        "chain_name": "osmosis"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+            },
+            "name": "CRO",
+            "symbol": "CRO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/transfer/channel-5/basecro"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "cro",
+            "description": "CRO is the native token of the Crypto.org Chain, referred to as Native CRO.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "basecro",
+                        "chain_name": "cryptoorgchain"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+            },
+            "name": "Cronos",
+            "symbol": "CRO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-5",
+                        "path": "transfer/channel-5/basecro"
+                    },
+                    "counterparty": {
+                        "base_denom": "basecro",
+                        "chain_name": "cryptoorgchain",
+                        "channel_id": "channel-10"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "cst": {
@@ -18387,11 +18496,14 @@
                     "image_sync": {
                         "base_denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
                         "chain_name": "neutron"
-                    }
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
+            },
             "name": "Wrapped Lido Staked Ether",
             "symbol": "wstETH",
             "traces": [
@@ -21747,7 +21859,9 @@
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pyth.svg"
+            },
             "name": "Pyth Network",
             "symbol": "PYTH",
             "traces": null,
@@ -21873,6 +21987,52 @@
                         "base_denom": "ustars",
                         "chain_name": "stargaze",
                         "channel_id": "channel-123"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/11e3cf372e065acb1a39c531a3c7e7e03f60b5d0653ad2139d31128acd2772b5": {
+        "nolus": {
+            "address": null,
+            "aliases": [
+                "ustars"
+            ],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/11E3CF372E065ACB1A39C531A3C7E7E03F60B5D0653AD2139D31128ACD2772B5",
+            "description": "STARS transferred from the Osmosis mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+            },
+            "name": "STARS",
+            "symbol": "STARS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/transfer/channel-75/ustars"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-783"
                     },
                     "type": "ibc"
                 }
@@ -22686,6 +22846,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/6c349f0eb135c5fa99301758f35b87db88403d690e5e314ab080401fee4066e5": {
+        "nolus": {
+            "address": null,
+            "aliases": [
+                "utia"
+            ],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
+            "description": "TIA transferred from the Osmosis mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            },
+            "name": "TIA",
+            "symbol": "TIA",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/transfer/channel-6994/utia"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/6cdd4663f2f09cd62285e2d45891fc149a3568e316ce3ebbe201a71a78a69388": {
         "nolus": {
             "address": null,
@@ -23245,6 +23451,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/987c17b11abc2b20019178ace62929fe9840202ce79498e29fe8e5cb02b7c0a4": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "ustars"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
+            "description": "The native token of Stargaze",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ustars",
+                        "chain_name": "stargaze"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+            },
+            "name": "Stargaze",
+            "symbol": "STARS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-75",
+                        "path": "transfer/channel-75/ustars"
+                    },
+                    "counterparty": {
+                        "base_denom": "ustars",
+                        "chain_name": "stargaze",
+                        "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/9bf31153f7e37f687c75a2f310e7a4db6e0512b065f709b5eb69fe828133afac": {
         "dyson": {
             "address": null,
@@ -23306,11 +23558,14 @@
                     "image_sync": {
                         "base_denom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
                         "chain_name": "neutron"
-                    }
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
+            },
             "name": "Wrapped Lido Staked Ether",
             "symbol": "wstETH",
             "traces": [
@@ -24227,9 +24482,21 @@
             "denom": "ibc/DDC3C60EE82BF544F1A0C6A983FF500EF1C14DE20071A5E1E7C0FB470E36E920",
             "description": "NBTC on Neutron",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "usat",
+                        "chain_name": "nomic"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+                }
+            ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+            },
             "name": "Nomic NBTC",
             "symbol": "SAT",
             "traces": [
@@ -24242,6 +24509,94 @@
                         "base_denom": "usat",
                         "chain_name": "nomic",
                         "channel_id": "channel-2"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/e1bcc0f7b932e654b1a930f72b76c0678d55095387e2a4d8f00e941a8f82ee48": {
+        "nolus": {
+            "address": null,
+            "aliases": [
+                "basecro"
+            ],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 8,
+            "denom": "ibc/E1BCC0F7B932E654B1A930F72B76C0678D55095387E2A4D8F00E941A8F82EE48",
+            "description": "CRO transferred from the Osmosis mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+                        "chain_name": "osmosis"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+            },
+            "name": "CRO",
+            "symbol": "CRO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/transfer/channel-5/basecro"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/e6931f78057f7cc5da0fd6cef82ff39373a6e0452bf1fd76910b93292cf356c1": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "basecro"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 8,
+            "denom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+            "description": "CRO is the native token of the Crypto.org Chain, referred to as Native CRO.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "basecro",
+                        "chain_name": "cryptoorgchain"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+            },
+            "name": "Cronos",
+            "symbol": "CRO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-5",
+                        "path": "transfer/channel-5/basecro"
+                    },
+                    "counterparty": {
+                        "base_denom": "basecro",
+                        "chain_name": "cryptoorgchain",
+                        "channel_id": "channel-10"
                     },
                     "type": "ibc"
                 }
@@ -32613,7 +32968,12 @@
             "denom": "pstake",
             "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets. Stakers of PoS tokens can stake their assets while maintaining the liquidity of these assets. Users earn staking rewards + receive 1:1 pegged staked representative tokens which can be used to generate additional yield.",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
@@ -32781,7 +33141,9 @@
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/pyth.svg"
+            },
             "name": "Pyth Network",
             "symbol": "PYTH",
             "traces": null,
@@ -33976,9 +34338,21 @@
             "denom": "sat",
             "description": "NBTC on Neutron",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "usat",
+                        "chain_name": "nomic"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+                }
+            ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+            },
             "name": "Nomic NBTC",
             "symbol": "SAT",
             "traces": [
@@ -35557,6 +35931,90 @@
                         "base_denom": "ustars",
                         "chain_name": "stargaze",
                         "channel_id": "channel-123"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "nolus": {
+            "address": null,
+            "aliases": [],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stars",
+            "description": "STARS transferred from the Osmosis mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+            },
+            "name": "STARS",
+            "symbol": "STARS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/transfer/channel-75/ustars"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stars",
+            "description": "The native token of Stargaze",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ustars",
+                        "chain_name": "stargaze"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+            },
+            "name": "Stargaze",
+            "symbol": "STARS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-75",
+                        "path": "transfer/channel-75/ustars"
+                    },
+                    "counterparty": {
+                        "base_denom": "ustars",
+                        "chain_name": "stargaze",
+                        "channel_id": "channel-0"
                     },
                     "type": "ibc"
                 }
@@ -37941,6 +38399,48 @@
                         "base_denom": "utia",
                         "chain_name": "celestia",
                         "channel_id": "channel-8"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "nolus": {
+            "address": null,
+            "aliases": [],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "tia",
+            "description": "TIA transferred from the Osmosis mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            },
+            "name": "TIA",
+            "symbol": "TIA",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/transfer/channel-6994/utia"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-783"
                     },
                     "type": "ibc"
                 }
