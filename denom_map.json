@@ -453,6 +453,31 @@
             "type_asset": "erc20"
         }
     },
+    "0x2f109021afe75b949429fe30523ee7c0d5b27207": {
+        "ethereum": {
+            "address": "0x2F109021aFe75B949429fe30523Ee7C0D5B27207",
+            "aliases": [],
+            "chain": "ethereum",
+            "coingecko_id": "occamfi",
+            "decimals": 18,
+            "denom": "0x2F109021aFe75B949429fe30523Ee7C0D5B27207",
+            "description": "The OCC token acts as the fuel for the OccamRazer launchpad and it is indirectly used as well on the DAO governance layer.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/occamfi.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/occamfi.png"
+            },
+            "name": "OccamFi",
+            "symbol": "OCC",
+            "traces": null,
+            "type_asset": "erc20"
+        }
+    },
     "0x4914886dbb8aad7a7456d471eaab10b06d42348d": {
         "avalanche": {
             "address": "0x4914886dbb8aad7a7456d471eaab10b06d42348d",
@@ -20794,6 +20819,44 @@
             "type_asset": null
         }
     },
+    "gocc": {
+        "gravitybridge": {
+            "address": null,
+            "aliases": null,
+            "chain": "gravitybridge",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "gocc",
+            "description": "Gravity Bridge OCC",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x2F109021aFe75B949429fe30523Ee7C0D5B27207",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/occamfi.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/occamfi.png"
+            },
+            "name": "OccamFi",
+            "symbol": "OCC",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x2F109021aFe75B949429fe30523Ee7C0D5B27207",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Gravity Bridge",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "gohm": {
         "terra": {
             "address": "terra1fpfn2kkr8mv390wx4dtpfk3vkjx9ch3thvykl3",
@@ -20881,6 +20944,44 @@
                 {
                     "counterparty": {
                         "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Gravity Bridge",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
+    "gravity0x2f109021afe75b949429fe30523ee7c0d5b27207": {
+        "gravitybridge": {
+            "address": null,
+            "aliases": null,
+            "chain": "gravitybridge",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "gravity0x2F109021aFe75B949429fe30523Ee7C0D5B27207",
+            "description": "Gravity Bridge OCC",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x2F109021aFe75B949429fe30523Ee7C0D5B27207",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/occamfi.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/occamfi.png"
+            },
+            "name": "OccamFi",
+            "symbol": "OCC",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x2F109021aFe75B949429fe30523Ee7C0D5B27207",
                         "chain_name": "ethereum"
                     },
                     "provider": "Gravity Bridge",
@@ -31504,6 +31605,31 @@
             "type_asset": null
         }
     },
+    "occ": {
+        "ethereum": {
+            "address": "0x2F109021aFe75B949429fe30523Ee7C0D5B27207",
+            "aliases": null,
+            "chain": "ethereum",
+            "coingecko_id": "occamfi",
+            "decimals": 0,
+            "denom": "occ",
+            "description": "The OCC token acts as the fuel for the OccamRazer launchpad and it is indirectly used as well on the DAO governance layer.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/occamfi.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/occamfi.png"
+            },
+            "name": "OccamFi",
+            "symbol": "OCC",
+            "traces": null,
+            "type_asset": "erc20"
+        }
+    },
     "octa": {
         "octa": {
             "address": null,
@@ -35406,6 +35532,25 @@
         }
     },
     "six": {
+        "six": {
+            "address": null,
+            "aliases": null,
+            "chain": "six",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "six",
+            "description": "The native staking token of the SIX Protocol.",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png"
+            },
+            "name": "Six token",
+            "symbol": "SIX",
+            "traces": null,
+            "type_asset": null
+        },
         "sixtestnet": {
             "address": null,
             "aliases": null,
@@ -45422,6 +45567,25 @@
         }
     },
     "usix": {
+        "six": {
+            "address": null,
+            "aliases": null,
+            "chain": "six",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "usix",
+            "description": "The native staking token of the SIX Protocol.",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png"
+            },
+            "name": "Six token",
+            "symbol": "SIX",
+            "traces": null,
+            "type_asset": null
+        },
         "sixtestnet": {
             "address": null,
             "aliases": null,
