@@ -16974,15 +16974,18 @@
             "ibc": null,
             "images": [
                 {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
-                    "theme": {
-                        "circle": true
-                    }
+                    "image_sync": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
             },
             "name": "DYDX",
             "symbol": "DYDX",
@@ -18995,6 +18998,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x2::sui::SUI",
+                        "chain_name": "sui"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/sui/images/sui.svg"
                 }
             ],
@@ -19065,6 +19072,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                        "chain_name": "ethereum"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
                 }
             ],
@@ -19099,6 +19110,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x1::aptos_coin::AptosCoin",
+                        "chain_name": "aptos"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/aptos.svg"
                 }
             ],
@@ -19133,6 +19148,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                        "chain_name": "ethereum"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
                 }
             ],
@@ -19145,7 +19164,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                        "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -19167,6 +19186,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "So11111111111111111111111111111111111111112",
+                        "chain_name": "solana"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
                 }
             ],
@@ -19201,6 +19224,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+                        "chain_name": "solana"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bonk.png"
                 }
             ],
@@ -19235,6 +19262,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                        "chain_name": "ethereum"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
                 }
@@ -19249,7 +19280,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                        "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -19271,6 +19302,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x18084fba666a33d37592fa2633fd49a74dd93a88",
+                        "chain_name": "ethereum"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/tbtc.svg"
                 }
             ],
@@ -19283,7 +19318,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+                        "base_denom": "0x18084fba666a33d37592fa2633fd49a74dd93a88",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -19305,6 +19340,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                        "chain_name": "ethereum"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg"
                 }
             ],
@@ -19317,7 +19356,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                        "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -19339,6 +19378,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "chain_name": "ethereum"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
                 }
             ],
@@ -19351,7 +19394,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -22274,6 +22317,50 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/1b708808d372e959cd4839c594960309283424c775f4a038aaebe7f83a988477": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "uqsr"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477",
+            "description": "The native token of Quasar",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uqsr",
+                        "chain_name": "quasar"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png"
+            },
+            "name": "Quasar",
+            "symbol": "QSR",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-688",
+                        "path": "transfer/channel-688/uqsr"
+                    },
+                    "counterparty": {
+                        "base_denom": "uqsr",
+                        "chain_name": "quasar",
+                        "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/20014f963cc9e6488b299622f87b60c6de71632864859ec08b4753478dab2bb8": {
         "kujira": {
             "address": null,
@@ -23185,15 +23272,18 @@
             "ibc": null,
             "images": [
                 {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
-                    "theme": {
-                        "circle": true
-                    }
+                    "image_sync": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
             },
             "name": "DYDX",
             "symbol": "DYDX",
@@ -25214,6 +25304,69 @@
                         "base_denom": "erc20/tether/usdt",
                         "chain_name": "kava",
                         "channel_id": "channel-87"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/fbb3fef80ed2344d821d4f95c31dbfd33e4e31d5324cad94ef756e67b749f668": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec",
+                "yieldeth-wei"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668",
+            "description": "Maximize ETH yield through leveraged staking across Aave, Compound and Morpho and liquidity provision of ETH liquid staking tokens on Uniswap V3.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "wei",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+            },
+            "name": "Real Yield Eth",
+            "symbol": "YieldETH",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "wei",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Seven Seas & DeFine Logic Labs",
+                    "type": "liquid-stake"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
+                {
+                    "chain": {
+                        "channel_id": "channel-208",
+                        "path": "transfer/channel-208/yieldeth-wei"
+                    },
+                    "counterparty": {
+                        "base_denom": "yieldeth-wei",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-3"
                     },
                     "type": "ibc"
                 }
@@ -33519,6 +33672,46 @@
         }
     },
     "qsr": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "qsr",
+            "description": "The native token of Quasar",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uqsr",
+                        "chain_name": "quasar"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png"
+            },
+            "name": "Quasar",
+            "symbol": "QSR",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-688",
+                        "path": "transfer/channel-688/uqsr"
+                    },
+                    "counterparty": {
+                        "base_denom": "uqsr",
+                        "chain_name": "quasar",
+                        "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "quasar": {
             "address": null,
             "aliases": [],
@@ -35541,7 +35734,11 @@
             "denom": "six",
             "description": "The native staking token of the SIX Protocol.",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png"
@@ -45576,7 +45773,11 @@
             "denom": "usix",
             "description": "The native staking token of the SIX Protocol.",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png"
@@ -49350,6 +49551,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x2::sui::SUI",
+                        "chain_name": "sui"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/sui/images/sui.svg"
                 }
             ],
@@ -49420,6 +49625,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                        "chain_name": "ethereum"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
                 }
             ],
@@ -49454,6 +49663,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x1::aptos_coin::AptosCoin",
+                        "chain_name": "aptos"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/aptos.svg"
                 }
             ],
@@ -49488,6 +49701,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                        "chain_name": "ethereum"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
                 }
             ],
@@ -49500,7 +49717,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                        "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -49522,6 +49739,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "So11111111111111111111111111111111111111112",
+                        "chain_name": "solana"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
                 }
             ],
@@ -49556,6 +49777,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+                        "chain_name": "solana"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bonk.png"
                 }
             ],
@@ -49590,6 +49815,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                        "chain_name": "ethereum"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
                 }
@@ -49604,7 +49833,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                        "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -49626,6 +49855,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x18084fba666a33d37592fa2633fd49a74dd93a88",
+                        "chain_name": "ethereum"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/tbtc.svg"
                 }
             ],
@@ -49638,7 +49871,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+                        "base_denom": "0x18084fba666a33d37592fa2633fd49a74dd93a88",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -49660,6 +49893,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                        "chain_name": "ethereum"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg"
                 }
             ],
@@ -49672,7 +49909,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                        "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -49694,6 +49931,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "chain_name": "ethereum"
+                    },
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
                 }
             ],
@@ -49706,7 +49947,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -50574,6 +50815,64 @@
                 }
             ],
             "type_asset": "erc20"
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "YieldETH",
+            "description": "Maximize ETH yield through leveraged staking across Aave, Compound and Morpho and liquidity provision of ETH liquid staking tokens on Uniswap V3.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "wei",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+            },
+            "name": "Real Yield Eth",
+            "symbol": "YieldETH",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "wei",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Seven Seas & DeFine Logic Labs",
+                    "type": "liquid-stake"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
+                {
+                    "chain": {
+                        "channel_id": "channel-208",
+                        "path": "transfer/channel-208/yieldeth-wei"
+                    },
+                    "counterparty": {
+                        "base_denom": "yieldeth-wei",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-3"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "yieldeth-wei": {
