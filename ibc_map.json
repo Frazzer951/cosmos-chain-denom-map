@@ -241,6 +241,9 @@
             ],
             "channel-7": [
                 "kava"
+            ],
+            "channel-9": [
+                "noble"
             ]
         },
         "wasm.aura1r3zgdsn3dcze07a4r60rxxx7ppvkxfshn9np0pwtkgarrld0786s72jtjt": {
@@ -919,6 +922,9 @@
             ],
             "channel-3": [
                 "osmosis"
+            ],
+            "channel-4": [
+                "persistence"
             ],
             "channel-5": [
                 "kujira"
@@ -1779,6 +1785,9 @@
             "channel-4": [
                 "cosmoshub"
             ],
+            "channel-41": [
+                "aura"
+            ],
             "channel-7": [
                 "evmos"
             ]
@@ -2266,6 +2275,9 @@
             ],
             "channel-129": [
                 "kava"
+            ],
+            "channel-131": [
+                "dydx"
             ],
             "channel-132": [
                 "noble"

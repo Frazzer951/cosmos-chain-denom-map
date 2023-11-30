@@ -17004,6 +17004,48 @@
                 }
             ],
             "type_asset": "ics20"
+        },
+        "persistence": {
+            "address": null,
+            "aliases": null,
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "dydx",
+            "description": "dydx staking token",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            },
+            "name": "dYdX",
+            "symbol": "DYDX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-131",
+                        "path": "transfer/channel-131/adydx"
+                    },
+                    "counterparty": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx",
+                        "channel_id": "channel-4"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "dys": {
@@ -22396,6 +22438,52 @@
                         "base_denom": "erc20/tether/usdt",
                         "chain_name": "kava",
                         "channel_id": "channel-116"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/23dc3ff0e4cbb53a1915e4c62507cb7796956e84c68ca49707787cb8bde90a1e": {
+        "persistence": {
+            "address": null,
+            "aliases": [
+                "adydx"
+            ],
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "ibc/23DC3FF0E4CBB53A1915E4C62507CB7796956E84C68CA49707787CB8BDE90A1E",
+            "description": "dydx staking token",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            },
+            "name": "dYdX",
+            "symbol": "DYDX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-131",
+                        "path": "transfer/channel-131/adydx"
+                    },
+                    "counterparty": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx",
+                        "channel_id": "channel-4"
                     },
                     "type": "ibc"
                 }
