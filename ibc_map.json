@@ -920,6 +920,9 @@
             "channel-1": [
                 "stride"
             ],
+            "channel-11": [
+                "neutron"
+            ],
             "channel-3": [
                 "osmosis"
             ],
@@ -1719,6 +1722,12 @@
             "channel-42": [
                 "nomic"
             ],
+            "channel-44": [
+                "nolus"
+            ],
+            "channel-48": [
+                "dydx"
+            ],
             "channel-5": [
                 "terra2"
             ],
@@ -1833,6 +1842,9 @@
         "transfer": {
             "channel-0": [
                 "osmosis"
+            ],
+            "channel-3839": [
+                "neutron"
             ]
         }
     },
