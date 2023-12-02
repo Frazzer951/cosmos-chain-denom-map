@@ -3565,6 +3565,31 @@
             "type_asset": null
         }
     },
+    "andr": {
+        "andromeda": {
+            "address": null,
+            "aliases": null,
+            "chain": "andromeda",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "andr",
+            "description": "The native staking and governance token of Andromeda",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png"
+            },
+            "name": "Andr",
+            "symbol": "ANDR",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "anom": {
         "onomy": {
             "address": null,
@@ -16963,6 +16988,48 @@
             "traces": null,
             "type_asset": null
         },
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "dydx",
+            "description": "DYDX on Neutron",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            },
+            "name": "DYDX",
+            "symbol": "DYDX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-48",
+                        "path": "transfer/channel-48/adydx"
+                    },
+                    "counterparty": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx",
+                        "channel_id": "channel-11"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "osmosis": {
             "address": null,
             "aliases": null,
@@ -18336,6 +18403,31 @@
             "type_asset": null
         }
     },
+    "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/uyfuzn": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/uyfuzn",
+            "description": "The yield token of Fuzion",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuziony.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuziony.svg"
+            },
+            "name": "Fuzion Yield",
+            "symbol": "yFUZN",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/kujira1slueerjz7mx9jp45u3y0rjwtvhcf8a68wf2mjt/ublend": {
         "kujira": {
             "address": null,
@@ -18714,6 +18806,31 @@
             },
             "name": "OSMO Squared",
             "symbol": "sqOSMO",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn",
+            "description": "Levana native token",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png"
+            },
+            "name": "Levana",
+            "symbol": "LVN",
             "traces": null,
             "type_asset": null
         }
@@ -22652,6 +22769,52 @@
                         "base_denom": "uluna",
                         "chain_name": "terra2",
                         "channel_id": "channel-36"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/2cb87bce0937b1d1dfcee79be4501aaf3c265e923509aeac410ad85d27f35130": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "adydx"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
+            "description": "DYDX on Neutron",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            },
+            "name": "DYDX",
+            "symbol": "DYDX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-48",
+                        "path": "transfer/channel-48/adydx"
+                    },
+                    "counterparty": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx",
+                        "channel_id": "channel-11"
                     },
                     "type": "ibc"
                 }
@@ -27806,6 +27969,29 @@
             "symbol": "LVN",
             "traces": null,
             "type_asset": "cw20"
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "lvn",
+            "description": "Levana native token",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png"
+            },
+            "name": "Levana",
+            "symbol": "LVN",
+            "traces": null,
+            "type_asset": null
         }
     },
     "lyl": {
@@ -39293,6 +39479,33 @@
             "type_asset": "cw20"
         }
     },
+    "tsaga": {
+        "sagatestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "sagatestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "tsaga",
+            "description": "The native token of Saga Testnet",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg"
+            },
+            "name": "Saga",
+            "symbol": "TSAGA",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "twd": {
         "terra": {
             "address": "terra19djkaepjjswucys4npd5ltaxgsntl7jf0xz7w6",
@@ -39447,6 +39660,31 @@
             },
             "name": "Malaga Stake",
             "symbol": "AND",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "uandr": {
+        "andromeda": {
+            "address": null,
+            "aliases": null,
+            "chain": "andromeda",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "uandr",
+            "description": "The native staking and governance token of Andromeda",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png"
+            },
+            "name": "Andr",
+            "symbol": "ANDR",
             "traces": null,
             "type_asset": null
         }
@@ -46684,6 +46922,33 @@
             "type_asset": null
         }
     },
+    "utsaga": {
+        "sagatestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "sagatestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "utsaga",
+            "description": "The native token of Saga Testnet",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg"
+            },
+            "name": "Saga",
+            "symbol": "TSAGA",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "utwd": {
         "terra": {
             "address": null,
@@ -50909,6 +51174,31 @@
             "symbol": "YFD",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "yfuzn": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "yfuzn",
+            "description": "The yield token of Fuzion",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuziony.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/fuziony.svg"
+            },
+            "name": "Fuzion Yield",
+            "symbol": "yFUZN",
+            "traces": null,
+            "type_asset": null
         }
     },
     "yieldeth": {
