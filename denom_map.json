@@ -2940,7 +2940,7 @@
             "address": null,
             "aliases": null,
             "chain": "haqq",
-            "coingecko_id": "",
+            "coingecko_id": "islamic-coin",
             "decimals": 18,
             "denom": "aISLM",
             "description": "The native EVM, governance and staking token of the Haqq Network",
@@ -11441,6 +11441,31 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l": {
+        "terra2": {
+            "address": "terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l",
+            "description": "SEUL DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/seul.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/seul.png"
+            },
+            "name": "seul",
+            "symbol": "SEUL",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:terra13xujxcrc9dqft4p9a8ls0w3j0xnzm6y2uvve8n": {
         "terra": {
             "address": "terra13xujxcrc9dqft4p9a8ls0w3j0xnzm6y2uvve8n",
@@ -14507,6 +14532,31 @@
             },
             "name": "USD Coin (Portal from Avalanche)",
             "symbol": "USDCav",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
+    "cw20:terra1q328gl40az3cf9x67cgudn8e8w2az9vsmhtkwsgdu7a43rhy5caqc82yr5": {
+        "terra2": {
+            "address": "terra1q328gl40az3cf9x67cgudn8e8w2az9vsmhtkwsgdu7a43rhy5caqc82yr5",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:terra1q328gl40az3cf9x67cgudn8e8w2az9vsmhtkwsgdu7a43rhy5caqc82yr5",
+            "description": "SEUL DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xseul.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xseul.png"
+            },
+            "name": "xseul",
+            "symbol": "xSEUL",
             "traces": null,
             "type_asset": "cw20"
         }
@@ -18822,7 +18872,8 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.svg"
                 }
             ],
             "keywords": null,
@@ -26130,7 +26181,7 @@
             "address": null,
             "aliases": null,
             "chain": "haqq",
-            "coingecko_id": "",
+            "coingecko_id": "islamic-coin",
             "decimals": 0,
             "denom": "ISLM",
             "description": "The native EVM, governance and staking token of the Haqq Network",
@@ -27981,7 +28032,8 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.svg"
                 }
             ],
             "keywords": null,
@@ -35467,6 +35519,31 @@
             "type_asset": "cw20"
         }
     },
+    "self": {
+        "selfchaindevnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "selfchaindevnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "self",
+            "description": "Self Chain Is the First Modular Intent-Centric Access Layer L1 Blockchain and Keyless Wallet Infrastructure Service That Uses MPC-TSS/AA for Multi-Chain Web3 Access.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/selfchaindevnet/images/selfchain.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/selfchaindevnet/images/selfchain.png"
+            },
+            "name": "self",
+            "symbol": "SELF",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "set": {
         "terra": {
             "address": null,
@@ -35494,6 +35571,31 @@
             "symbol": "SETC",
             "traces": null,
             "type_asset": null
+        }
+    },
+    "seul": {
+        "terra2": {
+            "address": "terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "seul",
+            "description": "SEUL DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/seul.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/seul.png"
+            },
+            "name": "seul",
+            "symbol": "SEUL",
+            "traces": null,
+            "type_asset": "cw20"
         }
     },
     "sfrxeth": {
@@ -46073,6 +46175,31 @@
             "type_asset": null
         }
     },
+    "uself": {
+        "selfchaindevnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "selfchaindevnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "uself",
+            "description": "Self Chain Is the First Modular Intent-Centric Access Layer L1 Blockchain and Keyless Wallet Infrastructure Service That Uses MPC-TSS/AA for Multi-Chain Web3 Access.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/selfchaindevnet/images/selfchain.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/selfchaindevnet/images/selfchain.png"
+            },
+            "name": "self",
+            "symbol": "SELF",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "usgd": {
         "terra": {
             "address": null,
@@ -51095,6 +51222,31 @@
             },
             "name": "Stader xSD",
             "symbol": "xSD",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
+    "xseul": {
+        "terra2": {
+            "address": "terra1q328gl40az3cf9x67cgudn8e8w2az9vsmhtkwsgdu7a43rhy5caqc82yr5",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "xseul",
+            "description": "SEUL DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xseul.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/xseul.png"
+            },
+            "name": "xseul",
+            "symbol": "xSEUL",
             "traces": null,
             "type_asset": "cw20"
         }

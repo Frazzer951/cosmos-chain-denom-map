@@ -448,6 +448,9 @@
             "channel-1": [
                 "axelar"
             ],
+            "channel-12": [
+                "composable"
+            ],
             "channel-14": [
                 "secretnetwork"
             ],
@@ -557,11 +560,17 @@
             "channel-26": [
                 "secretnetwork"
             ],
+            "channel-27": [
+                "kujira"
+            ],
             "channel-29": [
                 "injective"
             ],
             "channel-3": [
                 "osmosis"
+            ],
+            "channel-38": [
+                "celestia"
             ],
             "channel-46": [
                 "axelar"
@@ -1466,6 +1475,9 @@
             "channel-10": [
                 "secretnetwork",
                 "terra2"
+            ],
+            "channel-101": [
+                "composable"
             ],
             "channel-115": [
                 "realio"
