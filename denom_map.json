@@ -25247,6 +25247,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/ecbe78bf7677320a93e7ba1761d144bcbf0cbc247c290c049655e106fe5dc68e": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "stk/uosmo"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/ECBE78BF7677320A93E7BA1761D144BCBF0CBC247C290C049655E106FE5DC68E",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "stk/uosmo",
+                        "chain_name": "persistence"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
+            },
+            "name": "PSTAKE staked OSMO",
+            "symbol": "stkOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-4",
+                        "path": "transfer/channel-4/stk/uosmo"
+                    },
+                    "counterparty": {
+                        "base_denom": "stk/uosmo",
+                        "chain_name": "persistence",
+                        "channel_id": "channel-6"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/ed07a3391a112b175915cd8faf43a2da8e4790ede12566649d0c2f97716b8518": {
         "carbon": {
             "address": null,
@@ -37493,6 +37539,31 @@
         }
     },
     "stk/uosmo": {
+        "persistence": {
+            "address": null,
+            "aliases": [],
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "stk/uosmo",
+            "description": "PSTAKE Liquid-Staked OSMO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
+            },
+            "name": "PSTAKE staked OSMO",
+            "symbol": "stkOSMO",
+            "traces": null,
+            "type_asset": null
+        },
         "persistencetestnet2": {
             "address": null,
             "aliases": [],
@@ -37630,6 +37701,77 @@
         }
     },
     "stkosmo": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "stk/osmo"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stkosmo",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "stk/uosmo",
+                        "chain_name": "persistence"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
+            },
+            "name": "PSTAKE staked OSMO",
+            "symbol": "stkOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-4",
+                        "path": "transfer/channel-4/stk/uosmo"
+                    },
+                    "counterparty": {
+                        "base_denom": "stk/uosmo",
+                        "chain_name": "persistence",
+                        "channel_id": "channel-6"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "persistence": {
+            "address": null,
+            "aliases": [
+                "stk/osmo"
+            ],
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stkosmo",
+            "description": "PSTAKE Liquid-Staked OSMO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
+            },
+            "name": "PSTAKE staked OSMO",
+            "symbol": "stkOSMO",
+            "traces": null,
+            "type_asset": null
+        },
         "persistencetestnet2": {
             "address": null,
             "aliases": [
