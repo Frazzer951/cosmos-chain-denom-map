@@ -101,6 +101,9 @@
             "channel-11": [
                 "irisnet"
             ],
+            "channel-116": [
+                "terra2"
+            ],
             "channel-12": [
                 "sentinel"
             ],
@@ -454,6 +457,9 @@
             "channel-14": [
                 "secretnetwork"
             ],
+            "channel-15": [
+                "terra2"
+            ],
             "channel-2": [
                 "osmosis"
             ],
@@ -482,6 +488,9 @@
             ],
             "channel-2": [
                 "gravitybridge"
+            ],
+            "channel-34": [
+                "terra2"
             ]
         }
     },
@@ -525,6 +534,9 @@
             ],
             "channel-49": [
                 "crescent"
+            ],
+            "channel-51": [
+                "terra2"
             ],
             "channel-57": [
                 "persistence"
@@ -691,6 +703,9 @@
             ],
             "channel-326": [
                 "crescent"
+            ],
+            "channel-339": [
+                "terra2"
             ],
             "channel-342": [
                 "carbon"
@@ -894,6 +909,9 @@
             ],
             "channel-7": [
                 "archway"
+            ],
+            "channel-9": [
+                "terra2"
             ]
         }
     },
@@ -940,6 +958,9 @@
             ],
             "channel-5": [
                 "kujira"
+            ],
+            "channel-9": [
+                "terra2"
             ]
         }
     },
@@ -1200,6 +1221,9 @@
             "channel-146": [
                 "noble"
             ],
+            "channel-151": [
+                "terra2"
+            ],
             "channel-152": [
                 "celestia"
             ],
@@ -1399,6 +1423,9 @@
             "channel-83": [
                 "assetmantle"
             ],
+            "channel-86": [
+                "terra2"
+            ],
             "channel-9": [
                 "emoney"
             ]
@@ -1442,6 +1469,9 @@
             ],
             "channel-134": [
                 "persistence"
+            ],
+            "channel-138": [
+                "terra2"
             ]
         }
     },
@@ -1473,8 +1503,7 @@
                 "cosmoshub"
             ],
             "channel-10": [
-                "secretnetwork",
-                "terra2"
+                "secretnetwork"
             ],
             "channel-101": [
                 "composable"
@@ -1511,6 +1540,9 @@
             ],
             "channel-47": [
                 "acrechain"
+            ],
+            "channel-5": [
+                "terra2"
             ],
             "channel-50": [
                 "gravitybridge"
@@ -1739,6 +1771,9 @@
             ],
             "channel-48": [
                 "dydx"
+            ],
+            "channel-49": [
+                "persistence"
             ],
             "channel-5": [
                 "terra2"
@@ -2305,6 +2340,9 @@
             ],
             "channel-132": [
                 "noble"
+            ],
+            "channel-136": [
+                "neutron"
             ],
             "channel-19": [
                 "irisnet"
@@ -2976,13 +3014,25 @@
             ],
             "channel-69": [
                 "acrechain"
+            ],
+            "channel-85": [
+                "terra2"
             ]
         }
     },
     "terra2": {
         "transfer": {
+            "channel-0": [
+                "cosmoshub"
+            ],
             "channel-1": [
                 "osmosis"
+            ],
+            "channel-10": [
+                "kujira"
+            ],
+            "channel-2": [
+                "juno"
             ],
             "channel-204": [
                 "stafihub"
@@ -2993,14 +3043,38 @@
             "channel-253": [
                 "noble"
             ],
+            "channel-255": [
+                "injective"
+            ],
             "channel-265": [
                 "archway"
             ],
             "channel-271": [
                 "furya"
             ],
+            "channel-272": [
+                "kava"
+            ],
+            "channel-273": [
+                "akash"
+            ],
+            "channel-299": [
+                "dydx"
+            ],
             "channel-3": [
                 "secretnetwork"
+            ],
+            "channel-300": [
+                "celestia"
+            ],
+            "channel-301": [
+                "cheqd"
+            ],
+            "channel-314": [
+                "terra"
+            ],
+            "channel-315": [
+                "decentr"
             ],
             "channel-36": [
                 "carbon"
@@ -3008,11 +3082,11 @@
             "channel-37": [
                 "crescent"
             ],
+            "channel-39": [
+                "comdex"
+            ],
             "channel-46": [
                 "stride"
-            ],
-            "channel-5": [
-                "kujira"
             ],
             "channel-6": [
                 "axelar"

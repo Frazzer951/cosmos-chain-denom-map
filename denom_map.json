@@ -18899,11 +18899,15 @@
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.svg"
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.svg"
             },
             "name": "Levana",
             "symbol": "LVN",
@@ -23317,52 +23321,6 @@
             "type_asset": "ics20"
         }
     },
-    "ibc/64ba6e31fe887d66c6f8f31c7b1a80c7ca179239677b4088bb55f5ea07dbe273": {
-        "osmosis": {
-            "address": null,
-            "aliases": [
-                "unois"
-            ],
-            "chain": "osmosis",
-            "coingecko_id": null,
-            "decimals": 6,
-            "denom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
-            "description": "NOIS on Osmosis",
-            "ibc": null,
-            "images": [
-                {
-                    "image_sync": {
-                        "base_denom": "unois",
-                        "chain_name": "nois"
-                    },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
-                }
-            ],
-            "keywords": null,
-            "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
-            },
-            "name": "Nois NOIS",
-            "symbol": "NOIS",
-            "traces": [
-                {
-                    "chain": {
-                        "channel_id": "channel-8277",
-                        "path": "transfer/channel-8277"
-                    },
-                    "counterparty": {
-                        "base_denom": "unois",
-                        "chain_name": "nois",
-                        "channel_id": "channel-37"
-                    },
-                    "type": "ibc"
-                }
-            ],
-            "type_asset": "ics20"
-        }
-    },
     "ibc/662914d0c1cebcb070c68f061d035e8b10a07c79ab286e7342c85f3be74612c5": {
         "carbon": {
             "address": null,
@@ -23394,6 +23352,52 @@
                         "base_denom": "ukuji",
                         "chain_name": "kujira",
                         "channel_id": "channel-46"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/6928afa9ea721938fed13b051f9dbf1272b16393d20c49ea5e4901bb76d94a90": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "unois"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/6928AFA9EA721938FED13B051F9DBF1272B16393D20C49EA5E4901BB76D94A90",
+            "description": "NOIS on Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "unois",
+                        "chain_name": "nois"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
+            },
+            "name": "Nois NOIS",
+            "symbol": "NOIS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-8277",
+                        "path": "transfer/channel-8277/unois"
+                    },
+                    "counterparty": {
+                        "base_denom": "unois",
+                        "chain_name": "nois",
+                        "channel_id": "channel-37"
                     },
                     "type": "ibc"
                 }
@@ -26356,25 +26360,38 @@
             "address": null,
             "aliases": null,
             "chain": "impacthubtestnet",
-            "coingecko_id": "ixo",
+            "coingecko_id": null,
             "decimals": 0,
             "denom": "ixo",
             "description": "The native token of IXO Chain",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubtestnet/images/ixo.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubtestnet/images/ixo.svg"
+                    "image_sync": {
+                        "base_denom": "uixo",
+                        "chain_name": "impacthub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubtestnet/images/ixo.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubtestnet/images/ixo.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
             },
             "name": "IXO",
             "symbol": "IXO",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "uixo",
+                        "chain_name": "impacthub"
+                    },
+                    "provider": "impacthub",
+                    "type": "test-mintage"
+                }
+            ],
             "type_asset": null
         }
     },
@@ -28105,11 +28122,15 @@
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.svg"
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.svg"
             },
             "name": "Levana",
             "symbol": "LVN",
@@ -31834,7 +31855,7 @@
                 {
                     "chain": {
                         "channel_id": "channel-8277",
-                        "path": "transfer/channel-8277"
+                        "path": "transfer/channel-8277/unois"
                     },
                     "counterparty": {
                         "base_denom": "unois",
@@ -42205,25 +42226,38 @@
             "address": null,
             "aliases": null,
             "chain": "impacthubtestnet",
-            "coingecko_id": "ixo",
+            "coingecko_id": null,
             "decimals": 6,
             "denom": "uixo",
             "description": "The native token of IXO Chain",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubtestnet/images/ixo.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubtestnet/images/ixo.svg"
+                    "image_sync": {
+                        "base_denom": "uixo",
+                        "chain_name": "impacthub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubtestnet/images/ixo.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthubtestnet/images/ixo.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
             },
             "name": "IXO",
             "symbol": "IXO",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "uixo",
+                        "chain_name": "impacthub"
+                    },
+                    "provider": "impacthub",
+                    "type": "test-mintage"
+                }
+            ],
             "type_asset": null
         }
     },
@@ -44955,7 +44989,7 @@
             "address": null,
             "aliases": null,
             "chain": "noble",
-            "coingecko_id": null,
+            "coingecko_id": "usd-coin",
             "decimals": 0,
             "denom": "usdc",
             "description": "USD Coin",
@@ -47419,7 +47453,7 @@
                 "microusdc"
             ],
             "chain": "noble",
-            "coingecko_id": null,
+            "coingecko_id": "usd-coin",
             "decimals": 6,
             "denom": "uusdc",
             "description": "USD Coin",
