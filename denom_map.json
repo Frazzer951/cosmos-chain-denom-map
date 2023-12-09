@@ -4078,6 +4078,31 @@
             "type_asset": null
         }
     },
+    "art": {
+        "artelatestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "artelatestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "art",
+            "description": "The native EVM, governance and staking token of the Artela Network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/artelatestnet/images/artela.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/artelatestnet/images/artela.png"
+            },
+            "name": "Artela Testnet",
+            "symbol": "ART",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "arusd": {
         "acrechain": {
             "address": null,
@@ -40027,6 +40052,31 @@
             },
             "name": "Archway",
             "symbol": "ARCH",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "uart": {
+        "artelatestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "artelatestnet",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "uart",
+            "description": "The native EVM, governance and staking token of the Artela Network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/artelatestnet/images/artela.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/artelatestnet/images/artela.png"
+            },
+            "name": "Artela Testnet",
+            "symbol": "ART",
             "traces": null,
             "type_asset": null
         }
