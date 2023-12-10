@@ -9160,6 +9160,29 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef": {
+        "chihuahua": {
+            "address": "chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
+            "description": "Puppy",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/puppyhuahua_logo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Puppy",
+            "symbol": "PUPPY",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:juno10gthz5ufgrpuk5cscve2f0hjp56wgp90psqxcrqlg4m9mcu9dh8q4864xy": {
         "juno": {
             "address": "juno10gthz5ufgrpuk5cscve2f0hjp56wgp90psqxcrqlg4m9mcu9dh8q4864xy",
@@ -33908,6 +33931,29 @@
             },
             "name": "AstroPug Token",
             "symbol": "PUG",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
+    "puppy": {
+        "chihuahua": {
+            "address": "chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "puppy",
+            "description": "Puppy",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/puppyhuahua_logo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Puppy",
+            "symbol": "PUPPY",
             "traces": null,
             "type_asset": "cw20"
         }
