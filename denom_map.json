@@ -17644,7 +17644,7 @@
             "address": null,
             "aliases": null,
             "chain": "kava",
-            "coingecko_id": null,
+            "coingecko_id": "tether",
             "decimals": 6,
             "denom": "erc20/tether/usdt",
             "description": null,
@@ -33743,6 +33743,33 @@
             "type_asset": "cw20"
         }
     },
+    "pryzm": {
+        "pryzmtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "pryzmtestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "pryzm",
+            "description": "The native token of PRYZM",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm.svg"
+            },
+            "name": "Pryzm",
+            "symbol": "PRYZM",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "psi": {
         "terra": {
             "address": "terra12897djskt9rge8dtmm86w654g7kzckkd698608",
@@ -44086,6 +44113,33 @@
             "type_asset": null
         }
     },
+    "upryzm": {
+        "pryzmtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "pryzmtestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "upryzm",
+            "description": "The native token of PRYZM",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pryzmtestnet/images/pryzm.svg"
+            },
+            "name": "Pryzm",
+            "symbol": "PRYZM",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "uptick": {
         "uptick": {
             "address": null,
@@ -46002,7 +46056,7 @@
             "address": null,
             "aliases": null,
             "chain": "kava",
-            "coingecko_id": null,
+            "coingecko_id": "tether",
             "decimals": 0,
             "denom": "usdt",
             "description": null,

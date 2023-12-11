@@ -233,6 +233,9 @@
     },
     "aura": {
         "transfer": {
+            "channel-10": [
+                "osmosis"
+            ],
             "channel-3": [
                 "nois"
             ],
@@ -1844,6 +1847,9 @@
             "channel-41": [
                 "aura"
             ],
+            "channel-44": [
+                "omniflixhub"
+            ],
             "channel-7": [
                 "evmos"
             ]
@@ -1950,6 +1956,9 @@
             ],
             "channel-32": [
                 "archway"
+            ],
+            "channel-38": [
+                "noble"
             ]
         }
     },
@@ -1983,6 +1992,9 @@
             ],
             "channel-113": [
                 "chihuahua"
+            ],
+            "channel-11304": [
+                "aura"
             ],
             "channel-115": [
                 "lumnetwork"
