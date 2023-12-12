@@ -517,6 +517,11 @@
             "channel-7": [
                 "osmosis"
             ]
+        },
+        "wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52": {
+            "channel-73": [
+                "osmosis"
+            ]
         }
     },
     "comdex": {
@@ -1995,6 +2000,9 @@
             ],
             "channel-11304": [
                 "aura"
+            ],
+            "channel-11348": [
+                "chihuahua"
             ],
             "channel-115": [
                 "lumnetwork"
