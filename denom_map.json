@@ -1001,6 +1001,44 @@
             "type_asset": "erc20"
         }
     },
+    "0x83f20f44975d03b1b09e64809b757c47f942beea": {
+        "ethereum": {
+            "address": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+            "aliases": [
+                "sdai-wei"
+            ],
+            "chain": "ethereum",
+            "coingecko_id": "dai",
+            "decimals": 18,
+            "denom": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+            "description": "sDAI is a liquid representation of DAI deposited in the Dai savings rate contract.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.svg"
+            },
+            "name": "Savings Dai",
+            "symbol": "sDAI",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "MakerDAO",
+                    "type": "synthetic"
+                }
+            ],
+            "type_asset": "erc20"
+        }
+    },
     "0x853d955acef822db058eb8505911ed77f175b99e": {
         "ethereum": {
             "address": "0x853d955acef822db058eb8505911ed77f175b99e",
@@ -9176,7 +9214,9 @@
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/puppyhuahua_logo.png"
+            },
             "name": "Puppy",
             "symbol": "PUPPY",
             "traces": null,
@@ -9331,6 +9371,31 @@
             },
             "name": "Manna",
             "symbol": "MANNA",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
+    "cw20:juno13epyeat7ef0k7q6kllmyvc8zpfd9xm7cqjrgtk0qkgrk7n5mjfmq8979jw": {
+        "juno": {
+            "address": "juno13epyeat7ef0k7q6kllmyvc8zpfd9xm7cqjrgtk0qkgrk7n5mjfmq8979jw",
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:juno13epyeat7ef0k7q6kllmyvc8zpfd9xm7cqjrgtk0qkgrk7n5mjfmq8979jw",
+            "description": "The least memeable memecoin in existence. The cats have had their day, it's time for $POIL coin to take reign.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/poil.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/poil.png"
+            },
+            "name": "POIL",
+            "symbol": "POIL",
             "traces": null,
             "type_asset": "cw20"
         }
@@ -21403,6 +21468,46 @@
             "type_asset": null
         }
     },
+    "gravity0x83f20f44975d03b1b09e64809b757c47f942beea": {
+        "gravitybridge": {
+            "address": null,
+            "aliases": null,
+            "chain": "gravitybridge",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "gravity0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+            "description": "Gravity Bridge sDAI",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ethereum",
+                        "chain_name": "0x83F20F44975D03b1b09e64809B757c47f942BEeA"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.svg"
+            },
+            "name": "Savings Dai",
+            "symbol": "sDAI",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Gravity Bridge",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "gravity0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
         "gravitybridge": {
             "address": null,
@@ -21600,6 +21705,46 @@
             "symbol": "GRDN",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "gsdai": {
+        "gravitybridge": {
+            "address": null,
+            "aliases": null,
+            "chain": "gravitybridge",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "gsdai",
+            "description": "Gravity Bridge sDAI",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ethereum",
+                        "chain_name": "0x83F20F44975D03b1b09e64809B757c47f942BEeA"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.svg"
+            },
+            "name": "Savings Dai",
+            "symbol": "sDAI",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Gravity Bridge",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
         }
     },
     "gtps": {
@@ -33510,6 +33655,31 @@
             "type_asset": "cw20"
         }
     },
+    "poil": {
+        "juno": {
+            "address": "juno13epyeat7ef0k7q6kllmyvc8zpfd9xm7cqjrgtk0qkgrk7n5mjfmq8979jw",
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "poil",
+            "description": "The least memeable memecoin in existence. The cats have had their day, it's time for $POIL coin to take reign.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/poil.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/poil.png"
+            },
+            "name": "POIL",
+            "symbol": "POIL",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "point": {
         "kusama": {
             "address": null,
@@ -33978,7 +34148,9 @@
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/puppyhuahua_logo.png"
+            },
             "name": "Puppy",
             "symbol": "PUPPY",
             "traces": null,
@@ -35509,6 +35681,42 @@
             "symbol": "SD",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "sdai": {
+        "ethereum": {
+            "address": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+            "aliases": null,
+            "chain": "ethereum",
+            "coingecko_id": "dai",
+            "decimals": 0,
+            "denom": "sdai",
+            "description": "sDAI is a liquid representation of DAI deposited in the Dai savings rate contract.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sdai.svg"
+            },
+            "name": "Savings Dai",
+            "symbol": "sDAI",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "MakerDAO",
+                    "type": "synthetic"
+                }
+            ],
+            "type_asset": "erc20"
         }
     },
     "sdollar": {
