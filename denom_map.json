@@ -8122,7 +8122,7 @@
             "address": null,
             "aliases": null,
             "chain": "osmosis",
-            "coingecko_id": null,
+            "coingecko_id": "collateralized-debt-token",
             "decimals": 0,
             "denom": "cdt",
             "description": "Membrane's CDP-style stablecoin called CDT",
@@ -18853,7 +18853,7 @@
             "address": "osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm",
             "aliases": null,
             "chain": "osmosis",
-            "coingecko_id": null,
+            "coingecko_id": "ibc-index",
             "decimals": 6,
             "denom": "factory/osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm/uibcx",
             "description": null,
@@ -18919,7 +18919,16 @@
             },
             "name": "milkTIA",
             "symbol": "milkTIA",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia"
+                    },
+                    "provider": "MilkyWay",
+                    "type": "liquid-stake"
+                }
+            ],
             "type_asset": null
         }
     },
@@ -19033,7 +19042,7 @@
             "address": null,
             "aliases": null,
             "chain": "osmosis",
-            "coingecko_id": null,
+            "coingecko_id": "collateralized-debt-token",
             "decimals": 6,
             "denom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
             "description": "Membrane's CDP-style stablecoin called CDT",
@@ -19058,7 +19067,7 @@
             "address": null,
             "aliases": null,
             "chain": "osmosis",
-            "coingecko_id": null,
+            "coingecko_id": "membrane",
             "decimals": 6,
             "denom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn",
             "description": "Membrane's protocol token",
@@ -26035,7 +26044,7 @@
             "address": "osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm",
             "aliases": null,
             "chain": "osmosis",
-            "coingecko_id": null,
+            "coingecko_id": "ibc-index",
             "decimals": 0,
             "denom": "ibcx",
             "description": null,
@@ -28852,7 +28861,7 @@
             "address": null,
             "aliases": null,
             "chain": "osmosis",
-            "coingecko_id": null,
+            "coingecko_id": "membrane",
             "decimals": 0,
             "denom": "mbrn",
             "description": "Membrane's protocol token",
@@ -29716,7 +29725,16 @@
             },
             "name": "milkTIA",
             "symbol": "milkTIA",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia"
+                    },
+                    "provider": "MilkyWay",
+                    "type": "liquid-stake"
+                }
+            ],
             "type_asset": null
         }
     },

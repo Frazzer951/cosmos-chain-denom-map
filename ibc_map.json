@@ -305,6 +305,9 @@
             "channel-3": [
                 "osmosis"
             ],
+            "channel-36": [
+                "umee"
+            ],
             "channel-4": [
                 "juno"
             ],
@@ -516,11 +519,17 @@
             ],
             "channel-7": [
                 "osmosis"
+            ],
+            "channel-76": [
+                "neutron"
             ]
         },
         "wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52": {
             "channel-73": [
                 "osmosis"
+            ],
+            "channel-77": [
+                "neutron"
             ]
         }
     },
@@ -1463,6 +1472,9 @@
             "channel-117": [
                 "evmos"
             ],
+            "channel-119": [
+                "umee"
+            ],
             "channel-122": [
                 "injective"
             ],
@@ -1785,6 +1797,12 @@
             ],
             "channel-5": [
                 "terra2"
+            ],
+            "channel-51": [
+                "chihuahua"
+            ],
+            "channel-52": [
+                "chihuahua"
             ],
             "channel-8": [
                 "stride"
@@ -3166,6 +3184,9 @@
             "channel-1": [
                 "cosmoshub"
             ],
+            "channel-33": [
+                "axelar"
+            ],
             "channel-34": [
                 "stride"
             ],
@@ -3180,6 +3201,9 @@
             ],
             "channel-97": [
                 "archway"
+            ],
+            "channel-98": [
+                "kava"
             ]
         }
     },
