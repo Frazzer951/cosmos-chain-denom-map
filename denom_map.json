@@ -2780,6 +2780,28 @@
             "type_asset": null
         }
     },
+    "acvnt": {
+        "conscious": {
+            "address": null,
+            "aliases": null,
+            "chain": "conscious",
+            "coingecko_id": "consciousdao",
+            "decimals": 18,
+            "denom": "acvnt",
+            "description": "Cvn is a Layer-1 blockchain built to deliver on the promise of DeFi",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg"
+            },
+            "name": "Cvn",
+            "symbol": "CVN",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "adydx": {
         "dydx": {
             "address": null,
@@ -9169,6 +9191,28 @@
             },
             "name": "Cudos",
             "symbol": "CUDOS",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "cvnt": {
+        "conscious": {
+            "address": null,
+            "aliases": null,
+            "chain": "conscious",
+            "coingecko_id": "consciousdao",
+            "decimals": 0,
+            "denom": "cvnt",
+            "description": "Cvn is a Layer-1 blockchain built to deliver on the promise of DeFi",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg"
+            },
+            "name": "Cvn",
+            "symbol": "CVN",
             "traces": null,
             "type_asset": null
         }
