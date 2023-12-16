@@ -293,6 +293,9 @@
             "channel-127": [
                 "composable"
             ],
+            "channel-128": [
+                "fxcore"
+            ],
             "channel-14": [
                 "kujira"
             ],
@@ -1110,11 +1113,17 @@
     },
     "fxcore": {
         "transfer": {
+            "channel-0": [
+                "pundix"
+            ],
             "channel-10": [
                 "cosmoshub"
             ],
             "channel-19": [
                 "osmosis"
+            ],
+            "channel-20": [
+                "axelar"
             ]
         }
     },
@@ -2472,6 +2481,13 @@
         "transfer": {
             "channel-7": [
                 "osmosis"
+            ]
+        }
+    },
+    "pundix": {
+        "transfer": {
+            "channel-0": [
+                "fxcore"
             ]
         }
     },

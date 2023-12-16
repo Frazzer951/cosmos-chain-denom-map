@@ -390,6 +390,31 @@
             "type_asset": "erc20"
         }
     },
+    "0x29a63f4b209c29b4dc47f06ffa896f32667dad2c": {
+        "binancesmartchain": {
+            "address": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
+            "aliases": null,
+            "chain": "binancesmartchain",
+            "coingecko_id": "pundi-x-purse",
+            "decimals": 18,
+            "denom": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
+            "description": "PURSE Token",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
+            },
+            "name": "PURSE Token",
+            "symbol": "PURSE",
+            "traces": null,
+            "type_asset": "erc20"
+        }
+    },
     "0x2::sui::sui": {
         "sui": {
             "address": null,
@@ -4290,6 +4315,31 @@
             "type_asset": "cw20"
         }
     },
+    "astropepe": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ASTROPEPE",
+            "description": "Astropepe meme coin",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astropepe.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astropepe.png"
+            },
+            "name": "AstroPepe",
+            "symbol": "ASTROPEPE",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "asvt": {
         "juno": {
             "address": "juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w",
@@ -7340,6 +7390,47 @@
             "symbol": "BRO",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "bsc0x29a63f4b209c29b4dc47f06ffa896f32667dad2c": {
+        "pundix": {
+            "address": null,
+            "aliases": null,
+            "chain": "pundix",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "bsc0x29a63f4b209c29b4dc47f06ffa896f32667dad2c",
+            "description": "PURSE Token",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
+                        "chain_name": "binancesmartchain"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
+            },
+            "name": "PURSE Token",
+            "symbol": "PURSE",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
+                        "chain_name": "binancesmartchain",
+                        "contract": "0x84238c00c8313920826D798e3cF6793Ef4F610ad"
+                    },
+                    "provider": "Function X",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
         }
     },
     "btl": {
@@ -18040,6 +18131,33 @@
             "type_asset": null
         }
     },
+    "eth0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38": {
+        "fxcore": {
+            "address": null,
+            "aliases": [],
+            "chain": "fxcore",
+            "coingecko_id": "pundi-x-2",
+            "decimals": 18,
+            "denom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+            "description": "The cross chain token of the Function X",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg"
+            },
+            "name": "Pundi X Token",
+            "symbol": "PUNDIX",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "eur": {
         "emoney": {
             "address": null,
@@ -18810,6 +18928,58 @@
             },
             "name": "boneWHALE",
             "symbol": "bWHALE",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe",
+            "description": "Astropepe meme coin",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astropepe.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astropepe.png"
+            },
+            "name": "AstroPepe",
+            "symbol": "ASTROPEPE",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "unewt"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
+            "description": "The cutest NEWT token on Neutron chain.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newt.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newt.png"
+            },
+            "name": "Newt",
+            "symbol": "NEWT",
             "traces": null,
             "type_asset": null
         }
@@ -23565,6 +23735,50 @@
                 }
             ],
             "type_asset": "ics20"
+        }
+    },
+    "ibc/55367b7b6572631b78a93c66ef9fdfce87cde372cc4ed7848da78c1eb1dcdd78": {
+        "pundix": {
+            "address": null,
+            "aliases": null,
+            "chain": "pundix",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "ibc/55367b7b6572631b78a93c66ef9fdfce87cde372cc4ed7848da78c1eb1dcdd78",
+            "description": "Pundi X Token",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+                        "chain_name": "fxcore"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg"
+            },
+            "name": "Pundi X Token",
+            "symbol": "PUNDIX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38"
+                    },
+                    "counterparty": {
+                        "base_denom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+                        "chain_name": "fxcore",
+                        "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
         }
     },
     "ibc/662914d0c1cebcb070c68f061d035e8b10a07c79ab286e7342c85f3be74612c5": {
@@ -31790,6 +32004,31 @@
             "type_asset": "cw20"
         }
     },
+    "newt": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "newt",
+            "description": "The cutest NEWT token on Neutron chain.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newt.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newt.png"
+            },
+            "name": "Newt",
+            "symbol": "NEWT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "nexx": {
         "juno": {
             "address": "juno1qly4zcmzr2gyxtze5yt9chv2srczwwunppxjfh",
@@ -31888,6 +32127,33 @@
             },
             "name": "Hash",
             "symbol": "HASH",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "nibi": {
+        "nibiru": {
+            "address": null,
+            "aliases": null,
+            "chain": "nibiru",
+            "coingecko_id": "nibi",
+            "decimals": 0,
+            "denom": "nibi",
+            "description": "The native token of Nibiru network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg"
+            },
+            "name": "Nibiru",
+            "symbol": "NIBI",
             "traces": null,
             "type_asset": null
         }
@@ -34194,6 +34460,75 @@
             "type_asset": "cw20"
         }
     },
+    "pundix": {
+        "fxcore": {
+            "address": null,
+            "aliases": [],
+            "chain": "fxcore",
+            "coingecko_id": "pundi-x-2",
+            "decimals": 0,
+            "denom": "PUNDIX",
+            "description": "The cross chain token of the Function X",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg"
+            },
+            "name": "Pundi X Token",
+            "symbol": "PUNDIX",
+            "traces": null,
+            "type_asset": null
+        },
+        "pundix": {
+            "address": null,
+            "aliases": null,
+            "chain": "pundix",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "PUNDIX",
+            "description": "Pundi X Token",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+                        "chain_name": "fxcore"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg"
+            },
+            "name": "Pundi X Token",
+            "symbol": "PUNDIX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38"
+                    },
+                    "counterparty": {
+                        "base_denom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+                        "chain_name": "fxcore",
+                        "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "puppy": {
         "chihuahua": {
             "address": "chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
@@ -34217,6 +34552,70 @@
             "symbol": "PUPPY",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "purse": {
+        "binancesmartchain": {
+            "address": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
+            "aliases": null,
+            "chain": "binancesmartchain",
+            "coingecko_id": "pundi-x-purse",
+            "decimals": 0,
+            "denom": "PURSE",
+            "description": "PURSE Token",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
+            },
+            "name": "PURSE Token",
+            "symbol": "PURSE",
+            "traces": null,
+            "type_asset": "erc20"
+        },
+        "pundix": {
+            "address": null,
+            "aliases": null,
+            "chain": "pundix",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "PURSE",
+            "description": "PURSE Token",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
+                        "chain_name": "binancesmartchain"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
+            },
+            "name": "PURSE Token",
+            "symbol": "PURSE",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
+                        "chain_name": "binancesmartchain",
+                        "contract": "0x84238c00c8313920826D798e3cF6793Ef4F610ad"
+                    },
+                    "provider": "Function X",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
         }
     },
     "pyth": {
@@ -43847,6 +44246,33 @@
                     "type": "bridge"
                 }
             ],
+            "type_asset": null
+        }
+    },
+    "unibi": {
+        "nibiru": {
+            "address": null,
+            "aliases": null,
+            "chain": "nibiru",
+            "coingecko_id": "nibi",
+            "decimals": 6,
+            "denom": "unibi",
+            "description": "The native token of Nibiru network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg"
+            },
+            "name": "Nibiru",
+            "symbol": "NIBI",
+            "traces": null,
             "type_asset": null
         }
     },
