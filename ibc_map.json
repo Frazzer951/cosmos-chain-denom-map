@@ -633,6 +633,9 @@
     },
     "coreum": {
         "transfer": {
+            "channel-10": [
+                "doravota"
+            ],
             "channel-2": [
                 "osmosis"
             ],
@@ -789,6 +792,9 @@
             ],
             "channel-660": [
                 "coreum"
+            ],
+            "channel-750": [
+                "doravota"
             ]
         }
     },
@@ -956,6 +962,15 @@
         "transfer": {
             "channel-0": [
                 "osmosis"
+            ],
+            "channel-2": [
+                "coreum"
+            ],
+            "channel-3": [
+                "nolus"
+            ],
+            "channel-4": [
+                "cosmoshub"
             ]
         }
     },
@@ -1930,6 +1945,9 @@
             ],
             "channel-3839": [
                 "neutron"
+            ],
+            "channel-4092": [
+                "doravota"
             ]
         }
     },
