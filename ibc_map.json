@@ -1828,6 +1828,9 @@
             "channel-52": [
                 "chihuahua"
             ],
+            "channel-57": [
+                "secretnetwork"
+            ],
             "channel-8": [
                 "stride"
             ]
@@ -2706,6 +2709,9 @@
             ]
         },
         "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4": {
+            "channel-104": [
+                "neutron"
+            ],
             "channel-44": [
                 "osmosis"
             ],
