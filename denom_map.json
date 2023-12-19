@@ -785,6 +785,33 @@
             "type_asset": "erc20"
         }
     },
+    "0x60e683c6514edd5f758a55b6f393bebbafaa8d5e": {
+        "ethereum": {
+            "address": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+            "aliases": [],
+            "chain": "ethereum",
+            "coingecko_id": null,
+            "decimals": 8,
+            "denom": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+            "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+            },
+            "name": "Page",
+            "symbol": "PAGE",
+            "traces": null,
+            "type_asset": "erc20"
+        }
+    },
     "0x61c82805453a989e99b544dfb7031902e9bac448": {
         "moonbeam": {
             "address": "0x61C82805453a989E99B544DFB7031902e9bac448",
@@ -1221,6 +1248,46 @@
                     },
                     "provider": "Polygon",
                     "type": "wrapped"
+                }
+            ],
+            "type_asset": "erc20"
+        }
+    },
+    "0x9cee70895726b0ea14e6019c961daf32222a7c2f": {
+        "polygon": {
+            "address": "0x9ceE70895726B0ea14E6019C961dAf32222a7C2f",
+            "aliases": [],
+            "chain": "polygon",
+            "coingecko_id": null,
+            "decimals": 8,
+            "denom": "0x9ceE70895726B0ea14E6019C961dAf32222a7C2f",
+            "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+            },
+            "name": "Page",
+            "symbol": "PAGE",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "PageDAO",
+                    "type": "additional-mintage"
                 }
             ],
             "type_asset": "erc20"
@@ -4268,6 +4335,50 @@
         }
     },
     "astro": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "astro",
+            "description": "ASTRO on Neutron",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+                        "chain_name": "terra2"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
+            },
+            "name": "Astroport token",
+            "symbol": "ASTRO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-5",
+                        "path": "transfer/channel-5/cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+                        "port": "transfer"
+                    },
+                    "counterparty": {
+                        "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+                        "chain_name": "terra2",
+                        "channel_id": "channel-167",
+                        "port": "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce"
+                    },
+                    "type": "ibc-cw20"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "terra": {
             "address": "terra1xj49zyqrwpv5k928jwfpfy2ha668nwdgkwlrg3",
             "aliases": null,
@@ -8905,6 +9016,31 @@
             },
             "name": "Coreum",
             "symbol": "COREUM",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "corgi": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "corgi",
+            "description": "Baby Corgi is the real doggo of Neutron!",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/babycorgi.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/babycorgi.png"
+            },
+            "name": "Baby Corgi",
+            "symbol": "CORGI",
             "traces": null,
             "type_asset": null
         }
@@ -18497,6 +18633,31 @@
             "type_asset": null
         }
     },
+    "factory/kujira166ysf07ze5suazfzj0r05tv8amk2yn8zvsfuu7/uplnk": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/kujira166ysf07ze5suazfzj0r05tv8amk2yn8zvsfuu7/uplnk",
+            "description": "Food for whales",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/PLNK_drk.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/PLNK_drk.png"
+            },
+            "name": "Plankton",
+            "symbol": "PLNK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/kujira16qpvzhmawvsm8mcj4hdvtz25dadatdhhgw79xa/fuzn": {
         "kujiratestnet": {
             "address": null,
@@ -18980,6 +19141,33 @@
             },
             "name": "Newt",
             "symbol": "NEWT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "ucorgi"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi",
+            "description": "Baby Corgi is the real doggo of Neutron!",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/babycorgi.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/babycorgi.png"
+            },
+            "name": "Baby Corgi",
+            "symbol": "CORGI",
             "traces": null,
             "type_asset": null
         }
@@ -21649,6 +21837,46 @@
             "type_asset": null
         }
     },
+    "gravity0x60e683c6514edd5f758a55b6f393bebbafaa8d5e": {
+        "gravitybridge": {
+            "address": null,
+            "aliases": null,
+            "chain": "gravitybridge",
+            "coingecko_id": null,
+            "decimals": 8,
+            "denom": "gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+            "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+            },
+            "name": "Page",
+            "symbol": "PAGE",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Gravity Bridge",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "gravity0x6b175474e89094c44da98b954eedeac495271d0f": {
         "gravitybridge": {
             "address": null,
@@ -23098,6 +23326,53 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/23a62409e4ad8133116c249b1fa38eed30e500a115d7b153109462cd82c1cd99": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ibc/23A62409E4AD8133116C249B1FA38EED30E500A115D7B153109462CD82C1CD99",
+            "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "gravitybridge"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+            },
+            "name": "PageDAO",
+            "symbol": "PAGE.grv",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-144",
+                        "path": "transfer/channel-144/gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e"
+                    },
+                    "counterparty": {
+                        "base_denom": "gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "gravity",
+                        "channel_id": "channel-10"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/23dc3ff0e4cbb53a1915e4c62507cb7796956e84c68ca49707787cb8bde90a1e": {
         "persistence": {
             "address": null,
@@ -23779,6 +24054,54 @@
                 }
             ],
             "type_asset": null
+        }
+    },
+    "ibc/5751b8bcda688fd0a8ec0b292eef1cdeab4b766b63ec632778b196d317c40c3a": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "uastro"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
+            "description": "ASTRO on Neutron",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+                        "chain_name": "terra2"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
+            },
+            "name": "Astroport token",
+            "symbol": "ASTRO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-5",
+                        "path": "transfer/channel-5/cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+                        "port": "transfer"
+                    },
+                    "counterparty": {
+                        "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+                        "chain_name": "terra2",
+                        "channel_id": "channel-167",
+                        "port": "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce"
+                    },
+                    "type": "ibc-cw20"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "ibc/662914d0c1cebcb070c68f061d035e8b10a07c79ab286e7342c85f3be74612c5": {
@@ -33383,6 +33706,151 @@
             "type_asset": "ics20"
         }
     },
+    "page": {
+        "ethereum": {
+            "address": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+            "aliases": null,
+            "chain": "ethereum",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "page",
+            "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+            },
+            "name": "Page",
+            "symbol": "PAGE",
+            "traces": null,
+            "type_asset": "erc20"
+        },
+        "gravitybridge": {
+            "address": null,
+            "aliases": null,
+            "chain": "gravitybridge",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "page",
+            "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+            },
+            "name": "Page",
+            "symbol": "PAGE",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Gravity Bridge",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "page",
+            "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "gravitybridge"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+            },
+            "name": "PageDAO",
+            "symbol": "PAGE.grv",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-144",
+                        "path": "transfer/channel-144/gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e"
+                    },
+                    "counterparty": {
+                        "base_denom": "gravity0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "gravity",
+                        "channel_id": "channel-10"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "polygon": {
+            "address": "0x9ceE70895726B0ea14E6019C961dAf32222a7C2f",
+            "aliases": null,
+            "chain": "polygon",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "page",
+            "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+            },
+            "name": "Page",
+            "symbol": "PAGE",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "PageDAO",
+                    "type": "additional-mintage"
+                }
+            ],
+            "type_asset": "erc20"
+        }
+    },
     "pasg": {
         "passage": {
             "address": null,
@@ -33929,6 +34397,31 @@
             },
             "name": "Planq",
             "symbol": "PLQ",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "plnk": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "PLNK",
+            "description": "Food for whales",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/PLNK_drk.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/PLNK_drk.png"
+            },
+            "name": "Plankton",
+            "symbol": "PLNK",
             "traces": null,
             "type_asset": null
         }

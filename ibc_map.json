@@ -604,6 +604,9 @@
             "channel-38": [
                 "celestia"
             ],
+            "channel-4": [
+                "cosmoshub"
+            ],
             "channel-46": [
                 "axelar"
             ],
@@ -777,6 +780,9 @@
             ],
             "channel-585": [
                 "fxcore"
+            ],
+            "channel-617": [
+                "composable"
             ],
             "channel-621": [
                 "empowerchain"
@@ -1939,6 +1945,16 @@
             "channel-35": [
                 "aura"
             ]
+        },
+        "wasm.osmo1tvzr8ur0ynjhqftxpkl4qwel8ly7erhy6cu6ks426xmzf92vk6eqfp9wcl": {
+            "channel-11319": [
+                "osmosis"
+            ]
+        },
+        "wasm.stars1mw5y55f53mnara7g3pn2pylxl8dpauscyn83c68442hz9nwktzrq8tjzyf": {
+            "channel-238": [
+                "stargaze"
+            ]
         }
     },
     "nolus": {
@@ -2060,6 +2076,9 @@
             ],
             "channel-124": [
                 "vidulum"
+            ],
+            "channel-12618": [
+                "pundix"
             ],
             "channel-1279": [
                 "composable"
@@ -2379,6 +2398,11 @@
             "channel-95": [
                 "bostrom"
             ]
+        },
+        "wasm.nois1acyc05v6fgcdgj88nmz2t40aex9nlnptqpwp5hf8hwg7rhce9uuqgqz5wp": {
+            "channel-41": [
+                "nois"
+            ]
         }
     },
     "panacea": {
@@ -2509,6 +2533,9 @@
         "transfer": {
             "channel-0": [
                 "fxcore"
+            ],
+            "channel-1": [
+                "osmosis"
             ]
         }
     },
@@ -2939,6 +2966,11 @@
             ],
             "channel-51": [
                 "crescent"
+            ]
+        },
+        "wasm.nois1acyc05v6fgcdgj88nmz2t40aex9nlnptqpwp5hf8hwg7rhce9uuqgqz5wp": {
+            "channel-38": [
+                "nois"
             ]
         }
     },
