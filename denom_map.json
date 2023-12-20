@@ -5052,6 +5052,48 @@
             "symbol": "ATOM",
             "traces": null,
             "type_asset": null
+        },
+        "teritori": {
+            "address": null,
+            "aliases": null,
+            "chain": "teritori",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "atom",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
+            "name": "Cosmos Hub Atom",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-10",
+                        "path": "transfer/channel-10/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub",
+                        "channel_id": "channel-431"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "attoaioz": {
@@ -16961,6 +17003,29 @@
             "symbol": "DORA",
             "traces": null,
             "type_asset": null
+        },
+        "doravotatestnet2": {
+            "address": null,
+            "aliases": null,
+            "chain": "doravotatestnet2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "DORA",
+            "description": "The native staking and governance token of the Theta incentive version of the Dora Vota Testnet.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/doravotatestnet/images/doravota.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/doravotatestnet/images/doravota.png"
+            },
+            "name": "Dora Vota Incentive Testnet",
+            "symbol": "DORA",
+            "traces": null,
+            "type_asset": null
         }
     },
     "dot": {
@@ -23284,6 +23349,50 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/1feca3491d88f4ad24de0948ed96718ca6d93f6730cee7708e621b953594bb5e": {
+        "teritori": {
+            "address": null,
+            "aliases": null,
+            "chain": "teritori",
+            "coingecko_id": "kujira",
+            "decimals": 6,
+            "denom": "ibc/1FECA3491D88F4AD24DE0948ED96718CA6D93F6730CEE7708E621B953594BB5E",
+            "description": "The native staking and governance token of the Kujira chain.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ukuji",
+                        "chain_name": "kujira"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
+            },
+            "name": "Kujira",
+            "symbol": "KUJI",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-30",
+                        "path": "transfer/channel-30/ukuji"
+                    },
+                    "counterparty": {
+                        "base_denom": "ukuji",
+                        "chain_name": "kujira",
+                        "channel_id": "channel-89"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/20014f963cc9e6488b299622f87b60c6de71632864859ec08b4753478dab2bb8": {
         "kujira": {
             "address": null,
@@ -23335,7 +23444,7 @@
             ],
             "chain": "osmosis",
             "coingecko_id": null,
-            "decimals": 0,
+            "decimals": 8,
             "denom": "ibc/23A62409E4AD8133116C249B1FA38EED30E500A115D7B153109462CD82C1CD99",
             "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
             "ibc": null,
@@ -25011,6 +25120,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/a670d9568b3e399316eede40c1181b7aa4bd0695f0b37513ce9b95b977dfc12e": {
+        "teritori": {
+            "address": null,
+            "aliases": [
+                "uatom"
+            ],
+            "chain": "teritori",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
+            "name": "Cosmos Hub Atom",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-10",
+                        "path": "transfer/channel-10/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub",
+                        "channel_id": "channel-431"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/a6e3af63b3c906416a9af7a556c59ea4bd50e617effe6299b99700ccb780e444": {
         "persistence": {
             "address": null,
@@ -26157,6 +26312,51 @@
                         "base_denom": "uosmo",
                         "chain_name": "osmosis",
                         "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "teritori": {
+            "address": null,
+            "aliases": null,
+            "chain": "teritori",
+            "coingecko_id": "osmosis",
+            "decimals": 6,
+            "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+            "description": "The native token of Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+                }
+            ],
+            "keywords": [
+                "dex",
+                "staking"
+            ],
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+            },
+            "name": "Osmosis",
+            "symbol": "OSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/uosmo"
+                    },
+                    "counterparty": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-362"
                     },
                     "type": "ibc"
                 }
@@ -27797,6 +27997,48 @@
             "symbol": "KUJI",
             "traces": null,
             "type_asset": null
+        },
+        "teritori": {
+            "address": null,
+            "aliases": null,
+            "chain": "teritori",
+            "coingecko_id": "kujira",
+            "decimals": 0,
+            "denom": "kuji",
+            "description": "The native staking and governance token of the Kujira chain.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ukuji",
+                        "chain_name": "kujira"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
+            },
+            "name": "Kujira",
+            "symbol": "KUJI",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-30",
+                        "path": "transfer/channel-30/ukuji"
+                    },
+                    "counterparty": {
+                        "base_denom": "ukuji",
+                        "chain_name": "kujira",
+                        "channel_id": "channel-89"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         },
         "terra": {
             "address": "terra1xfsdgcemqwxp4hhnyk4rle6wr22sseq7j07dnn",
@@ -33663,6 +33905,51 @@
             ],
             "type_asset": "ics20"
         },
+        "teritori": {
+            "address": null,
+            "aliases": null,
+            "chain": "teritori",
+            "coingecko_id": "osmosis",
+            "decimals": 0,
+            "denom": "osmo",
+            "description": "The native token of Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+                }
+            ],
+            "keywords": [
+                "dex",
+                "staking"
+            ],
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+            },
+            "name": "Osmosis",
+            "symbol": "OSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/uosmo"
+                    },
+                    "counterparty": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-362"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "xiontestnet": {
             "address": null,
             "aliases": null,
@@ -33970,6 +34257,29 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/doravotatestnet/images/doravota.png"
             },
             "name": "Dora Vota Testnet",
+            "symbol": "DORA",
+            "traces": null,
+            "type_asset": null
+        },
+        "doravotatestnet2": {
+            "address": null,
+            "aliases": null,
+            "chain": "doravotatestnet2",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "peaka",
+            "description": "The native staking and governance token of the Theta incentive version of the Dora Vota Testnet.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/doravotatestnet/images/doravota.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/doravotatestnet/images/doravota.png"
+            },
+            "name": "Dora Vota Incentive Testnet",
             "symbol": "DORA",
             "traces": null,
             "type_asset": null
@@ -40989,6 +41299,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "utori",
+                        "chain_name": "teritori"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg"
                 }
@@ -48574,6 +48888,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "utori",
+                        "chain_name": "teritori"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg"
                 }
