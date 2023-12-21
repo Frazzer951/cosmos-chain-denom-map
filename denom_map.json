@@ -4778,6 +4778,48 @@
             ],
             "type_asset": "ics20"
         },
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "atom",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
+            "name": "Cosmos Hub Atom",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub",
+                        "channel_id": "channel-343"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "neutron": {
             "address": null,
             "aliases": null,
@@ -5568,6 +5610,42 @@
                 }
             ],
             "type_asset": null
+        },
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "avax",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/wavax.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/wavax.svg"
+            },
+            "name": "Axelar Wrapped AVAX",
+            "symbol": "wAVAX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-9",
+                        "path": "transfer/channel-9/wavax-wei"
+                    },
+                    "counterparty": {
+                        "base_denom": "wawax-wei",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-14"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         },
         "terra": {
             "address": "terra1hj8de24c3yqvcsv9r8chr03fzwsak3hgd8gv3m",
@@ -8823,6 +8901,48 @@
             "symbol": "CMDX",
             "traces": null,
             "type_asset": null
+        },
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "cmdx",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ucmdx",
+                        "chain_name": "comdex"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
+            },
+            "name": "Comdex",
+            "symbol": "CMDX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-18",
+                        "path": "transfer/channel-18/ucmdx"
+                    },
+                    "counterparty": {
+                        "base_denom": "ucmdx",
+                        "chain_name": "comdex",
+                        "channel_id": "channel-31"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "cmqz": {
@@ -17641,6 +17761,33 @@
             "type_asset": null
         }
     },
+    "eaura": {
+        "auratestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "auratestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "eaura",
+            "description": "The native token of Aura Test Network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.svg"
+            },
+            "name": "EAura",
+            "symbol": "EAURA",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "ebl": {
         "8ball": {
             "address": null,
@@ -18479,6 +18626,48 @@
             "name": "Evmos",
             "symbol": "EVMOS",
             "traces": null,
+            "type_asset": null
+        },
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "evmos",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "aevmos",
+                        "chain_name": "evmos"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+            },
+            "name": "Evmos",
+            "symbol": "EVMOS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-23",
+                        "path": "transfer/channel-23/aevmos"
+                    },
+                    "counterparty": {
+                        "base_denom": "aevmos",
+                        "chain_name": "evmos",
+                        "channel_id": "channel-18"
+                    },
+                    "type": "ibc"
+                }
+            ],
             "type_asset": null
         },
         "nolus": {
@@ -19377,12 +19566,14 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg"
             },
             "name": "milkTIA",
             "symbol": "milkTIA",
@@ -23000,6 +23191,44 @@
             "type_asset": "erc20"
         }
     },
+    "ibc/004ebf085bbed1029326d56be8a2e67c08cece670a94ac1947df413ef5130eb2": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "ibc/004EBF085BBED1029326D56BE8A2E67C08CECE670A94AC1947DF413EF5130EB2",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/wavax.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/wavax.svg"
+            },
+            "name": "Axelar Wrapped AVAX",
+            "symbol": "wAVAX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-9",
+                        "path": "transfer/channel-9/wavax-wei"
+                    },
+                    "counterparty": {
+                        "base_denom": "wawax-wei",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-14"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/0471f1c4e7afd3f07702bef6dc365268d64570f7c1fdc98ea6098dd6de59817b": {
         "quasar": {
             "address": null,
@@ -23305,6 +23534,44 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/1b38805b1c75352b28169284f96df56bdebd9e8fac005bdcc8cf0378c82aa8e7": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+            },
+            "name": "Axelar Wrapped Ether",
+            "symbol": "wETH",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-9",
+                        "path": "transfer/channel-9/weth-wei"
+                    },
+                    "counterparty": {
+                        "base_denom": "weth-wei",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-14"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/1b708808d372e959cd4839c594960309283424c775f4a038aaebe7f83a988477": {
         "osmosis": {
             "address": null,
@@ -23417,7 +23684,7 @@
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
             },
             "name": "Tether USD",
-            "symbol": "USDt",
+            "symbol": "USDT",
             "traces": [
                 {
                     "chain": {
@@ -23529,6 +23796,48 @@
         }
     },
     "ibc/27394fb092d2eccd56123c74f36e4c1f926001ceada9ca97ea622b25f41e5eb2": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
+            "name": "Cosmos Hub Atom",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub",
+                        "channel_id": "channel-343"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "osmosis": {
             "address": null,
             "aliases": [
@@ -23575,6 +23884,48 @@
         }
     },
     "ibc/295548a78785a1007f232de286149a6ff512f180af5657780fc89c009e2c348f": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "axelar"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+            },
+            "name": "Axelar USD Coin",
+            "symbol": "axlUSDC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-9",
+                        "path": "transfer/channel-9/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-14"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "xiontestnet": {
             "address": null,
             "aliases": [
@@ -23782,6 +24133,50 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/3607eb5b5e64dd1c0e12e07f077ff470d5bc4706afcbc98fe1ba960e5ae4ce07": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/3607EB5B5E64DD1C0E12E07F077FF470D5BC4706AFCBC98FE1BA960E5AE4CE07",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ucmdx",
+                        "chain_name": "comdex"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
+            },
+            "name": "Comdex",
+            "symbol": "CMDX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-18",
+                        "path": "transfer/channel-18/ucmdx"
+                    },
+                    "counterparty": {
+                        "base_denom": "ucmdx",
+                        "chain_name": "comdex",
+                        "channel_id": "channel-31"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/3cc19cec7e5a3e90e78a5a9ecc5a0e2f8f826a375cf1e096f4515cf09da3e366": {
         "composable": {
             "address": null,
@@ -23861,6 +24256,50 @@
                         "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au"
                     },
                     "type": "ibc-cw20"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/47bd209179859cde4a2806763d7189b6e6fe13a17880fe2b42de1e6c1e329e23": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+            },
+            "name": "Osmosis",
+            "symbol": "OSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-3",
+                        "path": "transfer/channel-3/uosmo"
+                    },
+                    "counterparty": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-259"
+                    },
+                    "type": "ibc"
                 }
             ],
             "type_asset": "ics20"
@@ -24073,6 +24512,50 @@
                         "base_denom": "uiris",
                         "chain_name": "irisnet",
                         "channel_id": "channel-68"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/4f393c3fca4190c0a6756ce7f6d897d5d1be57d6ccb80d0bc87393566a7b6602": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/4F393C3FCA4190C0A6756CE7F6D897D5D1BE57D6CCB80D0BC87393566A7B6602",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ustars",
+                        "chain_name": "stargaze"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+            },
+            "name": "Stargaze",
+            "symbol": "STARS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-7",
+                        "path": "transfer/channel-7/ustars"
+                    },
+                    "counterparty": {
+                        "base_denom": "ustars",
+                        "chain_name": "stargaze",
+                        "channel_id": "channel-49"
                     },
                     "type": "ibc"
                 }
@@ -25039,6 +25522,50 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/a358d7f19237777af6d8ad0e0f53268f8b18ae8a53ed318095c14d6d7f3b2db5": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/A358D7F19237777AF6D8AD0E0F53268F8B18AE8A53ED318095C14D6D7F3B2DB5",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uscrt",
+                        "chain_name": "scrt"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+            },
+            "name": "Secret Network",
+            "symbol": "SCRT",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-10",
+                        "path": "transfer/channel-10/uscrt"
+                    },
+                    "counterparty": {
+                        "base_denom": "uscrt",
+                        "chain_name": "secretnetwork",
+                        "channel_id": "channel-22"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "ibc/a4db47a9d3cf9a068d454513891b526702455d3ef08fb9eb558c561f9dc2b701": {
         "carbon": {
             "address": null,
@@ -25929,6 +26456,50 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/da59c009a0b3b95e0549e6bf7b075c8239285989ff457a8eddbb56f10b2a6986": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uluna",
+                        "chain_name": "luna"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg"
+            },
+            "name": "Luna",
+            "symbol": "LUNA",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-5",
+                        "path": "transfer/channel-5/uluna"
+                    },
+                    "counterparty": {
+                        "base_denom": "uluna",
+                        "chain_name": "terra2",
+                        "channel_id": "channel-10"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "ibc/daad372db7dd45bbcfa4ddd40ca9793e9d265d1530083ab41a8a0c53c3ebe865": {
         "nolus": {
             "address": null,
@@ -26058,6 +26629,48 @@
                 }
             ],
             "type_asset": "ics20"
+        }
+    },
+    "ibc/e5ca126979e2ffb4c70c072f8094d07ecf27773b37623ad2bf7582ad0726f0f3": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 8,
+            "denom": "ibc/E5CA126979E2FFB4C70C072F8094D07ECF27773B37623AD2BF7582AD0726F0F3",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA",
+                        "chain_name": "gateway"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+            },
+            "name": "Wormhole Solana",
+            "symbol": "whSOL",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-113",
+                        "path": "transfer/channel-113/factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA",
+                        "chain_name": "gateway",
+                        "channel_id": "channel-9"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
         }
     },
     "ibc/e6931f78057f7cc5da0fd6cef82ff39373a6e0452bf1fd76910b93292cf356c1": {
@@ -26448,6 +27061,50 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/eff323cc632ec4f747c61bce238a758efdb7699c3226565f7c20da06509d59a5": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/EFF323CC632EC4F747C61BCE238A758EFDB7699C3226565F7C20DA06509D59A5",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ujuno",
+                        "chain_name": "juno"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+            },
+            "name": "Juno",
+            "symbol": "JUNO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1",
+                        "path": "transfer/channel-1/ujuno"
+                    },
+                    "counterparty": {
+                        "base_denom": "ujuno",
+                        "chain_name": "juno",
+                        "channel_id": "channel-87"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "ibc/f04d72cf9b5d9c849bb278b691cdfa2241813327430ec9cdc83f8f4ca4cdc2b0": {
         "cosmoshub": {
             "address": null,
@@ -26534,6 +27191,50 @@
                 }
             ],
             "type_asset": "ics20"
+        }
+    },
+    "ibc/f3aa7ef362ec5e791fe78a0f4ccc69fee1f9a7485eb1a8cab3f6601c00522f10": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "ibc/F3AA7EF362EC5E791FE78A0F4CCC69FEE1F9A7485EB1A8CAB3F6601C00522F10",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "aevmos",
+                        "chain_name": "evmos"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+            },
+            "name": "Evmos",
+            "symbol": "EVMOS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-23",
+                        "path": "transfer/channel-23/aevmos"
+                    },
+                    "counterparty": {
+                        "base_denom": "aevmos",
+                        "chain_name": "evmos",
+                        "channel_id": "channel-18"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
         }
     },
     "ibc/f3ec9f834e57df704fa3aeaf14e8391c2e58397fe56960ad70e67562990d8265": {
@@ -26813,6 +27514,50 @@
                         "base_denom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901",
                         "chain_name": "osmosis",
                         "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/fe98aad68f02f03565e9fa39a5e627946699b2b07115889ed812d8ba639576a9": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "noble"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+            },
+            "name": "Noble USD Coin",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-62",
+                        "path": "transfer/channel-62/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "noble",
+                        "channel_id": "channel-2"
                     },
                     "type": "ibc"
                 }
@@ -27587,6 +28332,48 @@
             "name": "Juno",
             "symbol": "JUNO",
             "traces": null,
+            "type_asset": null
+        },
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "juno",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ujuno",
+                        "chain_name": "juno"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+            },
+            "name": "Juno",
+            "symbol": "JUNO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1",
+                        "path": "transfer/channel-1/ujuno"
+                    },
+                    "counterparty": {
+                        "base_denom": "ujuno",
+                        "chain_name": "juno",
+                        "channel_id": "channel-87"
+                    },
+                    "type": "ibc"
+                }
+            ],
             "type_asset": null
         },
         "nolus": {
@@ -28956,6 +29743,48 @@
                 }
             ],
             "type_asset": "ics20"
+        },
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "luna",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uluna",
+                        "chain_name": "luna"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg"
+            },
+            "name": "Luna",
+            "symbol": "LUNA",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-5",
+                        "path": "transfer/channel-5/uluna"
+                    },
+                    "counterparty": {
+                        "base_denom": "uluna",
+                        "chain_name": "terra2",
+                        "channel_id": "channel-10"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
         },
         "terra": {
             "address": null,
@@ -30539,12 +31368,14 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg"
             },
             "name": "milkTIA",
             "symbol": "milkTIA",
@@ -33737,6 +34568,48 @@
             ],
             "type_asset": "ics20"
         },
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "osmo",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+            },
+            "name": "Osmosis",
+            "symbol": "OSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-3",
+                        "path": "transfer/channel-3/uosmo"
+                    },
+                    "counterparty": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-259"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "nolus": {
             "address": null,
             "aliases": [],
@@ -36809,6 +37682,48 @@
         }
     },
     "scrt": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "scrt",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uscrt",
+                        "chain_name": "scrt"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+            },
+            "name": "Secret Network",
+            "symbol": "SCRT",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-10",
+                        "path": "transfer/channel-10/uscrt"
+                    },
+                    "counterparty": {
+                        "base_denom": "uscrt",
+                        "chain_name": "secretnetwork",
+                        "channel_id": "channel-22"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
+        },
         "nolus": {
             "address": null,
             "aliases": [],
@@ -37935,6 +38850,46 @@
         }
     },
     "sol": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sol",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA",
+                        "chain_name": "gateway"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+            },
+            "name": "Wormhole Solana",
+            "symbol": "whSOL",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-113",
+                        "path": "transfer/channel-113/factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA",
+                        "chain_name": "gateway",
+                        "channel_id": "channel-9"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
+        },
         "solana": {
             "address": null,
             "aliases": null,
@@ -38376,6 +39331,48 @@
                         "base_denom": "ustars",
                         "chain_name": "stargaze",
                         "channel_id": "channel-123"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stars",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ustars",
+                        "chain_name": "stargaze"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+            },
+            "name": "Stargaze",
+            "symbol": "STARS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-7",
+                        "path": "transfer/channel-7/ustars"
+                    },
+                    "counterparty": {
+                        "base_denom": "ustars",
+                        "chain_name": "stargaze",
+                        "channel_id": "channel-49"
                     },
                     "type": "ibc"
                 }
@@ -42945,6 +43942,33 @@
             "type_asset": null
         }
     },
+    "ueaura": {
+        "auratestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "auratestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ueaura",
+            "description": "The native token of Aura Test Network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.svg"
+            },
+            "name": "EAura",
+            "symbol": "EAURA",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "uebl": {
         "8ball": {
             "address": null,
@@ -46596,6 +47620,48 @@
             ],
             "type_asset": "erc20"
         },
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "usdc",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "noble"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+            },
+            "name": "Noble USD Coin",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-62",
+                        "path": "transfer/channel-62/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "noble",
+                        "channel_id": "channel-2"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "neutron": {
             "address": null,
             "aliases": null,
@@ -47614,7 +48680,7 @@
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
             },
             "name": "Tether USD",
-            "symbol": "USDt",
+            "symbol": "USDT",
             "traces": [
                 {
                     "chain": {
@@ -50940,6 +52006,42 @@
                 }
             ],
             "type_asset": "erc20"
+        },
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "weth",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+            },
+            "name": "Axelar Wrapped Ether",
+            "symbol": "wETH",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-9",
+                        "path": "transfer/channel-9/weth-wei"
+                    },
+                    "counterparty": {
+                        "base_denom": "weth-wei",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-14"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         },
         "nolus": {
             "address": null,

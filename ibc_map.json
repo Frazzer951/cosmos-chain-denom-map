@@ -360,6 +360,9 @@
             ]
         },
         "transfer": {
+            "channel-159": [
+                "coreum"
+            ],
             "channel-83": [
                 "osmosis"
             ]
@@ -562,6 +565,9 @@
             "channel-18": [
                 "juno"
             ],
+            "channel-31": [
+                "kujira"
+            ],
             "channel-45": [
                 "stride"
             ],
@@ -652,8 +658,29 @@
             "channel-10": [
                 "doravota"
             ],
+            "channel-17": [
+                "kujira"
+            ],
+            "channel-18": [
+                "kava"
+            ],
+            "channel-19": [
+                "noble"
+            ],
             "channel-2": [
                 "osmosis"
+            ],
+            "channel-20": [
+                "bandchain"
+            ],
+            "channel-24": [
+                "dydx"
+            ],
+            "channel-25": [
+                "secretnetwork"
+            ],
+            "channel-26": [
+                "sei"
             ],
             "channel-6": [
                 "axelar"
@@ -1004,6 +1031,9 @@
             "channel-11": [
                 "neutron"
             ],
+            "channel-14": [
+                "coreum"
+            ],
             "channel-3": [
                 "osmosis"
             ],
@@ -1170,6 +1200,9 @@
     },
     "gateway": {
         "transfer": {
+            "channel-113": [
+                "kujira"
+            ],
             "channel-3": [
                 "osmosis"
             ]
@@ -1486,6 +1519,9 @@
             "channel-86": [
                 "terra2"
             ],
+            "channel-87": [
+                "kujira"
+            ],
             "channel-9": [
                 "emoney"
             ]
@@ -1535,6 +1571,9 @@
             ],
             "channel-138": [
                 "terra2"
+            ],
+            "channel-142": [
+                "coreum"
             ]
         }
     },
@@ -1565,6 +1604,9 @@
             "channel-0": [
                 "cosmoshub"
             ],
+            "channel-1": [
+                "juno"
+            ],
             "channel-10": [
                 "secretnetwork"
             ],
@@ -1583,8 +1625,14 @@
             "channel-119": [
                 "furya"
             ],
+            "channel-122": [
+                "coreum"
+            ],
             "channel-123": [
                 "andromeda"
+            ],
+            "channel-18": [
+                "comdex"
             ],
             "channel-19": [
                 "assetmantle"
@@ -1597,6 +1645,9 @@
             ],
             "channel-32": [
                 "stride"
+            ],
+            "channel-36": [
+                "terra2"
             ],
             "channel-44": [
                 "secretnetwork"
@@ -1656,7 +1707,8 @@
                 "teritori"
             ],
             "channel-9": [
-                "axelar"
+                "axelar",
+                "gateway"
             ],
             "channel-94": [
                 "jackal"
@@ -1921,6 +1973,9 @@
             ],
             "channel-44": [
                 "omniflixhub"
+            ],
+            "channel-49": [
+                "coreum"
             ],
             "channel-7": [
                 "evmos"
@@ -2675,6 +2730,9 @@
             "channel-1": [
                 "osmosis"
             ],
+            "channel-101": [
+                "coreum"
+            ],
             "channel-11": [
                 "chihuahua"
             ],
@@ -2796,6 +2854,9 @@
             ],
             "channel-41": [
                 "noble"
+            ],
+            "channel-47": [
+                "coreum"
             ]
         }
     },
@@ -3241,6 +3302,9 @@
         "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au": {
             "channel-26": [
                 "osmosis"
+            ],
+            "channel-28": [
+                "kujira"
             ],
             "channel-41": [
                 "carbon"
