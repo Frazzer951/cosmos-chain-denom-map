@@ -309,6 +309,9 @@
             "channel-128": [
                 "fxcore"
             ],
+            "channel-134": [
+                "jackal"
+            ],
             "channel-14": [
                 "kujira"
             ],
@@ -1416,6 +1419,9 @@
             ],
             "channel-41": [
                 "archway"
+            ],
+            "channel-48": [
+                "axelar"
             ]
         }
     },
@@ -3032,6 +3038,9 @@
             "channel-204": [
                 "noble"
             ],
+            "channel-266": [
+                "terra2"
+            ],
             "channel-46": [
                 "evmos"
             ],
@@ -3268,6 +3277,9 @@
             ],
             "channel-316": [
                 "andromeda"
+            ],
+            "channel-324": [
+                "stargaze"
             ],
             "channel-36": [
                 "carbon"
