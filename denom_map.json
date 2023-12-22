@@ -19320,6 +19320,31 @@
             "type_asset": null
         }
     },
+    "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy": {
+        "migaloo": {
+            "address": null,
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy",
+            "description": "GUPPY",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png"
+            },
+            "name": "GUPPY",
+            "symbol": "GUPPY",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/bonewhale": {
         "migaloo": {
             "address": null,
@@ -22490,6 +22515,31 @@
             "symbol": "GUIDES",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "guppy": {
+        "migaloo": {
+            "address": null,
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "GUPPY",
+            "description": "GUPPY",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png"
+            },
+            "name": "GUPPY",
+            "symbol": "GUPPY",
+            "traces": null,
+            "type_asset": null
         }
     },
     "gusdc": {
