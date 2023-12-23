@@ -1268,6 +1268,13 @@
             ]
         }
     },
+    "haqq": {
+        "transfer": {
+            "channel-2": [
+                "osmosis"
+            ]
+        }
+    },
     "impacthub": {
         "transfer": {
             "channel-1": [
@@ -2189,6 +2196,9 @@
             ],
             "channel-15": [
                 "starname"
+            ],
+            "channel-1575": [
+                "haqq"
             ],
             "channel-1634": [
                 "xpla"

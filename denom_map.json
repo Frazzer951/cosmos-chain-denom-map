@@ -25012,6 +25012,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/75345531d87bd90bf108be7240bd721cb2cb0a1f16d4eba71b09ec3c43e15c8f": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "usat"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 14,
+            "denom": "ibc/75345531D87BD90BF108BE7240BD721CB2CB0A1F16D4EBA71B09EC3C43E15C8F",
+            "description": "Bitcoin. On Cosmos.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "usat",
+                        "chain_name": "nomic"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+            },
+            "name": "Nomic Bitcoin",
+            "symbol": "nBTC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-6897",
+                        "path": "transfer/channel-6897/usat"
+                    },
+                    "counterparty": {
+                        "base_denom": "usat",
+                        "chain_name": "nomic",
+                        "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/773b4d0a3cd667b2275d5a4a7a2f0909c0ba0f4059c0b9181e680ddf4965dcc7": {
         "neutron": {
             "address": null,
@@ -33315,6 +33361,48 @@
                 }
             ],
             "type_asset": null
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "nbtc",
+            "description": "Bitcoin. On Cosmos.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "usat",
+                        "chain_name": "nomic"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+            },
+            "name": "Nomic Bitcoin",
+            "symbol": "nBTC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-6897",
+                        "path": "transfer/channel-6897/usat"
+                    },
+                    "counterparty": {
+                        "base_denom": "usat",
+                        "chain_name": "nomic",
+                        "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "ncheq": {
