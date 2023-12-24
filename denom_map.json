@@ -5443,6 +5443,46 @@
             "symbol": "AUTISM",
             "traces": null,
             "type_asset": null
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "autism",
+            "description": "AUTISM on Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+                        "chain_name": "injective"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png"
+            },
+            "name": "Injective AUTISM",
+            "symbol": "AUTISM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-122",
+                        "path": "transfer/channel-122/factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+                        "chain_name": "injective",
+                        "channel_id": "channel-8"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "avalanche-usdc": {
@@ -25617,6 +25657,50 @@
                         "base_denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
                         "chain_name": "osmosis",
                         "channel_id": "channel-526"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/9ddf52a334f92bc57a9e0d59dff9984eac61d2a14e5162605df601aa58fdfc6d": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "uautism"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/9DDF52A334F92BC57A9E0D59DFF9984EAC61D2A14E5162605DF601AA58FDFC6D",
+            "description": "AUTISM on Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+                        "chain_name": "injective"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png"
+            },
+            "name": "Injective AUTISM",
+            "symbol": "AUTISM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-122",
+                        "path": "transfer/channel-122/factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+                        "chain_name": "injective",
+                        "channel_id": "channel-8"
                     },
                     "type": "ibc"
                 }
