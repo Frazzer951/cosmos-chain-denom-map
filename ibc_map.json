@@ -213,6 +213,9 @@
             ],
             "channel-61": [
                 "neutron"
+            ],
+            "channel-88": [
+                "qwoyn"
             ]
         },
         "wasm.archway10f3aasgsnpv84ymjyld50jayc4ecu267sdpjamauwm8nvxlzex9qj4dkwr": {
@@ -290,6 +293,9 @@
             ],
             "channel-111": [
                 "archway"
+            ],
+            "channel-113": [
+                "haqq"
             ],
             "channel-114": [
                 "impacthub"
@@ -821,6 +827,9 @@
             "channel-569": [
                 "neutron"
             ],
+            "channel-584": [
+                "sei"
+            ],
             "channel-585": [
                 "fxcore"
             ],
@@ -832,6 +841,9 @@
             ],
             "channel-623": [
                 "archway"
+            ],
+            "channel-632": [
+                "haqq"
             ],
             "channel-645": [
                 "realio"
@@ -1230,6 +1242,9 @@
             "channel-10": [
                 "osmosis"
             ],
+            "channel-100": [
+                "haqq"
+            ],
             "channel-102": [
                 "planq"
             ],
@@ -1270,8 +1285,23 @@
     },
     "haqq": {
         "transfer": {
+            "channel-0": [
+                "gravitybridge"
+            ],
+            "channel-1": [
+                "axelar"
+            ],
             "channel-2": [
                 "osmosis"
+            ],
+            "channel-3": [
+                "cosmoshub"
+            ],
+            "channel-4": [
+                "noble"
+            ],
+            "channel-6": [
+                "kava"
             ]
         }
     },
@@ -1582,6 +1612,9 @@
             "channel-134": [
                 "persistence"
             ],
+            "channel-135": [
+                "haqq"
+            ],
             "channel-138": [
                 "terra2"
             ],
@@ -1851,6 +1884,9 @@
             "channel-60": [
                 "noble"
             ],
+            "channel-69": [
+                "stargaze"
+            ],
             "channel-8": [
                 "kujira"
             ]
@@ -1971,6 +2007,9 @@
             ],
             "channel-30": [
                 "terra2"
+            ],
+            "channel-32": [
+                "haqq"
             ],
             "channel-33": [
                 "dydx"
@@ -2671,6 +2710,9 @@
         "transfer": {
             "channel-0": [
                 "osmosis"
+            ],
+            "channel-5": [
+                "archway"
             ]
         }
     },
@@ -2855,6 +2897,9 @@
         "transfer": {
             "channel-0": [
                 "osmosis"
+            ],
+            "channel-1": [
+                "cosmoshub"
             ],
             "channel-11": [
                 "stride"
@@ -3050,6 +3095,9 @@
             ],
             "channel-266": [
                 "terra2"
+            ],
+            "channel-269": [
+                "migaloo"
             ],
             "channel-46": [
                 "evmos"

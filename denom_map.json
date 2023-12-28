@@ -4205,6 +4205,31 @@
             "type_asset": null
         }
     },
+    "armani": {
+        "terra2": {
+            "address": "terra1aa7stl3fytvave9xtcexgv0kne4k7ks068dcljkrfj37hy8q270sjadav8",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ARMANI",
+            "description": "Chris Armani Token",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/armani.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/armani.png"
+            },
+            "name": "ARMANI",
+            "symbol": "ARMANI",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "arst": {
         "realio": {
             "address": null,
@@ -5439,7 +5464,7 @@
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png"
             },
-            "name": "$AUTISM exists to celebrate autism as a superior biological tech stack for a changing world",
+            "name": "Autism",
             "symbol": "AUTISM",
             "traces": null,
             "type_asset": null
@@ -12371,7 +12396,7 @@
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mimet.png"
             },
-            "name": "Magic Internet Money (Portal from Ethereum)",
+            "name": "Magic Internet Money",
             "symbol": "MIMet",
             "traces": null,
             "type_asset": "cw20"
@@ -13184,6 +13209,31 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:terra1aa7stl3fytvave9xtcexgv0kne4k7ks068dcljkrfj37hy8q270sjadav8": {
+        "terra2": {
+            "address": "terra1aa7stl3fytvave9xtcexgv0kne4k7ks068dcljkrfj37hy8q270sjadav8",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:terra1aa7stl3fytvave9xtcexgv0kne4k7ks068dcljkrfj37hy8q270sjadav8",
+            "description": "Chris Armani Token",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/armani.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/armani.png"
+            },
+            "name": "ARMANI",
+            "symbol": "ARMANI",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:terra1aa7upykmmqqc63l924l5qfap8mrmx5rfdm0v55": {
         "terra": {
             "address": "terra1aa7upykmmqqc63l924l5qfap8mrmx5rfdm0v55",
@@ -13280,6 +13330,31 @@
             },
             "name": "Lido bonded SOL (Portal)",
             "symbol": "wsbSOL",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
+    "cw20:terra1c77xqv746m7ghxayrge79dxr4kcezev8g6cnrfled4f3n4ufj0vs5gz28s": {
+        "terra2": {
+            "address": "terra1c77xqv746m7ghxayrge79dxr4kcezev8g6cnrfled4f3n4ufj0vs5gz28s",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:terra1c77xqv746m7ghxayrge79dxr4kcezev8g6cnrfled4f3n4ufj0vs5gz28s",
+            "description": "ITO DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/I.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/I.png"
+            },
+            "name": "ito",
+            "symbol": "ITO",
             "traces": null,
             "type_asset": "cw20"
         }
@@ -18817,7 +18892,7 @@
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png"
             },
-            "name": "$AUTISM exists to celebrate autism as a superior biological tech stack for a changing world",
+            "name": "Autism",
             "symbol": "AUTISM",
             "traces": null,
             "type_asset": null
@@ -19458,6 +19533,31 @@
             },
             "name": "boneWHALE",
             "symbol": "bWHALE",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir": {
+        "migaloo": {
+            "address": null,
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir",
+            "description": "OPHIR is a Cosmos Treasury DAO established on Migaloo.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png"
+            },
+            "name": "OPHIR",
+            "symbol": "OPHIR",
             "traces": null,
             "type_asset": null
         }
@@ -28263,6 +28363,31 @@
             "type_asset": null
         }
     },
+    "ito": {
+        "terra2": {
+            "address": "terra1c77xqv746m7ghxayrge79dxr4kcezev8g6cnrfled4f3n4ufj0vs5gz28s",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ito",
+            "description": "ITO DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/I.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/I.png"
+            },
+            "name": "ito",
+            "symbol": "ITO",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "ixo": {
         "impacthub": {
             "address": null,
@@ -31699,7 +31824,7 @@
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/mimet.png"
             },
-            "name": "Magic Internet Money (Portal from Ethereum)",
+            "name": "Magic Internet Money",
             "symbol": "MIMet",
             "traces": null,
             "type_asset": "cw20"
@@ -34607,6 +34732,31 @@
             },
             "name": "OKExChain",
             "symbol": "OKT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "ophir": {
+        "migaloo": {
+            "address": null,
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "OPHIR",
+            "description": "OPHIR is a Cosmos Treasury DAO established on Migaloo.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png"
+            },
+            "name": "OPHIR",
+            "symbol": "OPHIR",
             "traces": null,
             "type_asset": null
         }
