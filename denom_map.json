@@ -18923,6 +18923,31 @@
             "type_asset": null
         }
     },
+    "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
+            "description": "The first meme coin on Injective. It\u2019s a dog, but he has nunchucks",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninja.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninja.png"
+            },
+            "name": "Dog wif nunchucks",
+            "symbol": "NINJA",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/juno12klaltyqvg2j6v034jwdxrk5n4242ttse4sdpt/nexx": {
         "junotestnet": {
             "address": null,
@@ -33997,6 +34022,31 @@
             },
             "name": "Imv",
             "symbol": "IMV",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "ninja": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "NINJA",
+            "description": "The first meme coin on Injective. It\u2019s a dog, but he has nunchucks",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninja.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninja.png"
+            },
+            "name": "Dog wif nunchucks",
+            "symbol": "NINJA",
             "traces": null,
             "type_asset": null
         }
