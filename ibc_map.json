@@ -306,6 +306,9 @@
             "channel-120": [
                 "coreum"
             ],
+            "channel-121": [
+                "migaloo"
+            ],
             "channel-125": [
                 "celestia"
             ],
@@ -1360,6 +1363,9 @@
             "channel-152": [
                 "celestia"
             ],
+            "channel-177": [
+                "neutron"
+            ],
             "channel-8": [
                 "osmosis"
             ],
@@ -1881,6 +1887,9 @@
             "channel-5": [
                 "osmosis"
             ],
+            "channel-53": [
+                "axelar"
+            ],
             "channel-60": [
                 "noble"
             ],
@@ -1953,6 +1962,9 @@
             ],
             "channel-57": [
                 "secretnetwork"
+            ],
+            "channel-60": [
+                "injective"
             ],
             "channel-8": [
                 "stride"

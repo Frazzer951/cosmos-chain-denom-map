@@ -13459,6 +13459,27 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:terra1cl273523kmr2uwjhhznq54je69mted2u3ljffm8kp2ap4z3drdksftwqun": {
+        "terra2": {
+            "address": "terra1cl273523kmr2uwjhhznq54je69mted2u3ljffm8kp2ap4z3drdksftwqun",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:terra1cl273523kmr2uwjhhznq54je69mted2u3ljffm8kp2ap4z3drdksftwqun",
+            "description": "useless meme coin",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png"
+            },
+            "name": "DROGO",
+            "symbol": "DROGO",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:terra1cl7whtrqmz5ldr553q69qahck8xvk80fm33qjx": {
         "terra": {
             "address": "terra1cl7whtrqmz5ldr553q69qahck8xvk80fm33qjx",
@@ -17603,6 +17624,27 @@
             "type_asset": "cw20"
         }
     },
+    "drogo": {
+        "terra2": {
+            "address": "terra1cl273523kmr2uwjhhznq54je69mted2u3ljffm8kp2ap4z3drdksftwqun",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "DROGO",
+            "description": "useless meme coin",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png"
+            },
+            "name": "DROGO",
+            "symbol": "DROGO",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "dsm": {
         "desmos": {
             "address": null,
@@ -18923,6 +18965,31 @@
             "type_asset": null
         }
     },
+    "factory/inj1rmjzj9fn47kdmfk4f3z39qr6czexxe0yjyc546/wgmi": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/inj1rmjzj9fn47kdmfk4f3z39qr6czexxe0yjyc546/WGMI",
+            "description": "The $WGMI Token - We Gonna Make It. Are you ready?",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/wgmi.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/wgmi.png"
+            },
+            "name": "WGMI",
+            "symbol": "WGMI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja": {
         "injective": {
             "address": null,
@@ -20008,6 +20075,31 @@
             },
             "name": "Staked IBCX",
             "symbol": "stIBCX",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye": {
+        "sei": {
+            "address": null,
+            "aliases": null,
+            "chain": "sei",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye",
+            "description": "Popeye the Seilor",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png"
+            },
+            "name": "Popeye",
+            "symbol": "POPEYE",
             "traces": null,
             "type_asset": null
         }
@@ -36275,6 +36367,31 @@
                     "type": "bridge"
                 }
             ],
+            "type_asset": null
+        }
+    },
+    "popeye": {
+        "sei": {
+            "address": null,
+            "aliases": null,
+            "chain": "sei",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "popeye",
+            "description": "Popeye the Seilor",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png"
+            },
+            "name": "Popeye",
+            "symbol": "POPEYE",
+            "traces": null,
             "type_asset": null
         }
     },
@@ -53086,6 +53203,31 @@
                     "type": "bridge"
                 }
             ],
+            "type_asset": null
+        }
+    },
+    "wgmi": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "WGMI",
+            "description": "The $WGMI Token - We Gonna Make It. Are you ready?",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/wgmi.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/wgmi.png"
+            },
+            "name": "WGMI",
+            "symbol": "WGMI",
+            "traces": null,
             "type_asset": null
         }
     },
