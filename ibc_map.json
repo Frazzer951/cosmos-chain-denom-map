@@ -1621,6 +1621,9 @@
             "channel-135": [
                 "haqq"
             ],
+            "channel-136": [
+                "neutron"
+            ],
             "channel-138": [
                 "terra2"
             ],
@@ -1935,6 +1938,9 @@
             ],
             "channel-35": [
                 "celestia"
+            ],
+            "channel-36": [
+                "kava"
             ],
             "channel-41": [
                 "archway"
