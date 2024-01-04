@@ -1263,6 +1263,9 @@
             "channel-145": [
                 "archway"
             ],
+            "channel-18": [
+                "nyx"
+            ],
             "channel-24": [
                 "persistence"
             ],
@@ -2124,6 +2127,16 @@
             ]
         }
     },
+    "nyx": {
+        "transfer": {
+            "channel-0": [
+                "gravitybridge"
+            ],
+            "channel-8": [
+                "osmosis"
+            ]
+        }
+    },
     "odin": {
         "transfer": {
             "channel-3": [
@@ -2253,6 +2266,9 @@
             ],
             "channel-15": [
                 "starname"
+            ],
+            "channel-15464": [
+                "nyx"
             ],
             "channel-1575": [
                 "haqq"
