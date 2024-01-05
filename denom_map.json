@@ -8916,6 +8916,31 @@
             "type_asset": null
         }
     },
+    "circus": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "circus",
+            "description": "clownmaxxed store of value",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/circus.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/circus.png"
+            },
+            "name": "AtomEconomicZone69JaeKwonInu",
+            "symbol": "CIRCUS",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "clay": {
         "bitsong": {
             "address": null,
@@ -19319,6 +19344,31 @@
             "type_asset": null
         }
     },
+    "factory/kujira1l04ged98c7a7s9tllu62ld09ztylwf442qgm4thfgmadrvngeumsz4zrh2/urcpt": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/kujira1l04ged98c7a7s9tllu62ld09ztylwf442qgm4thfgmadrvngeumsz4zrh2/urcpt",
+            "description": "Quark's auto-compounding FUZN derivative",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qcfuzn.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qcfuzn.svg"
+            },
+            "name": "qcFUZN",
+            "symbol": "qcFUZN",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/kujira1m96ucsfpt2yy72w09z2rxjdj38y5qd8lqx5jtggnejmdua2ynpnsxyvjex/urcpt": {
         "kujira": {
             "address": null,
@@ -19750,6 +19800,33 @@
             },
             "name": "AstroPepe",
             "symbol": "ASTROPEPE",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/neutron170v88vrtnedesyfytuku257cggxc79rd7lwt7q/ucircus": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "ucircus"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron170v88vrtnedesyfytuku257cggxc79rd7lwt7q/ucircus",
+            "description": "clownmaxxed store of value",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/circus.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/circus.png"
+            },
+            "name": "AtomEconomicZone69JaeKwonInu",
+            "symbol": "CIRCUS",
             "traces": null,
             "type_asset": null
         }
@@ -37016,6 +37093,31 @@
                     "type": "liquid-stake"
                 }
             ],
+            "type_asset": null
+        }
+    },
+    "qcfuzn": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "qcFUZN",
+            "description": "Quark's auto-compounding FUZN derivative",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qcfuzn.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qcfuzn.svg"
+            },
+            "name": "qcFUZN",
+            "symbol": "qcFUZN",
+            "traces": null,
             "type_asset": null
         }
     },

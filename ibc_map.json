@@ -2050,6 +2050,9 @@
             "channel-49": [
                 "coreum"
             ],
+            "channel-54": [
+                "teritori"
+            ],
             "channel-7": [
                 "evmos"
             ]
@@ -3286,6 +3289,9 @@
             ],
             "channel-30": [
                 "kujira"
+            ],
+            "channel-62": [
+                "noble"
             ]
         }
     },
