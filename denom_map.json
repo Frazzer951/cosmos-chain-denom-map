@@ -7779,6 +7779,31 @@
             "type_asset": null
         }
     },
+    "btc": {
+        "bitcoin": {
+            "address": null,
+            "aliases": null,
+            "chain": "bitcoin",
+            "coingecko_id": "bitcoin",
+            "decimals": 0,
+            "denom": "btc",
+            "description": "Bitcoin",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png"
+            },
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "btl": {
         "terra": {
             "address": "terra193c42lfwmlkasvcw22l9qqzc5q2dx208tkd7wl",
@@ -18990,6 +19015,31 @@
             "type_asset": null
         }
     },
+    "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof": {
+        "chihuahua": {
+            "address": null,
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
+            "description": "Woof",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
+            },
+            "name": "WOOF",
+            "symbol": "WOOF",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/chihuahua1x4q2vkrz4dfgd9hcw0p5m2f2nuv2uqmt9xr8k2/achihuahuawifhat": {
         "chihuahua": {
             "address": null,
@@ -20553,7 +20603,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
@@ -25982,6 +26032,46 @@
                         "base_denom": "ustars",
                         "chain_name": "stargaze",
                         "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/9b8ec667b6df55387dc0f3acc4f187da6921b0806ed35de6b04de96f5ab81f53": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "uwoof"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/9B8EC667B6DF55387DC0F3ACC4F187DA6921B0806ED35DE6B04DE96F5AB81F53",
+            "description": "Woof on Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
+            },
+            "name": "WOOF chihuahua",
+            "symbol": "WOOF",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-113",
+                        "path": "transfer/channel-113/factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
+                        "chain_name": "chihuahua",
+                        "channel_id": "channel-7"
                     },
                     "type": "ibc"
                 }
@@ -38304,6 +38394,29 @@
         }
     },
     "sat": {
+        "bitcoin": {
+            "address": null,
+            "aliases": null,
+            "chain": "bitcoin",
+            "coingecko_id": "bitcoin",
+            "decimals": 8,
+            "denom": "sat",
+            "description": "Bitcoin",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png"
+            },
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "traces": null,
+            "type_asset": null
+        },
         "neutron": {
             "address": null,
             "aliases": null,
@@ -53841,6 +53954,67 @@
             "type_asset": null
         }
     },
+    "woof": {
+        "chihuahua": {
+            "address": null,
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "WOOF",
+            "description": "Woof",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
+            },
+            "name": "WOOF",
+            "symbol": "WOOF",
+            "traces": null,
+            "type_asset": null
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "WOOF",
+            "description": "Woof on Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
+            },
+            "name": "WOOF chihuahua",
+            "symbol": "WOOF",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-113",
+                        "path": "transfer/channel-113/factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uwoof",
+                        "chain_name": "chihuahua",
+                        "channel_id": "channel-7"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "worm": {
         "gateway": {
             "address": null,
@@ -53924,7 +54098,7 @@
             "traces": [
                 {
                     "counterparty": {
-                        "base_denom": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
                         "chain_name": "ethereum"
                     },
                     "provider": "Wormhole",
