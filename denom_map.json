@@ -19829,6 +19829,33 @@
             "type_asset": null
         }
     },
+    "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/jimmy": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "ujimmy"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron108x7vp9zv22d6wxrs9as8dshd3pd5vsga463yd/JIMMY",
+            "description": "Jimmy Neutron Finance",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/jimmy.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/jimmy.png"
+            },
+            "name": "jimmy",
+            "symbol": "JIMMY",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe": {
         "neutron": {
             "address": null,
@@ -20302,6 +20329,31 @@
             },
             "name": "Popeye",
             "symbol": "POPEYE",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/sei1ta5rkr6y2qlkj7px8w2cvear7m2822q4f4ea0m/sensei": {
+        "sei": {
+            "address": null,
+            "aliases": null,
+            "chain": "sei",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/sei1ta5rkr6y2qlkj7px8w2cvear7m2822q4f4ea0m/sensei",
+            "description": "A wise dog and a marshal arts master",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png"
+            },
+            "name": "Sensei Dog",
+            "symbol": "SENSEI",
             "traces": null,
             "type_asset": null
         }
@@ -28860,6 +28912,31 @@
             "symbol": "JAPE",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "jimmy": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "jimmy",
+            "description": "Jimmy Neutron Finance",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/jimmy.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/jimmy.png"
+            },
+            "name": "jimmy",
+            "symbol": "JIMMY",
+            "traces": null,
+            "type_asset": null
         }
     },
     "jinx": {
@@ -39021,6 +39098,31 @@
             },
             "name": "self",
             "symbol": "SELF",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "sensei": {
+        "sei": {
+            "address": null,
+            "aliases": null,
+            "chain": "sei",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sensei",
+            "description": "A wise dog and a marshal arts master",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png"
+            },
+            "name": "Sensei Dog",
+            "symbol": "SENSEI",
             "traces": null,
             "type_asset": null
         }

@@ -491,6 +491,9 @@
             "channel-12": [
                 "composable"
             ],
+            "channel-13": [
+                "kava"
+            ],
             "channel-14": [
                 "secretnetwork"
             ],
@@ -1150,6 +1153,9 @@
             "channel-40": [
                 "acrechain"
             ],
+            "channel-5": [
+                "gateway"
+            ],
             "channel-64": [
                 "noble"
             ],
@@ -1223,6 +1229,9 @@
             ],
             "channel-3": [
                 "osmosis"
+            ],
+            "channel-94": [
+                "evmos"
             ]
         }
     },
@@ -1629,6 +1638,9 @@
             ],
             "channel-138": [
                 "terra2"
+            ],
+            "channel-140": [
+                "celestia"
             ],
             "channel-142": [
                 "coreum"
