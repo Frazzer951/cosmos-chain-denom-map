@@ -2919,6 +2919,27 @@
             "type_asset": null
         }
     },
+    "ado": {
+        "terra2": {
+            "address": "terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ADO",
+            "description": "ado the flower of night",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png"
+            },
+            "name": "ADO",
+            "symbol": "ADO",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "adydx": {
         "dydx": {
             "address": null,
@@ -6622,6 +6643,31 @@
             },
             "name": "ZetaChain Testnet",
             "symbol": "tZETA",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "bad": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "bad",
+            "description": "Baddest coin on Cosmos",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bad.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bad.png"
+            },
+            "name": "Badcoin",
+            "symbol": "BAD",
             "traces": null,
             "type_asset": null
         }
@@ -16412,6 +16458,27 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu": {
+        "terra2": {
+            "address": "terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu",
+            "description": "ado the flower of night",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png"
+            },
+            "name": "ADO",
+            "symbol": "ADO",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:terra1wyxkuy5jq545fn7xfn3enpvs5zg9f9dghf6gxf": {
         "terra": {
             "address": "terra1wyxkuy5jq545fn7xfn3enpvs5zg9f9dghf6gxf",
@@ -19190,6 +19257,31 @@
             "type_asset": null
         }
     },
+    "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava": {
+        "juno": {
+            "address": null,
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava",
+            "description": "Hava Coin is the lifeblood of the Cosmos & Juno networks, rewarding builders and welcoming supporters. https://havacoin.xyz/",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hava.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hava.png"
+            },
+            "name": "Hava Coin",
+            "symbol": "HAVA",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/juno1qly4zcmzr2gyxtze5yt9chv2srczwwunppxjfh/nexx": {
         "juno": {
             "address": "juno1qly4zcmzr2gyxtze5yt9chv2srczwwunppxjfh",
@@ -19856,6 +19948,33 @@
             "type_asset": null
         }
     },
+    "factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "ubad"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad",
+            "description": "Baddest coin on Cosmos",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bad.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bad.png"
+            },
+            "name": "Badcoin",
+            "symbol": "BAD",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe": {
         "neutron": {
             "address": null,
@@ -20306,6 +20425,48 @@
             "symbol": "stIBCX",
             "traces": null,
             "type_asset": null
+        }
+    },
+    "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc": {
+        "osmosis": {
+            "address": "osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743",
+            "aliases": [
+                "wbtc-satoshi"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 8,
+            "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+            },
+            "name": "Wrapped Bitcoin",
+            "symbol": "WBTC",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "BitGo, Kyber, and Ren",
+                    "type": "additional-mintage"
+                }
+            ],
+            "type_asset": "sdk.coin"
         }
     },
     "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye": {
@@ -20760,6 +20921,44 @@
                     "counterparty": {
                         "base_denom": "0x1::aptos_coin::AptosCoin",
                         "chain_name": "aptos"
+                    },
+                    "provider": "Wormhole",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
+    "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5zlmazpcbap4egyihsmpfwryzdr84h51tbov392bcjw4": {
+        "gateway": {
+            "address": "wormhole1utjx3594tlvfw4375esgu72wa4sdgf0q7x4ye27husf5kvuzp5rsr72gdq",
+            "aliases": [],
+            "chain": "gateway",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5ZLmAZpcbaP4EGyihSmpfwryzDr84h51tboV392BCjW4",
+            "description": "Avalanche USD Coin (Wormhole), Avalanche USDC, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5ZLmAZpcbaP4EGyihSmpfwryzDr84h51tboV392BCjW4",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                        "chain_name": "avalanche"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            },
+            "name": "Avalanche USD Coin (Wormhole)",
+            "symbol": "avalanche.USDC.wh",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                        "chain_name": "avalanche"
                     },
                     "provider": "Wormhole",
                     "type": "bridge"
@@ -23513,6 +23712,31 @@
             "type_asset": null
         }
     },
+    "hava": {
+        "juno": {
+            "address": null,
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "hava",
+            "description": "Hava Coin is the lifeblood of the Cosmos & Juno networks, rewarding builders and welcoming supporters. https://havacoin.xyz/",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hava.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hava.png"
+            },
+            "name": "Hava Coin",
+            "symbol": "HAVA",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "heart": {
         "humans": {
             "address": null,
@@ -26030,6 +26254,46 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/94ed1f172bc633dfc56d7e26551d8b101adccc69052ac44fed89f97ff658138f": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "usneaky"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/94ED1F172BC633DFC56D7E26551D8B101ADCCC69052AC44FED89F97FF658138F",
+            "description": "The native coin of Sneaky Productions.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png"
+            },
+            "name": "Sneaky Productions",
+            "symbol": "SNEAKY",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-75",
+                        "path": "transfer/channel-75/factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+                        "chain_name": "stargaze",
+                        "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/95f4898f70b1e3765715808c57e955034419200a7bb6ddecbeaa5fd3aa3df7d5": {
         "evmos": {
             "address": null,
@@ -27010,6 +27274,10 @@
             "ibc": null,
             "images": [
                 {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
+                },
+                {
                     "image_sync": {
                         "base_denom": "wbtc-satoshi",
                         "chain_name": "axelar"
@@ -27019,10 +27287,11 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
             },
-            "name": "Wrapped Bitcoin",
-            "symbol": "WBTC",
+            "name": "Wrapped Bitcoin (Axelar)",
+            "symbol": "WBTC.axl",
             "traces": [
                 {
                     "chain": {
@@ -39824,6 +40093,42 @@
         }
     },
     "sneaky": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sneaky",
+            "description": "The native coin of Sneaky Productions.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png"
+            },
+            "name": "Sneaky Productions",
+            "symbol": "SNEAKY",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-75",
+                        "path": "transfer/channel-75/factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+                        "chain_name": "stargaze",
+                        "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "stargaze": {
             "address": null,
             "aliases": null,
@@ -52426,6 +52731,10 @@
             "ibc": null,
             "images": [
                 {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
+                },
+                {
                     "image_sync": {
                         "base_denom": "wbtc-satoshi",
                         "chain_name": "axelar"
@@ -52435,10 +52744,11 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
             },
-            "name": "Wrapped Bitcoin",
-            "symbol": "WBTC",
+            "name": "Wrapped Bitcoin (Axelar)",
+            "symbol": "WBTC.axl",
             "traces": [
                 {
                     "chain": {
@@ -54332,6 +54642,44 @@
                     "counterparty": {
                         "base_denom": "0x1::aptos_coin::AptosCoin",
                         "chain_name": "aptos"
+                    },
+                    "provider": "Wormhole",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
+    "wormhole/5zlmazpcbap4egyihsmpfwryzdr84h51tbov392bcjw4/6": {
+        "gateway": {
+            "address": "wormhole1utjx3594tlvfw4375esgu72wa4sdgf0q7x4ye27husf5kvuzp5rsr72gdq",
+            "aliases": [],
+            "chain": "gateway",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "wormhole/5ZLmAZpcbaP4EGyihSmpfwryzDr84h51tboV392BCjW4/6",
+            "description": "Avalanche USD Coin (Wormhole), Avalanche USDC, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5ZLmAZpcbaP4EGyihSmpfwryzDr84h51tboV392BCjW4",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                        "chain_name": "avalanche"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            },
+            "name": "Avalanche USD Coin (Wormhole)",
+            "symbol": "avalanche.USDC.wh",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                        "chain_name": "avalanche"
                     },
                     "provider": "Wormhole",
                     "type": "bridge"

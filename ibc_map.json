@@ -252,6 +252,9 @@
             "channel-10": [
                 "osmosis"
             ],
+            "channel-23": [
+                "stargaze"
+            ],
             "channel-3": [
                 "nois"
             ],
@@ -272,6 +275,11 @@
             "channel-8": [
                 "nois"
             ]
+        },
+        "wasm.aura1y3244guwexyvn6yx6kqkj5s0f56lzfdnuja3culygnuwxgrxyuqsaz4xvv": {
+            "channel-24": [
+                "stargaze"
+            ]
         }
     },
     "axelar": {
@@ -281,6 +289,9 @@
             ],
             "channel-102": [
                 "odin"
+            ],
+            "channel-103": [
+                "sei"
             ],
             "channel-104": [
                 "aura"
@@ -318,7 +329,7 @@
             "channel-128": [
                 "fxcore"
             ],
-            "channel-134": [
+            "channel-137": [
                 "jackal"
             ],
             "channel-14": [
@@ -1475,7 +1486,7 @@
             "channel-41": [
                 "archway"
             ],
-            "channel-48": [
+            "channel-49": [
                 "axelar"
             ]
         }
@@ -1908,6 +1919,9 @@
             "channel-53": [
                 "axelar"
             ],
+            "channel-57": [
+                "sei"
+            ],
             "channel-60": [
                 "noble"
             ],
@@ -2032,9 +2046,6 @@
             "channel-21": [
                 "agoric"
             ],
-            "channel-29": [
-                "sei"
-            ],
             "channel-3": [
                 "juno"
             ],
@@ -2049,6 +2060,9 @@
             ],
             "channel-36": [
                 "persistence"
+            ],
+            "channel-39": [
+                "sei"
             ],
             "channel-4": [
                 "cosmoshub"
@@ -2843,6 +2857,9 @@
             "channel-11": [
                 "chihuahua"
             ],
+            "channel-111": [
+                "teritori"
+            ],
             "channel-15": [
                 "sifchain"
             ],
@@ -2956,13 +2973,19 @@
             "channel-13": [
                 "planq"
             ],
+            "channel-14": [
+                "migaloo"
+            ],
             "channel-15": [
                 "neutron"
             ],
             "channel-18": [
                 "kava"
             ],
-            "channel-41": [
+            "channel-2": [
+                "axelar"
+            ],
+            "channel-45": [
                 "noble"
             ],
             "channel-47": [
@@ -3148,6 +3171,9 @@
             "channel-269": [
                 "migaloo"
             ],
+            "channel-270": [
+                "aura"
+            ],
             "channel-46": [
                 "evmos"
             ],
@@ -3167,6 +3193,11 @@
         "wasm.nois1acyc05v6fgcdgj88nmz2t40aex9nlnptqpwp5hf8hwg7rhce9uuqgqz5wp": {
             "channel-38": [
                 "nois"
+            ]
+        },
+        "wasm.stars1r0a8ygvnjfaegy4n5z9325e0ew9uy2s7rn4vt7qf4ltv49fj4tnsk6pvtv": {
+            "channel-271": [
+                "aura"
             ]
         }
     },
@@ -3304,6 +3335,9 @@
             ],
             "channel-62": [
                 "noble"
+            ],
+            "channel-63": [
+                "secretnetwork"
             ]
         }
     },
