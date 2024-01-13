@@ -7017,6 +7017,31 @@
             "type_asset": "cw20"
         }
     },
+    "bitcosmos": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "bitcosmos",
+            "description": "BITCOSMOS",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png"
+            },
+            "name": "Bitcosmos",
+            "symbol": "BTC",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "bits": {
         "juno": {
             "address": "juno14fz92ehqt37e096xr95kmy8nc0kz803uezxtg4fwx7agjjma86sqm8mg3h",
@@ -8718,6 +8743,23 @@
             },
             "name": "Chronic Gas",
             "symbol": "CGAS",
+            "traces": null,
+            "type_asset": null
+        },
+        "cosstestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "cosstestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "cgas",
+            "description": "The native token of COSS",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "cgas",
+            "symbol": "cgas",
             "traces": null,
             "type_asset": null
         }
@@ -34529,6 +34571,33 @@
             "type_asset": "cw20"
         }
     },
+    "neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "ubitcosmos"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "neutron1fjzg7fmv770hsvahqm0nwnu6grs3rjnd2wa6fvm9unv6vedkzekqpw44qj",
+            "description": "BITCOSMOS",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png"
+            },
+            "name": "Bitcosmos",
+            "symbol": "BTC",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "newt": {
         "neutron": {
             "address": null,
@@ -41350,6 +41419,33 @@
             "type_asset": null
         }
     },
+    "stk/adv4tnt": {
+        "persistencetestnet2": {
+            "address": null,
+            "aliases": [],
+            "chain": "persistencetestnet2",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "stk/adv4tnt",
+            "description": "PSTAKE Liquid-Staked DV4TNT",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.svg"
+            },
+            "name": "PSTAKE staked DV4TNT",
+            "symbol": "stkDV4TNT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "stk/atom": {
         "nolus": {
             "address": null,
@@ -41626,6 +41722,35 @@
             "symbol": "stkd-SCRT",
             "traces": null,
             "type_asset": "snip20"
+        }
+    },
+    "stkdv4tnt": {
+        "persistencetestnet2": {
+            "address": null,
+            "aliases": [
+                "stk/dv4tnt"
+            ],
+            "chain": "persistencetestnet2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stkdv4tnt",
+            "description": "PSTAKE Liquid-Staked DV4TNT",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdv4tnt.svg"
+            },
+            "name": "PSTAKE staked DV4TNT",
+            "symbol": "stkDV4TNT",
+            "traces": null,
+            "type_asset": null
         }
     },
     "stkosmo": {
@@ -44684,6 +44809,23 @@
             },
             "name": "Chronic Gas",
             "symbol": "CGAS",
+            "traces": null,
+            "type_asset": null
+        },
+        "cosstestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "cosstestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ucgas",
+            "description": "The native token of COSS",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "cgas",
+            "symbol": "cgas",
             "traces": null,
             "type_asset": null
         }

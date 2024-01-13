@@ -2090,7 +2090,8 @@
                 "stargaze"
             ],
             "channel-1": [
-                "juno"
+                "juno",
+                "sei"
             ],
             "channel-16": [
                 "aura"
@@ -2107,7 +2108,8 @@
         },
         "wasm.nois1acyc05v6fgcdgj88nmz2t40aex9nlnptqpwp5hf8hwg7rhce9uuqgqz5wp": {
             "channel-2": [
-                "juno"
+                "juno",
+                "sei"
             ],
             "channel-20": [
                 "injective"
@@ -2990,6 +2992,14 @@
             ],
             "channel-47": [
                 "coreum"
+            ],
+            "channel-909": [
+                "nois"
+            ]
+        },
+        "wasm.sei1la2alhdegg3ycey08nl4m0qh4fpkr80mah4q0jy7pdaq8wyss3tqah7886": {
+            "channel-910": [
+                "nois"
             ]
         }
     },
