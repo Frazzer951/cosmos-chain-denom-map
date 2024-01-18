@@ -1075,6 +1075,9 @@
             "channel-5": [
                 "kujira"
             ],
+            "channel-7": [
+                "kava"
+            ],
             "channel-9": [
                 "terra2"
             ]
@@ -1626,6 +1629,9 @@
             "channel-119": [
                 "umee"
             ],
+            "channel-120": [
+                "migaloo"
+            ],
             "channel-122": [
                 "injective"
             ],
@@ -1646,6 +1652,9 @@
             ],
             "channel-136": [
                 "neutron"
+            ],
+            "channel-137": [
+                "dydx"
             ],
             "channel-138": [
                 "terra2"
@@ -1912,6 +1921,9 @@
             ],
             "channel-4": [
                 "secretnetwork"
+            ],
+            "channel-48": [
+                "kava"
             ],
             "channel-5": [
                 "osmosis"
