@@ -20392,6 +20392,31 @@
             "type_asset": null
         }
     },
+    "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/wosmo": {
+        "osmosis": {
+            "address": "osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3",
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+            "description": "The first native memecoin on Osmosis. Crafted by the deftest of hands in the lab of lunacy. It's scientifically anarchic, professionally foolish, and your ticket to the madhouse.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "WOSMO",
+            "symbol": "WOSMO",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt": {
         "osmosis": {
             "address": null,
@@ -55162,6 +55187,31 @@
                     "type": "bridge"
                 }
             ],
+            "type_asset": null
+        }
+    },
+    "wosmo": {
+        "osmosis": {
+            "address": "osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3",
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "WOSMO",
+            "description": "The first native memecoin on Osmosis. Crafted by the deftest of hands in the lab of lunacy. It's scientifically anarchic, professionally foolish, and your ticket to the madhouse.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "WOSMO",
+            "symbol": "WOSMO",
+            "traces": null,
             "type_asset": null
         }
     },
