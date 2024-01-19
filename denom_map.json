@@ -18040,6 +18040,48 @@
             ],
             "type_asset": "ics20"
         },
+        "nolus": {
+            "address": null,
+            "aliases": [],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "dydx",
+            "description": "DYDX transferred from the Neutron mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
+                        "chain_name": "neutron"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            },
+            "name": "DYDX",
+            "symbol": "DYDX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-3839",
+                        "path": "transfer/channel-3839/transfer/channel-48/adydx"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
+                        "chain_name": "neutron",
+                        "channel_id": "channel-44"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "osmosis": {
             "address": null,
             "aliases": null,
@@ -24204,6 +24246,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/04ca9067228bb51f1c39a506da00df07e1496d8308dd21e8ef66ad6169fa722b": {
+        "nolus": {
+            "address": null,
+            "aliases": [
+                "ustrd"
+            ],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/04CA9067228BB51F1C39A506DA00DF07E1496D8308DD21E8EF66AD6169FA722B",
+            "description": "STRD transferred from the Osmosis mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+            },
+            "name": "STRD",
+            "symbol": "STRD",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/transfer/channel-326/ustrd"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/05db6975261b805b6f6a157a4386c627f8a70bf8118d411655efedca82bfaba5": {
         "akash": {
             "address": null,
@@ -25150,6 +25238,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/3d6bc6e049caeb905ac97031a42800588c58fb471ebdc7a3530ffcd0c3dc9e09": {
+        "nolus": {
+            "address": null,
+            "aliases": [
+                "untrn"
+            ],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/3D6BC6E049CAEB905AC97031A42800588C58FB471EBDC7A3530FFCD0C3DC9E09",
+            "description": "NTRN transferred from the Neutron mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "untrn",
+                        "chain_name": "neutron"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.svg"
+            },
+            "name": "NTRN",
+            "symbol": "NTRN",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-3839",
+                        "path": "transfer/channel-3839/untrn"
+                    },
+                    "counterparty": {
+                        "base_denom": "untrn",
+                        "chain_name": "neutron",
+                        "channel_id": "channel-44"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/40c29143bf4153b365089e40e437b7aa819672646c45bb0a5f1e10915a0b6708": {
         "migaloo": {
             "address": "cw20:terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
@@ -25755,6 +25889,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/6c9e6701ac217c0fc7d74b0f7a6265b9b4e3c3cda6e80aade5f950a8f52f9972": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "unls"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/6C9E6701AC217C0FC7D74B0F7A6265B9B4E3C3CDA6E80AADE5F950A8F52F9972",
+            "description": "NLS on Neutron",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "unls",
+                        "chain_name": "nolus"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg"
+            },
+            "name": "Nolus NLS",
+            "symbol": "NLS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-44",
+                        "path": "transfer/channel-44/unls"
+                    },
+                    "counterparty": {
+                        "base_denom": "unls",
+                        "chain_name": "nolus",
+                        "channel_id": "channel-3839"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/6cdd4663f2f09cd62285e2d45891fc149a3568e316ce3ebbe201a71a78a69388": {
         "nolus": {
             "address": null,
@@ -25794,6 +25974,52 @@
                         "base_denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
                         "chain_name": "osmosis",
                         "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/6df8cf5c976851d152e2c7270b0ab25c4f9d64c0a46513a68d6cbb2662a98df4": {
+        "nolus": {
+            "address": null,
+            "aliases": [
+                "adydx"
+            ],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "ibc/6DF8CF5C976851D152E2C7270B0AB25C4F9D64C0A46513A68D6CBB2662A98DF4",
+            "description": "DYDX transferred from the Neutron mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
+                        "chain_name": "neutron"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            },
+            "name": "DYDX",
+            "symbol": "DYDX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-3839",
+                        "path": "transfer/channel-3839/transfer/channel-48/adydx"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
+                        "chain_name": "neutron",
+                        "channel_id": "channel-44"
                     },
                     "type": "ibc"
                 }
@@ -26901,6 +27127,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/a8ca5ee328fa10c9519df6057da1f69682d28f7d0f5ccc7ecb72e3dca2d157a4": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "ustrd"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
+            "description": "STRD on Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ustrd",
+                        "chain_name": "stride"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+            },
+            "name": "Stride",
+            "symbol": "STRD",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-326",
+                        "path": "transfer/channel-326/ustrd"
+                    },
+                    "counterparty": {
+                        "base_denom": "ustrd",
+                        "chain_name": "stride",
+                        "channel_id": "channel-5"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/adc63c00000ca75f909d2be3acb5a9980bed3a73b92746e0fce6c67414055459": {
         "nolus": {
             "address": null,
@@ -27553,6 +27825,52 @@
                         "base_denom": "uaxl",
                         "chain_name": "axelartestnet",
                         "channel_id": "channel-283"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/d9afcecdd361d38302aa66eb3bac23b95234832c51d12489dc451fa2b7c72782": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "unls"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/D9AFCECDD361D38302AA66EB3BAC23B95234832C51D12489DC451FA2B7C72782",
+            "description": "NLS on Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "unls",
+                        "chain_name": "nolus"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg"
+            },
+            "name": "Nolus",
+            "symbol": "NLS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-783",
+                        "path": "transfer/channel-783/unls"
+                    },
+                    "counterparty": {
+                        "base_denom": "unls",
+                        "chain_name": "nolus",
+                        "channel_id": "channel-0"
                     },
                     "type": "ibc"
                 }
@@ -34880,6 +35198,48 @@
         }
     },
     "nls": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "nls",
+            "description": "NLS on Neutron",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "unls",
+                        "chain_name": "nolus"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg"
+            },
+            "name": "Nolus NLS",
+            "symbol": "NLS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-44",
+                        "path": "transfer/channel-44/unls"
+                    },
+                    "counterparty": {
+                        "base_denom": "unls",
+                        "chain_name": "nolus",
+                        "channel_id": "channel-3839"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "nolus": {
             "address": null,
             "aliases": null,
@@ -34929,6 +35289,48 @@
             "symbol": "NLS",
             "traces": null,
             "type_asset": null
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "nls",
+            "description": "NLS on Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "unls",
+                        "chain_name": "nolus"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg"
+            },
+            "name": "Nolus",
+            "symbol": "NLS",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-783",
+                        "path": "transfer/channel-783/unls"
+                    },
+                    "counterparty": {
+                        "base_denom": "unls",
+                        "chain_name": "nolus",
+                        "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "nluna": {
@@ -35277,6 +35679,48 @@
             "symbol": "NTRN",
             "traces": null,
             "type_asset": null
+        },
+        "nolus": {
+            "address": null,
+            "aliases": [],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ntrn",
+            "description": "NTRN transferred from the Neutron mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "untrn",
+                        "chain_name": "neutron"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.svg"
+            },
+            "name": "NTRN",
+            "symbol": "NTRN",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-3839",
+                        "path": "transfer/channel-3839/untrn"
+                    },
+                    "counterparty": {
+                        "base_denom": "untrn",
+                        "chain_name": "neutron",
+                        "channel_id": "channel-44"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "nund": {
@@ -42211,6 +42655,90 @@
                         "base_denom": "ustrd",
                         "chain_name": "stride",
                         "channel_id": "channel-47"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "nolus": {
+            "address": null,
+            "aliases": [],
+            "chain": "nolus",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "strd",
+            "description": "STRD transferred from the Osmosis mainnet that is supported on the Nolus chain",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+            },
+            "name": "STRD",
+            "symbol": "STRD",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-0/transfer/channel-326/ustrd"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "strd",
+            "description": "STRD on Osmosis",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ustrd",
+                        "chain_name": "stride"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+            },
+            "name": "Stride",
+            "symbol": "STRD",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-326",
+                        "path": "transfer/channel-326/ustrd"
+                    },
+                    "counterparty": {
+                        "base_denom": "ustrd",
+                        "chain_name": "stride",
+                        "channel_id": "channel-5"
                     },
                     "type": "ibc"
                 }
