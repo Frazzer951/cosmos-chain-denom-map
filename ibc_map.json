@@ -144,11 +144,14 @@
     },
     "andromeda": {
         "transfer": {
+            "channel-11": [
+                "archway"
+            ],
+            "channel-12": [
+                "terra2"
+            ],
             "channel-2": [
                 "secretnetwork"
-            ],
-            "channel-4": [
-                "terra2"
             ],
             "channel-5": [
                 "kujira"
@@ -216,6 +219,9 @@
             ],
             "channel-88": [
                 "qwoyn"
+            ],
+            "channel-97": [
+                "andromeda"
             ]
         },
         "wasm.archway10f3aasgsnpv84ymjyld50jayc4ecu267sdpjamauwm8nvxlzex9qj4dkwr": {
@@ -1931,6 +1937,9 @@
             "channel-53": [
                 "axelar"
             ],
+            "channel-56": [
+                "umee"
+            ],
             "channel-57": [
                 "sei"
             ],
@@ -2102,8 +2111,7 @@
                 "stargaze"
             ],
             "channel-1": [
-                "juno",
-                "sei"
+                "juno"
             ],
             "channel-16": [
                 "aura"
@@ -2116,12 +2124,14 @@
             ],
             "channel-37": [
                 "osmosis"
+            ],
+            "channel-43": [
+                "sei"
             ]
         },
         "wasm.nois1acyc05v6fgcdgj88nmz2t40aex9nlnptqpwp5hf8hwg7rhce9uuqgqz5wp": {
             "channel-2": [
-                "juno",
-                "sei"
+                "juno"
             ],
             "channel-20": [
                 "injective"
@@ -2131,6 +2141,9 @@
             ],
             "channel-35": [
                 "aura"
+            ],
+            "channel-44": [
+                "sei"
             ]
         },
         "wasm.osmo1tvzr8ur0ynjhqftxpkl4qwel8ly7erhy6cu6ks426xmzf92vk6eqfp9wcl": {
@@ -3005,12 +3018,12 @@
             "channel-47": [
                 "coreum"
             ],
-            "channel-909": [
+            "channel-58": [
                 "nois"
             ]
         },
-        "wasm.sei1la2alhdegg3ycey08nl4m0qh4fpkr80mah4q0jy7pdaq8wyss3tqah7886": {
-            "channel-910": [
+        "wasm.sei1vxlzhn6qvf95syha2tgr0ct23sk5359s2vqzylgthuyy7kd7ql5qcxa4r0": {
+            "channel-59": [
                 "nois"
             ]
         }
@@ -3441,11 +3454,11 @@
             "channel-315": [
                 "decentr"
             ],
-            "channel-316": [
-                "andromeda"
-            ],
             "channel-324": [
                 "stargaze"
+            ],
+            "channel-351": [
+                "andromeda"
             ],
             "channel-36": [
                 "carbon"
@@ -3519,6 +3532,9 @@
             ],
             "channel-1": [
                 "cosmoshub"
+            ],
+            "channel-104": [
+                "migaloo"
             ],
             "channel-33": [
                 "axelar"

@@ -2971,6 +2971,46 @@
             "symbol": "DYDX",
             "traces": null,
             "type_asset": null
+        },
+        "dydxtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "dydxtestnet",
+            "coingecko_id": "dydx",
+            "decimals": 18,
+            "denom": "adydx",
+            "description": "The native staking token of dYdX Protocol.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+                },
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
+                    "theme": {
+                        "circle": true
+                    }
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            },
+            "name": "dYdX",
+            "symbol": "DYDX",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "provider": "Dydx",
+                    "type": "test-mintage"
+                }
+            ],
+            "type_asset": null
         }
     },
     "aechelon": {
@@ -17998,6 +18038,46 @@
             "traces": null,
             "type_asset": null
         },
+        "dydxtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "dydxtestnet",
+            "coingecko_id": "dydx",
+            "decimals": 0,
+            "denom": "dydx",
+            "description": "The native staking token of dYdX Protocol.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+                },
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
+                    "theme": {
+                        "circle": true
+                    }
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            },
+            "name": "dYdX",
+            "symbol": "DYDX",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "provider": "Dydx",
+                    "type": "test-mintage"
+                }
+            ],
+            "type_asset": null
+        },
         "neutron": {
             "address": null,
             "aliases": null,
@@ -20138,6 +20218,33 @@
             "type_asset": null
         }
     },
+    "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "ugoddard"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
+            "description": "A Mechanical Canine",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddardntrn.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddardntrn.png"
+            },
+            "name": "Goddard",
+            "symbol": "GODDARD",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi": {
         "neutron": {
             "address": null,
@@ -20375,6 +20482,31 @@
             },
             "name": "BTC Squared",
             "symbol": "sqBTC",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqtia": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqtia",
+            "description": "Margined Power Token sqTIA",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqtia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqtia.svg"
+            },
+            "name": "TIA Squared",
+            "symbol": "sqTIA",
             "traces": null,
             "type_asset": null
         }
@@ -22877,6 +23009,31 @@
                     "type": "bridge"
                 }
             ],
+            "type_asset": null
+        }
+    },
+    "goddard": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "goddard",
+            "description": "A Mechanical Canine",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddardntrn.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddardntrn.png"
+            },
+            "name": "Goddard",
+            "symbol": "GODDARD",
+            "traces": null,
             "type_asset": null
         }
     },
@@ -41069,6 +41226,31 @@
             },
             "name": "OSMO Squared",
             "symbol": "sqOSMO",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "sqtia": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sqtia",
+            "description": "Margined Power Token sqTIA",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqtia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqtia.svg"
+            },
+            "name": "TIA Squared",
+            "symbol": "sqTIA",
             "traces": null,
             "type_asset": null
         }
