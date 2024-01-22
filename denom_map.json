@@ -25831,7 +25831,7 @@
             "chain": "pundix",
             "coingecko_id": null,
             "decimals": 18,
-            "denom": "ibc/55367b7b6572631b78a93c66ef9fdfce87cde372cc4ed7848da78c1eb1dcdd78",
+            "denom": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
             "description": "Pundi X Token",
             "ibc": null,
             "images": [
