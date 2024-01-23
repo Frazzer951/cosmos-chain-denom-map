@@ -4031,6 +4031,29 @@
         }
     },
     "apollo": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "apollo",
+            "description": "The deflationary utility token of the Apollo DAO project",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.svg"
+            },
+            "name": "Apollo DAO",
+            "symbol": "APOLLO",
+            "traces": null,
+            "type_asset": null
+        },
         "terra": {
             "address": "terra100yeqvww74h4yaejj6h733thgcafdaukjtw397",
             "aliases": null,
@@ -20310,6 +20333,33 @@
             },
             "name": "AstroPepe",
             "symbol": "ASTROPEPE",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/neutron154gg0wtm2v4h9ur8xg32ep64e8ef0g5twlsgvfeajqwghdryvyqsqhgk8e/apollo": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "uapollo"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron154gg0wtm2v4h9ur8xg32ep64e8ef0g5twlsgvfeajqwghdryvyqsqhgk8e/APOLLO",
+            "description": "The deflationary utility token of the Apollo DAO project",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/apollo.svg"
+            },
+            "name": "Apollo DAO",
+            "symbol": "APOLLO",
             "traces": null,
             "type_asset": null
         }
