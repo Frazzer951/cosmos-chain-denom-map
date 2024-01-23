@@ -7032,6 +7032,31 @@
             "type_asset": null
         }
     },
+    "bdog": {
+        "chihuahua": {
+            "address": null,
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "BDOG",
+            "description": "Bulldog",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bdog.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bdog.png"
+            },
+            "name": "BDOG",
+            "symbol": "BDOG",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "beth": {
         "terra": {
             "address": "terra1dzhzukyezv0etz22ud940z7adyv7xgcjkahuun",
@@ -9496,6 +9521,31 @@
             },
             "name": "Baby Corgi",
             "symbol": "CORGI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "corso": {
+        "chihuahua": {
+            "address": null,
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "CORSO",
+            "description": "CaneCorso",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/corso.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/corso.png"
+            },
+            "name": "CORSO",
+            "symbol": "CORSO",
             "traces": null,
             "type_asset": null
         }
@@ -19242,6 +19292,106 @@
             },
             "name": "FABLE",
             "symbol": "FABLE",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ubdog": {
+        "chihuahua": {
+            "address": null,
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ubdog",
+            "description": "Bulldog",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bdog.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bdog.png"
+            },
+            "name": "BDOG",
+            "symbol": "BDOG",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ucorso": {
+        "chihuahua": {
+            "address": null,
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/ucorso",
+            "description": "CaneCorso",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/corso.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/corso.png"
+            },
+            "name": "CORSO",
+            "symbol": "CORSO",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/utacos": {
+        "chihuahua": {
+            "address": null,
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/utacos",
+            "description": "Tacos",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/tacos.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/tacos.png"
+            },
+            "name": "TACOS",
+            "symbol": "TACOS",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uweed": {
+        "chihuahua": {
+            "address": null,
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/chihuahua13jawsn574rf3f0u5rhu7e8n6sayx5gkw3eddhp/uweed",
+            "description": "Weed",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/weed.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/weed.png"
+            },
+            "name": "WEED",
+            "symbol": "WEED",
             "traces": null,
             "type_asset": null
         }
@@ -43580,6 +43730,31 @@
             "type_asset": "sdk.coin"
         }
     },
+    "tacos": {
+        "chihuahua": {
+            "address": null,
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "TACOS",
+            "description": "Tacos",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/tacos.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/tacos.png"
+            },
+            "name": "TACOS",
+            "symbol": "TACOS",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "tbtc": {
         "ethereum": {
             "address": "0x18084fba666a33d37592fa2633fd49a74dd93a88",
@@ -53800,6 +53975,31 @@
             "symbol": "webETH",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "weed": {
+        "chihuahua": {
+            "address": null,
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "WEED",
+            "description": "Weed",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/weed.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/weed.png"
+            },
+            "name": "WEED",
+            "symbol": "WEED",
+            "traces": null,
+            "type_asset": null
         }
     },
     "wei": {
