@@ -3808,7 +3808,7 @@
             "address": null,
             "aliases": null,
             "chain": "andromeda",
-            "coingecko_id": null,
+            "coingecko_id": "andromeda-2",
             "decimals": 0,
             "denom": "andr",
             "description": "The native staking and governance token of Andromeda",
@@ -8834,6 +8834,31 @@
             "traces": null,
             "type_asset": null
         },
+        "coss": {
+            "address": null,
+            "aliases": null,
+            "chain": "coss",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "cgas",
+            "description": "The native staking and governance token of the COSS.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.svg"
+            },
+            "name": "CGAS",
+            "symbol": "CGAS",
+            "traces": null,
+            "type_asset": null
+        },
         "cosstestnet": {
             "address": null,
             "aliases": [],
@@ -9569,6 +9594,33 @@
             },
             "name": "CORSO",
             "symbol": "CORSO",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "coss": {
+        "coss": {
+            "address": null,
+            "aliases": null,
+            "chain": "coss",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "coss",
+            "description": "The inscription token of the COSS.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg"
+            },
+            "name": "COSS",
+            "symbol": "COSS",
             "traces": null,
             "type_asset": null
         }
@@ -10322,6 +10374,31 @@
             },
             "name": "Solarbank DAO",
             "symbol": "SOLAR",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
+    "cw20:juno15au4k2jgwd0jnchy0fkg3lm00fpt7jt0j2duuzradn2q7sega2dszyn5pp": {
+        "juno": {
+            "address": "juno15au4k2jgwd0jnchy0fkg3lm00fpt7jt0j2duuzradn2q7sega2dszyn5pp",
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:juno15au4k2jgwd0jnchy0fkg3lm00fpt7jt0j2duuzradn2q7sega2dszyn5pp",
+            "description": "Palantin",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pltn.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pltn.png"
+            },
+            "name": "Palantin",
+            "symbol": "PLTN",
             "traces": null,
             "type_asset": "cw20"
         }
@@ -20440,7 +20517,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddardntrn.png"
             },
             "name": "Goddard",
-            "symbol": "GODDARD",
+            "symbol": "GODRD",
             "traces": null,
             "type_asset": null
         }
@@ -20548,6 +20625,33 @@
                 }
             ],
             "type_asset": "ics20"
+        }
+    },
+    "factory/neutron1ume2n42r5j0660gegrr28fzdze7aqf7r5cd9y6/newtroll": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "unewtroll"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron1ume2n42r5j0660gegrr28fzdze7aqf7r5cd9y6/newtroll",
+            "description": "NEWTROLL",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.svg"
+            },
+            "name": "Newtroll",
+            "symbol": "NTRL",
+            "traces": null,
+            "type_asset": null
         }
     },
     "factory/osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm/uibcx": {
@@ -20787,6 +20891,31 @@
             },
             "name": "WOSMO",
             "symbol": "WOSMO",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/osmo1rckme96ptawr4zwexxj5g5gej9s2dmud8r2t9j0k0prn5mch5g4snzzwjv/sail": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo1rckme96ptawr4zwexxj5g5gej9s2dmud8r2t9j0k0prn5mch5g4snzzwjv/sail",
+            "description": "Sail DAO Token",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sail.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sail.png"
+            },
+            "name": "Sail",
+            "symbol": "SAIL",
             "traces": null,
             "type_asset": null
         }
@@ -23232,7 +23361,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddardntrn.png"
             },
             "name": "Goddard",
-            "symbol": "GODDARD",
+            "symbol": "GODRD",
             "traces": null,
             "type_asset": null
         }
@@ -35350,6 +35479,31 @@
             "type_asset": null
         }
     },
+    "newtroll": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "newtroll",
+            "description": "NEWTROLL",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.svg"
+            },
+            "name": "Newtroll",
+            "symbol": "NTRL",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "nexx": {
         "juno": {
             "address": "juno1qly4zcmzr2gyxtze5yt9chv2srczwwunppxjfh",
@@ -37710,6 +37864,31 @@
             "type_asset": null
         }
     },
+    "pltn": {
+        "juno": {
+            "address": "juno15au4k2jgwd0jnchy0fkg3lm00fpt7jt0j2duuzradn2q7sega2dszyn5pp",
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "pltn",
+            "description": "Palantin",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pltn.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pltn.png"
+            },
+            "name": "Palantin",
+            "symbol": "PLTN",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "pluna": {
         "terra": {
             "address": "terra1tlgelulz9pdkhls6uglfn5lmxarx7f2gxtdzh2",
@@ -39684,6 +39863,31 @@
             },
             "name": "RYT",
             "symbol": "RYT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "sail": {
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sail",
+            "description": "Sail DAO Token",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sail.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sail.png"
+            },
+            "name": "Sail",
+            "symbol": "SAIL",
             "traces": null,
             "type_asset": null
         }
@@ -45032,7 +45236,7 @@
             "address": null,
             "aliases": null,
             "chain": "andromeda",
-            "coingecko_id": null,
+            "coingecko_id": "andromeda-2",
             "decimals": 6,
             "denom": "uandr",
             "description": "The native staking and governance token of Andromeda",
@@ -45799,6 +46003,31 @@
             "traces": null,
             "type_asset": null
         },
+        "coss": {
+            "address": null,
+            "aliases": null,
+            "chain": "coss",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "ucgas",
+            "description": "The native staking and governance token of the COSS.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cgas.svg"
+            },
+            "name": "CGAS",
+            "symbol": "CGAS",
+            "traces": null,
+            "type_asset": null
+        },
         "cosstestnet": {
             "address": null,
             "aliases": [],
@@ -46081,6 +46310,33 @@
             },
             "name": "Coreum",
             "symbol": "COREUM",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "ucoss": {
+        "coss": {
+            "address": null,
+            "aliases": null,
+            "chain": "coss",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "ucoss",
+            "description": "The inscription token of the COSS.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.svg"
+            },
+            "name": "COSS",
+            "symbol": "COSS",
             "traces": null,
             "type_asset": null
         }

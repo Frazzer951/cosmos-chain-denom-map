@@ -107,6 +107,9 @@
             "channel-12": [
                 "sentinel"
             ],
+            "channel-125": [
+                "doravota"
+            ],
             "channel-13": [
                 "regen"
             ],
@@ -1055,6 +1058,15 @@
             ],
             "channel-4": [
                 "cosmoshub"
+            ],
+            "channel-5": [
+                "injective"
+            ],
+            "channel-6": [
+                "dydx"
+            ],
+            "channel-7": [
+                "akash"
             ]
         }
     },
@@ -1071,6 +1083,9 @@
             ],
             "channel-14": [
                 "coreum"
+            ],
+            "channel-15": [
+                "doravota"
             ],
             "channel-3": [
                 "osmosis"
@@ -1397,6 +1412,9 @@
             ],
             "channel-177": [
                 "neutron"
+            ],
+            "channel-182": [
+                "doravota"
             ],
             "channel-8": [
                 "osmosis"
