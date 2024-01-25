@@ -5653,6 +5653,44 @@
                 }
             ],
             "type_asset": null
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "avalanche-usdc",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.svg"
+            },
+            "name": "Wormhole USDC(Avalanche)",
+            "symbol": "avalanche.USDC.wh",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-2186",
+                        "path": "transfer/channel-2186/factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5ZLmAZpcbaP4EGyihSmpfwryzDr84h51tboV392BCjW4"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5ZLmAZpcbaP4EGyihSmpfwryzDr84h51tboV392BCjW4",
+                        "chain_name": "gateway",
+                        "channel_id": "channel-3"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "avalanche-uusdc": {
@@ -9034,6 +9072,33 @@
             },
             "name": "cheqd",
             "symbol": "CHEQ",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "chf": {
+        "emoney": {
+            "address": null,
+            "aliases": null,
+            "chain": "emoney",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "chf",
+            "description": "e-Money CHF stablecoin. Audited and backed by fiat CHF deposits and government bonds.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.svg"
+            },
+            "name": "e-Money CHF",
+            "symbol": "ECHF",
             "traces": null,
             "type_asset": null
         }
@@ -17553,6 +17618,33 @@
             "type_asset": "cw20"
         }
     },
+    "dkk": {
+        "emoney": {
+            "address": null,
+            "aliases": null,
+            "chain": "emoney",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "dkk",
+            "description": "e-Money DKK stablecoin. Audited and backed by fiat DKK deposits and government bonds.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.svg"
+            },
+            "name": "e-Money DKK",
+            "symbol": "EDKK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "dkt": {
         "terra": {
             "address": null,
@@ -18503,6 +18595,33 @@
             "type_asset": null
         }
     },
+    "echf": {
+        "emoney": {
+            "address": null,
+            "aliases": null,
+            "chain": "emoney",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "echf",
+            "description": "e-Money CHF stablecoin. Audited and backed by fiat CHF deposits and government bonds.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.svg"
+            },
+            "name": "e-Money CHF",
+            "symbol": "ECHF",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "eco.uc.nct": {
         "regen": {
             "address": null,
@@ -18551,6 +18670,33 @@
             },
             "name": "Eden",
             "symbol": "EDEN",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "edkk": {
+        "emoney": {
+            "address": null,
+            "aliases": null,
+            "chain": "emoney",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "edkk",
+            "description": "e-Money DKK stablecoin. Audited and backed by fiat DKK deposits and government bonds.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.svg"
+            },
+            "name": "e-Money DKK",
+            "symbol": "EDKK",
             "traces": null,
             "type_asset": null
         }
@@ -18738,6 +18884,33 @@
             "type_asset": null
         }
     },
+    "enok": {
+        "emoney": {
+            "address": null,
+            "aliases": null,
+            "chain": "emoney",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "enok",
+            "description": "e-Money NOK stablecoin. Audited and backed by fiat NOK deposits and government bonds.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.svg"
+            },
+            "name": "e-Money NOK",
+            "symbol": "ENOK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "entry": {
         "entrypointtestnet": {
             "address": null,
@@ -18911,6 +19084,33 @@
             "symbol": "ESCUDOS",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "esek": {
+        "emoney": {
+            "address": null,
+            "aliases": null,
+            "chain": "emoney",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "esek",
+            "description": "e-Money SEK stablecoin. Audited and backed by fiat SEK deposits and government bonds.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.svg"
+            },
+            "name": "e-Money SEK",
+            "symbol": "ESEK",
+            "traces": null,
+            "type_asset": null
         }
     },
     "eth": {
@@ -20491,6 +20691,33 @@
             },
             "name": "Newt",
             "symbol": "NEWT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/neutron1t24nc7whl77relnu3taxyg3p66pjyuk82png2y/uretro": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "uretro"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron1t24nc7whl77relnu3taxyg3p66pjyuk82png2y/uretro",
+            "description": "Retro Game",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.svg"
+            },
+            "name": "Retro",
+            "symbol": "RETRO",
             "traces": null,
             "type_asset": null
         }
@@ -24851,6 +25078,48 @@
                         "base_denom": "ustars",
                         "chain_name": "stargaze",
                         "channel_id": "channel-123"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/0b3c3d06228578334b66b57fbfba4033216ceb8119b27acdee18d92da5b28d43": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "avalanche-uusdc"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/0B3C3D06228578334B66B57FBFBA4033216CEB8119B27ACDEE18D92DA5B28D43",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.svg"
+            },
+            "name": "Wormhole USDC(Avalanche)",
+            "symbol": "avalanche.USDC.wh",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-2186",
+                        "path": "transfer/channel-2186/factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5ZLmAZpcbaP4EGyihSmpfwryzDr84h51tboV392BCjW4"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/5ZLmAZpcbaP4EGyihSmpfwryzDr84h51tboV392BCjW4",
+                        "chain_name": "gateway",
+                        "channel_id": "channel-3"
                     },
                     "type": "ibc"
                 }
@@ -35973,6 +36242,33 @@
             "type_asset": "ics20"
         }
     },
+    "nok": {
+        "emoney": {
+            "address": null,
+            "aliases": null,
+            "chain": "emoney",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "nok",
+            "description": "e-Money NOK stablecoin. Audited and backed by fiat NOK deposits and government bonds.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.svg"
+            },
+            "name": "e-Money NOK",
+            "symbol": "ENOK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "nom": {
         "nomic": {
             "address": null,
@@ -39535,6 +39831,29 @@
         }
     },
     "retro": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "retro",
+            "description": "Retro Game",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.svg"
+            },
+            "name": "Retro",
+            "symbol": "RETRO",
+            "traces": null,
+            "type_asset": null
+        },
         "terra": {
             "address": "terra1j4hwavavmtsafa6zr0npalfz3tk9gf3p4787mp",
             "aliases": null,
@@ -40497,6 +40816,33 @@
             "symbol": "SEJUNO",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "sek": {
+        "emoney": {
+            "address": null,
+            "aliases": null,
+            "chain": "emoney",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "sek",
+            "description": "e-Money SEK stablecoin. Audited and backed by fiat SEK deposits and government bonds.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.svg"
+            },
+            "name": "e-Money SEK",
+            "symbol": "ESEK",
+            "traces": null,
+            "type_asset": null
         }
     },
     "self": {
