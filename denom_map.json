@@ -20881,6 +20881,33 @@
             "type_asset": null
         }
     },
+    "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/goddard": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "ugoddard"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/neutron1yqj9vcc0y73xfxjzegaj4v8q0zefevnlpuh4rj/GODDARD",
+            "description": "THE FIRST NATIVE GODDARD MEMECOIN ON NEUTRON",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.svg"
+            },
+            "name": "Goddard",
+            "symbol": "GODDARD",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm/uibcx": {
         "osmosis": {
             "address": "osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm",
@@ -25265,6 +25292,44 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/16065ee5282c5217685c8f084fc44864c25c706ac37356b0d62811d50b96920f": {
+        "carbon": {
+            "address": null,
+            "aliases": [
+                "umilkTIA"
+            ],
+            "chain": "carbon",
+            "coingecko_id": "milkyway-staked-tia",
+            "decimals": 6,
+            "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
+            "description": "MilkTIA token on Carbon",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg"
+            },
+            "name": "milkTIA",
+            "symbol": "milkTIA",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
+                        "chain_name": "osmosis"
+                    },
+                    "provider": "MilkyWay",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/1b03a71b8e6f6ef424411dc9326a8e0d25d096e4d2616425cfaf2af06f0fe717": {
         "nolus": {
             "address": null,
@@ -26599,6 +26664,50 @@
         }
     },
     "ibc/6c349f0eb135c5fa99301758f35b87db88403d690e5e314ab080401fee4066e5": {
+        "carbon": {
+            "address": null,
+            "aliases": [
+                "utia"
+            ],
+            "chain": "carbon",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
+            "description": "TIA token on Carbon",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            },
+            "name": "Celestia TIA",
+            "symbol": "TIA",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-6994/utia"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-188"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "nolus": {
             "address": null,
             "aliases": [
@@ -33584,6 +33693,40 @@
         }
     },
     "milktia": {
+        "carbon": {
+            "address": null,
+            "aliases": null,
+            "chain": "carbon",
+            "coingecko_id": "milkyway-staked-tia",
+            "decimals": 0,
+            "denom": "milkTIA",
+            "description": "MilkTIA token on Carbon",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg"
+            },
+            "name": "milkTIA",
+            "symbol": "milkTIA",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
+                        "chain_name": "osmosis"
+                    },
+                    "provider": "MilkyWay",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "osmosis": {
             "address": null,
             "aliases": null,
@@ -40048,6 +40191,31 @@
             "type_asset": "cw20"
         }
     },
+    "rock": {
+        "pylons": {
+            "address": null,
+            "aliases": null,
+            "chain": "pylons",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "rock",
+            "description": "The revenue token for Pylons",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pylons/images/pylons.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pylons/images/pylons.png"
+            },
+            "name": "Pylons",
+            "symbol": "ROCK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "rowan": {
         "sifchain": {
             "address": null,
@@ -44805,6 +44973,48 @@
         }
     },
     "tia": {
+        "carbon": {
+            "address": null,
+            "aliases": null,
+            "chain": "carbon",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "tia",
+            "description": "TIA token on Carbon",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+            },
+            "name": "Celestia TIA",
+            "symbol": "TIA",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-0",
+                        "path": "transfer/channel-6994/utia"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-188"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "celestia": {
             "address": null,
             "aliases": null,
@@ -46075,6 +46285,31 @@
             },
             "name": "Bonded Crescent",
             "symbol": "bCRE",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "ubedrock": {
+        "pylons": {
+            "address": null,
+            "aliases": null,
+            "chain": "pylons",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ubedrock",
+            "description": "The revenue token for Pylons",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pylons/images/pylons.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pylons/images/pylons.png"
+            },
+            "name": "Pylons",
+            "symbol": "ROCK",
             "traces": null,
             "type_asset": null
         }

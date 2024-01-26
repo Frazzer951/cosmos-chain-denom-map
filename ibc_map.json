@@ -1745,6 +1745,9 @@
             "channel-123": [
                 "andromeda"
             ],
+            "channel-158": [
+                "persistence"
+            ],
             "channel-18": [
                 "comdex"
             ],
@@ -2669,6 +2672,9 @@
             ],
             "channel-136": [
                 "neutron"
+            ],
+            "channel-152": [
+                "kujira"
             ],
             "channel-19": [
                 "irisnet"
