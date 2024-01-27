@@ -9207,6 +9207,33 @@
             "type_asset": null
         }
     },
+    "cif": {
+        "cifer": {
+            "address": null,
+            "aliases": null,
+            "chain": "cifer",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "cif",
+            "description": "Decentralized Federated Learning",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg"
+            },
+            "name": "Cifer",
+            "symbol": "CIF",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "circus": {
         "neutron": {
             "address": null,
@@ -25112,6 +25139,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/086c1b2e9e611f23d3c9159c858d3f4c6a911d348dfb916a11ae306a865a77a8": {
+        "kujira": {
+            "address": null,
+            "aliases": [
+                "stk/uatom"
+            ],
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/086C1B2E9E611F23D3C9159C858D3F4C6A911D348DFB916A11AE306A865A77A8",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "stk/uatom",
+                        "chain_name": "persistence"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+            },
+            "name": "PSTAKE staked ATOM",
+            "symbol": "stkATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-158",
+                        "path": "transfer/channel-158/stk/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "stk/uatom",
+                        "chain_name": "persistence",
+                        "channel_id": "channel-152"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/0b3c3d06228578334b66b57fbfba4033216ceb8119b27acdee18d92da5b28d43": {
         "osmosis": {
             "address": null,
@@ -27023,6 +27096,130 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/7cb33a66f90533ed1e168cb3251253c719cf4b04ff1290afd795f14ca1d67278": {
+        "archway": {
+            "address": null,
+            "aliases": null,
+            "chain": "archway",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/7CB33A66F90533ED1E168CB3251253C719CF4B04FF1290AFD795F14CA1D67278",
+            "description": "The first memecoin on osmosis.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "Wosmo",
+            "symbol": "WOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1429",
+                        "path": "transfer/channel-1429/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "terra2": {
+            "address": null,
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/7CB33A66F90533ED1E168CB3251253C719CF4B04FF1290AFD795F14CA1D67278",
+            "description": "The first memecoin on osmosis.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "Wosmo",
+            "symbol": "WOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-251",
+                        "path": "transfer/channel-251/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/7da39f5140741177846fcf3cfab14450ee7f57b7794e5a94bef73825d3741958": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/7DA39F5140741177846FCF3CFAB14450EE7F57B7794E5A94BEF73825D3741958",
+            "description": "The first memecoin on osmosis.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "Wosmo",
+            "symbol": "WOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-874",
+                        "path": "transfer/channel-874/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-10"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/7fbdbeeeba9c50c4bcdf7bf438eab99e64360833d240b32655c96e319559e911": {
         "nolus": {
             "address": null,
@@ -28037,6 +28234,48 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/ab7c92666de8c7a977666b8080cabf0127b652b9d40f7251e6914de942d9942b": {
+        "sei": {
+            "address": null,
+            "aliases": null,
+            "chain": "sei",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/AB7C92666DE8C7A977666B8080CABF0127B652B9D40F7251E6914DE942D9942B",
+            "description": "The first memecoin on osmosis.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "Wosmo",
+            "symbol": "WOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-782",
+                        "path": "transfer/channel-782/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/adc63c00000ca75f909d2be3acb5a9980bed3a73b92746e0fce6c67414055459": {
         "nolus": {
             "address": null,
@@ -28820,6 +29059,48 @@
                         "base_denom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
                         "chain_name": "osmosis",
                         "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/dd648f5d3cda56d0d8d8820cf703d246b9fc4007725d8b38d23a21ff1a1477e3": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/DD648F5D3CDA56D0D8D8820CF703D246B9FC4007725D8B38D23A21FF1A1477E3",
+            "description": "The first memecoin on osmosis.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "Wosmo",
+            "symbol": "WOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-122",
+                        "path": "transfer/channel-122/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-8"
                     },
                     "type": "ibc"
                 }
@@ -43211,6 +43492,50 @@
         }
     },
     "stkatom": {
+        "kujira": {
+            "address": null,
+            "aliases": [
+                "stk/atom"
+            ],
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stkatom",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "stk/uatom",
+                        "chain_name": "persistence"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+            },
+            "name": "PSTAKE staked ATOM",
+            "symbol": "stkATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-158",
+                        "path": "transfer/channel-158/stk/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "stk/uatom",
+                        "chain_name": "persistence",
+                        "channel_id": "channel-152"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "persistence": {
             "address": null,
             "aliases": [
@@ -46677,6 +47002,33 @@
             },
             "name": "Chronic Token",
             "symbol": "CHT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "ucif": {
+        "cifer": {
+            "address": null,
+            "aliases": null,
+            "chain": "cifer",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "ucif",
+            "description": "Decentralized Federated Learning",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg"
+            },
+            "name": "Cifer",
+            "symbol": "CIF",
             "traces": null,
             "type_asset": null
         }
@@ -56988,6 +57340,126 @@
         }
     },
     "wosmo": {
+        "archway": {
+            "address": null,
+            "aliases": null,
+            "chain": "archway",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "WOSMO",
+            "description": "The first memecoin on osmosis.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "Wosmo",
+            "symbol": "WOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1429",
+                        "path": "transfer/channel-1429/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "WOSMO",
+            "description": "The first memecoin on osmosis.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "Wosmo",
+            "symbol": "WOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-122",
+                        "path": "transfer/channel-122/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-8"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "WOSMO",
+            "description": "The first memecoin on osmosis.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "Wosmo",
+            "symbol": "WOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-874",
+                        "path": "transfer/channel-874/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-10"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "osmosis": {
             "address": "osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3",
             "aliases": null,
@@ -57010,6 +57482,86 @@
             "symbol": "WOSMO",
             "traces": null,
             "type_asset": null
+        },
+        "sei": {
+            "address": null,
+            "aliases": null,
+            "chain": "sei",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "WOSMO",
+            "description": "The first memecoin on osmosis.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "Wosmo",
+            "symbol": "WOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-782",
+                        "path": "transfer/channel-782/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "terra2": {
+            "address": null,
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "WOSMO",
+            "description": "The first memecoin on osmosis.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+            },
+            "name": "Wosmo",
+            "symbol": "WOSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-251",
+                        "path": "transfer/channel-251/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "wsbsol": {
