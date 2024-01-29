@@ -1050,6 +1050,9 @@
             "channel-0": [
                 "osmosis"
             ],
+            "channel-12": [
+                "sei"
+            ],
             "channel-2": [
                 "coreum"
             ],
@@ -3044,6 +3047,9 @@
             ],
             "channel-58": [
                 "nois"
+            ],
+            "channel-64": [
+                "doravota"
             ]
         },
         "wasm.sei1vxlzhn6qvf95syha2tgr0ct23sk5359s2vqzylgthuyy7kd7ql5qcxa4r0": {
