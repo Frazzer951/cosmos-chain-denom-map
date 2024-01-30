@@ -20935,6 +20935,31 @@
             "type_asset": null
         }
     },
+    "factory/osmo1279xudevmf5cw83vkhglct7jededp86k90k2le/raptr": {
+        "osmosis": {
+            "address": "osmo1279xudevmf5cw83vkhglct7jededp86k90k2le",
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo1279xudevmf5cw83vkhglct7jededp86k90k2le/RAPTR",
+            "description": "Rapture insurance is the first ever P2P insurance platform on $OSMO. Get rewarded to take care of peoples loved ones after the Rapture.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/RAPTR.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/RAPTR.png"
+            },
+            "name": "RAPTR",
+            "symbol": "RAPTR",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm/uibcx": {
         "osmosis": {
             "address": "osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm",
@@ -21163,12 +21188,12 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "WOSMO",
             "symbol": "WOSMO",
@@ -39929,6 +39954,31 @@
             "type_asset": null
         }
     },
+    "raptr": {
+        "osmosis": {
+            "address": "osmo1279xudevmf5cw83vkhglct7jededp86k90k2le",
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "RAPTR",
+            "description": "Rapture insurance is the first ever P2P insurance platform on $OSMO. Get rewarded to take care of peoples loved ones after the Rapture.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/RAPTR.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/RAPTR.png"
+            },
+            "name": "RAPTR",
+            "symbol": "RAPTR",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "ratom": {
         "stafihub": {
             "address": null,
@@ -42504,6 +42554,42 @@
             "type_asset": "cw20"
         }
     },
+    "stadydx": {
+        "stride": {
+            "address": null,
+            "aliases": null,
+            "chain": "stride",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "stadydx",
+            "description": "Stride's liquid staked DYDX",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg"
+            },
+            "name": "Stride Staked DYDX",
+            "symbol": "stDYDX",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "provider": "Stride",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "staevmos": {
         "stride": {
             "address": null,
@@ -43005,6 +43091,42 @@
                     "counterparty": {
                         "base_denom": "ucmdx",
                         "chain_name": "comdex"
+                    },
+                    "provider": "Stride",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": null
+        }
+    },
+    "stdydx": {
+        "stride": {
+            "address": null,
+            "aliases": null,
+            "chain": "stride",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stDYDX",
+            "description": "Stride's liquid staked DYDX",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg"
+            },
+            "name": "Stride Staked DYDX",
+            "symbol": "stDYDX",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
                     },
                     "provider": "Stride",
                     "type": "liquid-stake"
@@ -44345,6 +44467,42 @@
             "type_asset": "cw20"
         }
     },
+    "sttia": {
+        "stride": {
+            "address": null,
+            "aliases": null,
+            "chain": "stride",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stTIA",
+            "description": "Stride's liquid staked TIA",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg"
+            },
+            "name": "Stride Staked TIA",
+            "symbol": "stTIA",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia"
+                    },
+                    "provider": "Stride",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "stuatom": {
         "stride": {
             "address": null,
@@ -44625,6 +44783,42 @@
                     "counterparty": {
                         "base_denom": "ustars",
                         "chain_name": "stargaze"
+                    },
+                    "provider": "Stride",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": null
+        }
+    },
+    "stutia": {
+        "stride": {
+            "address": null,
+            "aliases": null,
+            "chain": "stride",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "stutia",
+            "description": "Stride's liquid staked TIA",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg"
+            },
+            "name": "Stride Staked TIA",
+            "symbol": "stTIA",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "utia",
+                        "chain_name": "celestia"
                     },
                     "provider": "Stride",
                     "type": "liquid-stake"
@@ -57471,12 +57665,12 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "WOSMO",
             "symbol": "WOSMO",

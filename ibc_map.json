@@ -169,6 +169,9 @@
             "channel-1": [
                 "osmosis"
             ],
+            "channel-101": [
+                "doravota"
+            ],
             "channel-11": [
                 "kujira"
             ],
@@ -1049,6 +1052,9 @@
         "transfer": {
             "channel-0": [
                 "osmosis"
+            ],
+            "channel-10": [
+                "archway"
             ],
             "channel-12": [
                 "sei"
