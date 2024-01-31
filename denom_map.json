@@ -790,7 +790,7 @@
             "address": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
             "aliases": [],
             "chain": "ethereum",
-            "coingecko_id": null,
+            "coingecko_id": "page",
             "decimals": 8,
             "denom": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
             "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
@@ -9203,6 +9203,33 @@
             },
             "name": "TerraClassicCHF",
             "symbol": "CHTC",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "cias": {
+        "coss": {
+            "address": null,
+            "aliases": null,
+            "chain": "coss",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "cias",
+            "description": "The inscription token of the CIAS.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.svg"
+            },
+            "name": "CIAS",
+            "symbol": "CIAS",
             "traces": null,
             "type_asset": null
         }
@@ -25666,7 +25693,7 @@
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
             },
             "name": "PageDAO",
-            "symbol": "PAGE.grv",
+            "symbol": "PAGE",
             "traces": [
                 {
                     "chain": {
@@ -31555,16 +31582,31 @@
             "ibc": null,
             "images": [
                 {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kyvedevnet/images/kyve.svg"
+                    "image_sync": {
+                        "base_denom": "ukyve",
+                        "chain_name": "kyve"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kyvedevnet/images/kyve.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
             },
             "name": "KYVE",
             "symbol": "KYVE",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "ukyve",
+                        "chain_name": "kyve"
+                    },
+                    "provider": "Kyve",
+                    "type": "test-mintage"
+                }
+            ],
             "type_asset": null
         },
         "kyvetestnet": {
@@ -31578,16 +31620,31 @@
             "ibc": null,
             "images": [
                 {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kyvetestnet/images/kyve.svg"
+                    "image_sync": {
+                        "base_denom": "ukyve",
+                        "chain_name": "kyve"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kyvetestnet/images/kyve.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
             },
             "name": "KYVE",
             "symbol": "KYVE",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "ukyve",
+                        "chain_name": "kyve"
+                    },
+                    "provider": "Kyve",
+                    "type": "test-mintage"
+                }
+            ],
             "type_asset": null
         }
     },
@@ -37871,7 +37928,7 @@
             "address": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
             "aliases": null,
             "chain": "ethereum",
-            "coingecko_id": null,
+            "coingecko_id": "page",
             "decimals": 0,
             "denom": "page",
             "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
@@ -37955,7 +38012,7 @@
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
             },
             "name": "PageDAO",
-            "symbol": "PAGE.grv",
+            "symbol": "PAGE",
             "traces": [
                 {
                     "chain": {
@@ -45819,22 +45876,37 @@
             "aliases": null,
             "chain": "kyvedevnet",
             "coingecko_id": null,
-            "decimals": 9,
+            "decimals": 6,
             "denom": "tkyve",
             "description": "The native utility token of the Korellia devnet version of KYVE.",
             "ibc": null,
             "images": [
                 {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kyvedevnet/images/kyve.svg"
+                    "image_sync": {
+                        "base_denom": "ukyve",
+                        "chain_name": "kyve"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kyvedevnet/images/kyve.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
             },
             "name": "KYVE",
             "symbol": "KYVE",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "ukyve",
+                        "chain_name": "kyve"
+                    },
+                    "provider": "Kyve",
+                    "type": "test-mintage"
+                }
+            ],
             "type_asset": null
         },
         "kyvetestnet": {
@@ -45848,16 +45920,31 @@
             "ibc": null,
             "images": [
                 {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kyvetestnet/images/kyve.svg"
+                    "image_sync": {
+                        "base_denom": "ukyve",
+                        "chain_name": "kyve"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kyvetestnet/images/kyve.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
             },
             "name": "KYVE",
             "symbol": "KYVE",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "ukyve",
+                        "chain_name": "kyve"
+                    },
+                    "provider": "Kyve",
+                    "type": "test-mintage"
+                }
+            ],
             "type_asset": null
         }
     },
@@ -47196,6 +47283,33 @@
             },
             "name": "Chronic Token",
             "symbol": "CHT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "ucias": {
+        "coss": {
+            "address": null,
+            "aliases": null,
+            "chain": "coss",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "ucias",
+            "description": "The inscription token of the CIAS.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/cias.svg"
+            },
+            "name": "CIAS",
+            "symbol": "CIAS",
             "traces": null,
             "type_asset": null
         }
