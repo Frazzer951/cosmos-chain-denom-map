@@ -526,6 +526,9 @@
             "channel-2": [
                 "osmosis"
             ],
+            "channel-26": [
+                "evmos"
+            ],
             "channel-4": [
                 "stride"
             ],
@@ -1096,6 +1099,9 @@
             "channel-15": [
                 "doravota"
             ],
+            "channel-23": [
+                "evmos"
+            ],
             "channel-3": [
                 "osmosis"
             ],
@@ -1163,6 +1169,12 @@
             ],
             "channel-10": [
                 "injective"
+            ],
+            "channel-106": [
+                "celestia"
+            ],
+            "channel-107": [
+                "dydx"
             ],
             "channel-11": [
                 "crescent"
@@ -1240,6 +1252,9 @@
             ],
             "channel-3": [
                 "osmosis"
+            ],
+            "channel-4": [
+                "noble"
             ]
         }
     },
@@ -2120,6 +2135,9 @@
             ],
             "channel-41": [
                 "aura"
+            ],
+            "channel-42": [
+                "furya"
             ],
             "channel-44": [
                 "omniflixhub"

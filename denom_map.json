@@ -2064,6 +2064,46 @@
             "type_asset": "erc20"
         }
     },
+    "0xd73175f9eb15eee81745d367ae59309ca2ceb5e2": {
+        "ethereum": {
+            "address": "0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
+            "aliases": [],
+            "chain": "ethereum",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
+            "description": "Gelotto blends gaming, DEFI, and fun Dapps in a unique Web3 ecosystem. Join us to become part of the house, earning from all Gelotto products. Our main goal? To bring the masses into Web3 with open, accessible, and enjoyable Dapps.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
+                        "chain_name": "juno"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
+            },
+            "name": "Gelotto",
+            "symbol": "GLTO",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
+                        "chain_name": "juno"
+                    },
+                    "provider": "Gelotto",
+                    "type": "additional-mintage"
+                }
+            ],
+            "type_asset": "erc20"
+        }
+    },
     "0xdac17f958d2ee523a2206206994597c13d831ec7": {
         "ethereum": {
             "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
@@ -14377,6 +14417,31 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h": {
+        "terra2": {
+            "address": "terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h",
+            "description": "DNA DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/DNA.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/DNA.png"
+            },
+            "name": "DNA",
+            "symbol": "DNA",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:terra1eqvq3thjhye7anv6f6mhxpjhyvww8zjvqcdgjx": {
         "terra": {
             "address": "terra1eqvq3thjhye7anv6f6mhxpjhyvww8zjvqcdgjx",
@@ -17751,6 +17816,31 @@
             },
             "name": "Digital Land Acquisition DAO",
             "symbol": "DLA",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
+    "dna": {
+        "terra2": {
+            "address": "terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "DNA",
+            "description": "DNA DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/DNA.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/DNA.png"
+            },
+            "name": "DNA",
+            "symbol": "DNA",
             "traces": null,
             "type_asset": "cw20"
         }
@@ -23583,6 +23673,82 @@
         }
     },
     "glto": {
+        "ethereum": {
+            "address": "0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
+            "aliases": null,
+            "chain": "ethereum",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "glto",
+            "description": "Gelotto blends gaming, DEFI, and fun Dapps in a unique Web3 ecosystem. Join us to become part of the house, earning from all Gelotto products. Our main goal? To bring the masses into Web3 with open, accessible, and enjoyable Dapps.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
+                        "chain_name": "juno"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
+            },
+            "name": "Gelotto",
+            "symbol": "GLTO",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
+                        "chain_name": "juno"
+                    },
+                    "provider": "Gelotto",
+                    "type": "additional-mintage"
+                }
+            ],
+            "type_asset": "erc20"
+        },
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "glto",
+            "description": "GLTO-ERC20 on injective",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
+            },
+            "name": "Gelotto",
+            "symbol": "GLTO",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Peggy",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        },
         "juno": {
             "address": "juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
             "aliases": null,
@@ -36979,14 +37145,14 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron.svg"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg"
             },
             "name": "Neutron Testnet",
             "symbol": "NTRN",
@@ -38212,6 +38378,46 @@
             "name": "Dora Vota Incentive Testnet",
             "symbol": "DORA",
             "traces": null,
+            "type_asset": null
+        }
+    },
+    "peggy0xd73175f9eb15eee81745d367ae59309ca2ceb5e2": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "peggy0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
+            "description": "GLTO-ERC20 on injective",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
+            },
+            "name": "Gelotto",
+            "symbol": "GLTO",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Peggy",
+                    "type": "bridge"
+                }
+            ],
             "type_asset": null
         }
     },
@@ -50305,14 +50511,14 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron.svg"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/ntrn.svg"
             },
             "name": "Neutron Testnet",
             "symbol": "NTRN",
