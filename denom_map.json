@@ -949,6 +949,31 @@
             "type_asset": "erc20"
         }
     },
+    "0x78a0a62fba6fb21a83fe8a3433d44c73a4017a6f": {
+        "ethereum": {
+            "address": "0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f",
+            "aliases": [],
+            "chain": "ethereum",
+            "coingecko_id": "open-exchange-token",
+            "decimals": 18,
+            "denom": "0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f",
+            "description": "",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg"
+            },
+            "name": "Open Exchange Token",
+            "symbol": "OX",
+            "traces": null,
+            "type_asset": "erc20"
+        }
+    },
     "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0": {
         "ethereum": {
             "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
@@ -38087,6 +38112,107 @@
                 }
             ],
             "type_asset": "ics20"
+        }
+    },
+    "ox": {
+        "axelar": {
+            "address": null,
+            "aliases": null,
+            "chain": "axelar",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ox",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f",
+                        "chain_name": "ethereum"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg"
+            },
+            "name": "Open Exchange Token",
+            "symbol": "OX",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        },
+        "ethereum": {
+            "address": "0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f",
+            "aliases": null,
+            "chain": "ethereum",
+            "coingecko_id": "open-exchange-token",
+            "decimals": 0,
+            "denom": "ox",
+            "description": "",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg"
+            },
+            "name": "Open Exchange Token",
+            "symbol": "OX",
+            "traces": null,
+            "type_asset": "erc20"
+        }
+    },
+    "ox-wei": {
+        "axelar": {
+            "address": null,
+            "aliases": [
+                "0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f"
+            ],
+            "chain": "axelar",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "ox-wei",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f",
+                        "chain_name": "ethereum"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ox.svg"
+            },
+            "name": "Open Exchange Token",
+            "symbol": "OX",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
         }
     },
     "page": {
