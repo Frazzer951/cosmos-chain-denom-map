@@ -891,6 +891,9 @@
             ],
             "channel-750": [
                 "doravota"
+            ],
+            "channel-794": [
+                "dymension"
             ]
         }
     },
@@ -1119,6 +1122,19 @@
             ],
             "channel-9": [
                 "terra2"
+            ]
+        }
+    },
+    "dymension": {
+        "transfer": {
+            "channel-1": [
+                "cosmoshub"
+            ],
+            "channel-2": [
+                "osmosis"
+            ],
+            "channel-3": [
+                "kava"
             ]
         }
     },
@@ -1379,6 +1395,13 @@
             ],
             "channel-6": [
                 "kava"
+            ]
+        }
+    },
+    "humans": {
+        "transfer": {
+            "channel-0": [
+                "osmosis"
             ]
         }
     },
@@ -1718,6 +1741,9 @@
             ],
             "channel-142": [
                 "coreum"
+            ],
+            "channel-144": [
+                "dymension"
             ]
         }
     },
@@ -2386,6 +2412,9 @@
             "channel-1575": [
                 "haqq"
             ],
+            "channel-15750": [
+                "humans"
+            ],
             "channel-1634": [
                 "xpla"
             ],
@@ -2406,6 +2435,9 @@
             ],
             "channel-188": [
                 "carbon"
+            ],
+            "channel-19774": [
+                "dymension"
             ],
             "channel-199": [
                 "omniflixhub"

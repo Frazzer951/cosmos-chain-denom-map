@@ -3083,7 +3083,7 @@
             "address": null,
             "aliases": null,
             "chain": "dymension",
-            "coingecko_id": null,
+            "coingecko_id": "dymension",
             "decimals": 18,
             "denom": "adym",
             "description": "The native governance and staking token of the Dymension Hub",
@@ -18690,7 +18690,7 @@
             "address": null,
             "aliases": null,
             "chain": "dymension",
-            "coingecko_id": null,
+            "coingecko_id": "dymension",
             "decimals": 0,
             "denom": "dym",
             "description": "The native governance and staking token of the Dymension Hub",
@@ -29101,12 +29101,16 @@
                 "uusdc"
             ],
             "chain": "osmosis",
-            "coingecko_id": null,
+            "coingecko_id": "axlusdc",
             "decimals": 6,
             "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
-            "description": null,
+            "description": "Circle's stablecoin on Axelar",
             "ibc": null,
             "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
+                },
                 {
                     "image_sync": {
                         "base_denom": "uusdc",
@@ -29118,12 +29122,28 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
             },
-            "name": "Axelar USD Coin",
+            "name": "USD Coin (Axelar)",
             "symbol": "USDC.axl",
             "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "USD",
+                        "chain_name": "forex"
+                    },
+                    "provider": "Circle",
+                    "type": "synthetic"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
                 {
                     "chain": {
                         "channel_id": "channel-208",
@@ -30692,7 +30712,7 @@
             "name": "Ion DAO",
             "symbol": "ION",
             "traces": null,
-            "type_asset": null
+            "type_asset": "sdk.coin"
         },
         "osmosistestnet": {
             "address": null,
@@ -37980,7 +38000,7 @@
             "name": "Osmosis",
             "symbol": "OSMO",
             "traces": null,
-            "type_asset": null
+            "type_asset": "sdk.coin"
         },
         "osmosistestnet": {
             "address": null,
@@ -43888,6 +43908,33 @@
             "type_asset": null
         }
     },
+    "stk/adydx": {
+        "persistence": {
+            "address": null,
+            "aliases": [],
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "stk/adydx",
+            "description": "PSTAKE Liquid-Staked DYDX",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdydx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdydx.svg"
+            },
+            "name": "PSTAKE staked DYDX",
+            "symbol": "stkDYDX",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "stk/atom": {
         "nolus": {
             "address": null,
@@ -44235,6 +44282,35 @@
             },
             "name": "PSTAKE staked DV4TNT",
             "symbol": "stkDV4TNT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "stkdydx": {
+        "persistence": {
+            "address": null,
+            "aliases": [
+                "stk/dydx"
+            ],
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stkdydx",
+            "description": "PSTAKE Liquid-Staked DYDX",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdydx.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdydx.svg"
+            },
+            "name": "PSTAKE staked DYDX",
+            "symbol": "stkDYDX",
             "traces": null,
             "type_asset": null
         }
@@ -49033,7 +49109,7 @@
             "name": "Ion DAO",
             "symbol": "ION",
             "traces": null,
-            "type_asset": null
+            "type_asset": "sdk.coin"
         },
         "osmosistestnet": {
             "address": null,
@@ -50854,7 +50930,7 @@
             "name": "Osmosis",
             "symbol": "OSMO",
             "traces": null,
-            "type_asset": null
+            "type_asset": "sdk.coin"
         },
         "osmosistestnet": {
             "address": null,
@@ -52193,12 +52269,16 @@
             "address": null,
             "aliases": null,
             "chain": "osmosis",
-            "coingecko_id": null,
+            "coingecko_id": "axlusdc",
             "decimals": 0,
             "denom": "usdc",
-            "description": null,
+            "description": "Circle's stablecoin on Axelar",
             "ibc": null,
             "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
+                },
                 {
                     "image_sync": {
                         "base_denom": "uusdc",
@@ -52210,12 +52290,28 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
             },
-            "name": "Axelar USD Coin",
+            "name": "USD Coin (Axelar)",
             "symbol": "USDC.axl",
             "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "USD",
+                        "chain_name": "forex"
+                    },
+                    "provider": "Circle",
+                    "type": "synthetic"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
                 {
                     "chain": {
                         "channel_id": "channel-208",
