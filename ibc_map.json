@@ -1135,6 +1135,12 @@
             ],
             "channel-3": [
                 "kava"
+            ],
+            "channel-6": [
+                "noble"
+            ],
+            "channel-9": [
+                "neutron"
             ]
         }
     },
@@ -2102,6 +2108,9 @@
             "channel-60": [
                 "injective"
             ],
+            "channel-675": [
+                "dymension"
+            ],
             "channel-8": [
                 "stride"
             ]
@@ -2182,6 +2191,9 @@
             ],
             "channel-54": [
                 "teritori"
+            ],
+            "channel-62": [
+                "dymension"
             ],
             "channel-7": [
                 "evmos"

@@ -5177,7 +5177,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "atom",
-            "description": null,
+            "description": "The native staking and governance token of the Cosmos Hub.",
             "ibc": null,
             "images": [
                 {
@@ -5677,7 +5677,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "autism",
-            "description": "AUTISM on Osmosis",
+            "description": "$AUTISM exists to celebrate autism as a superior biological tech stack for a changing world",
             "ibc": null,
             "images": [
                 {
@@ -5692,7 +5692,7 @@
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png"
             },
-            "name": "Injective AUTISM",
+            "name": "Autism",
             "symbol": "AUTISM",
             "traces": [
                 {
@@ -8281,6 +8281,60 @@
                 }
             ],
             "type_asset": "erc20"
+        },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": "binance-usd",
+            "decimals": 0,
+            "denom": "busd",
+            "description": "Binance USD (BUSD) is a dollar-backed stablecoin issued and custodied by Paxos Trust Company, and regulated by the New York State Department of Financial Services. BUSD is available directly for sale 1:1 with USD on Paxos.com and will be listed for trading on Binance.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.svg"
+            },
+            "name": "Binance USD",
+            "symbol": "BUSD",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "USD",
+                        "chain_name": "forex"
+                    },
+                    "provider": "Binance",
+                    "type": "synthetic"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
+                {
+                    "chain": {
+                        "channel_id": "channel-208",
+                        "path": "transfer/channel-208/busd-wei"
+                    },
+                    "counterparty": {
+                        "base_denom": "busd-wei",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-3"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "busd-wei": {
@@ -17504,6 +17558,58 @@
             ],
             "type_asset": "erc20"
         },
+        "osmosis": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": "dai",
+            "decimals": 0,
+            "denom": "dai",
+            "description": "Multi-Collateral Dai, brings a lot of new and exciting features, such as support for new CDP collateral types and Dai Savings Rate.",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg"
+            },
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "USD",
+                        "chain_name": "forex"
+                    },
+                    "provider": "MakerDAO",
+                    "type": "synthetic"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
+                {
+                    "chain": {
+                        "channel_id": "channel-208",
+                        "path": "transfer/channel-208/dai-wei"
+                    },
+                    "counterparty": {
+                        "base_denom": "dai-wei",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-3"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "terra": {
             "address": "terra1zmclyfepfmqvfqflu8r3lv6f75trmg05z7xq95",
             "aliases": null,
@@ -25524,6 +25630,62 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/0cd3a0285e1341859b5e86b6ab7682f023d03e97607ccc1dc95706411d866df7": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "dai-wei"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": "dai",
+            "decimals": 18,
+            "denom": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
+            "description": "Multi-Collateral Dai, brings a lot of new and exciting features, such as support for new CDP collateral types and Dai Savings Rate.",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg"
+            },
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "USD",
+                        "chain_name": "forex"
+                    },
+                    "provider": "MakerDAO",
+                    "type": "synthetic"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
+                {
+                    "chain": {
+                        "channel_id": "channel-208",
+                        "path": "transfer/channel-208/dai-wei"
+                    },
+                    "counterparty": {
+                        "base_denom": "dai-wei",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-3"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/11e3cf372e065acb1a39c531a3c7e7e03f60b5d0653ad2139d31128acd2772b5": {
         "nolus": {
             "address": null,
@@ -25937,7 +26099,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
             },
-            "name": "PageDAO",
+            "name": "Page",
             "symbol": "PAGE",
             "traces": [
                 {
@@ -26054,7 +26216,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-            "description": null,
+            "description": "The native staking and governance token of the Cosmos Hub.",
             "ibc": null,
             "images": [
                 {
@@ -26614,7 +26776,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
-            "description": null,
+            "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
             "ibc": null,
             "images": [
                 {
@@ -26631,7 +26793,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
             },
-            "name": "Noble USD Coin",
+            "name": "USD Coin",
             "symbol": "USDC",
             "traces": [
                 {
@@ -26698,7 +26860,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
-            "description": "Tether USDT on Osmosis",
+            "description": "Tether gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
             "ibc": null,
             "images": [
                 {
@@ -26713,7 +26875,7 @@
             "logo_URIs": {
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
             },
-            "name": "Tether USDT",
+            "name": "Tether USD",
             "symbol": "USDT",
             "traces": [
                 {
@@ -26949,6 +27111,64 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/6329dd8cf31a334dd5be3f68c846c9fe313281362b37686a62343bac1eb1546d": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "busd-wei"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": "binance-usd",
+            "decimals": 18,
+            "denom": "ibc/6329DD8CF31A334DD5BE3F68C846C9FE313281362B37686A62343BAC1EB1546D",
+            "description": "Binance USD (BUSD) is a dollar-backed stablecoin issued and custodied by Paxos Trust Company, and regulated by the New York State Department of Financial Services. BUSD is available directly for sale 1:1 with USD on Paxos.com and will be listed for trading on Binance.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.svg"
+            },
+            "name": "Binance USD",
+            "symbol": "BUSD",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "USD",
+                        "chain_name": "forex"
+                    },
+                    "provider": "Binance",
+                    "type": "synthetic"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
+                {
+                    "chain": {
+                        "channel_id": "channel-208",
+                        "path": "transfer/channel-208/busd-wei"
+                    },
+                    "counterparty": {
+                        "base_denom": "busd-wei",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-3"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/662914d0c1cebcb070c68f061d035e8b10a07c79ab286e7342c85f3be74612c5": {
         "carbon": {
             "address": null,
@@ -26997,7 +27217,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "ibc/6928AFA9EA721938FED13B051F9DBF1272B16393D20C49EA5E4901BB76D94A90",
-            "description": "NOIS on Osmosis",
+            "description": "The native token of Nois",
             "ibc": null,
             "images": [
                 {
@@ -27009,7 +27229,12 @@
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
                 }
             ],
-            "keywords": null,
+            "keywords": [
+                "nois",
+                "randomness",
+                "drand",
+                "wasm"
+            ],
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
@@ -27563,6 +27788,66 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/8242ad24008032e457d2e12d46588fd39fb54fb29680c6c7663d296b383c37c4": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "uusdt"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
+            "description": "Tether's USD stablecoin on Axelar",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.svg"
+                },
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg"
+            },
+            "name": "Tether USD (Axelar)",
+            "symbol": "USDT.axl",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "USD",
+                        "chain_name": "forex"
+                    },
+                    "provider": "Tether",
+                    "type": "synthetic"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
+                {
+                    "chain": {
+                        "channel_id": "channel-208",
+                        "path": "transfer/channel-208/uusdt"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdt",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-3"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/831f0b1bbb1d08a2b75311892876d71565478c532967545476df4c2d7492e48c": {
         "osmosis": {
             "address": null,
@@ -27919,12 +28204,18 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png"
+                    "image_sync": {
+                        "base_denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+                        "chain_name": "stargaze"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.svg"
             },
             "name": "Sneaky Productions",
             "symbol": "SNEAKY",
@@ -28043,7 +28334,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "ibc/9B8EC667B6DF55387DC0F3ACC4F187DA6921B0806ED35DE6B04DE96F5AB81F53",
-            "description": "Woof on Osmosis",
+            "description": "Woof",
             "ibc": null,
             "images": [
                 {
@@ -28054,7 +28345,7 @@
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
             },
-            "name": "WOOF chihuahua",
+            "name": "WOOF",
             "symbol": "WOOF",
             "traces": [
                 {
@@ -28127,7 +28418,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "ibc/9DDF52A334F92BC57A9E0D59DFF9984EAC61D2A14E5162605DF601AA58FDFC6D",
-            "description": "AUTISM on Osmosis",
+            "description": "$AUTISM exists to celebrate autism as a superior biological tech stack for a changing world",
             "ibc": null,
             "images": [
                 {
@@ -28142,7 +28433,7 @@
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/autism.png"
             },
-            "name": "Injective AUTISM",
+            "name": "Autism",
             "symbol": "AUTISM",
             "traces": [
                 {
@@ -28495,7 +28786,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
-            "description": "STRD on Osmosis",
+            "description": "The native token of Stride",
             "ibc": null,
             "images": [
                 {
@@ -28773,7 +29064,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
             },
-            "name": "stATOM",
+            "name": "Stride Staked ATOM",
             "symbol": "stATOM",
             "traces": [
                 {
@@ -28999,6 +29290,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/caa179e40f0266b0b29fb5eaa288fb9212e628822265d4141ebd1c47c3cbfcbc": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "stk/uatom"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
+            "description": "PSTAKE Liquid-Staked ATOM",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "stk/uatom",
+                        "chain_name": "persistence"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+            },
+            "name": "PSTAKE staked ATOM",
+            "symbol": "stkATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-4",
+                        "path": "transfer/channel-4/stk/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "stk/uatom",
+                        "chain_name": "persistence",
+                        "channel_id": "channel-6"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/d1542aa8762db13087d8364f3ea6509fd6f009a34f00426af9e4f9fa85cbbf1f": {
         "osmosis": {
             "address": null,
@@ -29009,7 +29346,7 @@
             "coingecko_id": null,
             "decimals": 8,
             "denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-            "description": null,
+            "description": "Wrapped Bitcoin on Axelar",
             "ibc": null,
             "images": [
                 {
@@ -29032,6 +29369,22 @@
             "name": "Wrapped Bitcoin (Axelar)",
             "symbol": "WBTC.axl",
             "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "sat",
+                        "chain_name": "bitcoin"
+                    },
+                    "provider": "BitGo, Kyber, and Ren",
+                    "type": "bridge"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
                 {
                     "chain": {
                         "channel_id": "channel-208",
@@ -29075,7 +29428,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
             },
-            "name": "stOSMO",
+            "name": "Stride Staked OSMO",
             "symbol": "stOSMO",
             "traces": [
                 {
@@ -29170,7 +29523,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
-            "description": "TIA on Osmosis",
+            "description": "",
             "ibc": null,
             "images": [
                 {
@@ -29262,7 +29615,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "ibc/D9AFCECDD361D38302AA66EB3BAC23B95234832C51D12489DC451FA2B7C72782",
-            "description": "NLS on Osmosis",
+            "description": "The native token of Nolus chain",
             "ibc": null,
             "images": [
                 {
@@ -29649,27 +30002,40 @@
                 "weth-wei"
             ],
             "chain": "osmosis",
-            "coingecko_id": null,
+            "coingecko_id": "ethereum",
             "decimals": 18,
             "denom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
-            "description": null,
+            "description": "Ethereum (ETH) is a decentralized, open-source blockchain system featuring smart contract functionality. It's the native cryptocurrency of the Ethereum platform, often regarded as the second most popular digital currency after Bitcoin. Ethereum was proposed in late 2013 and development was crowdfunded in 2014, leading to its network going live on 30 July 2015.\n\nETH, as a digital currency, is used for a variety of purposes within the Ethereum ecosystem, including the execution of decentralized smart contracts and as a mode of payment. Unlike Bitcoin, Ethereum was designed to be a platform for applications that can operate without the need for intermediaries, using blockchain technology. This has made Ethereum a leading platform for various applications, including decentralized finance (DeFi), non-fungible tokens (NFTs), and more. Ethereum is constantly evolving, with a significant upgrade termed Ethereum 2.0, which aims to improve its scalability, security, and sustainability.",
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "weth-wei",
-                        "chain_name": "axelar"
-                    },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png"
             },
-            "name": "Wrapped Ether",
+            "name": "Ether",
             "symbol": "ETH",
             "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "wei",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Ethereum",
+                    "type": "wrapped"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
                 {
                     "chain": {
                         "channel_id": "channel-208",
@@ -29696,7 +30062,7 @@
             "coingecko_id": null,
             "decimals": 6,
             "denom": "ibc/ECBE78BF7677320A93E7BA1761D144BCBF0CBC247C290C049655E106FE5DC68E",
-            "description": null,
+            "description": "PSTAKE Liquid-Staked OSMO",
             "ibc": null,
             "images": [
                 {
@@ -30312,19 +30678,19 @@
             "images": [
                 {
                     "image_sync": {
-                        "base_denom": "wei",
-                        "chain_name": "ethereum"
+                        "base_denom": "yieldeth-wei",
+                        "chain_name": "axelar"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.svg"
             },
-            "name": "Real Yield Eth",
+            "name": "Real Yield ETH",
             "symbol": "YieldETH",
             "traces": [
                 {
@@ -36848,7 +37214,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "nls",
-            "description": "NLS on Osmosis",
+            "description": "The native token of Nolus chain",
             "ibc": null,
             "images": [
                 {
@@ -36977,7 +37343,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "nois",
-            "description": "NOIS on Osmosis",
+            "description": "The native token of Nois",
             "ibc": null,
             "images": [
                 {
@@ -36989,7 +37355,12 @@
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
                 }
             ],
-            "keywords": null,
+            "keywords": [
+                "nois",
+                "randomness",
+                "drand",
+                "wasm"
+            ],
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
@@ -38377,7 +38748,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
             },
-            "name": "PageDAO",
+            "name": "Page",
             "symbol": "PAGE",
             "traces": [
                 {
@@ -42538,12 +42909,18 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png"
+                    "image_sync": {
+                        "base_denom": "factory/stars1xx5976njvxpl9n4v8huvff6cudhx7yuu8e7rt4/usneaky",
+                        "chain_name": "stargaze"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.svg"
             },
             "name": "Sneaky Productions",
             "symbol": "SNEAKY",
@@ -43473,7 +43850,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
             },
-            "name": "stATOM",
+            "name": "Stride Staked ATOM",
             "symbol": "stATOM",
             "traces": [
                 {
@@ -44148,6 +44525,50 @@
             ],
             "type_asset": "ics20"
         },
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "stk/atom"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stkatom",
+            "description": "PSTAKE Liquid-Staked ATOM",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "stk/uatom",
+                        "chain_name": "persistence"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+            },
+            "name": "PSTAKE staked ATOM",
+            "symbol": "stkATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-4",
+                        "path": "transfer/channel-4/stk/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "stk/uatom",
+                        "chain_name": "persistence",
+                        "channel_id": "channel-6"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "persistence": {
             "address": null,
             "aliases": [
@@ -44325,7 +44746,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "stkosmo",
-            "description": null,
+            "description": "PSTAKE Liquid-Staked OSMO",
             "ibc": null,
             "images": [
                 {
@@ -44633,7 +45054,7 @@
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
             },
-            "name": "stOSMO",
+            "name": "Stride Staked OSMO",
             "symbol": "stOSMO",
             "traces": [
                 {
@@ -44776,7 +45197,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "strd",
-            "description": "STRD on Osmosis",
+            "description": "The native token of Stride",
             "ibc": null,
             "images": [
                 {
@@ -46242,7 +46663,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "tia",
-            "description": "TIA on Osmosis",
+            "description": "",
             "ibc": null,
             "images": [
                 {
@@ -53217,33 +53638,49 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "usdt",
-            "description": "Tether USDT on Osmosis",
+            "description": "Tether's USD stablecoin on Axelar",
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "erc20/tether/usdt",
-                        "chain_name": "kava"
-                    },
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.svg"
+                },
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg"
             },
-            "name": "Tether USDT",
-            "symbol": "USDT",
+            "name": "Tether USD (Axelar)",
+            "symbol": "USDT.axl",
             "traces": [
                 {
+                    "counterparty": {
+                        "base_denom": "USD",
+                        "chain_name": "forex"
+                    },
+                    "provider": "Tether",
+                    "type": "synthetic"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
+                {
                     "chain": {
-                        "channel_id": "channel-143",
-                        "path": "transfer/channel-143/erc20/tether/usdt"
+                        "channel_id": "channel-208",
+                        "path": "transfer/channel-208/uusdt"
                     },
                     "counterparty": {
-                        "base_denom": "erc20/tether/usdt",
-                        "chain_name": "kava",
-                        "channel_id": "channel-1"
+                        "base_denom": "uusdt",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-3"
                     },
                     "type": "ibc"
                 }
@@ -55835,7 +56272,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "wbtc",
-            "description": null,
+            "description": "Wrapped Bitcoin on Axelar",
             "ibc": null,
             "images": [
                 {
@@ -55858,6 +56295,22 @@
             "name": "Wrapped Bitcoin (Axelar)",
             "symbol": "WBTC.axl",
             "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "sat",
+                        "chain_name": "bitcoin"
+                    },
+                    "provider": "BitGo, Kyber, and Ren",
+                    "type": "bridge"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
                 {
                     "chain": {
                         "channel_id": "channel-208",
@@ -56590,27 +57043,40 @@
             "address": null,
             "aliases": null,
             "chain": "osmosis",
-            "coingecko_id": null,
+            "coingecko_id": "ethereum",
             "decimals": 0,
             "denom": "weth",
-            "description": null,
+            "description": "Ethereum (ETH) is a decentralized, open-source blockchain system featuring smart contract functionality. It's the native cryptocurrency of the Ethereum platform, often regarded as the second most popular digital currency after Bitcoin. Ethereum was proposed in late 2013 and development was crowdfunded in 2014, leading to its network going live on 30 July 2015.\n\nETH, as a digital currency, is used for a variety of purposes within the Ethereum ecosystem, including the execution of decentralized smart contracts and as a mode of payment. Unlike Bitcoin, Ethereum was designed to be a platform for applications that can operate without the need for intermediaries, using blockchain technology. This has made Ethereum a leading platform for various applications, including decentralized finance (DeFi), non-fungible tokens (NFTs), and more. Ethereum is constantly evolving, with a significant upgrade termed Ethereum 2.0, which aims to improve its scalability, security, and sustainability.",
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "weth-wei",
-                        "chain_name": "axelar"
-                    },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png"
             },
-            "name": "Wrapped Ether",
+            "name": "Ether",
             "symbol": "ETH",
             "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "wei",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Ethereum",
+                    "type": "wrapped"
+                },
+                {
+                    "counterparty": {
+                        "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
                 {
                     "chain": {
                         "channel_id": "channel-208",
@@ -57584,7 +58050,7 @@
             "coingecko_id": null,
             "decimals": 0,
             "denom": "WOOF",
-            "description": "Woof on Osmosis",
+            "description": "Woof",
             "ibc": null,
             "images": [
                 {
@@ -57595,7 +58061,7 @@
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
             },
-            "name": "WOOF chihuahua",
+            "name": "WOOF",
             "symbol": "WOOF",
             "traces": [
                 {
@@ -59300,19 +59766,19 @@
             "images": [
                 {
                     "image_sync": {
-                        "base_denom": "wei",
-                        "chain_name": "ethereum"
+                        "base_denom": "yieldeth-wei",
+                        "chain_name": "axelar"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/yieldeth.svg"
             },
-            "name": "Real Yield Eth",
+            "name": "Real Yield ETH",
             "symbol": "YieldETH",
             "traces": [
                 {
