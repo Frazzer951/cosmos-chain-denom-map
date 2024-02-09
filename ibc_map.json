@@ -178,6 +178,9 @@
             "channel-11": [
                 "kujira"
             ],
+            "channel-110": [
+                "vidulum"
+            ],
             "channel-13": [
                 "axelar"
             ],
@@ -1135,6 +1138,9 @@
             ],
             "channel-3": [
                 "kava"
+            ],
+            "channel-35": [
+                "secretnetwork"
             ],
             "channel-6": [
                 "noble"
@@ -2111,6 +2117,9 @@
             "channel-675": [
                 "dymension"
             ],
+            "channel-722": [
+                "nois"
+            ],
             "channel-8": [
                 "stride"
             ]
@@ -2222,6 +2231,9 @@
             ],
             "channel-43": [
                 "sei"
+            ],
+            "channel-47": [
+                "neutron"
             ]
         },
         "wasm.nois1acyc05v6fgcdgj88nmz2t40aex9nlnptqpwp5hf8hwg7rhce9uuqgqz5wp": {
@@ -2994,6 +3006,9 @@
             "channel-127": [
                 "terra2"
             ],
+            "channel-130": [
+                "dymension"
+            ],
             "channel-15": [
                 "sifchain"
             ],
@@ -3702,6 +3717,9 @@
             ],
             "channel-11": [
                 "okexchain"
+            ],
+            "channel-24": [
+                "archway"
             ]
         }
     },
