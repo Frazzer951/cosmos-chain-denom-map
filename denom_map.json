@@ -20099,6 +20099,31 @@
             "type_asset": "ics20"
         }
     },
+    "doki": {
+        "odin": {
+            "address": null,
+            "aliases": null,
+            "chain": "odin",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "doki",
+            "description": "DOKI the last Dragon",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png"
+            },
+            "name": "DOKI",
+            "symbol": "DOKI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "dora": {
         "doravota": {
             "address": null,
@@ -23203,6 +23228,31 @@
             },
             "name": "FABLE",
             "symbol": "FABLE",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark": {
+        "migaloo": {
+            "address": null,
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark",
+            "description": "SHARK is the apex price prediction market within Cosmos.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png"
+            },
+            "name": "SHARK",
+            "symbol": "SHARK",
             "traces": null,
             "type_asset": null
         }
@@ -30940,6 +30990,52 @@
                         "base_denom": "uqsr",
                         "chain_name": "quasar",
                         "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/1bcf1fcafe3568e234787edfda12460bd8931b17fe6a729dcd60fad845558da1": {
+        "archway": {
+            "address": null,
+            "aliases": [
+                "uvdl"
+            ],
+            "chain": "archway",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/1BCF1FCAFE3568E234787EDFDA12460BD8931B17FE6A729DCD60FAD845558DA1",
+            "description": "The native token of Vidulum",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uvdl",
+                        "chain_name": "vidulum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg"
+            },
+            "name": "Vidulum",
+            "symbol": "VDL",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-110",
+                        "path": "transfer/channel-110/uvdl"
+                    },
+                    "counterparty": {
+                        "base_denom": "uvdl",
+                        "chain_name": "vidulum",
+                        "channel_id": "channel-24"
                     },
                     "type": "ibc"
                 }
@@ -53049,6 +53145,31 @@
             "type_asset": null
         }
     },
+    "myrk": {
+        "odin": {
+            "address": null,
+            "aliases": null,
+            "chain": "odin",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "myrk",
+            "description": "Myrkur the leader of OLD Order",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/MYRK_Logo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/MYRK_Logo.png"
+            },
+            "name": "MYRK",
+            "symbol": "MYRK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "myt": {
         "mythos": {
             "address": null,
@@ -61448,6 +61569,31 @@
             "type_asset": null
         }
     },
+    "shark": {
+        "migaloo": {
+            "address": null,
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "SHARK",
+            "description": "SHARK is the apex price prediction market within Cosmos.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png"
+            },
+            "name": "SHARK",
+            "symbol": "SHARK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "shd": {
         "osmosis": {
             "address": null,
@@ -68840,6 +68986,31 @@
             "type_asset": null
         }
     },
+    "udoki": {
+        "odin": {
+            "address": null,
+            "aliases": null,
+            "chain": "odin",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "udoki",
+            "description": "DOKI the last Dragon",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png"
+            },
+            "name": "DOKI",
+            "symbol": "DOKI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "udot": {
         "polkadot": {
             "address": null,
@@ -71008,6 +71179,31 @@
             },
             "name": "TerraClassicMYR",
             "symbol": "MYTC",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "umyrk": {
+        "odin": {
+            "address": null,
+            "aliases": null,
+            "chain": "odin",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "umyrk",
+            "description": "Myrkur the leader of OLD Order",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/MYRK_Logo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/MYRK_Logo.png"
+            },
+            "name": "MYRK",
+            "symbol": "MYRK",
             "traces": null,
             "type_asset": null
         }
@@ -75820,6 +76016,48 @@
         }
     },
     "vdl": {
+        "archway": {
+            "address": null,
+            "aliases": null,
+            "chain": "archway",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "vdl",
+            "description": "The native token of Vidulum",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uvdl",
+                        "chain_name": "vidulum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg"
+            },
+            "name": "Vidulum",
+            "symbol": "VDL",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-110",
+                        "path": "transfer/channel-110/uvdl"
+                    },
+                    "counterparty": {
+                        "base_denom": "uvdl",
+                        "chain_name": "vidulum",
+                        "channel_id": "channel-24"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "osmosis": {
             "address": null,
             "aliases": null,
