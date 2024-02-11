@@ -9051,6 +9051,31 @@
             "type_asset": null
         }
     },
+    "boy": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "boy",
+            "description": "Astro BOY",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png"
+            },
+            "name": "boy",
+            "symbol": "BOY",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "bpsidp-24m": {
         "terra": {
             "address": "terra1zsaswh926ey8qa5x4vj93kzzlfnef0pstuca0y",
@@ -53842,6 +53867,33 @@
             },
             "name": "Bitcosmos",
             "symbol": "BTC",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv": {
+        "neutron": {
+            "address": null,
+            "aliases": [
+                "uboy"
+            ],
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv",
+            "description": "Astro BOY",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png"
+            },
+            "name": "boy",
+            "symbol": "BOY",
             "traces": null,
             "type_asset": null
         }
