@@ -3125,6 +3125,48 @@
             "type_asset": "cw20"
         }
     },
+    "adv4tnt": {
+        "dydxtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "dydxtestnet",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "adv4tnt",
+            "description": "The native staking token of dYdX Protocol.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+                },
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
+                    "theme": {
+                        "circle": true
+                    }
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            },
+            "name": "dYdX",
+            "symbol": "DV4TNT",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "provider": "Dydx",
+                    "type": "test-mintage"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "adydx": {
         "dydx": {
             "address": null,
@@ -3155,46 +3197,6 @@
             "name": "dYdX",
             "symbol": "DYDX",
             "traces": null,
-            "type_asset": null
-        },
-        "dydxtestnet": {
-            "address": null,
-            "aliases": null,
-            "chain": "dydxtestnet",
-            "coingecko_id": "dydx",
-            "decimals": 18,
-            "denom": "adydx",
-            "description": "The native staking token of dYdX Protocol.",
-            "ibc": null,
-            "images": [
-                {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
-                },
-                {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
-                    "theme": {
-                        "circle": true
-                    }
-                }
-            ],
-            "keywords": null,
-            "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
-            },
-            "name": "dYdX",
-            "symbol": "DYDX",
-            "traces": [
-                {
-                    "counterparty": {
-                        "base_denom": "adydx",
-                        "chain_name": "dydx"
-                    },
-                    "provider": "Dydx",
-                    "type": "test-mintage"
-                }
-            ],
             "type_asset": null
         }
     },
@@ -7689,6 +7691,31 @@
                 }
             ],
             "type_asset": "ics20"
+        }
+    },
+    "badkid": {
+        "osmosis": {
+            "address": "osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8",
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "BADKID",
+            "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+            },
+            "name": "BADKID",
+            "symbol": "BADKID",
+            "traces": null,
+            "type_asset": "sdk.coin"
         }
     },
     "banana": {
@@ -20817,6 +20844,48 @@
             "type_asset": "sdk.coin"
         }
     },
+    "dv4tnt": {
+        "dydxtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "dydxtestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "dv4tnt",
+            "description": "The native staking token of dYdX Protocol.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+                },
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
+                    "theme": {
+                        "circle": true
+                    }
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+            },
+            "name": "dYdX",
+            "symbol": "DV4TNT",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "adydx",
+                        "chain_name": "dydx"
+                    },
+                    "provider": "Dydx",
+                    "type": "test-mintage"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "dvpn": {
         "osmosis": {
             "address": null,
@@ -20912,46 +20981,6 @@
             "name": "dYdX",
             "symbol": "DYDX",
             "traces": null,
-            "type_asset": null
-        },
-        "dydxtestnet": {
-            "address": null,
-            "aliases": null,
-            "chain": "dydxtestnet",
-            "coingecko_id": "dydx",
-            "decimals": 0,
-            "denom": "dydx",
-            "description": "The native staking token of dYdX Protocol.",
-            "ibc": null,
-            "images": [
-                {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
-                },
-                {
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
-                    "theme": {
-                        "circle": true
-                    }
-                }
-            ],
-            "keywords": null,
-            "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
-            },
-            "name": "dYdX",
-            "symbol": "DYDX",
-            "traces": [
-                {
-                    "counterparty": {
-                        "base_denom": "adydx",
-                        "chain_name": "dydx"
-                    },
-                    "provider": "Dydx",
-                    "type": "test-mintage"
-                }
-            ],
             "type_asset": null
         },
         "neutron": {
@@ -23782,6 +23811,31 @@
             "symbol": "GODDARD",
             "traces": null,
             "type_asset": null
+        }
+    },
+    "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/badkid": {
+        "osmosis": {
+            "address": "osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8",
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+            "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+            },
+            "name": "BADKID",
+            "symbol": "BADKID",
+            "traces": null,
+            "type_asset": "sdk.coin"
         }
     },
     "factory/osmo1279xudevmf5cw83vkhglct7jededp86k90k2le/raptr": {
