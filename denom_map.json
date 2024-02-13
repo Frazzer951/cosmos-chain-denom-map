@@ -22676,6 +22676,31 @@
             "type_asset": null
         }
     },
+    "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava",
+            "description": "Hava Coin is the lifeblood of the Cosmos & Injective networks, rewarding builders and welcoming supporters. https://havacoin.xyz/",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hava.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hava.png"
+            },
+            "name": "Hava Coin",
+            "symbol": "HAVA",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/inj1rmjzj9fn47kdmfk4f3z39qr6czexxe0yjyc546/wgmi": {
         "injective": {
             "address": null,
@@ -22747,31 +22772,6 @@
             },
             "name": "NEXX GEN AI",
             "symbol": "NEXX",
-            "traces": null,
-            "type_asset": null
-        }
-    },
-    "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava": {
-        "juno": {
-            "address": null,
-            "aliases": null,
-            "chain": "juno",
-            "coingecko_id": null,
-            "decimals": 6,
-            "denom": "factory/juno195asgku87kxgu48s447z0ryhsyn5rl3yzvfw0d/uhava",
-            "description": "Hava Coin is the lifeblood of the Cosmos & Juno networks, rewarding builders and welcoming supporters. https://havacoin.xyz/",
-            "ibc": null,
-            "images": [
-                {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hava.png"
-                }
-            ],
-            "keywords": null,
-            "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hava.png"
-            },
-            "name": "Hava Coin",
-            "symbol": "HAVA",
             "traces": null,
             "type_asset": null
         }
@@ -28719,23 +28719,23 @@
         }
     },
     "hava": {
-        "juno": {
+        "injective": {
             "address": null,
             "aliases": null,
-            "chain": "juno",
+            "chain": "injective",
             "coingecko_id": null,
             "decimals": 0,
             "denom": "hava",
-            "description": "Hava Coin is the lifeblood of the Cosmos & Juno networks, rewarding builders and welcoming supporters. https://havacoin.xyz/",
+            "description": "Hava Coin is the lifeblood of the Cosmos & Injective networks, rewarding builders and welcoming supporters. https://havacoin.xyz/",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hava.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hava.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hava.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hava.png"
             },
             "name": "Hava Coin",
             "symbol": "HAVA",

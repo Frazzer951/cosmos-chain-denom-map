@@ -1240,9 +1240,6 @@
             "channel-40": [
                 "acrechain"
             ],
-            "channel-5": [
-                "gateway"
-            ],
             "channel-64": [
                 "noble"
             ],
@@ -1260,6 +1257,9 @@
             ],
             "channel-87": [
                 "coreum"
+            ],
+            "channel-94": [
+                "gateway"
             ]
         }
     },
@@ -1320,7 +1320,7 @@
             "channel-3": [
                 "osmosis"
             ],
-            "channel-94": [
+            "channel-5": [
                 "evmos"
             ]
         }
