@@ -1412,7 +1412,7 @@
     },
     "humans": {
         "transfer": {
-            "channel-0": [
+            "channel-4": [
                 "osmosis"
             ]
         }
@@ -2436,9 +2436,6 @@
             "channel-1575": [
                 "haqq"
             ],
-            "channel-15750": [
-                "humans"
-            ],
             "channel-1634": [
                 "xpla"
             ],
@@ -2468,6 +2465,9 @@
             ],
             "channel-2": [
                 "sentinel"
+            ],
+            "channel-20082": [
+                "humans"
             ],
             "channel-204": [
                 "evmos"
