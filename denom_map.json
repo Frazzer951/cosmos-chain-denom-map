@@ -21746,6 +21746,44 @@
             "type_asset": null
         }
     },
+    "epjfwdd5aufqssqem2qn1xzybapc8g4weggkzwytdt1v": {
+        "solana": {
+            "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "aliases": null,
+            "chain": "solana",
+            "coingecko_id": "usd-coin",
+            "decimals": 6,
+            "denom": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "chain_name": "ethereum"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            },
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Circle",
+                    "type": "additional-mintage"
+                }
+            ],
+            "type_asset": "erc20"
+        }
+    },
     "erc20/0x2cbea61fdfdfa520ee99700f104d5b75adf50b0c": {
         "acrechain": {
             "address": null,
@@ -73364,6 +73402,42 @@
                 }
             ],
             "type_asset": "ics20"
+        },
+        "solana": {
+            "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "aliases": null,
+            "chain": "solana",
+            "coingecko_id": "usd-coin",
+            "decimals": 0,
+            "denom": "usdc",
+            "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "chain_name": "ethereum"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            },
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Circle",
+                    "type": "additional-mintage"
+                }
+            ],
+            "type_asset": "erc20"
         },
         "xiontestnet": {
             "address": null,
