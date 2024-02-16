@@ -6119,6 +6119,40 @@
             "type_asset": "cw20"
         }
     },
+    "aum": {
+        "mantrachaintestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "mantrachaintestnet",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "aum",
+            "description": "The native token of MANTRA Chain",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet/images/mantra.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet/images/mantra.svg"
+                }
+            ],
+            "keywords": [
+                "mantra",
+                "staking",
+                "delegating",
+                "governance",
+                "regulation",
+                "defi"
+            ],
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet/images/mantra.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet/images/mantra.svg"
+            },
+            "name": "MANTRA Chain",
+            "symbol": "AUM",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "auptick": {
         "uptick": {
             "address": null,
@@ -7694,6 +7728,86 @@
         }
     },
     "badkid": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "BADKID",
+            "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+            },
+            "name": "Badkid",
+            "symbol": "BADKID",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-8",
+                        "path": "transfer/channel-8/factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-122"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "BADKID",
+            "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+            },
+            "name": "Badkid",
+            "symbol": "BADKID",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-10",
+                        "path": "transfer/channel-10/factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-874"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "osmosis": {
             "address": "osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8",
             "aliases": null,
@@ -25104,6 +25218,44 @@
             "type_asset": null
         }
     },
+    "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/hjk1xmdrnubrrpkknzyui7swwdmjxzasyszqgyncqou3": {
+        "gateway": {
+            "address": null,
+            "aliases": [],
+            "chain": "gateway",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/HJk1XMDRNUbRrpKkNZYui7SwWDMjXZAsySzqgyNcQoU3",
+            "description": "Solana USD Coin (Wormhole), Solana USDC, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/HJk1XMDRNUbRrpKkNZYui7SwWDMjXZAsySzqgyNcQoU3",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                        "chain_name": "solana"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            },
+            "name": "Solana USD Coin (Wormhole)",
+            "symbol": "solana.USDC.wh",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                        "chain_name": "solana"
+                    },
+                    "provider": "Wormhole",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "fasano": {
         "bitsong": {
             "address": null,
@@ -37604,25 +37756,25 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "Wosmo",
             "symbol": "WOSMO",
             "traces": [
                 {
                     "chain": {
-                        "channel_id": "channel-874",
-                        "path": "transfer/channel-874/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                        "channel_id": "channel-10",
+                        "path": "transfer/channel-10/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
                     },
                     "counterparty": {
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis",
-                        "channel_id": "channel-10"
+                        "channel_id": "channel-874"
                     },
                     "type": "ibc"
                 }
@@ -39682,6 +39834,48 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/9f8417fba11e5e01f7f85ddd48c400eb746e95084c11706041663845b4a700a8": {
+        "neutron": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutron",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/9F8417FBA11E5E01F7F85DDD48C400EB746E95084C11706041663845B4A700A8",
+            "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+            },
+            "name": "Badkid",
+            "symbol": "BADKID",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-10",
+                        "path": "transfer/channel-10/factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-874"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/9f9b07ef9ad291167cf5700628145de1deb777c2cfc7907553b24446515f6d0e": {
         "osmosis": {
             "address": null,
@@ -39734,6 +39928,48 @@
                         "base_denom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
                         "chain_name": "gravitybridge",
                         "channel_id": "channel-10"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/a0c5ad197fecaf6636f589071338dc7ecd6b0809cd3a5ab131eaaa5395e7e5e8": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/A0C5AD197FECAF6636F589071338DC7ECD6B0809CD3A5AB131EAAA5395E7E5E8",
+            "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/badkid.png"
+            },
+            "name": "Badkid",
+            "symbol": "BADKID",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-8",
+                        "path": "transfer/channel-8/factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID"
+                    },
+                    "counterparty": {
+                        "base_denom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-122"
                     },
                     "type": "ibc"
                 }
@@ -43574,25 +43810,25 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "Wosmo",
             "symbol": "WOSMO",
             "traces": [
                 {
                     "chain": {
-                        "channel_id": "channel-122",
-                        "path": "transfer/channel-122/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                        "channel_id": "channel-8",
+                        "path": "transfer/channel-8/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
                     },
                     "counterparty": {
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis",
-                        "channel_id": "channel-8"
+                        "channel_id": "channel-122"
                     },
                     "type": "ibc"
                 }
@@ -67910,6 +68146,40 @@
             "type_asset": null
         }
     },
+    "uaum": {
+        "mantrachaintestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "mantrachaintestnet",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "uaum",
+            "description": "The native token of MANTRA Chain",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet/images/mantra.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet/images/mantra.svg"
+                }
+            ],
+            "keywords": [
+                "mantra",
+                "staking",
+                "delegating",
+                "governance",
+                "regulation",
+                "defi"
+            ],
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet/images/mantra.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/mantrachaintestnet/images/mantra.svg"
+            },
+            "name": "MANTRA Chain",
+            "symbol": "AUM",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "uaura": {
         "aura": {
             "address": null,
@@ -80130,6 +80400,44 @@
             "type_asset": "ics20"
         }
     },
+    "wormhole/hjk1xmdrnubrrpkknzyui7swwdmjxzasyszqgyncqou3/6": {
+        "gateway": {
+            "address": null,
+            "aliases": [],
+            "chain": "gateway",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "wormhole/HJk1XMDRNUbRrpKkNZYui7SwWDMjXZAsySzqgyNcQoU3/6",
+            "description": "Solana USD Coin (Wormhole), Solana USDC, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/HJk1XMDRNUbRrpKkNZYui7SwWDMjXZAsySzqgyNcQoU3",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                        "chain_name": "solana"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            },
+            "name": "Solana USD Coin (Wormhole)",
+            "symbol": "solana.USDC.wh",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                        "chain_name": "solana"
+                    },
+                    "provider": "Wormhole",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "wosmo": {
         "archway": {
             "address": null,
@@ -80186,25 +80494,25 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "Wosmo",
             "symbol": "WOSMO",
             "traces": [
                 {
                     "chain": {
-                        "channel_id": "channel-122",
-                        "path": "transfer/channel-122/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                        "channel_id": "channel-8",
+                        "path": "transfer/channel-8/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
                     },
                     "counterparty": {
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis",
-                        "channel_id": "channel-8"
+                        "channel_id": "channel-122"
                     },
                     "type": "ibc"
                 }
@@ -80226,25 +80534,25 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "Wosmo",
             "symbol": "WOSMO",
             "traces": [
                 {
                     "chain": {
-                        "channel_id": "channel-874",
-                        "path": "transfer/channel-874/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
+                        "channel_id": "channel-10",
+                        "path": "transfer/channel-10/factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
                     },
                     "counterparty": {
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis",
-                        "channel_id": "channel-10"
+                        "channel_id": "channel-874"
                     },
                     "type": "ibc"
                 }

@@ -2844,6 +2844,9 @@
             ],
             "channel-59": [
                 "sei"
+            ],
+            "channel-61": [
+                "source"
             ]
         }
     },
@@ -3274,6 +3277,9 @@
         "transfer": {
             "channel-0": [
                 "osmosis"
+            ],
+            "channel-1": [
+                "planq"
             ]
         }
     },
