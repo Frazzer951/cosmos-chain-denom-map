@@ -15751,6 +15751,31 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:terra19nu4q2y0xe3vza6ve5ymup33uzm049pnrqq5ddeuulmrg279t57qstcces": {
+        "terra2": {
+            "address": "terra19nu4q2y0xe3vza6ve5ymup33uzm049pnrqq5ddeuulmrg279t57qstcces",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:terra19nu4q2y0xe3vza6ve5ymup33uzm049pnrqq5ddeuulmrg279t57qstcces",
+            "description": "Just a meme coin on Terra",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gugu.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gugu.png"
+            },
+            "name": "GUGU",
+            "symbol": "GUGU",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:terra19ya4jpvjvvtggepvmmj6ftmwly3p7way0tt08r": {
         "terra": {
             "address": "terra19ya4jpvjvvtggepvmmj6ftmwly3p7way0tt08r",
@@ -28106,6 +28131,31 @@
             "logo_URIs": null,
             "name": "Global Transaction Payment Solut",
             "symbol": "GTPS",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
+    "gugu": {
+        "terra2": {
+            "address": "terra19nu4q2y0xe3vza6ve5ymup33uzm049pnrqq5ddeuulmrg279t57qstcces",
+            "aliases": null,
+            "chain": "terra2",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "GUGU",
+            "description": "Just a meme coin on Terra",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gugu.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/gugu.png"
+            },
+            "name": "GUGU",
+            "symbol": "GUGU",
             "traces": null,
             "type_asset": "cw20"
         }

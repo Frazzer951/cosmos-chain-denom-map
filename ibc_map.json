@@ -1314,14 +1314,20 @@
     },
     "gateway": {
         "transfer": {
-            "channel-113": [
-                "kujira"
+            "channel-12": [
+                "stargaze"
+            ],
+            "channel-13": [
+                "injective"
             ],
             "channel-3": [
                 "osmosis"
             ],
             "channel-5": [
                 "evmos"
+            ],
+            "channel-9": [
+                "kujira"
             ]
         }
     },
@@ -1474,6 +1480,9 @@
             ],
             "channel-177": [
                 "neutron"
+            ],
+            "channel-181": [
+                "gateway"
             ],
             "channel-182": [
                 "doravota"
@@ -1795,6 +1804,9 @@
             "channel-101": [
                 "composable"
             ],
+            "channel-113": [
+                "gateway"
+            ],
             "channel-115": [
                 "realio"
             ],
@@ -1892,8 +1904,7 @@
                 "teritori"
             ],
             "channel-9": [
-                "axelar",
-                "gateway"
+                "axelar"
             ],
             "channel-94": [
                 "jackal"
@@ -3342,6 +3353,9 @@
             ],
             "channel-270": [
                 "aura"
+            ],
+            "channel-278": [
+                "gateway"
             ],
             "channel-46": [
                 "evmos"
