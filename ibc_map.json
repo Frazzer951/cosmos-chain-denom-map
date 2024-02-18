@@ -1481,11 +1481,11 @@
             "channel-177": [
                 "neutron"
             ],
-            "channel-181": [
-                "gateway"
-            ],
             "channel-182": [
                 "doravota"
+            ],
+            "channel-183": [
+                "gateway"
             ],
             "channel-213": [
                 "andromeda"
@@ -1860,6 +1860,9 @@
             ],
             "channel-50": [
                 "gravitybridge"
+            ],
+            "channel-51": [
+                "planq"
             ],
             "channel-54": [
                 "injective"
@@ -2852,6 +2855,9 @@
             ],
             "channel-2": [
                 "cosmoshub"
+            ],
+            "channel-23": [
+                "kujira"
             ],
             "channel-59": [
                 "sei"

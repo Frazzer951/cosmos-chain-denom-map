@@ -46577,6 +46577,31 @@
             "type_asset": "ics20"
         }
     },
+    "inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88",
+            "description": "The second meme coin on Injective.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png"
+            },
+            "name": "Ninpo",
+            "symbol": "NINPO",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "int": {
         "terra": {
             "address": null,
@@ -54638,6 +54663,31 @@
                 }
             ],
             "type_asset": "ics20"
+        }
+    },
+    "ninpo": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "NINPO",
+            "description": "The second meme coin on Injective.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/ninpo.png"
+            },
+            "name": "Ninpo",
+            "symbol": "NINPO",
+            "traces": null,
+            "type_asset": null
         }
     },
     "nls": {
