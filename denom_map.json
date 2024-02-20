@@ -5844,6 +5844,48 @@
             ],
             "type_asset": "ics20"
         },
+        "omniflixhub": {
+            "address": null,
+            "aliases": null,
+            "chain": "omniflixhub",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "atom",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
+            "name": "Cosmos Hub Atom",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-12",
+                        "path": "transfer/channel-12/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub",
+                        "channel_id": "channel-306"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "osmosis": {
             "address": null,
             "aliases": null,
@@ -7720,6 +7762,50 @@
                         "base_denom": "factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad",
                         "chain_name": "neutron",
                         "channel_id": "channel-10"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "baddog": {
+        "omniflixhub": {
+            "address": null,
+            "aliases": null,
+            "chain": "omniflixhub",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "baddog",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/2FFE07C4B4EFC0DDA099A16C6AF3C9CCA653CC56077E87217A585D48794B0BC7",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg"
+            },
+            "name": "BadDog (Osmosis)",
+            "symbol": "BADDOG.osmo",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1",
+                        "path": "transfer/channel-1/transfer/channel-113/factory/chihuahua1x4q2vkrz4dfgd9hcw0p5m2f2nuv2uqmt9xr8k2/achihuahuawifhat"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/2FFE07C4B4EFC0DDA099A16C6AF3C9CCA653CC56077E87217A585D48794B0BC7",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-199"
                     },
                     "type": "ibc"
                 }
@@ -29703,6 +29789,50 @@
         }
     },
     "ibc/0471f1c4e7afd3f07702bef6dc365268d64570f7c1fdc98ea6098dd6de59817b": {
+        "omniflixhub": {
+            "address": null,
+            "aliases": [
+                "uosmo"
+            ],
+            "chain": "omniflixhub",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+            },
+            "name": "Osmosis osmo",
+            "symbol": "OSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1",
+                        "path": "transfer/channel-1/uosmo"
+                    },
+                    "counterparty": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-199"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "quasar": {
             "address": null,
             "aliases": [
@@ -33570,6 +33700,52 @@
                         "base_denom": "uqosmo",
                         "chain_name": "quicksilver",
                         "channel_id": "channel-2"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/43d3010f4ca111744ac8b68e460bc95e565c32928a267fa2b30609c04c10b274": {
+        "omniflixhub": {
+            "address": null,
+            "aliases": [
+                "uist"
+            ],
+            "chain": "omniflixhub",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/43D3010F4CA111744AC8B68E460BC95E565C32928A267FA2B30609C04C10B274",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uist",
+                        "chain_name": "agoric"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
+            },
+            "name": "Agoric IST (Inter Stable Token)",
+            "symbol": "IST",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-30",
+                        "path": "transfer/channel-30/uist"
+                    },
+                    "counterparty": {
+                        "base_denom": "uist",
+                        "chain_name": "agoric",
+                        "channel_id": "channel-58"
                     },
                     "type": "ibc"
                 }
@@ -39884,6 +40060,50 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/9f28238bdb687a86681b30764ba1437e079c3565d04fdd7862055a83f7e5c630": {
+        "omniflixhub": {
+            "address": null,
+            "aliases": null,
+            "chain": "omniflixhub",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/9F28238BDB687A86681B30764BA1437E079C3565D04FDD7862055A83F7E5C630",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "ibc/2FFE07C4B4EFC0DDA099A16C6AF3C9CCA653CC56077E87217A585D48794B0BC7",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg"
+            },
+            "name": "BadDog (Osmosis)",
+            "symbol": "BADDOG.osmo",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1",
+                        "path": "transfer/channel-1/transfer/channel-113/factory/chihuahua1x4q2vkrz4dfgd9hcw0p5m2f2nuv2uqmt9xr8k2/achihuahuawifhat"
+                    },
+                    "counterparty": {
+                        "base_denom": "ibc/2FFE07C4B4EFC0DDA099A16C6AF3C9CCA653CC56077E87217A585D48794B0BC7",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-199"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/9f8417fba11e5e01f7f85ddd48c400eb746e95084c11706041663845b4a700a8": {
         "neutron": {
             "address": null,
@@ -40617,6 +40837,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/a8c2d23a1e6f95da4e48ba349667e322bd7a6c996d8a4aae8ba72e190f3d1477": {
+        "omniflixhub": {
+            "address": null,
+            "aliases": [
+                "uatom"
+            ],
+            "chain": "omniflixhub",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/A8C2D23A1E6F95DA4E48BA349667E322BD7A6C996D8A4AAE8BA72E190F3D1477",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
+            "name": "Cosmos Hub Atom",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-12",
+                        "path": "transfer/channel-12/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub",
+                        "channel_id": "channel-306"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/a8ca5ee328fa10c9519df6057da1f69682d28f7d0f5ccc7ecb72e3dca2d157a4": {
         "osmosis": {
             "address": null,
@@ -40839,6 +41105,52 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis",
                         "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/ac4c84dd7d3732cfa95a420247fad5179be4f42e5635e2bf0a62c67e2e2fa4a9": {
+        "omniflixhub": {
+            "address": null,
+            "aliases": [
+                "uusdc"
+            ],
+            "chain": "omniflixhub",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/AC4C84DD7D3732CFA95A420247FAD5179BE4F42E5635E2BF0A62C67E2E2FA4A9",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "axelar"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+            },
+            "name": "USD Coin (Axelar)",
+            "symbol": "USDC.axl",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-27",
+                        "path": "transfer/channel-27/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-77"
                     },
                     "type": "ibc"
                 }
@@ -47037,6 +47349,48 @@
             "symbol": "IST",
             "traces": null,
             "type_asset": null
+        },
+        "omniflixhub": {
+            "address": null,
+            "aliases": null,
+            "chain": "omniflixhub",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ist",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uist",
+                        "chain_name": "agoric"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
+            },
+            "name": "Agoric IST (Inter Stable Token)",
+            "symbol": "IST",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-30",
+                        "path": "transfer/channel-30/uist"
+                    },
+                    "counterparty": {
+                        "base_denom": "uist",
+                        "chain_name": "agoric",
+                        "channel_id": "channel-58"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         },
         "osmosis": {
             "address": null,
@@ -56392,6 +56746,48 @@
                         "base_denom": "uosmo",
                         "chain_name": "osmosis",
                         "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "omniflixhub": {
+            "address": null,
+            "aliases": null,
+            "chain": "omniflixhub",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "osmo",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+            },
+            "name": "Osmosis osmo",
+            "symbol": "OSMO",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1",
+                        "path": "transfer/channel-1/uosmo"
+                    },
+                    "counterparty": {
+                        "base_denom": "uosmo",
+                        "chain_name": "osmosis",
+                        "channel_id": "channel-199"
                     },
                     "type": "ibc"
                 }
@@ -73589,6 +73985,48 @@
                         "base_denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
                         "chain_name": "osmosis",
                         "channel_id": "channel-783"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "omniflixhub": {
+            "address": null,
+            "aliases": null,
+            "chain": "omniflixhub",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "usdc",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "axelar"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+            },
+            "name": "USD Coin (Axelar)",
+            "symbol": "USDC.axl",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-27",
+                        "path": "transfer/channel-27/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "axelar",
+                        "channel_id": "channel-77"
                     },
                     "type": "ibc"
                 }

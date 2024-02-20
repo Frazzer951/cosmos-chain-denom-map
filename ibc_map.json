@@ -69,6 +69,9 @@
             "channel-57": [
                 "evmos"
             ],
+            "channel-58": [
+                "omniflixhub"
+            ],
             "channel-59": [
                 "stride"
             ],
@@ -388,6 +391,9 @@
             ],
             "channel-75": [
                 "kyve"
+            ],
+            "channel-77": [
+                "omniflixhub"
             ],
             "channel-78": [
                 "neutron"
@@ -2353,6 +2359,12 @@
             ],
             "channel-26": [
                 "kujira"
+            ],
+            "channel-27": [
+                "axelar"
+            ],
+            "channel-30": [
+                "agoric"
             ],
             "channel-32": [
                 "archway"
