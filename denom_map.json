@@ -24746,6 +24746,35 @@
             "type_asset": "sdk.coin"
         }
     },
+    "factory/osmo1zlkzu72774ynac53necz46u4ycqtp36wedrar0/willyz": {
+        "osmosistestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosistestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo1zlkzu72774ynac53necz46u4ycqtp36wedrar0/willyz",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/osmosistestnet/images/willyz.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/osmosistestnet/images/willyz.svg"
+                }
+            ],
+            "keywords": [
+                "memecoin"
+            ],
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/osmosistestnet/images/willyz.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/osmosistestnet/images/willyz.svg"
+            },
+            "name": "Willyz",
+            "symbol": "WILLYZ",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/sei1fl8pg59wfsgw2wp4aruk38zqccfnc2g8ptrm24/popeye": {
         "sei": {
             "address": null,
@@ -80034,6 +80063,35 @@
             "symbol": "whSAIL",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "willyz": {
+        "osmosistestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosistestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "willyz",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/osmosistestnet/images/willyz.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/osmosistestnet/images/willyz.svg"
+                }
+            ],
+            "keywords": [
+                "memecoin"
+            ],
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/osmosistestnet/images/willyz.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/osmosistestnet/images/willyz.svg"
+            },
+            "name": "Willyz",
+            "symbol": "WILLYZ",
+            "traces": null,
+            "type_asset": null
         }
     },
     "wink": {
