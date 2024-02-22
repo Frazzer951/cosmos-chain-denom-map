@@ -3344,7 +3344,17 @@
             "images": [
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.svg"
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.svg",
+                    "theme": {
+                        "dark_mode": false
+                    }
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg",
+                    "theme": {
+                        "dark_mode": true
+                    }
                 }
             ],
             "keywords": null,
@@ -7707,6 +7717,31 @@
         }
     },
     "azeta": {
+        "zetachain": {
+            "address": null,
+            "aliases": null,
+            "chain": "zetachain",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "azeta",
+            "description": "The native token of ZetaChain",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.svg"
+            },
+            "name": "ZetaChain",
+            "symbol": "ZETA",
+            "traces": null,
+            "type_asset": null
+        },
         "zetachaintestnet": {
             "address": null,
             "aliases": null,
@@ -29347,7 +29382,17 @@
             "images": [
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.svg"
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.svg",
+                    "theme": {
+                        "dark_mode": false
+                    }
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg",
+                    "theme": {
+                        "dark_mode": true
+                    }
                 }
             ],
             "keywords": null,
@@ -82914,6 +82959,33 @@
             "symbol": "yLuna",
             "traces": null,
             "type_asset": "cw20"
+        }
+    },
+    "zeta": {
+        "zetachain": {
+            "address": null,
+            "aliases": null,
+            "chain": "zetachain",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "zeta",
+            "description": "The native token of ZetaChain",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zetachain/images/zetachain.svg"
+            },
+            "name": "ZetaChain",
+            "symbol": "ZETA",
+            "traces": null,
+            "type_asset": null
         }
     },
     "zil": {

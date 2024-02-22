@@ -356,6 +356,9 @@
             "channel-14": [
                 "kujira"
             ],
+            "channel-140": [
+                "bitsong"
+            ],
             "channel-2": [
                 "cosmoshub"
             ],
@@ -448,6 +451,9 @@
             ],
             "channel-1": [
                 "cosmoshub"
+            ],
+            "channel-28": [
+                "axelar"
             ],
             "channel-42": [
                 "bitcanna"
