@@ -184,6 +184,9 @@
             "channel-110": [
                 "vidulum"
             ],
+            "channel-112": [
+                "planq"
+            ],
             "channel-13": [
                 "axelar"
             ],
@@ -2882,6 +2885,9 @@
             ],
             "channel-61": [
                 "source"
+            ],
+            "channel-62": [
+                "archway"
             ]
         }
     },
