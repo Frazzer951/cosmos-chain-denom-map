@@ -2395,6 +2395,9 @@
             "channel-13": [
                 "osmosis"
             ],
+            "channel-135": [
+                "secretnetwork"
+            ],
             "channel-33": [
                 "acrechain"
             ]
@@ -3076,6 +3079,9 @@
             ],
             "channel-21": [
                 "akash"
+            ],
+            "channel-217": [
+                "oraichain"
             ],
             "channel-22": [
                 "kujira"

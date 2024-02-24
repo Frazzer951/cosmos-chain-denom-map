@@ -5427,6 +5427,33 @@
             "type_asset": null
         }
     },
+    "atkx": {
+        "titantestnet": {
+            "address": null,
+            "aliases": [
+                "attotkx"
+            ],
+            "chain": "titantestnet",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "atkx",
+            "description": "The native token of the Titan network.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+                }
+            ],
+            "keywords": [
+                "staking"
+            ],
+            "logo_URIs": null,
+            "name": "titan tkx",
+            "symbol": "TKX",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "atlas": {
         "terra": {
             "address": "terra1rg8f993m9834afwazersesgx7jjxv4p87q9wvc",
@@ -46764,6 +46791,50 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/fc5a7360eeed0713ae3e83e9d55a69af873056a172ac495890ace4582ff9685a": {
+        "source": {
+            "address": null,
+            "aliases": [
+                "srcx"
+            ],
+            "chain": "source",
+            "coingecko_id": null,
+            "decimals": 9,
+            "denom": "ibc/FC5A7360EEED0713AE3E83E9D55A69AF873056A172AC495890ACE4582FF9685A",
+            "description": "Source Protocol's SRCX Token Bridged from BNB Through Planq",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x454b90716a9435e7161a9aea5cf00e0acbe565ae",
+                        "chain_name": "binancesmartchain"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png"
+            },
+            "name": "SRCX",
+            "symbol": "SRCX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1",
+                        "path": "transfer/channel-1/erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09"
+                    },
+                    "counterparty": {
+                        "base_denom": "erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09",
+                        "chain_name": "planq",
+                        "channel_id": "channel-61"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/fcff8b19c61677f3b78e2a5ae3b4a34a8d23858d16905f253b8438b3afd07ff8": {
         "nolus": {
             "address": null,
@@ -53918,6 +53989,33 @@
             },
             "name": "TerraClassicTHB",
             "symbol": "THTC",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "mtkx": {
+        "titantestnet": {
+            "address": null,
+            "aliases": [
+                "millitkx"
+            ],
+            "chain": "titantestnet",
+            "coingecko_id": null,
+            "decimals": 3,
+            "denom": "mtkx",
+            "description": "The native token of the Titan network.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+                }
+            ],
+            "keywords": [
+                "staking"
+            ],
+            "logo_URIs": null,
+            "name": "titan tkx",
+            "symbol": "TKX",
             "traces": null,
             "type_asset": null
         }
@@ -64202,6 +64300,46 @@
                 }
             ],
             "type_asset": null
+        },
+        "source": {
+            "address": null,
+            "aliases": null,
+            "chain": "source",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "srcx",
+            "description": "Source Protocol's SRCX Token Bridged from BNB Through Planq",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x454b90716a9435e7161a9aea5cf00e0acbe565ae",
+                        "chain_name": "binancesmartchain"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png"
+            },
+            "name": "SRCX",
+            "symbol": "SRCX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-1",
+                        "path": "transfer/channel-1/erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09"
+                    },
+                    "counterparty": {
+                        "base_denom": "erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09",
+                        "chain_name": "planq",
+                        "channel_id": "channel-61"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "srmso": {
@@ -68250,6 +68388,31 @@
             },
             "name": "Ki",
             "symbol": "TKI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "tkx": {
+        "titantestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "titantestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "tkx",
+            "description": "The native token of the Titan network.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+                }
+            ],
+            "keywords": [
+                "staking"
+            ],
+            "logo_URIs": null,
+            "name": "titan tkx",
+            "symbol": "TKX",
             "traces": null,
             "type_asset": null
         }
@@ -76772,6 +76935,33 @@
             },
             "name": "Ki",
             "symbol": "TKI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "utkx": {
+        "titantestnet": {
+            "address": null,
+            "aliases": [
+                "microtkx"
+            ],
+            "chain": "titantestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "utkx",
+            "description": "The native token of the Titan network.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+                }
+            ],
+            "keywords": [
+                "staking"
+            ],
+            "logo_URIs": null,
+            "name": "titan tkx",
+            "symbol": "TKX",
             "traces": null,
             "type_asset": null
         }
