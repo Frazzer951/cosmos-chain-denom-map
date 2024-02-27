@@ -2404,6 +2404,9 @@
             "channel-135": [
                 "secretnetwork"
             ],
+            "channel-140": [
+                "secretnetwork"
+            ],
             "channel-33": [
                 "acrechain"
             ]
@@ -3157,6 +3160,9 @@
             ],
             "channel-129": [
                 "migaloo"
+            ],
+            "channel-222": [
+                "oraichain"
             ],
             "channel-44": [
                 "osmosis"
