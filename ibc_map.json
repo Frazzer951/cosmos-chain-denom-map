@@ -1840,6 +1840,9 @@
             "channel-123": [
                 "andromeda"
             ],
+            "channel-157": [
+                "odin"
+            ],
             "channel-158": [
                 "persistence"
             ],
@@ -2336,6 +2339,9 @@
             ],
             "channel-37": [
                 "axelar"
+            ],
+            "channel-63": [
+                "kujira"
             ]
         }
     },
@@ -2506,6 +2512,9 @@
             ],
             "channel-20082": [
                 "humans"
+            ],
+            "channel-20100": [
+                "scorum"
             ],
             "channel-204": [
                 "evmos"
@@ -3027,6 +3036,13 @@
         }
     },
     "rizon": {
+        "transfer": {
+            "channel-1": [
+                "osmosis"
+            ]
+        }
+    },
+    "scorum": {
         "transfer": {
             "channel-1": [
                 "osmosis"
