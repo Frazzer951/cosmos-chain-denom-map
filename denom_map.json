@@ -12765,6 +12765,31 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:juno13c57ssxvlzefsj4v5spdz4m9r6c6s2far5npvmc9en7nz02xqjyqne40gk": {
+        "juno": {
+            "address": "juno13c57ssxvlzefsj4v5spdz4m9r6c6s2far5npvmc9en7nz02xqjyqne40gk",
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:juno13c57ssxvlzefsj4v5spdz4m9r6c6s2far5npvmc9en7nz02xqjyqne40gk",
+            "description": "In Roman mythology, Juno (Latin: Iuno; pronounced [[Help:Pronunciation|[\u02c8ju\u02d0no\u02d0]]]) was the protector and advisor of the state.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/luno.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/luno.png"
+            },
+            "name": "LUNO",
+            "symbol": "LUNO",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:juno13ca2g36ng6etcfhr9qxx352uw2n5e92np54thfkm3w3nzlhsgvwsjaqlyq": {
         "juno": {
             "address": "juno13ca2g36ng6etcfhr9qxx352uw2n5e92np54thfkm3w3nzlhsgvwsjaqlyq",
@@ -13406,6 +13431,31 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:juno1h86ut5aevlxuuxrra6wy3dfq6e39zkzzv9eelz678jr6amxlc4gsx46j82": {
+        "juno": {
+            "address": "juno1h86ut5aevlxuuxrra6wy3dfq6e39zkzzv9eelz678jr6amxlc4gsx46j82",
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:juno1h86ut5aevlxuuxrra6wy3dfq6e39zkzzv9eelz678jr6amxlc4gsx46j82",
+            "description": "Minerva was one of the main goddesses worshiped by the Roman Pagans and is a goddess from Roman Mythology.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/minerva.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/minerva.png"
+            },
+            "name": "MINERVA",
+            "symbol": "MRVA",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se": {
         "juno": {
             "address": "juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
@@ -13604,31 +13654,6 @@
             },
             "name": "Void",
             "symbol": "VOID",
-            "traces": null,
-            "type_asset": "cw20"
-        }
-    },
-    "cw20:juno1lsfym25w35ylhuq4m48fmycwe6nhntzh2ag2pttqtfe8cew9s25s2ym9t8": {
-        "juno": {
-            "address": "juno1lsfym25w35ylhuq4m48fmycwe6nhntzh2ag2pttqtfe8cew9s25s2ym9t8",
-            "aliases": null,
-            "chain": "juno",
-            "coingecko_id": null,
-            "decimals": 6,
-            "denom": "cw20:juno1lsfym25w35ylhuq4m48fmycwe6nhntzh2ag2pttqtfe8cew9s25s2ym9t8",
-            "description": "Minerva was one of the main goddesses worshiped by the Roman Pagans and is a goddess from Roman Mythology.",
-            "ibc": null,
-            "images": [
-                {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/minerva.png"
-                }
-            ],
-            "keywords": null,
-            "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/minerva.png"
-            },
-            "name": "MINERVA",
-            "symbol": "MRVA",
             "traces": null,
             "type_asset": "cw20"
         }
@@ -50620,6 +50645,31 @@
             "type_asset": "cw20"
         }
     },
+    "luno": {
+        "juno": {
+            "address": "juno13c57ssxvlzefsj4v5spdz4m9r6c6s2far5npvmc9en7nz02xqjyqne40gk",
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "luno",
+            "description": "In Roman mythology, Juno (Latin: Iuno; pronounced [[Help:Pronunciation|[\u02c8ju\u02d0no\u02d0]]]) was the protector and advisor of the state.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/luno.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/luno.png"
+            },
+            "name": "LUNO",
+            "symbol": "LUNO",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "luv": {
         "terra": {
             "address": "terra15k5r9r8dl8r7xlr29pry8a9w7sghehcnv5mgp6",
@@ -52522,7 +52572,7 @@
     },
     "minerva": {
         "juno": {
-            "address": "juno1lsfym25w35ylhuq4m48fmycwe6nhntzh2ag2pttqtfe8cew9s25s2ym9t8",
+            "address": "juno1h86ut5aevlxuuxrra6wy3dfq6e39zkzzv9eelz678jr6amxlc4gsx46j82",
             "aliases": null,
             "chain": "juno",
             "coingecko_id": null,
@@ -56385,12 +56435,25 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym-token-light.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym-token-light.svg",
+                    "theme": {
+                        "circle": true,
+                        "dark_mode": false
+                    }
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym-token-dark.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym-token-dark.svg",
+                    "theme": {
+                        "circle": true,
+                        "dark_mode": true
+                    }
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym-token-light.png"
             },
             "name": "NYM",
             "symbol": "NYM",
@@ -73158,12 +73221,25 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym-token-light.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym-token-light.svg",
+                    "theme": {
+                        "circle": true,
+                        "dark_mode": false
+                    }
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym-token-dark.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym-token-dark.svg",
+                    "theme": {
+                        "circle": true,
+                        "dark_mode": true
+                    }
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym-token-light.png"
             },
             "name": "NYM",
             "symbol": "NYM",

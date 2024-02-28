@@ -356,6 +356,9 @@
             "channel-137": [
                 "jackal"
             ],
+            "channel-138": [
+                "dymension"
+            ],
             "channel-14": [
                 "kujira"
             ],
@@ -549,6 +552,9 @@
             ],
             "channel-26": [
                 "evmos"
+            ],
+            "channel-27": [
+                "dymension"
             ],
             "channel-4": [
                 "stride"
@@ -1145,8 +1151,14 @@
     },
     "dymension": {
         "transfer": {
+            "channel-0": [
+                "stride"
+            ],
             "channel-1": [
                 "cosmoshub"
+            ],
+            "channel-10": [
+                "kujira"
             ],
             "channel-2": [
                 "osmosis"
@@ -1156,6 +1168,12 @@
             ],
             "channel-35": [
                 "secretnetwork"
+            ],
+            "channel-4": [
+                "celestia"
+            ],
+            "channel-5": [
+                "axelar"
             ],
             "channel-6": [
                 "noble"
@@ -1845,6 +1863,9 @@
             ],
             "channel-158": [
                 "persistence"
+            ],
+            "channel-160": [
+                "dymension"
             ],
             "channel-18": [
                 "comdex"
@@ -2821,6 +2842,9 @@
             "channel-19": [
                 "irisnet"
             ],
+            "channel-197": [
+                "stargaze"
+            ],
             "channel-21": [
                 "regen"
             ],
@@ -3415,6 +3439,9 @@
             "channel-278": [
                 "gateway"
             ],
+            "channel-287": [
+                "persistence"
+            ],
             "channel-46": [
                 "evmos"
             ],
@@ -3518,6 +3545,9 @@
             ],
             "channel-19": [
                 "stargaze"
+            ],
+            "channel-197": [
+                "dymension"
             ],
             "channel-24": [
                 "juno"
