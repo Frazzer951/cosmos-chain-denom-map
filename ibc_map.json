@@ -1169,6 +1169,9 @@
             "channel-35": [
                 "secretnetwork"
             ],
+            "channel-37": [
+                "evmos"
+            ],
             "channel-4": [
                 "celestia"
             ],
@@ -1239,6 +1242,9 @@
             ],
             "channel-107": [
                 "dydx"
+            ],
+            "channel-109": [
+                "dymension"
             ],
             "channel-11": [
                 "crescent"
@@ -1522,6 +1528,9 @@
             ],
             "channel-213": [
                 "andromeda"
+            ],
+            "channel-214": [
+                "odin"
             ],
             "channel-8": [
                 "osmosis"
@@ -2363,6 +2372,9 @@
             ],
             "channel-63": [
                 "kujira"
+            ],
+            "channel-65": [
+                "injective"
             ]
         }
     },
@@ -2515,6 +2527,9 @@
             ],
             "channel-171": [
                 "konstellation"
+            ],
+            "channel-17683": [
+                "pylons"
             ],
             "channel-181": [
                 "decentr"
@@ -2950,6 +2965,13 @@
                 "fxcore"
             ],
             "channel-1": [
+                "osmosis"
+            ]
+        }
+    },
+    "pylons": {
+        "transfer": {
+            "channel-29": [
                 "osmosis"
             ]
         }
