@@ -365,6 +365,9 @@
             "channel-140": [
                 "bitsong"
             ],
+            "channel-141": [
+                "chain4energy"
+            ],
             "channel-2": [
                 "cosmoshub"
             ],
@@ -569,6 +572,16 @@
     },
     "cerberus": {
         "transfer": {
+            "channel-1": [
+                "osmosis"
+            ]
+        }
+    },
+    "chain4energy": {
+        "transfer": {
+            "channel-0": [
+                "axelar"
+            ],
             "channel-1": [
                 "osmosis"
             ]
@@ -2575,6 +2588,9 @@
             ],
             "channel-221": [
                 "rizon"
+            ],
+            "channel-22172": [
+                "chain4energy"
             ],
             "channel-222": [
                 "provenance"
