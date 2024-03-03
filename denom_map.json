@@ -28166,6 +28166,33 @@
             "type_asset": "cw20"
         }
     },
+    "govgen": {
+        "govgen": {
+            "address": null,
+            "aliases": null,
+            "chain": "govgen",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "govgen",
+            "description": "The native staking and governance token of GovGen",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg"
+            },
+            "name": "GovGen",
+            "symbol": "GOVGEN",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "graviton": {
         "gravitybridge": {
             "address": null,
@@ -47047,7 +47074,7 @@
         "source": {
             "address": null,
             "aliases": [
-                "srcx"
+                "nsrcx"
             ],
             "chain": "source",
             "coingecko_id": null,
@@ -71439,6 +71466,33 @@
             },
             "name": "Galaxy",
             "symbol": "GLX",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "ugovgen": {
+        "govgen": {
+            "address": null,
+            "aliases": null,
+            "chain": "govgen",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ugovgen",
+            "description": "The native staking and governance token of GovGen",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg"
+            },
+            "name": "GovGen",
+            "symbol": "GOVGEN",
             "traces": null,
             "type_asset": null
         }
