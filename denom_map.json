@@ -27775,6 +27775,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "mGeo",
+                        "chain_name": "odin"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg"
                 }
@@ -50493,6 +50497,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "loki",
+                        "chain_name": "odin"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg"
                 }
@@ -52538,6 +52546,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "mGeo",
+                        "chain_name": "odin"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg"
                 }
@@ -54035,6 +54047,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "mO9W",
+                        "chain_name": "odin"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg"
                 }
@@ -57065,6 +57081,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "mO9W",
+                        "chain_name": "odin"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg"
                 }
@@ -57184,6 +57204,10 @@
             "ibc": null,
             "images": [
                 {
+                    "image_sync": {
+                        "base_denom": "loki",
+                        "chain_name": "odin"
+                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg"
                 }
