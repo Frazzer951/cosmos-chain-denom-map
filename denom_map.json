@@ -6452,6 +6452,54 @@
                 }
             ],
             "type_asset": "erc20"
+        },
+        "osmosistestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosistestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ausdc",
+            "description": "Circle's stablecoin on Axelar",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+                        "chain_name": "ethereumtestnet"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            },
+            "name": "USD Coin (Axelar)",
+            "symbol": "aUSDC.axl",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+                        "chain_name": "ethereumtestnet"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
+                {
+                    "chain": {
+                        "channel_id": "channel-4170",
+                        "path": "transfer/channel-4170/uausdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uausdc",
+                        "chain_name": "axelartestnet",
+                        "channel_id": "channel-339"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "aust": {
@@ -32781,6 +32829,56 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/2164bdb48de5501430e71286448d87c6d2240ec0e078cf113cab85e21a352bb0": {
+        "osmosistestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosistestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/2164BDB48DE5501430E71286448D87C6D2240EC0E078CF113CAB85E21A352BB0",
+            "description": "Circle's stablecoin on Axelar",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+                        "chain_name": "ethereumtestnet"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            },
+            "name": "USD Coin (Axelar)",
+            "symbol": "aUSDC.axl",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+                        "chain_name": "ethereumtestnet"
+                    },
+                    "provider": "Axelar",
+                    "type": "bridge"
+                },
+                {
+                    "chain": {
+                        "channel_id": "channel-4170",
+                        "path": "transfer/channel-4170/uausdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uausdc",
+                        "chain_name": "axelartestnet",
+                        "channel_id": "channel-339"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/231fd77eccb2db916d314019da30fe013202833386b1908a191d16989ad80b5a": {
         "osmosis": {
             "address": null,
@@ -33155,6 +33253,46 @@
                         "base_denom": "uatom",
                         "chain_name": "cosmoshub",
                         "channel_id": "channel-141"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/28eef762052db8c3d27a7bf625e9f86a1b3b689cc8d80c818cedf2eb6cba02a6": {
+        "osmosistestnet": {
+            "address": null,
+            "aliases": [
+                "atkx"
+            ],
+            "chain": "osmosistestnet",
+            "coingecko_id": null,
+            "decimals": 18,
+            "denom": "ibc/28EEF762052DB8C3D27A7BF625E9F86A1B3B689CC8D80C818CEDF2EB6CBA02A6",
+            "description": "The native EVM, governance and staking token of the Titan Chain",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+            },
+            "name": "tkx",
+            "symbol": "TKX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-5969",
+                        "path": "transfer/channel-5969/atkx"
+                    },
+                    "counterparty": {
+                        "base_denom": "atkx",
+                        "chain_name": "titan",
+                        "channel_id": "channel-2"
                     },
                     "type": "ibc"
                 }
@@ -54438,6 +54576,44 @@
         }
     },
     "mtkx": {
+        "osmosistestnet": {
+            "address": null,
+            "aliases": [
+                "millitkx"
+            ],
+            "chain": "osmosistestnet",
+            "coingecko_id": null,
+            "decimals": 3,
+            "denom": "mtkx",
+            "description": "The native EVM, governance and staking token of the Titan Chain",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+            },
+            "name": "tkx",
+            "symbol": "TKX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-5969",
+                        "path": "transfer/channel-5969/atkx"
+                    },
+                    "counterparty": {
+                        "base_denom": "atkx",
+                        "chain_name": "titan",
+                        "channel_id": "channel-2"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "titantestnet": {
             "address": null,
             "aliases": [
@@ -63214,6 +63390,65 @@
             "symbol": "SGE",
             "traces": null,
             "type_asset": null
+        },
+        "sgetestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "sgetestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sge",
+            "description": "The SGE token is primarily a governance token for the SGE Network blockchain.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png"
+            },
+            "name": "SGE Testnet",
+            "symbol": "SGE",
+            "traces": null,
+            "type_asset": null
+        },
+        "sgetestnet4": {
+            "address": null,
+            "aliases": null,
+            "chain": "sgetestnet4",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "sge",
+            "description": "The SGE token is primarily a governance token for the SGE Network blockchain.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "usge",
+                        "chain_name": "sge"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png"
+            },
+            "name": "SGE Testnet4",
+            "symbol": "SGE",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "usge",
+                        "chain_name": "sgetestnet"
+                    },
+                    "provider": "SGE",
+                    "type": "additional-mintage"
+                }
+            ],
+            "type_asset": null
         }
     },
     "sgnl": {
@@ -68881,6 +69116,42 @@
         }
     },
     "tkx": {
+        "osmosistestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "osmosistestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "tkx",
+            "description": "The native EVM, governance and staking token of the Titan Chain",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+            },
+            "name": "tkx",
+            "symbol": "TKX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-5969",
+                        "path": "transfer/channel-5969/atkx"
+                    },
+                    "counterparty": {
+                        "base_denom": "atkx",
+                        "chain_name": "titan",
+                        "channel_id": "channel-2"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "titantestnet": {
             "address": null,
             "aliases": [],
@@ -76646,6 +76917,65 @@
             "symbol": "SGE",
             "traces": null,
             "type_asset": null
+        },
+        "sgetestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "sgetestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "usge",
+            "description": "The SGE token is primarily a governance token for the SGE Network blockchain.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sgetestnet/images/sge.png"
+            },
+            "name": "SGE Testnet",
+            "symbol": "SGE",
+            "traces": null,
+            "type_asset": null
+        },
+        "sgetestnet4": {
+            "address": null,
+            "aliases": null,
+            "chain": "sgetestnet4",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "usge",
+            "description": "The SGE token is primarily a governance token for the SGE Network blockchain.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "usge",
+                        "chain_name": "sge"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png"
+            },
+            "name": "SGE Testnet4",
+            "symbol": "SGE",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "usge",
+                        "chain_name": "sgetestnet"
+                    },
+                    "provider": "SGE",
+                    "type": "additional-mintage"
+                }
+            ],
+            "type_asset": null
         }
     },
     "usix": {
@@ -77468,6 +77798,44 @@
         }
     },
     "utkx": {
+        "osmosistestnet": {
+            "address": null,
+            "aliases": [
+                "microtkx"
+            ],
+            "chain": "osmosistestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "utkx",
+            "description": "The native EVM, governance and staking token of the Titan Chain",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+            },
+            "name": "tkx",
+            "symbol": "TKX",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-5969",
+                        "path": "transfer/channel-5969/atkx"
+                    },
+                    "counterparty": {
+                        "base_denom": "atkx",
+                        "chain_name": "titan",
+                        "channel_id": "channel-2"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "titantestnet": {
             "address": null,
             "aliases": [

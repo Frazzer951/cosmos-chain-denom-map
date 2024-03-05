@@ -81,6 +81,9 @@
             "channel-62": [
                 "noble"
             ],
+            "channel-72": [
+                "persistence"
+            ],
             "channel-9": [
                 "axelar"
             ]
@@ -622,6 +625,9 @@
             ],
             "channel-76": [
                 "neutron"
+            ],
+            "channel-94": [
+                "persistence"
             ]
         },
         "wasm.chihuahua1jwkag4yvhyj9fuddtkygvavya8hmdjuzmgxwg9vp3lw9twv6lrcq9mgl52": {
@@ -2875,6 +2881,12 @@
             ],
             "channel-197": [
                 "stargaze"
+            ],
+            "channel-202": [
+                "agoric"
+            ],
+            "channel-203": [
+                "chihuahua"
             ],
             "channel-21": [
                 "regen"
