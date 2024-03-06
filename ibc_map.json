@@ -2876,6 +2876,9 @@
             "channel-152": [
                 "kujira"
             ],
+            "channel-159": [
+                "secretnetwork"
+            ],
             "channel-19": [
                 "irisnet"
             ],
@@ -3234,6 +3237,9 @@
             ],
             "channel-129": [
                 "migaloo"
+            ],
+            "channel-132": [
+                "persistence"
             ],
             "channel-222": [
                 "oraichain"
