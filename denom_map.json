@@ -25844,6 +25844,47 @@
             "type_asset": null
         }
     },
+    "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/bqqqpqsxzelp2hdfd4cgmxr6ekpatlj8yt2eghk52vst": {
+        "gateway": {
+            "address": "wormhole15rantn6k68twp4wmsljtk9uu9a0e5rt7g66fdfkvrsr24hj6je7qat93e6",
+            "aliases": [
+                "6gnCPhXtLnUD76HjQuSYPENLSZdG8RvDB1pTLM5aLSJA",
+                "wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/bqqqpqsxzelp2hdfd4cgmxr6ekpatlj8yt2eghk52vst"
+            ],
+            "chain": "gateway",
+            "coingecko_id": null,
+            "decimals": 5,
+            "denom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/bqqqpqsxzelp2hdfd4cgmxr6ekpatlj8yt2eghk52vst",
+            "description": "Basket (Wormhole), BSKT, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/bqqqpqsxzelp2hdfd4cgmxr6ekpatlj8yt2eghk52vst",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "6gnCPhXtLnUD76HjQuSYPENLSZdG8RvDB1pTLM5aLSJA",
+                        "chain_name": "solana"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png"
+            },
+            "name": "Basket",
+            "symbol": "BSKT",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "6gnCPhXtLnUD76HjQuSYPENLSZdG8RvDB1pTLM5aLSJA",
+                        "chain_name": "solana"
+                    },
+                    "provider": "Wormhole",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/ekimeqdnpkokfgcsxdvgmk6gt1bj6bc7bdzztmepwlh1": {
         "gateway": {
             "address": "wormhole1chejx4qqtvwxy6684yrsmf6pylancxqhk3vsmtleg5ta3zrffljqfscg87",
@@ -82862,6 +82903,46 @@
                     "counterparty": {
                         "base_denom": "0x18084fba666a33d37592fa2633fd49a74dd93a88",
                         "chain_name": "ethereum"
+                    },
+                    "provider": "Wormhole",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
+    "wormhole/bqqqpqsxzelp2hdfd4cgmxr6ekpatlj8yt2eghk52vst/5": {
+        "gateway": {
+            "address": "wormhole15rantn6k68twp4wmsljtk9uu9a0e5rt7g66fdfkvrsr24hj6je7qat93e6",
+            "aliases": [
+                "bskt"
+            ],
+            "chain": "gateway",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "wormhole/bqqqpqsxzelp2hdfd4cgmxr6ekpatlj8yt2eghk52vst/5",
+            "description": "Basket (Wormhole), BSKT, factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/bqqqpqsxzelp2hdfd4cgmxr6ekpatlj8yt2eghk52vst",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "6gnCPhXtLnUD76HjQuSYPENLSZdG8RvDB1pTLM5aLSJA",
+                        "chain_name": "solana"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png"
+            },
+            "name": "Basket",
+            "symbol": "BSKT",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "6gnCPhXtLnUD76HjQuSYPENLSZdG8RvDB1pTLM5aLSJA",
+                        "chain_name": "solana"
                     },
                     "provider": "Wormhole",
                     "type": "bridge"

@@ -51,6 +51,9 @@
             "channel-10": [
                 "secretnetwork"
             ],
+            "channel-11": [
+                "umee"
+            ],
             "channel-13": [
                 "kujira"
             ],
@@ -552,6 +555,9 @@
             ],
             "channel-15": [
                 "terra2"
+            ],
+            "channel-19": [
+                "umee"
             ],
             "channel-2": [
                 "osmosis"
@@ -1163,6 +1169,9 @@
             "channel-7": [
                 "kava"
             ],
+            "channel-8": [
+                "umee"
+            ],
             "channel-9": [
                 "terra2"
             ]
@@ -1535,6 +1544,9 @@
             ],
             "channel-152": [
                 "celestia"
+            ],
+            "channel-159": [
+                "umee"
             ],
             "channel-177": [
                 "neutron"
@@ -2278,6 +2290,9 @@
             ],
             "channel-49": [
                 "coreum"
+            ],
+            "channel-51": [
+                "umee"
             ],
             "channel-54": [
                 "teritori"
@@ -3098,6 +3113,9 @@
             "channel-15": [
                 "sentinel"
             ],
+            "channel-158": [
+                "umee"
+            ],
             "channel-28": [
                 "sifchain"
             ],
@@ -3145,6 +3163,9 @@
             ],
             "channel-111": [
                 "teritori"
+            ],
+            "channel-126": [
+                "umee"
             ],
             "channel-127": [
                 "terra2"
@@ -3831,11 +3852,32 @@
             "channel-104": [
                 "migaloo"
             ],
+            "channel-107": [
+                "regen"
+            ],
+            "channel-116": [
+                "injective"
+            ],
+            "channel-118": [
+                "dydx"
+            ],
+            "channel-119": [
+                "celestia"
+            ],
+            "channel-120": [
+                "noble"
+            ],
+            "channel-123": [
+                "secretnetwork"
+            ],
             "channel-33": [
                 "axelar"
             ],
             "channel-34": [
                 "stride"
+            ],
+            "channel-42": [
+                "agoric"
             ],
             "channel-49": [
                 "crescent"
