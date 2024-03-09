@@ -694,6 +694,46 @@
             "type_asset": "erc20"
         }
     },
+    "0x5425890298aed601595a70ab815c96711a31bc65": {
+        "avalanchetestnet": {
+            "address": "0x5425890298aed601595a70ab815c96711a31bc65",
+            "aliases": [
+                "uusdc"
+            ],
+            "chain": "avalanchetestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "0x5425890298aed601595a70ab815c96711a31bc65",
+            "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                        "chain_name": "avalanche"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            },
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                        "chain_name": "avalanche"
+                    },
+                    "provider": "Circle",
+                    "type": "test-mintage"
+                }
+            ],
+            "type_asset": "erc20"
+        }
+    },
     "0x57f1c63497aee0be305b8852b354cec793da43bb": {
         "avalanchetestnet": {
             "address": "0x57F1c63497AEe0bE305B8852b354CEc793da43bB",
@@ -1443,7 +1483,7 @@
             "coingecko_id": "staked-frax-ether",
             "decimals": 18,
             "denom": "0xac3e018457b222d93114458476f3e3416abbe38f",
-            "description": "sfrxETH is the version of frxETH which accrues staking yield. All profit generated from Frax Ether validators is distributed to sfrxETH holders. By exchanging frxETH for sfrxETH, one become's eligible for staking yield, which is redeemed upon converting sfrxETH back to frxETH.",
+            "description": "sfrxETH is the version of frxETH which accrues staking yield. All profit generated from Frax Ether validators is distributed to sfrxETH holders. By exchanging frxETH for sfrxETH, one becomes eligible for staking yield, which is redeemed upon converting sfrxETH back to frxETH.",
             "ibc": null,
             "images": [
                 {
@@ -63488,7 +63528,7 @@
             "coingecko_id": "staked-frax-ether",
             "decimals": 0,
             "denom": "sfrxeth",
-            "description": "sfrxETH is the version of frxETH which accrues staking yield. All profit generated from Frax Ether validators is distributed to sfrxETH holders. By exchanging frxETH for sfrxETH, one become's eligible for staking yield, which is redeemed upon converting sfrxETH back to frxETH.",
+            "description": "sfrxETH is the version of frxETH which accrues staking yield. All profit generated from Frax Ether validators is distributed to sfrxETH holders. By exchanging frxETH for sfrxETH, one becomes eligible for staking yield, which is redeemed upon converting sfrxETH back to frxETH.",
             "ibc": null,
             "images": [
                 {
@@ -75467,6 +75507,42 @@
             ],
             "type_asset": "erc20"
         },
+        "avalanchetestnet": {
+            "address": "0x5425890298aed601595a70ab815c96711a31bc65",
+            "aliases": null,
+            "chain": "avalanchetestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "usdc",
+            "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                        "chain_name": "avalanche"
+                    },
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+            },
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                        "chain_name": "avalanche"
+                    },
+                    "provider": "Circle",
+                    "type": "test-mintage"
+                }
+            ],
+            "type_asset": "erc20"
+        },
         "axelar": {
             "address": null,
             "aliases": null,
@@ -78855,6 +78931,33 @@
             "type_asset": null
         }
     },
+    "uward": {
+        "wardenprotocoltestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "wardenprotocoltestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "uward",
+            "description": "The native token of Warden Protocol Testnet",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.svg"
+            },
+            "name": "Ward",
+            "symbol": "WARD",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "uwhale": {
         "migaloo": {
             "address": null,
@@ -79442,6 +79545,33 @@
             },
             "name": "WaveHash",
             "symbol": "WAHAX",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "ward": {
+        "wardenprotocoltestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "wardenprotocoltestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "ward",
+            "description": "The native token of Warden Protocol Testnet",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.svg"
+            },
+            "name": "Ward",
+            "symbol": "WARD",
             "traces": null,
             "type_asset": null
         }
