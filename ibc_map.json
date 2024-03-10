@@ -193,6 +193,9 @@
             "channel-112": [
                 "planq"
             ],
+            "channel-123": [
+                "dymension"
+            ],
             "channel-13": [
                 "axelar"
             ],
@@ -1202,6 +1205,9 @@
             ],
             "channel-4": [
                 "celestia"
+            ],
+            "channel-45": [
+                "archway"
             ],
             "channel-5": [
                 "axelar"
