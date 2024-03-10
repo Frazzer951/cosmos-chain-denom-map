@@ -48251,7 +48251,8 @@
                 }
             ],
             "keywords": [
-                "memecoin"
+                "memecoin",
+                "defi"
             ],
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png",
@@ -72728,7 +72729,8 @@
                 }
             ],
             "keywords": [
-                "memecoin"
+                "memecoin",
+                "defi"
             ],
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png",
