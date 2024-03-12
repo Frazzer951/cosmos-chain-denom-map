@@ -648,6 +648,14 @@
             ]
         }
     },
+    "cifer": {
+        "transfer": {
+            "channel-0": [
+                "cosmoshub",
+                "osmosis"
+            ]
+        }
+    },
     "comdex": {
         "bandoracleV1": {
             "channel-43": [
@@ -794,6 +802,9 @@
     },
     "cosmoshub": {
         "transfer": {
+            "channel-0": [
+                "cifer"
+            ],
             "channel-141": [
                 "osmosis"
             ],
@@ -2488,6 +2499,7 @@
     "osmosis": {
         "transfer": {
             "channel-0": [
+                "cifer",
                 "cosmoshub"
             ],
             "channel-1": [
