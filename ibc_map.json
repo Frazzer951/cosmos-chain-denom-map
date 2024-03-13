@@ -368,6 +368,9 @@
             "channel-138": [
                 "dymension"
             ],
+            "channel-139": [
+                "nibiru"
+            ],
             "channel-14": [
                 "kujira"
             ],
@@ -2240,6 +2243,19 @@
             ]
         }
     },
+    "nibiru": {
+        "transfer": {
+            "channel-1": [
+                "axelar"
+            ],
+            "channel-139": [
+                "osmosis"
+            ],
+            "channel-2": [
+                "noble"
+            ]
+        }
+    },
     "noble": {
         "transfer": {
             "channel-0": [
@@ -2316,6 +2332,9 @@
             ],
             "channel-62": [
                 "dymension"
+            ],
+            "channel-67": [
+                "nibiru"
             ],
             "channel-7": [
                 "evmos"
@@ -2612,6 +2631,9 @@
             ],
             "channel-208": [
                 "axelar"
+            ],
+            "channel-21113": [
+                "nibiru"
             ],
             "channel-212": [
                 "cerberus"

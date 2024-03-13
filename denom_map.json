@@ -4936,6 +4936,71 @@
             "type_asset": null
         }
     },
+    "arena": {
+        "juno": {
+            "address": "juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy",
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "arena",
+            "description": "The token for the Arena DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.svg"
+            },
+            "name": "Arena Token",
+            "symbol": "ARENA",
+            "traces": null,
+            "type_asset": "sdk.coin"
+        },
+        "junotestnet": {
+            "address": "juno12dgadj3wwv5jn0ec7tw5cgvq526nn4gnt2tujlmd57p2ra6k87esl36r9k",
+            "aliases": null,
+            "chain": "junotestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "arena",
+            "description": "The token for the Arena DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA",
+                        "chain_name": "juno"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.svg"
+            },
+            "name": "Arena Token",
+            "symbol": "ARENA",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA",
+                        "chain_name": "juno"
+                    },
+                    "provider": "Arena DAO",
+                    "type": "test-mintage"
+                }
+            ],
+            "type_asset": "sdk.coin"
+        }
+    },
     "ario": {
         "realio": {
             "address": null,
@@ -8352,6 +8417,29 @@
             "address": null,
             "aliases": null,
             "chain": "babylontestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "bbn",
+            "description": "The native staking token of Babylon.",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
+            },
+            "name": "Babylon BBN",
+            "symbol": "BBN",
+            "traces": null,
+            "type_asset": null
+        },
+        "babylontestnet1": {
+            "address": null,
+            "aliases": null,
+            "chain": "babylontestnet1",
             "coingecko_id": null,
             "decimals": 0,
             "denom": "bbn",
@@ -23564,6 +23652,46 @@
             "type_asset": null
         }
     },
+    "factory/juno12dgadj3wwv5jn0ec7tw5cgvq526nn4gnt2tujlmd57p2ra6k87esl36r9k/arena": {
+        "junotestnet": {
+            "address": "juno12dgadj3wwv5jn0ec7tw5cgvq526nn4gnt2tujlmd57p2ra6k87esl36r9k",
+            "aliases": null,
+            "chain": "junotestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/juno12dgadj3wwv5jn0ec7tw5cgvq526nn4gnt2tujlmd57p2ra6k87esl36r9k/ARENA",
+            "description": "The token for the Arena DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA",
+                        "chain_name": "juno"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.svg"
+            },
+            "name": "Arena Token",
+            "symbol": "ARENA",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA",
+                        "chain_name": "juno"
+                    },
+                    "provider": "Arena DAO",
+                    "type": "test-mintage"
+                }
+            ],
+            "type_asset": "sdk.coin"
+        }
+    },
     "factory/juno12klaltyqvg2j6v034jwdxrk5n4242ttse4sdpt/nexx": {
         "junotestnet": {
             "address": null,
@@ -23637,6 +23765,33 @@
             "symbol": "DGL",
             "traces": null,
             "type_asset": null
+        }
+    },
+    "factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/arena": {
+        "juno": {
+            "address": "juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy",
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/juno1vwmnqk0vyxc96qgffrure4nqxupjrql0zut8s02hadgp0n79r8xq5xdsxy/ARENA",
+            "description": "The token for the Arena DAO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/arena.svg"
+            },
+            "name": "Arena Token",
+            "symbol": "ARENA",
+            "traces": null,
+            "type_asset": "sdk.coin"
         }
     },
     "factory/kujira12cjjeytrqcj25uv349thltcygnp9k0kukpct0e/uwink": {
@@ -56247,7 +56402,7 @@
             "address": null,
             "aliases": null,
             "chain": "nibiru",
-            "coingecko_id": "nibi",
+            "coingecko_id": "nibiru",
             "decimals": 0,
             "denom": "nibi",
             "description": "The native token of Nibiru network",
@@ -70955,6 +71110,29 @@
             "symbol": "BBN",
             "traces": null,
             "type_asset": null
+        },
+        "babylontestnet1": {
+            "address": null,
+            "aliases": null,
+            "chain": "babylontestnet1",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ubbn",
+            "description": "The native staking token of Babylon.",
+            "ibc": null,
+            "images": [
+                {
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
+            },
+            "name": "Babylon BBN",
+            "symbol": "BBN",
+            "traces": null,
+            "type_asset": null
         }
     },
     "ubcna": {
@@ -74417,7 +74595,7 @@
             "address": null,
             "aliases": null,
             "chain": "nibiru",
-            "coingecko_id": "nibi",
+            "coingecko_id": "nibiru",
             "decimals": 6,
             "denom": "unibi",
             "description": "The native token of Nibiru network",
