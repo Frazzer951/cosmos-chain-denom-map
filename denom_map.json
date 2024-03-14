@@ -3408,13 +3408,6 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.svg",
-                    "theme": {
-                        "dark_mode": false
-                    }
-                },
-                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg",
                     "theme": {
@@ -3424,8 +3417,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg"
             },
             "name": "HEART",
             "symbol": "HEART",
@@ -20950,7 +20943,7 @@
             "address": null,
             "aliases": null,
             "chain": "odin",
-            "coingecko_id": null,
+            "coingecko_id": "doki",
             "decimals": 0,
             "denom": "doki",
             "description": "DOKI the last Dragon",
@@ -28036,10 +28029,6 @@
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "mGeo",
-                        "chain_name": "odin"
-                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg"
                 }
@@ -30006,13 +29995,6 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.svg",
-                    "theme": {
-                        "dark_mode": false
-                    }
-                },
-                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg",
                     "theme": {
@@ -30022,8 +30004,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.svg"
             },
             "name": "HEART",
             "symbol": "HEART",
@@ -50967,14 +50949,10 @@
             "coingecko_id": "odin-protocol",
             "decimals": 6,
             "denom": "loki",
-            "description": "Staking and governance token for ODIN Protocol",
+            "description": "ODIN is the Staking and governance token for ODIN Protocol",
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "loki",
-                        "chain_name": "odin"
-                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg"
                 }
@@ -53020,10 +52998,6 @@
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "mGeo",
-                        "chain_name": "odin"
-                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg"
                 }
@@ -54521,10 +54495,6 @@
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "mO9W",
-                        "chain_name": "odin"
-                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg"
                 }
@@ -57555,10 +57525,6 @@
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "mO9W",
-                        "chain_name": "odin"
-                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg"
                 }
@@ -57674,14 +57640,10 @@
             "coingecko_id": "odin-protocol",
             "decimals": 0,
             "denom": "odin",
-            "description": "Staking and governance token for ODIN Protocol",
+            "description": "ODIN is the Staking and governance token for ODIN Protocol",
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "loki",
-                        "chain_name": "odin"
-                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg"
                 }
@@ -72172,7 +72134,7 @@
             "address": null,
             "aliases": null,
             "chain": "odin",
-            "coingecko_id": null,
+            "coingecko_id": "doki",
             "decimals": 6,
             "denom": "udoki",
             "description": "DOKI the last Dragon",

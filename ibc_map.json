@@ -612,6 +612,9 @@
             ],
             "channel-34": [
                 "terra2"
+            ],
+            "channel-36": [
+                "secretnetwork"
             ]
         }
     },
@@ -1097,6 +1100,9 @@
         "transfer": {
             "channel-1": [
                 "osmosis"
+            ],
+            "channel-4": [
+                "sentinel"
             ],
             "channel-7": [
                 "archway"
@@ -2167,6 +2173,9 @@
             "channel-10": [
                 "osmosis"
             ],
+            "channel-1551": [
+                "secretnetwork"
+            ],
             "channel-16": [
                 "mars"
             ],
@@ -2220,9 +2229,6 @@
             ],
             "channel-52": [
                 "chihuahua"
-            ],
-            "channel-57": [
-                "secretnetwork"
             ],
             "channel-60": [
                 "injective"
@@ -2640,6 +2646,9 @@
             ],
             "channel-216": [
                 "oraichain"
+            ],
+            "channel-21671": [
+                "terra2"
             ],
             "channel-2186": [
                 "gateway"
@@ -3213,6 +3222,12 @@
             "channel-130": [
                 "dymension"
             ],
+            "channel-141": [
+                "cheqd"
+            ],
+            "channel-144": [
+                "neutron"
+            ],
             "channel-15": [
                 "sifchain"
             ],
@@ -3293,9 +3308,6 @@
             ]
         },
         "wasm.secret1tqmms5awftpuhalcv5h5mg76fa0tkdz4jv9ex4": {
-            "channel-104": [
-                "neutron"
-            ],
             "channel-129": [
                 "migaloo"
             ],
@@ -3391,6 +3403,9 @@
             ],
             "channel-50": [
                 "secretnetwork"
+            ],
+            "channel-55": [
+                "decentr"
             ],
             "channel-6": [
                 "akash"
@@ -3868,6 +3883,9 @@
         "wasm.terra1jhfjnm39y3nn9l4520mdn4k5mw23nz0674c4gsvyrcr90z9tqcvst22fce": {
             "channel-167": [
                 "neutron"
+            ],
+            "channel-392": [
+                "osmosis"
             ]
         }
     },
