@@ -2243,6 +2243,11 @@
                 "stride"
             ]
         },
+        "wasm.neutron14cwv7d4lwc69zrjrzywwh8c9327m8dpngpq52f5kgqephhgrjc2s9ry3eu": {
+            "channel-1559": [
+                "nois"
+            ]
+        },
         "wasm.neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07": {
             "channel-6": [
                 "terra2"
@@ -2389,6 +2394,9 @@
             ],
             "channel-44": [
                 "sei"
+            ],
+            "channel-48": [
+                "neutron"
             ]
         },
         "wasm.osmo1tvzr8ur0ynjhqftxpkl4qwel8ly7erhy6cu6ks426xmzf92vk6eqfp9wcl": {
