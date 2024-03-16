@@ -5808,6 +5808,48 @@
             "traces": null,
             "type_asset": null
         },
+        "elystestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "elystestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "atom",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
+            "name": "ATOM on Elys",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-16",
+                        "path": "transfer/channel-16/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshubtestnet",
+                        "channel_id": "channel-3302"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
         "entrypointtestnet": {
             "address": null,
             "aliases": null,
@@ -33126,6 +33168,50 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/2180e84e20f5679fcc760d8c165b60f42065def7f46a72b447cff1b7dc6c0a65": {
+        "elystestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "elystestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/2180E84E20F5679FCC760D8C165B60F42065DEF7F46A72B447CFF1B7DC6C0A65",
+            "description": "USDC from Noble",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "noble"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+            },
+            "name": "Noble USD Coin",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-12",
+                        "path": "transfer/channel-12/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "nobletestnet",
+                        "channel_id": "channel-19"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/231fd77eccb2db916d314019da30fe013202833386b1908a191d16989ad80b5a": {
         "osmosis": {
             "address": null,
@@ -45660,6 +45746,50 @@
                         "base_denom": "dys",
                         "chain_name": "dyson",
                         "channel_id": "channel-2"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/e2d2f6adcc68aa3384b2f5dfacca437923d137c14e86fb8a10207cf3bed0c8d4": {
+        "elystestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "elystestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/E2D2F6ADCC68AA3384B2F5DFACCA437923D137C14E86FB8A10207CF3BED0C8D4",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshub"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+            },
+            "name": "ATOM on Elys",
+            "symbol": "ATOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-16",
+                        "path": "transfer/channel-16/uatom"
+                    },
+                    "counterparty": {
+                        "base_denom": "uatom",
+                        "chain_name": "cosmoshubtestnet",
+                        "channel_id": "channel-3302"
                     },
                     "type": "ibc"
                 }
@@ -76179,6 +76309,48 @@
                         "base_denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
                         "chain_name": "osmosis",
                         "channel_id": "channel-526"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        },
+        "elystestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "elystestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "usdc",
+            "description": "USDC from Noble",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uusdc",
+                        "chain_name": "noble"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+            },
+            "name": "Noble USD Coin",
+            "symbol": "USDC",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-12",
+                        "path": "transfer/channel-12/uusdc"
+                    },
+                    "counterparty": {
+                        "base_denom": "uusdc",
+                        "chain_name": "nobletestnet",
+                        "channel_id": "channel-19"
                     },
                     "type": "ibc"
                 }

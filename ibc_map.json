@@ -966,6 +966,13 @@
             ]
         }
     },
+    "cosmoshubtestnet": {
+        "transfer": {
+            "channel-3302": [
+                "elystestnet"
+            ]
+        }
+    },
     "crescent": {
         "transfer": {
             "channel-0": [
@@ -1251,6 +1258,16 @@
         "transfer": {
             "channel-11": [
                 "osmosis"
+            ]
+        }
+    },
+    "elystestnet": {
+        "transfer": {
+            "channel-12": [
+                "nobletestnet"
+            ],
+            "channel-16": [
+                "cosmoshubtestnet"
             ]
         }
     },
@@ -2349,6 +2366,13 @@
             ],
             "channel-7": [
                 "evmos"
+            ]
+        }
+    },
+    "nobletestnet": {
+        "transfer": {
+            "channel-19": [
+                "elystestnet"
             ]
         }
     },
