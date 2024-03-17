@@ -119,6 +119,9 @@
             "channel-125": [
                 "doravota"
             ],
+            "channel-127": [
+                "persistence"
+            ],
             "channel-13": [
                 "regen"
             ],
@@ -139,9 +142,6 @@
             ],
             "channel-43": [
                 "secretnetwork"
-            ],
-            "channel-6": [
-                "persistence"
             ],
             "channel-63": [
                 "kujira"
@@ -2316,6 +2316,9 @@
             "channel-2": [
                 "kujira"
             ],
+            "channel-20": [
+                "provenance"
+            ],
             "channel-21": [
                 "agoric"
             ],
@@ -2990,6 +2993,9 @@
             "channel-21": [
                 "regen"
             ],
+            "channel-213": [
+                "akash"
+            ],
             "channel-22": [
                 "sentinel"
             ],
@@ -3010,9 +3016,6 @@
             ],
             "channel-41": [
                 "injective"
-            ],
-            "channel-5": [
-                "akash"
             ],
             "channel-6": [
                 "osmosis"
@@ -3081,6 +3084,9 @@
     },
     "provenance": {
         "transfer": {
+            "channel-10": [
+                "noble"
+            ],
             "channel-7": [
                 "osmosis"
             ]

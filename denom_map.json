@@ -63656,6 +63656,31 @@
             "type_asset": null
         }
     },
+    "sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed": {
+        "sei": {
+            "address": null,
+            "aliases": null,
+            "chain": "sei",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed",
+            "description": "The Original Meme Coin on SEI Network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png"
+            },
+            "name": "SEIYAN",
+            "symbol": "SEIYAN",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "sei1wlf9j5uv50rcg0u5j6xk00px5tflptzprj39keck27eg8g7qd7hqq6kvda": {
         "sei": {
             "address": null,
@@ -63677,6 +63702,31 @@
             },
             "name": "Oozaru",
             "symbol": "OOZARU",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "seiyan": {
+        "sei": {
+            "address": null,
+            "aliases": null,
+            "chain": "sei",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "SEIYAN",
+            "description": "The Original Meme Coin on SEI Network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png"
+            },
+            "name": "SEIYAN",
+            "symbol": "SEIYAN",
             "traces": null,
             "type_asset": null
         }
