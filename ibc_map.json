@@ -344,6 +344,9 @@
             "channel-114": [
                 "impacthub"
             ],
+            "channel-116": [
+                "provenance"
+            ],
             "channel-12": [
                 "secretnetwork"
             ],
@@ -788,9 +791,6 @@
             ],
             "channel-25": [
                 "secretnetwork"
-            ],
-            "channel-26": [
-                "sei"
             ],
             "channel-6": [
                 "axelar"
@@ -3089,6 +3089,9 @@
             ],
             "channel-7": [
                 "osmosis"
+            ],
+            "channel-9": [
+                "axelar"
             ]
         }
     },
@@ -3402,9 +3405,6 @@
             ],
             "channel-45": [
                 "noble"
-            ],
-            "channel-47": [
-                "coreum"
             ],
             "channel-58": [
                 "nois"

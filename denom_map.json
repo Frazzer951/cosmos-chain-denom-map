@@ -21510,6 +21510,75 @@
             "type_asset": "cw20"
         }
     },
+    "drop": {
+        "xrpl": {
+            "address": null,
+            "aliases": null,
+            "chain": "xrpl",
+            "coingecko_id": "ripple",
+            "decimals": 6,
+            "denom": "drop",
+            "description": "Native token of Ripple XRP Ledger",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg"
+            },
+            "name": "Ripple",
+            "symbol": "XRP",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz": {
+        "coreum": {
+            "address": null,
+            "aliases": [
+                "drop"
+            ],
+            "chain": "coreum",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "drop-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+            "description": "XRP bridged from XRPL",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "drop",
+                        "chain_name": "xrpl"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg"
+            },
+            "name": "Ripple",
+            "symbol": "XRP",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "drop",
+                        "chain_name": "xrpl"
+                    },
+                    "provider": "Coreum",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "dsm": {
         "desmos": {
             "address": null,
@@ -85056,6 +85125,71 @@
             },
             "name": "Persistence",
             "symbol": "XPRT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "xrp": {
+        "coreum": {
+            "address": null,
+            "aliases": null,
+            "chain": "coreum",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "xrp",
+            "description": "XRP bridged from XRPL",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "drop",
+                        "chain_name": "xrpl"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg"
+            },
+            "name": "Ripple",
+            "symbol": "XRP",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "drop",
+                        "chain_name": "xrpl"
+                    },
+                    "provider": "Coreum",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        },
+        "xrpl": {
+            "address": null,
+            "aliases": null,
+            "chain": "xrpl",
+            "coingecko_id": "ripple",
+            "decimals": 0,
+            "denom": "xrp",
+            "description": "Native token of Ripple XRP Ledger",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/xrpl/images/xrp.svg"
+            },
+            "name": "Ripple",
+            "symbol": "XRP",
             "traces": null,
             "type_asset": null
         }
