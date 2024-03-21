@@ -402,11 +402,13 @@
             "ibc": null,
             "images": [
                 {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
             },
             "name": "PURSE Token",
@@ -3182,7 +3184,12 @@
             "denom": "acvnt",
             "description": "Cvn is a Layer-1 blockchain built to deliver on the promise of DeFi",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png",
@@ -3204,7 +3211,11 @@
             "denom": "ADO",
             "description": "ado the flower of night",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png"
@@ -3572,11 +3583,16 @@
                     "image_sync": {
                         "base_denom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
+            },
             "name": "AKT",
             "symbol": "AKT",
             "traces": [
@@ -5372,16 +5388,31 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/astro.png"
+                    "image_sync": {
+                        "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+                        "chain_name": "terra2"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/astro.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
             },
             "name": "Astroport Token",
             "symbol": "ASTRO",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+                        "chain_name": "terra2"
+                    },
+                    "provider": "Astroport",
+                    "type": "additional-mintage"
+                }
+            ],
             "type_asset": "cw20"
         },
         "terra2": {
@@ -5395,12 +5426,14 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/astro.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/astro.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
             },
             "name": "Astroport",
             "symbol": "ASTRO",
@@ -5595,7 +5628,9 @@
             "keywords": [
                 "staking"
             ],
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png"
+            },
             "name": "titan tkx",
             "symbol": "TKX",
             "traces": null,
@@ -5620,7 +5655,9 @@
             "keywords": [
                 "staking"
             ],
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+            },
             "name": "titan tkx",
             "symbol": "TKX",
             "traces": null,
@@ -6842,7 +6879,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/avalanche.usdc.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
             },
             "name": "USD Coin (Avalanche)",
             "symbol": "avalanche.USDC",
@@ -7091,11 +7128,15 @@
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.svg"
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.svg"
             },
             "name": "Avalanche",
             "symbol": "AVAX",
@@ -7245,11 +7286,16 @@
                     "image_sync": {
                         "base_denom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
+            },
             "name": "AXL",
             "symbol": "AXL",
             "traces": [
@@ -8162,14 +8208,16 @@
                         "base_denom": "ibc/2FFE07C4B4EFC0DDA099A16C6AF3C9CCA653CC56077E87217A585D48794B0BC7",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png"
             },
             "name": "BadDog (Osmosis)",
             "symbol": "BADDOG.osmo",
@@ -9886,13 +9934,11 @@
                         "base_denom": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
                         "chain_name": "binancesmartchain"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
             },
             "name": "PURSE Token",
@@ -12943,7 +12989,12 @@
             "denom": "cvnt",
             "description": "Cvn is a Layer-1 blockchain built to deliver on the promise of DeFi",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png",
@@ -16905,7 +16956,11 @@
             "denom": "cw20:terra1cl273523kmr2uwjhhznq54je69mted2u3ljffm8kp2ap4z3drdksftwqun",
             "description": "useless meme coin",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png"
@@ -18616,12 +18671,14 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/astro.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/astro.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
             },
             "name": "Astroport",
             "symbol": "ASTRO",
@@ -19833,7 +19890,11 @@
             "denom": "cw20:terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu",
             "description": "ado the flower of night",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ADO.png"
@@ -19906,16 +19967,31 @@
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/astro.png"
+                    "image_sync": {
+                        "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+                        "chain_name": "terra2"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/astro.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/astro.svg"
             },
             "name": "Astroport Token",
             "symbol": "ASTRO",
-            "traces": null,
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+                        "chain_name": "terra2"
+                    },
+                    "provider": "Astroport",
+                    "type": "additional-mintage"
+                }
+            ],
             "type_asset": "cw20"
         }
     },
@@ -21328,7 +21404,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dot.axl.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
             },
             "name": "Wrapped Polkadot (Axelar)",
             "symbol": "DOT.axl",
@@ -21578,7 +21655,11 @@
             "denom": "DROGO",
             "description": "useless meme coin",
             "ibc": null,
-            "images": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png"
+                }
+            ],
             "keywords": null,
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/drogo.png"
@@ -22068,7 +22149,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
             },
             "name": "dYdX Protocol",
             "symbol": "DYDX",
@@ -23473,11 +23555,16 @@
                     "image_sync": {
                         "base_denom": "ibc/6AE98883D4D5D5FF9E50D7130F1305DA2FFA0C652D1DD9C123657C6B4EB2DF8A",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+            },
             "name": "EVMOS",
             "symbol": "EVMOS",
             "traces": [
@@ -28179,7 +28266,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dai.grv.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg"
             },
             "name": "DAI Stablecoin (Gravity Bridge)",
             "symbol": "DAI.grv",
@@ -29524,7 +29611,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.grv.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
             },
             "name": "USD Coin (Gravity Bridge)",
             "symbol": "USDC.grv",
@@ -29621,7 +29708,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.grv.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
             },
             "name": "Tether USD (Gravity Bridge)",
             "symbol": "USDT.grv",
@@ -29753,7 +29840,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.grv.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
             },
             "name": "Wrapped Bitcoin (Gravity Bridge)",
             "symbol": "WBTC.grv",
@@ -29925,7 +30013,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/weth.grv.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg"
             },
             "name": "Ether (Gravity Bridge)",
             "symbol": "WETH.grv",
@@ -30796,11 +30884,13 @@
                         "base_denom": "inj",
                         "chain_name": "injectivetestnet"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg"
             },
             "name": "Injective INJ token",
@@ -32063,14 +32153,18 @@
                         "base_denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
             },
             "name": "USD Coin",
             "symbol": "USDC",
@@ -32550,11 +32644,16 @@
                     "image_sync": {
                         "base_denom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
+            },
             "name": "AXL",
             "symbol": "AXL",
             "traces": [
@@ -33263,7 +33362,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.hole.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
             },
             "name": "Tether USD (Wormhole)",
             "symbol": "USDT.wh",
@@ -33416,7 +33515,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/polygon.usdc.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
             },
             "name": "USD Coin (Polygon)",
             "symbol": "polygon.USDC",
@@ -34705,14 +34804,18 @@
                         "base_denom": "untrn",
                         "chain_name": "neutron"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg"
             },
             "name": "NTRN",
             "symbol": "NTRN",
@@ -34840,7 +34943,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dot.axl.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
             },
             "name": "Wrapped Polkadot (Axelar)",
             "symbol": "DOT.axl",
@@ -35598,7 +35702,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
             },
             "name": "USD Coin",
             "symbol": "USDC",
@@ -36061,11 +36166,16 @@
                     "image_sync": {
                         "base_denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+            },
             "name": "JUNO",
             "symbol": "JUNO",
             "traces": [
@@ -37138,7 +37248,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/weth.hole.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
             },
             "name": "Wrapped Ether (Wormhole)",
             "symbol": "wETH.wh",
@@ -37422,7 +37533,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/weth.grv.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg"
             },
             "name": "Ether (Gravity Bridge)",
             "symbol": "WETH.grv",
@@ -38095,7 +38206,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
             },
             "name": "USD Coin (Wormhole)",
             "symbol": "USDC.wh",
@@ -38462,11 +38573,15 @@
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.svg"
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.svg"
             },
             "name": "Avalanche",
             "symbol": "AVAX",
@@ -38521,7 +38636,6 @@
                         "base_denom": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
                         "chain_name": "binancesmartchain"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
                 }
             ],
@@ -38529,7 +38643,6 @@
                 "osmosis_unlisted"
             ],
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
             },
             "name": "PURSE Token (Function X)",
@@ -38710,7 +38823,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.grv.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
             },
             "name": "Tether USD (Gravity Bridge)",
             "symbol": "USDT.grv",
@@ -39290,12 +39403,12 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "Wosmo",
             "symbol": "WOSMO",
@@ -39330,12 +39443,12 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "Wosmo",
             "symbol": "WOSMO",
@@ -39543,14 +39656,18 @@
                         "base_denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
             },
             "name": "axlUSDC",
             "symbol": "axlUSDC",
@@ -39775,7 +39892,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.svg"
             },
             "name": "Tether USD (Axelar)",
             "symbol": "USDT.axl",
@@ -39883,7 +40001,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
             },
             "name": "dYdX Protocol",
             "symbol": "DYDX",
@@ -39972,12 +40091,17 @@
                         "base_denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
             },
             "name": "WBTC",
             "symbol": "WBTC",
@@ -41420,12 +41544,17 @@
                         "base_denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
             },
             "name": "Wrapped Bitcoin",
             "symbol": "WBTC",
@@ -41508,14 +41637,16 @@
                         "base_denom": "ibc/2FFE07C4B4EFC0DDA099A16C6AF3C9CCA653CC56077E87217A585D48794B0BC7",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png"
             },
             "name": "BadDog (Osmosis)",
             "symbol": "BADDOG.osmo",
@@ -41600,7 +41731,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.grv.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
             },
             "name": "USD Coin (Gravity Bridge)",
             "symbol": "USDC.grv",
@@ -41918,7 +42049,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/apt-dm.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/aptos.svg"
             },
             "name": "Aptos Coin",
             "symbol": "APT",
@@ -42004,11 +42135,16 @@
                     "image_sync": {
                         "base_denom": "ibc/6AE98883D4D5D5FF9E50D7130F1305DA2FFA0C652D1DD9C123657C6B4EB2DF8A",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+            },
             "name": "EVMOS",
             "symbol": "EVMOS",
             "traces": [
@@ -42243,12 +42379,17 @@
                         "base_denom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
             },
             "name": "WETH",
             "symbol": "WETH",
@@ -42461,11 +42602,15 @@
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg"
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg"
             },
             "name": "Polygon",
             "symbol": "MATIC",
@@ -42518,12 +42663,12 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "Wosmo",
             "symbol": "WOSMO",
@@ -42737,11 +42882,16 @@
                     "image_sync": {
                         "base_denom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
+            },
             "name": "AKT",
             "symbol": "AKT",
             "traces": [
@@ -42969,7 +43119,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wstETH.axl.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
             },
             "name": "Wrapped Lido Staked Ether (Axelar)",
             "symbol": "wstETH.axl",
@@ -44319,7 +44469,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.grv.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
             },
             "name": "Wrapped Bitcoin (Gravity Bridge)",
             "symbol": "WBTC.grv",
@@ -45482,11 +45633,16 @@
                     "image_sync": {
                         "base_denom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+            },
             "name": "stkATOM",
             "symbol": "stkATOM",
             "traces": [
@@ -46409,11 +46565,16 @@
                     "image_sync": {
                         "base_denom": "ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+            },
             "name": "SCRT",
             "symbol": "SCRT",
             "traces": [
@@ -46449,11 +46610,15 @@
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
             },
             "name": "Ether",
             "symbol": "ETH",
@@ -47169,7 +47334,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/avalanche.usdc.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
             },
             "name": "USD Coin (Avalanche)",
             "symbol": "avalanche.USDC",
@@ -47236,7 +47401,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/dai.grv.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg"
             },
             "name": "DAI Stablecoin (Gravity Bridge)",
             "symbol": "DAI.grv",
@@ -47887,14 +48052,14 @@
                         "base_denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
             },
             "name": "USD Coin",
             "symbol": "USDC.axl",
@@ -48555,11 +48720,13 @@
                         "base_denom": "inj",
                         "chain_name": "injectivetestnet"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg"
             },
             "name": "Injective INJ token",
@@ -49733,11 +49900,16 @@
                     "image_sync": {
                         "base_denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+            },
             "name": "JUNO",
             "symbol": "JUNO",
             "traces": [
@@ -55479,7 +55651,9 @@
             "keywords": [
                 "staking"
             ],
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png"
+            },
             "name": "titan tkx",
             "symbol": "TKX",
             "traces": null,
@@ -55504,7 +55678,9 @@
             "keywords": [
                 "staking"
             ],
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+            },
             "name": "titan tkx",
             "symbol": "TKX",
             "traces": null,
@@ -57644,14 +57820,18 @@
                         "base_denom": "untrn",
                         "chain_name": "neutron"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg"
             },
             "name": "NTRN",
             "symbol": "NTRN",
@@ -57817,7 +57997,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.svg"
             },
             "name": "NYM",
             "symbol": "NYM",
@@ -60285,7 +60466,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/polygon.usdc.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
             },
             "name": "USD Coin (Polygon)",
             "symbol": "polygon.USDC",
@@ -60935,11 +61116,13 @@
             "ibc": null,
             "images": [
                 {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
             },
             "name": "PURSE Token",
@@ -60962,7 +61145,6 @@
                         "base_denom": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
                         "chain_name": "binancesmartchain"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
                 }
             ],
@@ -60970,7 +61152,6 @@
                 "osmosis_unlisted"
             ],
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
             },
             "name": "PURSE Token (Function X)",
@@ -61015,13 +61196,11 @@
                         "base_denom": "0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
                         "chain_name": "binancesmartchain"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
                 "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
             },
             "name": "PURSE Token",
@@ -63383,11 +63562,16 @@
                     "image_sync": {
                         "base_denom": "ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+            },
             "name": "SCRT",
             "symbol": "SCRT",
             "traces": [
@@ -64442,12 +64626,14 @@
                         "base_denom": "usge",
                         "chain_name": "sge"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg"
             },
             "name": "SGE Testnet4",
             "symbol": "SGE",
@@ -67352,11 +67538,16 @@
                     "image_sync": {
                         "base_denom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
                         "chain_name": "osmosis"
-                    }
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
                 }
             ],
             "keywords": null,
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+            },
             "name": "stkATOM",
             "symbol": "stkATOM",
             "traces": [
@@ -70504,7 +70695,9 @@
             "keywords": [
                 "staking"
             ],
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png"
+            },
             "name": "titan tkx",
             "symbol": "TKX",
             "traces": null,
@@ -70527,7 +70720,9 @@
             "keywords": [
                 "staking"
             ],
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+            },
             "name": "titan tkx",
             "symbol": "TKX",
             "traces": null,
@@ -70820,10 +71015,6 @@
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "utori",
-                        "chain_name": "teritori"
-                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg"
                 }
@@ -75351,7 +75542,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.svg"
             },
             "name": "NYM",
             "symbol": "NYM",
@@ -76602,14 +76794,18 @@
                         "base_denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
             },
             "name": "USD Coin",
             "symbol": "USDC",
@@ -76868,14 +77064,18 @@
                         "base_denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
             },
             "name": "axlUSDC",
             "symbol": "axlUSDC",
@@ -77088,14 +77288,14 @@
                         "base_denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.axl.svg"
             },
             "name": "USD Coin",
             "symbol": "USDC.axl",
@@ -77980,7 +78180,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.svg"
             },
             "name": "Tether USD (Axelar)",
             "symbol": "USDT.axl",
@@ -78515,12 +78716,14 @@
                         "base_denom": "usge",
                         "chain_name": "sge"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg"
             },
             "name": "SGE Testnet4",
             "symbol": "SGE",
@@ -79414,7 +79617,9 @@
             "keywords": [
                 "staking"
             ],
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png"
+            },
             "name": "titan tkx",
             "symbol": "TKX",
             "traces": null,
@@ -79439,7 +79644,9 @@
             "keywords": [
                 "staking"
             ],
-            "logo_URIs": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/titantestnet/images/tkx.png"
+            },
             "name": "titan tkx",
             "symbol": "TKX",
             "traces": null,
@@ -79483,10 +79690,6 @@
             "ibc": null,
             "images": [
                 {
-                    "image_sync": {
-                        "base_denom": "utori",
-                        "chain_name": "teritori"
-                    },
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg"
                 }
@@ -81092,12 +81295,17 @@
                         "base_denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
             },
             "name": "Wrapped Bitcoin",
             "symbol": "WBTC",
@@ -81166,12 +81374,17 @@
                         "base_denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
             },
             "name": "WBTC",
             "symbol": "WBTC",
@@ -81940,12 +82153,17 @@
                         "base_denom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
                         "chain_name": "osmosis"
                     },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+                },
+                {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
             },
             "name": "WETH",
             "symbol": "WETH",
@@ -81978,11 +82196,15 @@
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
             },
             "name": "Ether",
             "symbol": "ETH",
@@ -82974,11 +83196,15 @@
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png",
                     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg"
+                },
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.svg"
             },
             "name": "Polygon",
             "symbol": "MATIC",
@@ -83372,7 +83598,8 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/weth.hole.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
             },
             "name": "Wrapped Ether (Wormhole)",
             "symbol": "wETH.wh",
@@ -83506,7 +83733,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/apt-dm.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/aptos/images/aptos.svg"
             },
             "name": "Aptos Coin",
             "symbol": "APT",
@@ -83633,7 +83860,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.hole.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
             },
             "name": "Tether USD (Wormhole)",
             "symbol": "USDT.wh",
@@ -84144,7 +84371,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
             },
             "name": "USD Coin (Wormhole)",
             "symbol": "USDC.wh",
@@ -84235,12 +84462,12 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "Wosmo",
             "symbol": "WOSMO",
@@ -84378,12 +84605,12 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "Wosmo",
             "symbol": "WOSMO",
@@ -84418,12 +84645,12 @@
                         "base_denom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
                         "chain_name": "osmosis"
                     },
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WOSMO.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
             },
             "name": "Wosmo",
             "symbol": "WOSMO",
@@ -84631,7 +84858,7 @@
             ],
             "keywords": null,
             "logo_URIs": {
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wstETH.axl.svg"
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
             },
             "name": "Wrapped Lido Staked Ether (Axelar)",
             "symbol": "wstETH.axl",
