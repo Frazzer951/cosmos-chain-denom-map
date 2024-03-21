@@ -5576,6 +5576,31 @@
         }
     },
     "atkx": {
+        "titan": {
+            "address": null,
+            "aliases": [
+                "attotkx"
+            ],
+            "chain": "titan",
+            "coingecko_id": "tokenize-xchange",
+            "decimals": 18,
+            "denom": "atkx",
+            "description": "The native token of the Titan network.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png"
+                }
+            ],
+            "keywords": [
+                "staking"
+            ],
+            "logo_URIs": null,
+            "name": "titan tkx",
+            "symbol": "TKX",
+            "traces": null,
+            "type_asset": null
+        },
         "titantestnet": {
             "address": null,
             "aliases": [
@@ -7960,6 +7985,33 @@
                 }
             ],
             "type_asset": null
+        }
+    },
+    "axv": {
+        "archway": {
+            "address": "archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n",
+            "aliases": null,
+            "chain": "archway",
+            "coingecko_id": "astrovault",
+            "decimals": 0,
+            "denom": "AXV",
+            "description": "Astrovault AXV",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.svg"
+            },
+            "name": "Astrovault AXV",
+            "symbol": "AXV",
+            "traces": null,
+            "type_asset": "cw20"
         }
     },
     "ayy": {
@@ -12901,6 +12953,33 @@
             "symbol": "CVN",
             "traces": null,
             "type_asset": null
+        }
+    },
+    "cw20:archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n": {
+        "archway": {
+            "address": "archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n",
+            "aliases": null,
+            "chain": "archway",
+            "coingecko_id": "astrovault",
+            "decimals": 6,
+            "denom": "cw20:archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n",
+            "description": "Astrovault AXV",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.svg"
+            },
+            "name": "Astrovault AXV",
+            "symbol": "AXV",
+            "traces": null,
+            "type_asset": "cw20"
         }
     },
     "cw20:archway1fwurjg7ah4v7hhs6xsc3wutqpvmahrfhns285s0lt34tgfdhplxq6m8xg5": {
@@ -24484,6 +24563,40 @@
             "name": "boneWHALE",
             "symbol": "bWHALE",
             "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/migaloo1p3aj9f09d7c4jxhgue0hpdpw370j6gzc59nxxx6l8d0gc9f9rfwsdwetus/lsdshark": {
+        "migaloo": {
+            "address": null,
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/migaloo1p3aj9f09d7c4jxhgue0hpdpw370j6gzc59nxxx6l8d0gc9f9rfwsdwetus/lsdSHARK",
+            "description": "lsdSHARK is the liquid staking derivative of SHARK.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/lsdshark.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/lsdshark.png"
+            },
+            "name": "lsdSHARK",
+            "symbol": "lsdSHARK",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark",
+                        "chain_name": "migaloo"
+                    },
+                    "provider": "Shark Protocol",
+                    "type": "liquid-stake"
+                }
+            ],
             "type_asset": null
         }
     },
@@ -51395,6 +51508,40 @@
             "type_asset": null
         }
     },
+    "lsdshark": {
+        "migaloo": {
+            "address": null,
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "lsdSHARK",
+            "description": "lsdSHARK is the liquid staking derivative of SHARK.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/lsdshark.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/lsdshark.png"
+            },
+            "name": "lsdSHARK",
+            "symbol": "lsdSHARK",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark",
+                        "chain_name": "migaloo"
+                    },
+                    "provider": "Shark Protocol",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "luart": {
         "terra": {
             "address": "terra1vwz7t30q76s7xx6qgtxdqnu6vpr3ak3vw62ygk",
@@ -55312,6 +55459,31 @@
                 }
             ],
             "type_asset": "ics20"
+        },
+        "titan": {
+            "address": null,
+            "aliases": [
+                "millitkx"
+            ],
+            "chain": "titan",
+            "coingecko_id": "tokenize-xchange",
+            "decimals": 3,
+            "denom": "mtkx",
+            "description": "The native token of the Titan network.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png"
+                }
+            ],
+            "keywords": [
+                "staking"
+            ],
+            "logo_URIs": null,
+            "name": "titan tkx",
+            "symbol": "TKX",
+            "traces": null,
+            "type_asset": null
         },
         "titantestnet": {
             "address": null,
@@ -70315,6 +70487,29 @@
             ],
             "type_asset": "ics20"
         },
+        "titan": {
+            "address": null,
+            "aliases": [],
+            "chain": "titan",
+            "coingecko_id": "tokenize-xchange",
+            "decimals": 0,
+            "denom": "tkx",
+            "description": "The native token of the Titan network.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png"
+                }
+            ],
+            "keywords": [
+                "staking"
+            ],
+            "logo_URIs": null,
+            "name": "titan tkx",
+            "symbol": "TKX",
+            "traces": null,
+            "type_asset": null
+        },
         "titantestnet": {
             "address": null,
             "aliases": [],
@@ -79199,6 +79394,31 @@
                 }
             ],
             "type_asset": "ics20"
+        },
+        "titan": {
+            "address": null,
+            "aliases": [
+                "microtkx"
+            ],
+            "chain": "titan",
+            "coingecko_id": "tokenize-xchange",
+            "decimals": 6,
+            "denom": "utkx",
+            "description": "The native token of the Titan network.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png"
+                }
+            ],
+            "keywords": [
+                "staking"
+            ],
+            "logo_URIs": null,
+            "name": "titan tkx",
+            "symbol": "TKX",
+            "traces": null,
+            "type_asset": null
         },
         "titantestnet": {
             "address": null,

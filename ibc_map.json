@@ -196,6 +196,9 @@
             "channel-123": [
                 "dymension"
             ],
+            "channel-124": [
+                "bitsong"
+            ],
             "channel-13": [
                 "axelar"
             ],
@@ -478,6 +481,9 @@
             ],
             "channel-28": [
                 "axelar"
+            ],
+            "channel-29": [
+                "archway"
             ],
             "channel-42": [
                 "bitcanna"
@@ -876,6 +882,9 @@
             ],
             "channel-293": [
                 "axelar"
+            ],
+            "channel-301": [
+                "oraichain"
             ],
             "channel-306": [
                 "omniflixhub"
@@ -1581,6 +1590,9 @@
             ],
             "channel-146": [
                 "noble"
+            ],
+            "channel-147": [
+                "oraichain"
             ],
             "channel-151": [
                 "terra2"
@@ -2334,6 +2346,9 @@
             "channel-33": [
                 "dydx"
             ],
+            "channel-34": [
+                "oraichain"
+            ],
             "channel-36": [
                 "persistence"
             ],
@@ -2551,8 +2566,19 @@
             "channel-140": [
                 "secretnetwork"
             ],
+            "channel-146": [
+                "injective"
+            ],
+            "channel-15": [
+                "cosmoshub"
+            ],
             "channel-33": [
                 "acrechain"
+            ]
+        },
+        "wasm.orai195269awwnt5m6c843q6w7hp8rt0k7syfu9de4h0wz384slshuzps8y7ccm": {
+            "channel-147": [
+                "noble"
             ]
         }
     },
