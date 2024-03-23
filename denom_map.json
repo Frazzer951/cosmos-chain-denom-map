@@ -3518,6 +3518,33 @@
             "type_asset": null
         }
     },
+    "akiro": {
+        "akiro": {
+            "address": null,
+            "aliases": null,
+            "chain": "akiro",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "akiro",
+            "description": "AKIRO meme token",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akiro/images/akiro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akiro/images/akiro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akiro/images/akiro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akiro/images/akiro.svg"
+            },
+            "name": "AKIRO",
+            "symbol": "AKIRO",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "akt": {
         "akash": {
             "address": null,
@@ -8836,6 +8863,31 @@
             "type_asset": "cw20"
         }
     },
+    "bhuahua": {
+        "chihuahua": {
+            "address": "chihuahua1jz5n4aynhpxx7clf2m8hrv9dp5nz83k67fgaxhy4p9dfwl6zssrq3ymr6w",
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": "backbone-labs-staked-huahua",
+            "decimals": 0,
+            "denom": "bHUAHUA",
+            "description": "BackBone Labs Liquid Staked HUAHUA",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bhuahua.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bhuahua.png"
+            },
+            "name": "BackBone Labs Liquid Staked HUAHUA",
+            "symbol": "bHUAHUA",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "bitcosmos": {
         "neutron": {
             "address": null,
@@ -9026,6 +9078,31 @@
                 }
             ],
             "type_asset": "ics20"
+        }
+    },
+    "bkuji": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "bKUJI",
+            "description": "BackBone Labs Liquid Staked KUJI",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bKUJI.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bKUJI.png"
+            },
+            "name": "BackBone Labs Liquid Staked KUJI",
+            "symbol": "bKUJI",
+            "traces": null,
+            "type_asset": null
         }
     },
     "bld": {
@@ -9337,21 +9414,21 @@
             "address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
             "aliases": null,
             "chain": "terra2",
-            "coingecko_id": null,
+            "coingecko_id": "backbone-labs-staked-luna",
             "decimals": 0,
-            "denom": "bluna",
-            "description": "The GraveDigger is the Liquid Staking Product of BackBone Labs. It will have its own platform. Its liquid staking derivative (LSD) is boneLUNA.",
+            "denom": "bLUNA",
+            "description": "BackBone Labs Liquid Staked LUNA",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/boneluna.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/boneluna.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png"
             },
-            "name": "boneLuna",
+            "name": "BackBone Labs Liquid Staked LUNA",
             "symbol": "bLUNA",
             "traces": null,
             "type_asset": "cw20"
@@ -9669,33 +9746,6 @@
             "type_asset": "ics20"
         }
     },
-    "bonewhale": {
-        "migaloo": {
-            "address": null,
-            "aliases": null,
-            "chain": "migaloo",
-            "coingecko_id": null,
-            "decimals": 0,
-            "denom": "boneWHALE",
-            "description": "boneWHALE",
-            "ibc": null,
-            "images": [
-                {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.svg"
-                }
-            ],
-            "keywords": null,
-            "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.svg"
-            },
-            "name": "boneWHALE",
-            "symbol": "bWHALE",
-            "traces": null,
-            "type_asset": null
-        }
-    },
     "bonewhalet": {
         "terra2": {
             "address": null,
@@ -9771,6 +9821,31 @@
             },
             "name": "Bostrom",
             "symbol": "BOOT",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "bosmo": {
+        "osmosis": {
+            "address": "osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv",
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "bOSMO",
+            "description": "BackBone Labs Liquid Staked OSMO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bOSMO.png"
+            },
+            "name": "BackBone Labs Liquid Staked OSMO",
+            "symbol": "bOSMO",
             "traces": null,
             "type_asset": null
         }
@@ -10448,6 +10523,31 @@
             "symbol": "BUTT",
             "traces": null,
             "type_asset": "snip20"
+        }
+    },
+    "bwhale": {
+        "migaloo": {
+            "address": null,
+            "aliases": null,
+            "chain": "migaloo",
+            "coingecko_id": "backbone-labs-staked-whale",
+            "decimals": 0,
+            "denom": "bWHALE",
+            "description": "BackBone Labs Liquid Staked WHALE",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png"
+            },
+            "name": "BackBone Labs Liquid Staked WHALE",
+            "symbol": "bWHALE",
+            "traces": null,
+            "type_asset": null
         }
     },
     "bze": {
@@ -13055,6 +13155,31 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:chihuahua1jz5n4aynhpxx7clf2m8hrv9dp5nz83k67fgaxhy4p9dfwl6zssrq3ymr6w": {
+        "chihuahua": {
+            "address": "chihuahua1jz5n4aynhpxx7clf2m8hrv9dp5nz83k67fgaxhy4p9dfwl6zssrq3ymr6w",
+            "aliases": null,
+            "chain": "chihuahua",
+            "coingecko_id": "backbone-labs-staked-huahua",
+            "decimals": 6,
+            "denom": "cw20:chihuahua1jz5n4aynhpxx7clf2m8hrv9dp5nz83k67fgaxhy4p9dfwl6zssrq3ymr6w",
+            "description": "BackBone Labs Liquid Staked HUAHUA",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bhuahua.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bhuahua.png"
+            },
+            "name": "BackBone Labs Liquid Staked HUAHUA",
+            "symbol": "bHUAHUA",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef": {
         "chihuahua": {
             "address": "chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
@@ -14202,6 +14327,31 @@
             "type_asset": "cw20"
         }
     },
+    "cw20:juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m": {
+        "juno": {
+            "address": "juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m",
+            "aliases": null,
+            "chain": "juno",
+            "coingecko_id": "backbone-labs-staked-juno",
+            "decimals": 6,
+            "denom": "cw20:juno1mvkgcr5uce2rnpzr4qrzf50hx4qreuwzlt7fzsjrhjud3xnjmttq5mkh2m",
+            "description": "BackBone Labs Liquid Staked JUNO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bJUNO-bbl.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bJUNO-bbl.png"
+            },
+            "name": "BackBone Labs Liquid Staked JUNO",
+            "symbol": "bJUNO",
+            "traces": null,
+            "type_asset": "cw20"
+        }
+    },
     "cw20:juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3": {
         "juno": {
             "address": "juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3",
@@ -15115,6 +15265,31 @@
             "symbol": "BUTT",
             "traces": null,
             "type_asset": "snip20"
+        }
+    },
+    "cw20:sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed": {
+        "sei": {
+            "address": "sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed",
+            "aliases": null,
+            "chain": "sei",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "cw20:sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed",
+            "description": "The Original Meme Coin of SEI Network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png"
+            },
+            "name": "SEIYAN",
+            "symbol": "SEIYAN",
+            "traces": null,
+            "type_asset": "cw20"
         }
     },
     "cw20:terra100yeqvww74h4yaejj6h733thgcafdaukjtw397": {
@@ -16098,21 +16273,21 @@
             "address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
             "aliases": null,
             "chain": "terra2",
-            "coingecko_id": null,
+            "coingecko_id": "backbone-labs-staked-luna",
             "decimals": 6,
             "denom": "cw20:terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
-            "description": "The GraveDigger is the Liquid Staking Product of BackBone Labs. It will have its own platform. Its liquid staking derivative (LSD) is boneLUNA.",
+            "description": "BackBone Labs Liquid Staked LUNA",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/boneluna.png"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/boneluna.png"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png"
             },
-            "name": "boneLuna",
+            "name": "BackBone Labs Liquid Staked LUNA",
             "symbol": "bLUNA",
             "traces": null,
             "type_asset": "cw20"
@@ -24088,6 +24263,31 @@
             "type_asset": null
         }
     },
+    "factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/bonekuji": {
+        "kujira": {
+            "address": null,
+            "aliases": null,
+            "chain": "kujira",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/kujira15e8q5wzlk5k38gjxlhse3vu6vqnafysncx2ltexd6y9gx50vuj2qpt7dgv/boneKuji",
+            "description": "BackBone Labs Liquid Staked KUJI",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bKUJI.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bKUJI.png"
+            },
+            "name": "BackBone Labs Liquid Staked KUJI",
+            "symbol": "bKUJI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta": {
         "kujira": {
             "address": null,
@@ -24628,23 +24828,21 @@
             "address": null,
             "aliases": null,
             "chain": "migaloo",
-            "coingecko_id": null,
+            "coingecko_id": "backbone-labs-staked-whale",
             "decimals": 6,
             "denom": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale",
-            "description": "boneWHALE",
+            "description": "BackBone Labs Liquid Staked WHALE",
             "ibc": null,
             "images": [
                 {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png",
-                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.svg"
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png"
                 }
             ],
             "keywords": null,
             "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png",
-                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.svg"
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png"
             },
-            "name": "boneWHALE",
+            "name": "BackBone Labs Liquid Staked WHALE",
             "symbol": "bWHALE",
             "traces": null,
             "type_asset": null
@@ -25450,6 +25648,31 @@
             },
             "name": "Sail",
             "symbol": "SAIL",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneosmo": {
+        "osmosis": {
+            "address": "osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv",
+            "aliases": null,
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo",
+            "description": "BackBone Labs Liquid Staked OSMO",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bOSMO.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/bOSMO.png"
+            },
+            "name": "BackBone Labs Liquid Staked OSMO",
+            "symbol": "bOSMO",
             "traces": null,
             "type_asset": null
         }
@@ -64073,31 +64296,6 @@
             "type_asset": null
         }
     },
-    "sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed": {
-        "sei": {
-            "address": null,
-            "aliases": null,
-            "chain": "sei",
-            "coingecko_id": null,
-            "decimals": 6,
-            "denom": "sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed",
-            "description": "The Original Meme Coin on SEI Network",
-            "ibc": null,
-            "images": [
-                {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png"
-                }
-            ],
-            "keywords": null,
-            "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png"
-            },
-            "name": "SEIYAN",
-            "symbol": "SEIYAN",
-            "traces": null,
-            "type_asset": null
-        }
-    },
     "sei1wlf9j5uv50rcg0u5j6xk00px5tflptzprj39keck27eg8g7qd7hqq6kvda": {
         "sei": {
             "address": null,
@@ -64125,13 +64323,13 @@
     },
     "seiyan": {
         "sei": {
-            "address": null,
+            "address": "sei1hrndqntlvtmx2kepr0zsfgr7nzjptcc72cr4ppk4yav58vvy7v3s4er8ed",
             "aliases": null,
             "chain": "sei",
             "coingecko_id": null,
             "decimals": 0,
             "denom": "SEIYAN",
-            "description": "The Original Meme Coin on SEI Network",
+            "description": "The Original Meme Coin of SEI Network",
             "ibc": null,
             "images": [
                 {
@@ -64145,7 +64343,7 @@
             "name": "SEIYAN",
             "symbol": "SEIYAN",
             "traces": null,
-            "type_asset": null
+            "type_asset": "cw20"
         }
     },
     "sejuno": {
@@ -71226,6 +71424,33 @@
             },
             "name": "ZetaChain Testnet",
             "symbol": "tZETA",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "uakiro": {
+        "akiro": {
+            "address": null,
+            "aliases": null,
+            "chain": "akiro",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "uakiro",
+            "description": "AKIRO meme token",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akiro/images/akiro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akiro/images/akiro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akiro/images/akiro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akiro/images/akiro.svg"
+            },
+            "name": "AKIRO",
+            "symbol": "AKIRO",
             "traces": null,
             "type_asset": null
         }
