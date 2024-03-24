@@ -1475,6 +1475,31 @@
             "type_asset": "erc20"
         }
     },
+    "0xa4426666addbe8c4985377d36683d17fb40c31be": {
+        "ethereum": {
+            "address": "0xA4426666addBE8c4985377d36683D17FB40c31Be",
+            "aliases": [],
+            "chain": "ethereum",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "0xA4426666addBE8c4985377d36683D17FB40c31Be",
+            "description": "BEAST: Battle, Breed, and Customize unique creatures powered by Ethereum & Cosmos",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/beast.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/beast.png"
+            },
+            "name": "Gelotto BEAST",
+            "symbol": "BEAST",
+            "traces": null,
+            "type_asset": "erc20"
+        }
+    },
     "0xac3e018457b222d93114458476f3e3416abbe38f": {
         "ethereum": {
             "address": "0xac3e018457b222d93114458476f3e3416abbe38f",
@@ -5064,6 +5089,31 @@
             "type_asset": null
         }
     },
+    "arkeo": {
+        "arkeonetworktestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "arkeonetworktestnet",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "arkeo",
+            "description": "",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/arkeonetworktestnet/images/arkeo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/arkeonetworktestnet/images/arkeo.png"
+            },
+            "name": "Arkeo",
+            "symbol": "ARKEO",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "arkh": {
         "arkh": {
             "address": null,
@@ -5604,6 +5654,33 @@
             },
             "name": "Tenet",
             "symbol": "TENET",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "atestfet": {
+        "fetchhubtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "fetchhubtestnet",
+            "coingecko_id": "fetch-ai",
+            "decimals": 18,
+            "denom": "atestfet",
+            "description": "The native staking and governance token of the Fetch Hub.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg"
+            },
+            "name": "fetch-ai",
+            "symbol": "FET",
             "traces": null,
             "type_asset": null
         }
@@ -8809,6 +8886,31 @@
             "symbol": "BDOG",
             "traces": null,
             "type_asset": null
+        }
+    },
+    "beast": {
+        "ethereum": {
+            "address": "0xA4426666addBE8c4985377d36683D17FB40c31Be",
+            "aliases": null,
+            "chain": "ethereum",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "beast",
+            "description": "BEAST: Battle, Breed, and Customize unique creatures powered by Ethereum & Cosmos",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/beast.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/beast.png"
+            },
+            "name": "Gelotto BEAST",
+            "symbol": "BEAST",
+            "traces": null,
+            "type_asset": "erc20"
         }
     },
     "berlin": {
@@ -15598,7 +15700,7 @@
             "aliases": null,
             "chain": "terra",
             "coingecko_id": null,
-            "decimals": 0,
+            "decimals": 6,
             "denom": "cw20:terra1366wmr8t8rrkh6mag8fagqxntmf2qe4kyte784",
             "description": null,
             "ibc": null,
@@ -18393,7 +18495,7 @@
             "aliases": null,
             "chain": "terra",
             "coingecko_id": null,
-            "decimals": 0,
+            "decimals": 6,
             "denom": "cw20:terra1kz7qszu7p4dg9lts7m9m7lpuarsnan47jh3fam",
             "description": null,
             "ibc": null,
@@ -19436,7 +19538,9 @@
     "cw20:terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k": {
         "terra2": {
             "address": "terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k",
-            "aliases": null,
+            "aliases": [
+                "Dinheiros"
+            ],
             "chain": "terra2",
             "coingecko_id": null,
             "decimals": 0,
@@ -19589,7 +19693,7 @@
             "aliases": null,
             "chain": "terra",
             "coingecko_id": null,
-            "decimals": 0,
+            "decimals": 6,
             "denom": "cw20:terra1thhm2u93m2stytzynhsxh5h3jrtg540x4punqy",
             "description": null,
             "ibc": null,
@@ -21109,31 +21213,6 @@
                 }
             ],
             "type_asset": "ics20"
-        }
-    },
-    "dinheiros": {
-        "terra2": {
-            "address": "terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k",
-            "aliases": null,
-            "chain": "terra2",
-            "coingecko_id": null,
-            "decimals": 0,
-            "denom": "Dinheiros",
-            "description": "Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.",
-            "ibc": null,
-            "images": [
-                {
-                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Dinheiros.png"
-                }
-            ],
-            "keywords": null,
-            "logo_URIs": {
-                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/Dinheiros.png"
-            },
-            "name": "dinheiro",
-            "symbol": "DINHEIROS",
-            "traces": null,
-            "type_asset": "cw20"
         }
     },
     "dkk": {
@@ -33390,7 +33469,9 @@
     "ibc/1feca3491d88f4ad24de0948ed96718ca6d93f6730cee7708e621b953594bb5e": {
         "teritori": {
             "address": null,
-            "aliases": null,
+            "aliases": [
+                "ukuji"
+            ],
             "chain": "teritori",
             "coingecko_id": "kujira",
             "decimals": 6,
@@ -47912,6 +47993,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/f49dfb3bc8105c57ee7f17ec2402438825b31212cfdd81681eb87911e934f32c": {
+        "osmosis": {
+            "address": null,
+            "aliases": [
+                "unom"
+            ],
+            "chain": "osmosis",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/F49DFB3BC8105C57EE7F17EC2402438825B31212CFDD81681EB87911E934F32C",
+            "description": "Nomic's native token.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "unom",
+                        "chain_name": "nomic"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.svg"
+            },
+            "name": "Nomic",
+            "symbol": "nomic.NOM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-6897",
+                        "path": "transfer/channel-6897/unom"
+                    },
+                    "counterparty": {
+                        "base_denom": "unom",
+                        "chain_name": "nomic",
+                        "channel_id": "channel-1"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
     "ibc/f4a070a6d78496d53127ea85c094a9ec87dfc1f36071b8ccddbd020f933d213d": {
         "osmosis": {
             "address": null,
@@ -56002,6 +56129,33 @@
             },
             "name": "Mun",
             "symbol": "MUN",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "muno": {
+        "uniontestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "uniontestnet",
+            "coingecko_id": "",
+            "decimals": 6,
+            "denom": "muno",
+            "description": "Union native token",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png"
+                }
+            ],
+            "keywords": [
+                "staking"
+            ],
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png"
+            },
+            "name": "Union",
+            "symbol": "UNO",
             "traces": null,
             "type_asset": null
         }
@@ -70169,6 +70323,33 @@
             "type_asset": null
         }
     },
+    "testfet": {
+        "fetchhubtestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "fetchhubtestnet",
+            "coingecko_id": "fetch-ai",
+            "decimals": 0,
+            "denom": "testfet",
+            "description": "The native staking and governance token of the Fetch Hub.",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg"
+            },
+            "name": "fetch-ai",
+            "symbol": "FET",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "tevmos": {
         "evmostestnet": {
             "address": null,
@@ -71620,6 +71801,31 @@
                 }
             ],
             "type_asset": "ics20"
+        }
+    },
+    "uarkeo": {
+        "arkeonetworktestnet": {
+            "address": null,
+            "aliases": null,
+            "chain": "arkeonetworktestnet",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "uarkeo",
+            "description": "",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/arkeonetworktestnet/images/arkeo.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/arkeonetworktestnet/images/arkeo.png"
+            },
+            "name": "Arkeo",
+            "symbol": "ARKEO",
+            "traces": null,
+            "type_asset": null
         }
     },
     "uart": {
@@ -75555,6 +75761,33 @@
             },
             "name": "Nolus",
             "symbol": "NLS",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "uno": {
+        "uniontestnet": {
+            "address": null,
+            "aliases": [],
+            "chain": "uniontestnet",
+            "coingecko_id": "",
+            "decimals": 0,
+            "denom": "uno",
+            "description": "Union native token",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png"
+                }
+            ],
+            "keywords": [
+                "staking"
+            ],
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png"
+            },
+            "name": "Union",
+            "symbol": "UNO",
             "traces": null,
             "type_asset": null
         }
