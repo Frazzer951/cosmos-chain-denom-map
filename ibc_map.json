@@ -1487,6 +1487,9 @@
             "channel-145": [
                 "archway"
             ],
+            "channel-150": [
+                "secretnetwork"
+            ],
             "channel-18": [
                 "nyx"
             ],
@@ -2285,11 +2288,11 @@
     },
     "nibiru": {
         "transfer": {
+            "channel-0": [
+                "osmosis"
+            ],
             "channel-1": [
                 "axelar"
-            ],
-            "channel-139": [
-                "osmosis"
             ],
             "channel-2": [
                 "noble"
@@ -2456,6 +2459,9 @@
         "transfer": {
             "channel-0": [
                 "osmosis"
+            ],
+            "channel-13995": [
+                "secretnetwork"
             ],
             "channel-3839": [
                 "neutron"
@@ -3295,6 +3301,9 @@
             "channel-144": [
                 "neutron"
             ],
+            "channel-146": [
+                "nolus"
+            ],
             "channel-15": [
                 "sifchain"
             ],
@@ -3380,6 +3389,9 @@
             ],
             "channel-132": [
                 "persistence"
+            ],
+            "channel-148": [
+                "gravitybridge"
             ],
             "channel-222": [
                 "oraichain"

@@ -8598,6 +8598,36 @@
             "type_asset": null
         }
     },
+    "basexlm": {
+        "cryptoorgchain": {
+            "address": null,
+            "aliases": [
+                "stroop"
+            ],
+            "chain": "cryptoorgchain",
+            "coingecko_id": null,
+            "decimals": 7,
+            "denom": "baseXLM",
+            "description": "Synthetic XLM pegged 1:1 by Crypto.com",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Lumen (XLM) pegged token",
+            "symbol": "XLM",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "stroop",
+                        "chain_name": "stellar"
+                    },
+                    "provider": "Crypto.com",
+                    "type": "synthetic"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "bat": {
         "terra": {
             "address": "terra1apxgj5agkkfdm2tprwvykug0qtahxvfmugnhx2",
@@ -8911,6 +8941,42 @@
             "symbol": "BEAST",
             "traces": null,
             "type_asset": "erc20"
+        },
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "beast",
+            "description": "BEAST-ERC20 on injective",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xA4426666addBE8c4985377d36683D17FB40c31Be",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/beast.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/beast.png"
+            },
+            "name": "Gelotto BEAST",
+            "symbol": "BEAST",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xA4426666addBE8c4985377d36683D17FB40c31Be",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Peggy",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
         }
     },
     "berlin": {
@@ -34787,6 +34853,52 @@
             "type_asset": "ics20"
         }
     },
+    "ibc/34a1d4bf5ffcdb912f64fe71d54426d56970f873f1279983b69c713b3a62d10d": {
+        "cryptoorgchain": {
+            "address": null,
+            "aliases": [
+                "stroop"
+            ],
+            "chain": "cryptoorgchain",
+            "coingecko_id": null,
+            "decimals": 7,
+            "denom": "ibc/34A1D4BF5FFCDB912F64FE71D54426D56970F873F1279983B69C713B3A62D10D",
+            "description": "The native token of Stellar network, transferred via Solo Machine.",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "stroop",
+                        "chain_name": "stellar"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+            },
+            "name": "Lumen (Solo Machine)",
+            "symbol": "XLM",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-46",
+                        "path": "transfer/channel-46/baseXLM"
+                    },
+                    "counterparty": {
+                        "base_denom": "baseXLM",
+                        "chain_name": "cryptoorgchain",
+                        "channel_id": "channel-JEnb"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "ibc/3552cecb7bce1891db6070d37ec6e954c972b1400141308fcd85fd148bd06de5": {
         "carbon": {
             "address": null,
@@ -52145,6 +52257,32 @@
         }
     },
     "lumen": {
+        "cryptoorgchain": {
+            "address": null,
+            "aliases": null,
+            "chain": "cryptoorgchain",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "lumen",
+            "description": "Synthetic XLM pegged 1:1 by Crypto.com",
+            "ibc": null,
+            "images": null,
+            "keywords": null,
+            "logo_URIs": null,
+            "name": "Lumen (XLM) pegged token",
+            "symbol": "XLM",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "stroop",
+                        "chain_name": "stellar"
+                    },
+                    "provider": "Crypto.com",
+                    "type": "synthetic"
+                }
+            ],
+            "type_asset": null
+        },
         "lumenx": {
             "address": null,
             "aliases": null,
@@ -52234,6 +52372,31 @@
                 }
             ],
             "type_asset": "ics20"
+        },
+        "stellar": {
+            "address": null,
+            "aliases": null,
+            "chain": "stellar",
+            "coingecko_id": "stellar",
+            "decimals": 0,
+            "denom": "lumen",
+            "description": "Native token of Stellar network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/stellar/images/xlm.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/stellar/images/xlm.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/stellar/images/xlm.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/stellar/images/xlm.svg"
+            },
+            "name": "Lumen",
+            "symbol": "XLM",
+            "traces": null,
+            "type_asset": null
         }
     },
     "luna": {
@@ -59928,6 +60091,44 @@
             "type_asset": null
         }
     },
+    "peggy0xa4426666addbe8c4985377d36683d17fb40c31be": {
+        "injective": {
+            "address": null,
+            "aliases": null,
+            "chain": "injective",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "peggy0xA4426666addBE8c4985377d36683D17FB40c31Be",
+            "description": "BEAST-ERC20 on injective",
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "0xA4426666addBE8c4985377d36683D17FB40c31Be",
+                        "chain_name": "ethereum"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/beast.png"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/beast.png"
+            },
+            "name": "Gelotto BEAST",
+            "symbol": "BEAST",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "0xA4426666addBE8c4985377d36683D17FB40c31Be",
+                        "chain_name": "ethereum"
+                    },
+                    "provider": "Peggy",
+                    "type": "bridge"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "peggy0xd73175f9eb15eee81745d367ae59309ca2ceb5e2": {
         "injective": {
             "address": null,
@@ -62305,21 +62506,23 @@
             "address": null,
             "aliases": null,
             "chain": "qwoyn",
-            "coingecko_id": null,
+            "coingecko_id": "qwoyn",
             "decimals": 0,
             "denom": "qwoyn",
-            "description": "QWOYN is the native governance token for Qwoyn Network",
+            "description": "The native governance token for Qwoyn Network",
             "ibc": null,
             "images": [
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qwoyn/images/qwoyn.png"
                 }
             ],
-            "keywords": null,
+            "keywords": [
+                "gaming"
+            ],
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qwoyn/images/qwoyn.png"
             },
-            "name": "Qwoyn Blockchain",
+            "name": "Qwoyn Network",
             "symbol": "QWOYN",
             "traces": null,
             "type_asset": null
@@ -69117,6 +69320,33 @@
             },
             "name": "Stardust STRDST",
             "symbol": "STRDST",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "stroop": {
+        "stellar": {
+            "address": null,
+            "aliases": null,
+            "chain": "stellar",
+            "coingecko_id": "stellar",
+            "decimals": 7,
+            "denom": "stroop",
+            "description": "Native token of Stellar network",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/stellar/images/xlm.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/stellar/images/xlm.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/stellar/images/xlm.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/stellar/images/xlm.svg"
+            },
+            "name": "Lumen",
+            "symbol": "XLM",
             "traces": null,
             "type_asset": null
         }
@@ -76639,21 +76869,23 @@
             "address": null,
             "aliases": null,
             "chain": "qwoyn",
-            "coingecko_id": null,
+            "coingecko_id": "qwoyn",
             "decimals": 6,
             "denom": "uqwoyn",
-            "description": "QWOYN is the native governance token for Qwoyn Network",
+            "description": "The native governance token for Qwoyn Network",
             "ibc": null,
             "images": [
                 {
                     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qwoyn/images/qwoyn.png"
                 }
             ],
-            "keywords": null,
+            "keywords": [
+                "gaming"
+            ],
             "logo_URIs": {
                 "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qwoyn/images/qwoyn.png"
             },
-            "name": "Qwoyn Blockchain",
+            "name": "Qwoyn Network",
             "symbol": "QWOYN",
             "traces": null,
             "type_asset": null
