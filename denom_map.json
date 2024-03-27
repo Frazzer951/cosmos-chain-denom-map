@@ -57177,6 +57177,33 @@
             "type_asset": "cw20"
         }
     },
+    "neutaro": {
+        "neutaro": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutaro",
+            "coingecko_id": "neutaro",
+            "decimals": 0,
+            "denom": "neutaro",
+            "description": "The native token of Neutaro",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg"
+            },
+            "name": "Neutaro",
+            "symbol": "NTMPI",
+            "traces": null,
+            "type_asset": null
+        }
+    },
     "neutron12h09p8hq5y4xpsmcuxxzsn9juef4f6jvekp8yefc6xnlwm6uumnsdk29wf": {
         "neutron": {
             "address": null,
@@ -75771,6 +75798,33 @@
             },
             "name": "MYRK",
             "symbol": "MYRK",
+            "traces": null,
+            "type_asset": null
+        }
+    },
+    "uneutaro": {
+        "neutaro": {
+            "address": null,
+            "aliases": null,
+            "chain": "neutaro",
+            "coingecko_id": "neutaro",
+            "decimals": 6,
+            "denom": "uneutaro",
+            "description": "The native token of Neutaro",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutaro/images/neutaro.svg"
+            },
+            "name": "Neutaro",
+            "symbol": "NTMPI",
             "traces": null,
             "type_asset": null
         }
