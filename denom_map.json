@@ -31093,6 +31093,48 @@
                 }
             ],
             "type_asset": "ics20"
+        },
+        "persistence": {
+            "address": null,
+            "aliases": null,
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "huahua",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uhuahua",
+                        "chain_name": "chihuahua"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg"
+            },
+            "name": "Chihuahua",
+            "symbol": "HUAHUA",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-203",
+                        "path": "transfer/channel-203/uhuahua"
+                    },
+                    "counterparty": {
+                        "base_denom": "uhuahua",
+                        "chain_name": "chihuahua",
+                        "channel_id": "channel-94"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
         }
     },
     "hydrogen": {
@@ -43654,6 +43696,52 @@
                         "base_denom": "uxki",
                         "chain_name": "kichain",
                         "channel_id": "channel-0"
+                    },
+                    "type": "ibc"
+                }
+            ],
+            "type_asset": "ics20"
+        }
+    },
+    "ibc/b597d779fcdd9021263c98a48f1afa9d2bccce980f397cde5681ccede7dee1a4": {
+        "persistence": {
+            "address": null,
+            "aliases": [
+                "uhuahua"
+            ],
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "ibc/B597D779FCDD9021263C98A48F1AFA9D2BCCCE980F397CDE5681CCEDE7DEE1A4",
+            "description": null,
+            "ibc": null,
+            "images": [
+                {
+                    "image_sync": {
+                        "base_denom": "uhuahua",
+                        "chain_name": "chihuahua"
+                    },
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg"
+            },
+            "name": "Chihuahua",
+            "symbol": "HUAHUA",
+            "traces": [
+                {
+                    "chain": {
+                        "channel_id": "channel-203",
+                        "path": "transfer/channel-203/uhuahua"
+                    },
+                    "counterparty": {
+                        "base_denom": "uhuahua",
+                        "chain_name": "chihuahua",
+                        "channel_id": "channel-94"
                     },
                     "type": "ibc"
                 }
@@ -68227,6 +68315,42 @@
             "type_asset": null
         }
     },
+    "stk/uhuahua": {
+        "persistence": {
+            "address": null,
+            "aliases": [],
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 6,
+            "denom": "stk/uhuahua",
+            "description": "PSTAKE Liquid-Staked HUAHUA",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkhuahua.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkhuahua.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkhuahua.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkhuahua.svg"
+            },
+            "name": "PSTAKE staked HUAHUA",
+            "symbol": "stkHUAHUA",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "uhuahua",
+                        "chain_name": "chihuahua"
+                    },
+                    "provider": "pSTAKE",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": null
+        }
+    },
     "stk/uosmo": {
         "persistence": {
             "address": null,
@@ -68630,6 +68754,44 @@
                     "counterparty": {
                         "base_denom": "adydx",
                         "chain_name": "dydx"
+                    },
+                    "provider": "pSTAKE",
+                    "type": "liquid-stake"
+                }
+            ],
+            "type_asset": null
+        }
+    },
+    "stkhuahua": {
+        "persistence": {
+            "address": null,
+            "aliases": [
+                "stk/huahua"
+            ],
+            "chain": "persistence",
+            "coingecko_id": null,
+            "decimals": 0,
+            "denom": "stkhuahua",
+            "description": "PSTAKE Liquid-Staked HUAHUA",
+            "ibc": null,
+            "images": [
+                {
+                    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkhuahua.png",
+                    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkhuahua.svg"
+                }
+            ],
+            "keywords": null,
+            "logo_URIs": {
+                "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkhuahua.png",
+                "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkhuahua.svg"
+            },
+            "name": "PSTAKE staked HUAHUA",
+            "symbol": "stkHUAHUA",
+            "traces": [
+                {
+                    "counterparty": {
+                        "base_denom": "uhuahua",
+                        "chain_name": "chihuahua"
                     },
                     "provider": "pSTAKE",
                     "type": "liquid-stake"
